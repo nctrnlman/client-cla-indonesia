@@ -1,4 +1,5 @@
 import FeatureListItem from "./FeatureListItem";
+import PropTypes from "prop-types";
 
 function PricingCard({ title, description, price, features, buttonText }) {
   return (
@@ -25,5 +26,13 @@ function PricingCard({ title, description, price, features, buttonText }) {
     </div>
   );
 }
+
+PricingCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  features: PropTypes.arrayOf(PropTypes.string).isRequired,
+  buttonText: PropTypes.string.isRequired,
+};
 
 export default PricingCard;

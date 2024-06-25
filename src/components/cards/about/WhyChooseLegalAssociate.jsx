@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const WhyChooseLegalAssociate = ({ icon, title, description }) => {
   return (
     <div className="border-secondary border hover:border-double rounded py-7 px-5">
@@ -12,6 +14,12 @@ const WhyChooseLegalAssociate = ({ icon, title, description }) => {
       </div>
     </div>
   );
+};
+
+WhyChooseLegalAssociate.propTypes = {
+  icon: PropTypes.element,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default WhyChooseLegalAssociate;

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-
+import { useState } from "react";
+import PropTypes from "prop-types";
 function OtherServiceCard({
   title,
   description,
@@ -92,5 +92,14 @@ function OtherServiceCard({
     </div>
   );
 }
+
+OtherServiceCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  price: PropTypes.number.isRequired,
+  fakePrice: PropTypes.number,
+  features: PropTypes.arrayOf(PropTypes.string).isRequired,
+  buttonText: PropTypes.string.isRequired,
+};
 
 export default OtherServiceCard;
