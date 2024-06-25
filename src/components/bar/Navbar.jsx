@@ -10,17 +10,17 @@ function Navbar() {
   };
 
   return (
-    <nav className="px-2 sm:px-4 py-2.5 shadow">
+    <nav className="px-2 sm:px-4 py-2.5 shadow bg-white w-full fixed top-0 z-10">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <Link to="/" className="flex items-center">
+        <a href="/" className="flex items-center">
           <img src={logo} alt="Logo CLA" className="h-20 w-auto" />
-        </Link>
+        </a>
 
         <div className="flex items-center">
           <button
             id="menu-toggle"
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+            className="inline-flex items-center p-2 ml-3 text-sm text-primary rounded-lg hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden"
             onClick={toggleMobileMenu}
           >
             <span className="sr-only">Open main menu</span>
@@ -52,6 +52,7 @@ function Navbar() {
               <Link
                 to={"/"}
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
+                aria-current="page"
               >
                 Home
               </Link>
@@ -60,6 +61,7 @@ function Navbar() {
               <Link
                 to={"/legal-associate"}
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
+                aria-current="page"
               >
                 Legal Associate
               </Link>
@@ -68,6 +70,7 @@ function Navbar() {
               <Link
                 to={"/legal-training"}
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
+                aria-current="page"
               >
                 Legal Training
               </Link>
@@ -76,6 +79,7 @@ function Navbar() {
               <Link
                 to={"/other-service"}
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
+                aria-current="page"
               >
                 Other Services
               </Link>
