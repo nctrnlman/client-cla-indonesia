@@ -97,7 +97,7 @@ OtherServiceCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
   price: PropTypes.number.isRequired,
-  fakePrice: PropTypes.number,
+  fakePrice: PropTypes.string,
   features: PropTypes.arrayOf(PropTypes.string).isRequired,
   buttonText: PropTypes.string.isRequired,
 };
