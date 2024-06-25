@@ -100,7 +100,7 @@ const cardsData = [
 function About() {
   return (
     <div className="min-h-screen pt-20">
-      <div className="text-center pt-20">
+      <div className="text-center ">
         <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-primary pb-4">
           Why Choose Legal Associate
         </h1>
