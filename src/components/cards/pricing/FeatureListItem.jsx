@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function FeatureListItem({ children }) {
   return (
     <li className="flex items-center space-x-3">
@@ -17,5 +19,9 @@ function FeatureListItem({ children }) {
     </li>
   );
 }
+
+FeatureListItem.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default FeatureListItem;

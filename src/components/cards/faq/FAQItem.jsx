@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const FAQItem = ({ question, answer }) => {
   const [expanded, setExpanded] = useState(false);
@@ -46,6 +47,11 @@ const FAQItem = ({ question, answer }) => {
       </div>
     </li>
   );
+};
+
+FAQItem.propTypes = {
+  question: PropTypes.string,
+  answer: PropTypes.string,
 };
 
 export default FAQItem;
