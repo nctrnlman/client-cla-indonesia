@@ -1,46 +1,33 @@
 import OtherServiceCard from "../cards/other-service/OtherServiceCard";
 
-function LegalityPackages() {
+function OtherService() {
   const packages = [
     {
-      title: "Pendirian PT Standard (PMDN)",
+      title: "Finance, Accounting and Tax",
       description:
         "This package includes all the premium features such as A, B, and C.",
-      price: "3.500.000",
+      price: "5.500.000",
       fakePrice: "7.500.000",
       features: [
         "Konsultasi",
-        "Penelusuran nama PT",
+        "Akta Pendirian",
         "Surat Keputusan Pendirian PT",
         "Nomor Pokok Wajib Pajak Badan Usaha",
+        "Nomor Induk Berusaha (NIB)",
+        "KPPR",
+        "Sertifikat Standar/Izin",
+        "Aktivitas EFIN Badan Usaha",
       ],
       buttonText: "Subscribe Now",
     },
     {
-      title: "Pendirian PT Lengkap (PMDN)",
+      title: "Business Development and Research",
       description:
         "This package includes standard features such as X, Y, and Z.",
       price: "5.500.000",
       fakePrice: "7.500.000",
       features: [
         "Konsultasi",
-        "Penelusuran nama PT",
-        "Surat Keputusan Pendirian PT",
-        "Nomor Pokok Wajib Pajak Badan Usaha",
-        "Nomor Induk Berusaha (NIB)",
-        "KPPR",
-        "Sertifikat Standar/Izin",
-        "Aktivitas EFIN Badan Usaha",
-      ],
-      buttonText: "Subscribe Now",
-    },
-    {
-      title: "Pendirian PT PMA",
-      description: "This package includes basic features such as 1, 2, and 3.",
-      price: "7.500.000",
-      fakePrice: "12.500.000",
-      features: [
-        "Konsultasi",
         "Akta Pendirian",
         "Surat Keputusan Pendirian PT",
         "Nomor Pokok Wajib Pajak Badan Usaha",
@@ -52,41 +39,7 @@ function LegalityPackages() {
       buttonText: "Subscribe Now",
     },
     {
-      title: "Pendirian CV",
-      description: "This package includes basic features such as 1, 2, and 3.",
-      price: "5.500.000",
-      fakePrice: "12.500.000",
-      features: [
-        "Konsultasi",
-        "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
-        "Nomor Pokok Wajib Pajak Badan Usaha",
-        "Nomor Induk Berusaha (NIB)",
-        "KPPR",
-        "Sertifikat Standar/Izin",
-        "Aktivitas EFIN Badan Usaha",
-      ],
-      buttonText: "Subscribe Now",
-    },
-    {
-      title: "Pendirian Firma",
-      description: "This package includes basic features such as 1, 2, and 3.",
-      price: "5.500.000",
-      fakePrice: "12.500.000",
-      features: [
-        "Konsultasi",
-        "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
-        "Nomor Pokok Wajib Pajak Badan Usaha",
-        "Nomor Induk Berusaha (NIB)",
-        "KPPR",
-        "Sertifikat Standar/Izin",
-        "Aktivitas EFIN Badan Usaha",
-      ],
-      buttonText: "Subscribe Now",
-    },
-    {
-      title: "Pendirian Yayasan",
+      title: "Virtual oor Private Office",
       description: "This package includes basic features such as 1, 2, and 3.",
       price: "7.500.000",
       fakePrice: "12.500.000",
@@ -104,10 +57,10 @@ function LegalityPackages() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center py-20 pt-40">
+    <div className="flex flex-col justify-center items-center ">
       <div>
         <h2 className="mb-4 pb-12 text-4xl tracking-tight font-extrabold text-primary">
-          Legality Packages
+          Other Service
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-6">
@@ -127,4 +80,4 @@ function LegalityPackages() {
   );
 }
 
-export default LegalityPackages;
+export default OtherService;

@@ -1,4 +1,4 @@
-import logo from "../assets/logo/logo_cla.png";
+import logo from "../../assets/logo/logo_cla.png";
 function Footer() {
   return (
     <div>

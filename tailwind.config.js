@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      transform: ["hover", "focus"],
+      translate: ["active", "group-hover"],
+      rotate: ["active", "group-hover"],
+      scale: ["active", "group-hover"],
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
       },

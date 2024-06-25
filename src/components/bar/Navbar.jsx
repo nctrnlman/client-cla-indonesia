@@ -1,5 +1,6 @@
-import { useState } from "react";
-import logo from "../assets/logo/logo_cla.png";
+import React, { useState } from "react";
+import logo from "../../assets/logo/logo_cla.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,9 +12,9 @@ function Navbar() {
   return (
     <nav className="px-2 sm:px-4 py-2.5 shadow">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={logo} alt="Logo CLA" className="h-20 w-auto" />
-        </a>
+        </Link>
 
         <div className="flex items-center">
           <button
@@ -48,40 +49,36 @@ function Navbar() {
         >
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold">
             <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-primary hover:cursor-pointer hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+              <Link
+                to={"/"}
+                className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-primary hover:cursor-pointer hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+              <Link
+                to={"/legal-associate"}
+                className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
               >
                 Legal Associate
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-primary hover:cursor-pointer hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+              <Link
+                to={"/legal-training"}
+                className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
               >
                 Legal Training
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-primary hover:cursor-pointer hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+              <Link
+                to={"/other-service"}
+                className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
               >
                 Other Services
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
