@@ -60,7 +60,7 @@ function OtherService() {
   return (
     <div className="flex flex-col justify-center items-center ">
       <div>
-        <h2 className="mb-4 pb-12 text-5xl tracking-tight font-extrabold text-primary">
+        <h2 className="mb-4 pb-12 text-3xl md:text-5xl tracking-tight font-extrabold text-primary">
           Other Service
         </h2>
       </div>
