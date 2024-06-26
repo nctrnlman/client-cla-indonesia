@@ -14,7 +14,7 @@ function LegalityPackages() {
         "Surat Keputusan Pendirian PT",
         "Nomor Pokok Wajib Pajak Badan Usaha",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Order Now",
     },
     {
       title: "Pendirian PT Lengkap (PMDN)",
@@ -32,7 +32,7 @@ function LegalityPackages() {
         "Sertifikat Standar/Izin",
         "Aktivitas EFIN Badan Usaha",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Order Now",
     },
     {
       title: "Pendirian PT PMA",
@@ -49,7 +49,7 @@ function LegalityPackages() {
         "Sertifikat Standar/Izin",
         "Aktivitas EFIN Badan Usaha",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Order Now",
     },
     {
       title: "Pendirian CV",
@@ -66,7 +66,7 @@ function LegalityPackages() {
         "Sertifikat Standar/Izin",
         "Aktivitas EFIN Badan Usaha",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Order Now",
     },
     {
       title: "Pendirian Firma",
@@ -83,7 +83,7 @@ function LegalityPackages() {
         "Sertifikat Standar/Izin",
         "Aktivitas EFIN Badan Usaha",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Order Now",
     },
     {
       title: "Pendirian Yayasan",
@@ -100,7 +100,7 @@ function LegalityPackages() {
         "Sertifikat Standar/Izin",
         "Aktivitas EFIN Badan Usaha",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Order Now",
     },
   ];
   return (
