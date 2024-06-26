@@ -9,14 +9,14 @@ const WhyChooseLegalAssociate = ({
   iconPosition,
   maxIconSize,
 }) => {
-  const cardClasses = `bg-${bgColor} border border-${bgColor} hover:border-double rounded py-7 px-5  `;
+  const cardClasses = `bg-${bgColor} rounded-xl py-7 px-5 h-[32rem] `;
 
   return (
     <div className={cardClasses}>
-      <div className="grid grid-cols-6 gap-3 ">
+      <div className="grid grid-cols-6 gap-3 justify-between h-full">
         {iconPosition === "top" && (
           <>
-            <div className="col-span-6 flex items-center justify-center mb-4 ">
+            <div className="col-span-6 flex mb-4 ">
               <div className="flex items-center justify-center border-b py-4 border-white w-full ">
                 {React.cloneElement(icon, {
                   className: `w-${maxIconSize} h-${maxIconSize}`,
@@ -24,7 +24,7 @@ const WhyChooseLegalAssociate = ({
               </div>
             </div>
             <div className="col-span-6  py-2">
-              <p className="text-white text-xl font-bold">{title}</p>
+              <p className="text-white text-xl font-extrabold">{title}</p>
               <p className="text-white mt-4">{description}</p>
             </div>
           </>
@@ -32,7 +32,7 @@ const WhyChooseLegalAssociate = ({
         {iconPosition === "bottom" && (
           <>
             <div className="col-span-6  py-2">
-              <p className="text-white text-xl font-bold">{title}</p>
+              <p className="text-white text-xl font-extrabold">{title}</p>
               <p className="text-white  mt-4">{description}</p>
             </div>
             <div className="col-span-6 flex items-center justify-center mt-4 ">

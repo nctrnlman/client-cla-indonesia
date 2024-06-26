@@ -118,21 +118,21 @@ function About() {
   return (
     <div className=" py-40">
       <div className="text-center ">
-        <h1 className="mb-4 text-5xl tracking-tight font-extrabold text-primary pb-4">
+        <h1 className="mb-4 text-3xl md:text-5xl tracking-tight font-extrabold text-primary pb-4">
           Why Choose Legal Associate
         </h1>
       </div>
-      <div className="py-8 px-4 md:px-8 max-w-7xl mx-auto">
+      <div className="py-8 px-4 md:px-8 max-w-7xl mx-auto  ">
         <Slider {...sliderSettings}>
           {cardsData.map((card, index) => (
-            <div key={index} className="pr-4 h-full">
+            <div key={index} className="px-4 py-2 h-full ">
               <WhyChooseLegalAssociate
                 icon={card.icon}
                 title={card.title}
                 description={card.description}
                 bgColor={alternatingColors[index % 2]}
                 iconPosition={index % 2 === 0 ? "top" : "bottom"}
-                maxIconSize="24"
+                maxIconSize="18"
               />
             </div>
           ))}

@@ -12,7 +12,7 @@ function OtherServiceCard({
 
   return (
     <div
-      className="relative w-80 h-96  perspective-1000 m-4"
+      className="relative w-80 h-[32rem]  perspective-1000 m-4"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
     >
