@@ -7,6 +7,7 @@ import Footer from "./components/bar/Footer";
 import LegalAssociate from "./pages/LegalAssociate";
 import LegalTraining from "./pages/LegalTraining";
 import OtherService from "./pages/OtherService";
+import ConsultationButton from "./components/navigation/ConsultationButton";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/legal-training" element={<LegalTraining />} />
         <Route path="/other-service" element={<OtherService />} />
       </Routes>
+      <ConsultationButton />
       <Footer />
     </>
   );
