@@ -1,4 +1,5 @@
 import OtherServiceCard from "../cards/other-service/OtherServiceCard";
+import PricingCard from "../cards/pricing/PricingCard";
 
 function LegalityPackages() {
   const packages = [
@@ -106,13 +107,13 @@ function LegalityPackages() {
   return (
     <div className="flex flex-col justify-center items-center py-20 pt-40">
       <div>
-        <h2 className="mb-4 pb-12 text-4xl tracking-tight font-extrabold text-primary">
+        <h2 className="mb-4 pb-12 text-5xl text-center tracking-tight font-extrabold text-primary">
           Legality Packages
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-6">
         {packages.map((pkg, index) => (
-          <OtherServiceCard
+          <PricingCard
             key={index}
             title={pkg.title}
             description={pkg.description}

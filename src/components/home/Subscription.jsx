@@ -1,25 +1,28 @@
 import PricingCard from "../cards/pricing/PricingCard";
 
 function Subscription() {
-  const pricingPlans = [
+  const packages = [
     {
-      title: "Standard",
-      description: "Best option for personal use & for your next project.",
-      price: 92,
+      title: "Standard (for UMK only)",
+      description:
+        "This package includes all the premium features such as A, B, and C.",
+      price: "1.500.000",
+      fakePrice: "2.500.000",
       features: [
-        "Rp2.500.000 jadi Rp1.500.000 per month",
         "Unlimited online consultation",
         "Drafting Employment Legal Documents (PKWT, PKWTT, Termination of Employment Agreement, and a Power of Attorney) per 3 months",
         "Reviewing 2 Agreements per month",
         "Compliance assistance: Filing Investment Activity Report (LKPM)",
         "Complimentary Legal training provided once every 3 months",
       ],
-      buttonText: "Get started",
+      buttonText: "Subscribe Now",
     },
     {
       title: "Premium",
-      description: "Relevant for multiple users, extended & premium support.",
-      price: 183,
+      description:
+        "This package includes standard features such as X, Y, and Z.",
+      price: "3.500.000",
+      fakePrice: "4.000.000",
       features: [
         "Unlimited online consultation",
         "Drafting Employment Legal Documents (PKWT, PKWTT, Termination of Employment Agreement, and a Power of Attorney) per 3 months",
@@ -28,13 +31,13 @@ function Subscription() {
         "Compliance assistance: Filing Investment Activity Report (LKPM)",
         "Complimentary: Legal training provided once every 3 months, Filing monthly SPT Badan.",
       ],
-      buttonText: "Get started",
+      buttonText: "Subscribe Now",
     },
     {
       title: "Ultimate",
-      description:
-        "Best for large scale uses and extended redistribution rights.",
-      price: 305,
+      description: "This package includes basic features such as 1, 2, and 3.",
+      price: "5.000.000",
+      fakePrice: "12.500.000",
       features: [
         "Unlimited online consultation, including meeting with counterparts",
         "Drafting or reviewing 5 Agreements per month",
@@ -42,29 +45,41 @@ function Subscription() {
         "Assisting with corporate documents (AGMS/EGMS, Director Resolution, and Shareholders’ resolution)",
         "Complimentary: Legal training provided once every 3 months, Filing yearly SPT Badan.",
       ],
-      buttonText: "Get started",
+      buttonText: "Subscribe Now",
     },
   ];
-
   return (
-    <section className="bg-white dark:bg-primary p-20">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-primary dark:text-white">
-            3 Months Subscription for Legal Associate
-          </h2>
-          <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Here at CLA we focus on markets where technology, innovation, and
-            capital can unlock long-term value and drive economic growth.
-          </p>
-        </div>
-        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-          {pricingPlans.map((plan, index) => (
-            <PricingCard key={index} {...plan} />
-          ))}
-        </div>
+    <div className="flex flex-col justify-center items-center pt-20">
+      <div>
+        <h2 className="mb-6 text-center text-5xl tracking-tight font-extrabold text-primary">
+          3 Months Subscription
+        </h2>
+        <p className="mb-5  pb-12 font-light text-black sm:text-2xl text-center">
+          for Legal Associate
+        </p>
       </div>
-    </section>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-6">
+        {packages.map((pkg, index) => (
+          <PricingCard
+            key={index}
+            title={pkg.title}
+            description={pkg.description}
+            price={pkg.price}
+            fakePrice={pkg.fakePrice}
+            features={pkg.features}
+            buttonText={pkg.buttonText}
+          />
+        ))}
+      </div>
+      <div className="flex justify-start flex-col w-full md:w-auto text-base p-4">
+        <span className="mb-2">Notes:</span>
+        <span className="text-sm md:text-base">
+          Payment will be processed monthly for a duration of 3 consecutive
+          months. Price does not include Taxes, Transportation Costs, and other
+          fees beyond the Services mentioned above (if any).
+        </span>
+      </div>
+    </div>
   );
 }
 
