@@ -6,33 +6,33 @@ import FAQ from "../components/home/FAQ";
 import LegalityPackages from "../components/home/LegalityPackages";
 import OtherService from "../components/home/OtherService";
 import PackageSubcription from "../components/home/PackageSubcription";
-import LoadingSpinner from "../components/Loading/LoadingSpinner"; // Adjust the import path as needed
+import LoadingSpinner from "../components/Loading/LoadingSpinner";
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500);  // Adjust this time as needed
-
-    // Cleanup function
+    }, 1500);
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
-      {isLoading && <LoadingSpinner />}
-      <div>
-        <Hero />
-        <PackageSubcription />
-        <Subscription />
-        <LegalityPackages />
-        <About />
-        <OtherService />
-        <FAQ />
-      </div>
+      {isLoading ? (
+        <LoadingSpinner />
+      ) : (
+        <div>
+          <Hero />
+          <PackageSubcription />
+          <Subscription />
+          <LegalityPackages />
+          <About />
+          <OtherService />
+          <FAQ />
+        </div>
+      )}
     </>
   );
 }
