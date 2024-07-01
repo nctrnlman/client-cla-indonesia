@@ -9,15 +9,15 @@ const PackageCard = ({
 }) => {
   return (
     <div
-      className={`border rounded-lg shadow-lg p-6 m-4 h-96 flex flex-col justify-between transform transition duration-500 hover:scale-105 ${backgroundColor}`}
+      className={`border rounded-lg shadow-lg p-6 m-4 min-h-[24rem] flex flex-col justify-between transition duration-300 ${backgroundColor}`}
     >
       <div className={textColor}>
-        <h3 className="text-3xl font-extrabold mb-6">{title}</h3>
-        <p className="mb-4 text-justify">{content}</p>
+        <h3 className="text-2xl font-bold mb-4">{title}</h3>
+        <p className="mb-4 text-sm">{content}</p>
       </div>
-      <div className="pb-6 text-center">
+      <div className="mt-auto text-center">
         <button
-          className={`py-2 px-6 font-bold rounded-full mt-auto transform transition duration-300 hover:scale-110 ${buttonColor}`}
+          className={`py-2 px-6 text-sm font-semibold rounded-full transition duration-300 hover:brightness-110 ${buttonColor}`}
           onClick={onButtonClick}
         >
           {buttonText}
