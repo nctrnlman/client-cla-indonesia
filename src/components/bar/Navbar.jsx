@@ -1,20 +1,27 @@
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/logo/logo_cla.png";
-import { Link } from "react-router-dom";
+import useSmoothScroll from "../../components/hooks/useSmoothScroll";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  useSmoothScroll();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className="px-2 sm:px-4 py-2.5 shadow bg-white w-full fixed top-0 z-10">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center" onClick={handleLinkClick}>
           <img src={logo} alt="Logo CLA" className="h-20 w-auto" />
-        </a>
+        </Link>
 
         <div className="flex items-center">
           <button
@@ -50,36 +57,36 @@ function Navbar() {
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold">
             <li>
               <Link
-                to={"/"}
+                to="/"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+                onClick={handleLinkClick}
               >
                 Home
               </Link>
             </li>
             <li>
               <Link
-                to={"/legal-associate"}
+                to="/legal-associate"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+                onClick={handleLinkClick}
               >
                 Legal Associate
               </Link>
             </li>
             <li>
               <Link
-                to={"/legal-training"}
+                to="/legal-training"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+                onClick={handleLinkClick}
               >
                 Legal Training
               </Link>
             </li>
             <li>
               <Link
-                to={"/other-service"}
+                to="/other-service"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                aria-current="page"
+                onClick={handleLinkClick}
               >
                 Other Services
               </Link>

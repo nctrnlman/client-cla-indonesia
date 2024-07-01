@@ -1,9 +1,20 @@
 import PackageCard from "../cards/packageSubscription/PackageCard";
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function PackageSubscription() {
-  const handleButtonClick = (message) => {
-    alert(message);
-  };
+    const navigate = useNavigate();
+  
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const handleButtonClick = (packageType) => {
+        console.log(`${packageType} Selected`);
+        navigate('/legal-associate', { 
+            state: { packageType },
+        });
+    };
 
   return (
     <div className="flex flex-col justify-center items-center py-20 pt-40">

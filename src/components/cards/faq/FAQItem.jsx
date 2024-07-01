@@ -19,7 +19,7 @@ const FAQItem = ({ question, answer }) => {
         <svg
           className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
             expanded ? "rotate-90" : "rotate-0"
-          } transition-transform duration-300 ease-in-out`}
+          } transition-transform duration-600 ease-in-out`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -33,7 +33,7 @@ const FAQItem = ({ question, answer }) => {
         </svg>
       </button>
       <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`overflow-hidden transition-all duration-600 ease-in-out ${
           expanded ? "max-h-full" : "max-h-0"
         }`}
         aria-hidden={!expanded}
