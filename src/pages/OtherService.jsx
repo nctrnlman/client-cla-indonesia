@@ -1,5 +1,7 @@
 import Hero from "../components/other-service/Hero";
 import FAQ from "../components/home/FAQ";
+import About from "../components/home/About";
+import Other from "../components/home/OtherService";
 import React, { useState, useEffect } from 'react';
 
 function OtherService({ setIsLoading }) {
@@ -18,6 +20,8 @@ function OtherService({ setIsLoading }) {
   return (
     <div>
       <Hero />
+      <Other />
+      <About />
       <FAQ />
     </div>
   );

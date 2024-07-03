@@ -24,10 +24,14 @@ function Home() {
         <LoadingSpinner />
       ) : (
         <div>
-          <Hero />
-          <PackageSubcription />
-          <Subscription />
-          <LegalityPackages />
+          <Hero /> 
+          <div id="PackageSubcription">
+            <PackageSubcription />
+          </div>
+            <Subscription />       
+          <div id="legalityPackages">
+            <LegalityPackages />
+          </div>
           <About />
           <OtherService />
           <FAQ />

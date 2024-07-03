@@ -1,6 +1,13 @@
 import bg from "../../assets/bg/hero.png";
 
 function Hero() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div
       className="bg-[#E5E5E5] h-screen"
@@ -15,10 +22,16 @@ function Hero() {
           MYLAW.ID YOUR ONE STOP SOLUTION PARTNER FOR YOUR BUSINESS
         </p>
         <div className="flex gap-8">
-          <button className="bg-secondary p-4 px-6 rounded-full text-primary font-semibold hover:bg-primary hover:text-secondary transition duration-300">
+          <button 
+            onClick={() => scrollToSection('PackageSubcription')}
+            className="bg-secondary p-4 px-6 rounded-full text-primary font-semibold hover:bg-primary hover:text-secondary transition duration-300"
+          >
             Get Started
           </button>
-          <button className="bg-secondary p-4 px-6 rounded-full text-primary font-semibold hover:bg-primary hover:text-secondary transition duration-300">
+          <button 
+            onClick={() => scrollToSection('legalityPackages')}
+            className="bg-secondary p-4 px-6 rounded-full text-primary font-semibold hover:bg-primary hover:text-secondary transition duration-300"
+          >
             Order Now
           </button>
         </div>
