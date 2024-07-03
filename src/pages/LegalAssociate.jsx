@@ -1,5 +1,7 @@
 import Hero from "../components/legal-associate/Hero";
+import Subscription from "../components/home/Subscription";
 import FAQ from "../components/home/FAQ";
+import About from "../components/home/About";
 import React, { useState, useEffect } from 'react';
 
 function LegalAssociate({ setIsLoading }) {
@@ -18,6 +20,8 @@ function LegalAssociate({ setIsLoading }) {
   return (
     <div>
       <Hero />
+      <Subscription />
+      <About />
       <FAQ />
     </div>
   );

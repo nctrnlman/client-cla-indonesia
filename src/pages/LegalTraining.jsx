@@ -1,5 +1,7 @@
 import Hero from "../components/legal-training/Hero";
 import FAQ from "../components/home/FAQ";
+import About from "../components/home/About";
+import SequentialForm from "../components/legal-training/SequentialForm";
 import React, { useState, useEffect } from 'react';
 
 function LegalTraining({ setIsLoading }) {
@@ -18,6 +20,10 @@ function LegalTraining({ setIsLoading }) {
   return (
     <div>
       <Hero />
+      <div id="SequentialForm">
+      <SequentialForm />
+      </div>
+      <About />
       <FAQ />
     </div>
   );
