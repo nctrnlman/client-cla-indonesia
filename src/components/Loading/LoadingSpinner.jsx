@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
+import { useEffect } from "react";
 
 const LoadingSpinner = () => {
   useEffect(() => {
     // Disable scrolling
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
 
     // Re-enable scrolling when component unmounts
     return () => {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     };
   }, []);
 
