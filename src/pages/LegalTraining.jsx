@@ -3,6 +3,7 @@ import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
 import SequentialForm from "../components/legal-training/SequentialForm";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 function LegalTraining({ setIsLoading }) {
   useEffect(() => {
@@ -19,6 +20,17 @@ function LegalTraining({ setIsLoading }) {
 
   return (
     <div>
+      <Helmet>
+        <title>Legal Training - CLA Indonesia</title>
+        <meta
+          name="description"
+          content="CLA Indonesia menyediakan pelatihan hukum untuk meningkatkan pemahaman dan kepatuhan terhadap regulasi bisnis di Indonesia."
+        />
+        <link
+          rel="canonical"
+          href="https://www.domainanda.com/legal-training"
+        />
+      </Helmet>
       <Hero />
       <div id="SequentialForm">
         <SequentialForm />

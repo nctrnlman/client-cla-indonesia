@@ -3,6 +3,7 @@ import Subscription from "../components/home/Subscription";
 import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 function LegalAssociate({ setIsLoading }) {
   useEffect(() => {
@@ -19,6 +20,17 @@ function LegalAssociate({ setIsLoading }) {
 
   return (
     <div>
+      <Helmet>
+        <title>Legal Associate - CLA Indonesia</title>
+        <meta
+          name="description"
+          content="CLA Indonesia menawarkan layanan Legal Associate yang meliputi pembentukan perusahaan, kepemilikan saham, dan hukum perusahaan lainnya."
+        />
+        <link
+          rel="canonical"
+          href="https://www.domainanda.com/legal-associate"
+        />
+      </Helmet>
       <Hero />
       <Subscription />
       <About />
