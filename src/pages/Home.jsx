@@ -6,6 +6,7 @@ import FAQ from "../components/home/FAQ";
 import LegalityPackages from "../components/home/LegalityPackages";
 import OtherService from "../components/home/OtherService";
 import PackageSubcription from "../components/home/PackageSubcription";
+import { Helmet } from "react-helmet";
 
 function Home({ setIsLoading }) {
   useEffect(() => {
@@ -22,6 +23,14 @@ function Home({ setIsLoading }) {
 
   return (
     <>
+      <Helmet>
+        <title>CLA Indonesia - Layanan Legal Terpercaya di Indonesia</title>
+        <meta
+          name="description"
+          content="CLA Indonesia menyediakan layanan hukum terpercaya di Indonesia. Temukan solusi hukum yang tepat untuk kebutuhan bisnis Anda."
+        />
+        <link rel="canonical" href="https://www.domainanda.com/" />
+      </Helmet>
       <Hero />
       <div id="PackageSubcription">
         <PackageSubcription />
