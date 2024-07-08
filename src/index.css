@@ -89,3 +89,17 @@
 .transform-style-preserve-3d {
   transform-style: preserve-3d;
 }
+
+
+.gradient-text {
+  background: linear-gradient(45deg, #003262, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* File CSS kustom */
+.text-shadow-md {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
