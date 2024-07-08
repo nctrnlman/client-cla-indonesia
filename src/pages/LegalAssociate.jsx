@@ -1,15 +1,17 @@
 import Hero from "../components/legal-associate/Hero";
+import Subscription from "../components/home/Subscription";
 import FAQ from "../components/home/FAQ";
-import React, { useState, useEffect } from 'react';
+import About from "../components/home/About";
+import { useEffect } from "react";
 
 function LegalAssociate({ setIsLoading }) {
   useEffect(() => {
     setIsLoading(true);
-    
+
     // Simulate loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500);  // Adjust this time as needed
+    }, 1500); // Adjust this time as needed
 
     // Cleanup function
     return () => clearTimeout(timer);
@@ -18,6 +20,8 @@ function LegalAssociate({ setIsLoading }) {
   return (
     <div>
       <Hero />
+      <Subscription />
+      <About />
       <FAQ />
     </div>
   );

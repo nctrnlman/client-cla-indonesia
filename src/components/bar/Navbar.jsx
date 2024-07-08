@@ -1,25 +1,50 @@
-import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo/logo_cla.png";
 import useSmoothScroll from "../../components/hooks/useSmoothScroll";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   useSmoothScroll();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const handleLinkClick = () => {
+  const handleLinkClick = (to) => {
     setIsMobileMenuOpen(false);
+    if (to === location.pathname) {
+      // If clicking on the same page link, scroll to top smoothly
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      // If navigating to a different page, use navigate
+      navigate(to);
+    }
   };
+
+  useEffect(() => {
+    // Scroll to top when location changes
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [location.pathname]);
+
+  // Special check for home page
+  useEffect(() => {
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
+  }, [location.pathname]);
 
   return (
     <nav className="px-2 sm:px-4 py-2.5 shadow bg-white w-full fixed top-0 z-40">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <Link to="/" className="flex items-center" onClick={handleLinkClick}>
+        <Link
+          to="/"
+          className="flex items-center"
+          onClick={() => handleLinkClick("/")}
+        >
           <img src={logo} alt="Logo CLA" className="h-20 w-auto" />
         </Link>
 
@@ -64,7 +89,7 @@ function Navbar() {
               <Link
                 to="/"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                onClick={handleLinkClick}
+                onClick={() => handleLinkClick("/")}
               >
                 Home
               </Link>
@@ -73,7 +98,7 @@ function Navbar() {
               <Link
                 to="/legal-associate"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                onClick={handleLinkClick}
+                onClick={() => handleLinkClick("/legal-associate")}
               >
                 Legal Associate
               </Link>
@@ -82,7 +107,7 @@ function Navbar() {
               <Link
                 to="/legal-training"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                onClick={handleLinkClick}
+                onClick={() => handleLinkClick("/legal-training")}
               >
                 Legal Training
               </Link>
@@ -91,7 +116,7 @@ function Navbar() {
               <Link
                 to="/other-service"
                 className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out"
-                onClick={handleLinkClick}
+                onClick={() => handleLinkClick("/other-service")}
               >
                 Other Services
               </Link>

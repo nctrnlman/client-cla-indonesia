@@ -4,6 +4,13 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div
       className="bg-[#E5E5E5] h-screen relative overflow-hidden flex items-center justify-center"
