@@ -4,6 +4,7 @@ import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import LegalAssociateInfo from "../components/legal-associate/LegalAssociateInfo";
 
 function LegalAssociate({ setIsLoading }) {
   useEffect(() => {
@@ -19,7 +20,7 @@ function LegalAssociate({ setIsLoading }) {
   }, [setIsLoading]);
 
   return (
-    <div>
+    <div className="bg-gradient-to-b from-yellow-100 to-secondary">
       <Helmet>
         <title>Legal Associate - CLA Indonesia</title>
         <meta
@@ -32,9 +33,12 @@ function LegalAssociate({ setIsLoading }) {
         />
       </Helmet>
       <Hero />
+      <LegalAssociateInfo />
       <Subscription />
-      <About />
-      <FAQ />
+
+      {/* <div className="bg-white">
+        <FAQ />
+      </div> */}
     </div>
   );
 }
