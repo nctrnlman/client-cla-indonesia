@@ -99,7 +99,7 @@ function ContactUsSection() {
             Get in touch with us for any inquiries
           </p>
         </div>
-        <div className="divider divider-horizontal text-white">OR</div>
+        <div className="divider divider-horizontal text-gray-300">OR</div>
         <div className="card bg-base-300 rounded-box grid flex-grow place-items-center p-8">
           <div className="mockup-phone border-primary shadow-lg shadow-blue-500/50">
             {" "}

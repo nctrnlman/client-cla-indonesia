@@ -106,8 +106,14 @@ function LegalityPackages() {
   ];
   return (
     <div className="flex flex-col justify-center items-center py-20 pt-40 relative">
-      <div>
-        <h2 className="mb-4 pb-12 text-3xl md:text-5xl text-center tracking-tight font-extrabold text-primary">
+      <div className="flex flex-col justify-center items-center ">
+        <button
+          className="bg-secondary items-center p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300
+          "
+        >
+          PRODUCT
+        </button>
+        <h2 className="mb-4 pt-6 pb-12 text-3xl md:text-5xl text-center tracking-tight font-extrabold text-primary">
           Legality Packages
         </h2>
       </div>

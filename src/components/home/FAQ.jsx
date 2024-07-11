@@ -27,7 +27,7 @@ const FAQ = () => {
   return (
     <div className="py-32 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
       <div className="flex flex-col text-left md:basis-1/2">
-        <p className="inline-block font-semibold text-primary mb-4">
+        <p className="font-semibold bg-secondary max-w-fit  p-4 px-6 rounded-full text-primary text-lg hover:bg-primary hover:text-secondary transition duration-300 mb-4">
           Legal Associate FAQ
         </p>
         <p className="sm:text-4xl text-3xl font-extrabold text-primary">
