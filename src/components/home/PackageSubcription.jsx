@@ -1,23 +1,23 @@
 import PackageCard from "../cards/packageSubscription/PackageCard";
-import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function PackageSubscription() {
-    const navigate = useNavigate();
-  
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+  const navigate = useNavigate();
 
-    const handleButtonClick = (packageType) => {
-        console.log(`${packageType} Selected`);
-        navigate('/legal-associate', { 
-            state: { packageType },
-        });
-    };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const handleButtonClick = (packageType) => {
+    console.log(`${packageType} Selected`);
+    navigate("/legal-associate", {
+      state: { packageType },
+    });
+  };
 
   return (
-    <div className="flex flex-col justify-center items-center py-20 pt-40">
+    <div className="flex flex-col justify-center items-center py-20 pt-40 relative">
       <div>
         <h2 className="mb-4 pb-12 text-5xl text-center tracking-tight font-extrabold text-primary animate-bounce">
           Package Subscription
@@ -34,7 +34,7 @@ function PackageSubscription() {
           buttonColor="bg-secondary text-white"
         />
         <PackageCard
-          title="Incorporation and Virtual Office"
+          title="Legality (Incorporation and Virtual Office)"
           content="Elevate your business's legal journey with our Legal Associate as your trusted partner. We provide legal assistance tailored to your company's needs and type. Our innovative solutions, quick responses, and flexible services ensure that your legal needs are met efficiently. Partner with us to unlock your business's full potential for growth and success."
           buttonText="More"
           onButtonClick={() => handleButtonClick("Premium Package Selected")}
@@ -43,6 +43,8 @@ function PackageSubscription() {
           buttonColor="bg-primary text-white"
         />
       </div>
+      <div className="half-circle-right"></div>
+      <div className="half-circle-left"></div>
     </div>
   );
 }

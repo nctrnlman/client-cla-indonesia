@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="h-screen">
+    <div className="py-20">
       <div className="flex flex-col justify-center gap-4 items-center mx-auto h-full max-w-7xl">
         <button
           className="bg-secondary p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300
@@ -12,7 +12,7 @@ function Hero() {
           LEGAL ASSOCIATE
         </p>
         {/* desc */}
-        <div className="bg-gradient-to-b from-[#003262] to-[#3B7EA1] h-96 border rounded-xl p-4 mt-14">
+        <div className="bg-gradient-to-b from-primary to-cyan-600 h-96 border rounded-xl p-4 mt-14">
           {/* icon */}
           <div className="text-center items-center flex justify-center pb-4">
             <svg
@@ -51,7 +51,7 @@ function Hero() {
 
           {/* text */}
           <div>
-            <p className=" text-justify text-2xl p-4 text-white ">
+            <p className=" text-justify text-2xl p-4 text-white">
               Elevate your business&apos;s legal journey with our Legal
               Associate as your trusted partner. We provide legal assistance
               tailored to your company&apos;s needs and type. Our innovative

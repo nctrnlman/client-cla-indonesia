@@ -6,6 +6,7 @@ import FAQ from "../components/home/FAQ";
 import LegalityPackages from "../components/home/LegalityPackages";
 import OtherService from "../components/home/OtherService";
 import PackageSubcription from "../components/home/PackageSubcription";
+import SequentialForm from "../components/legal-training/SequentialForm";
 import { Helmet } from "react-helmet";
 
 function Home({ setIsLoading }) {
@@ -41,7 +42,10 @@ function Home({ setIsLoading }) {
       </div>
       <About />
       <OtherService />
-      <FAQ />\
+      <FAQ />
+      <div id="SequentialForm">
+        <SequentialForm />
+      </div>
     </>
   );
 }

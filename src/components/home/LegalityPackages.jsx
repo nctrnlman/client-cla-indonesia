@@ -105,7 +105,7 @@ function LegalityPackages() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center py-20 pt-40">
+    <div className="flex flex-col justify-center items-center py-20 pt-40 relative">
       <div>
         <h2 className="mb-4 pb-12 text-3xl md:text-5xl text-center tracking-tight font-extrabold text-primary">
           Legality Packages
@@ -124,6 +124,8 @@ function LegalityPackages() {
           />
         ))}
       </div>
+      <div className="half-circle-right"></div>
+      <div className="half-circle-left"></div>
     </div>
   );
 }

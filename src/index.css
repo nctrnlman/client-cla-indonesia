@@ -23,7 +23,7 @@
     letter-spacing: -0.5px;
   }
 }
-.roboto-thin {
+/* .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -93,7 +93,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
-}
+} */
 
 /* Add this to your main CSS file (e.g., index.css) */
 .perspective-1000 {
@@ -150,4 +150,30 @@ button:hover .border-animation {
 
 li:hover .arrow-icon {
   transform: translateY(3px);
+}
+
+.half-circle-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 200px;
+  height: 400px;
+  background: linear-gradient(to right, #0891b2, #003262);
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.half-circle-left {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 200px;
+  height: 400px;
+  background: linear-gradient(to left, #fef3c7, #fdb515);
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  transform: translateY(-50%);
+  z-index: -1;
 }
