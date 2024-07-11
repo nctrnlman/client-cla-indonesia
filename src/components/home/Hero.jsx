@@ -4,90 +4,94 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div
-      className="bg-[#E5E5E5] h-screen relative overflow-hidden flex items-center justify-center"
+      className="bg-[#E5E5E5] min-h-screen relative overflow-hidden flex items-center justify-center"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col items-center">
-          <motion.div
-            className="text-center mb-8 h-32 overflow-hidden" // Reduced height
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-          >
-            <h1 className="text-[#003262] font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-              <TypeAnimation
-                sequence={[
-                  "CLA YOUR ONE STOP SOLUTION",
-                  1000,
-                  "CLA YOUR ONE STOP SOLUTION PARTNER",
-                  1000,
-                  "CLA YOUR ONE STOP SOLUTION PARTNER FOR YOUR BUSINESS",
-                  1000,
-                ]}
-                wrapper="span"
-                speed={50}
-                repeat={Infinity}
-                className="bg-gradient-to-r from-[#003262] to-white bg-clip-text text-transparent"
-              />
-            </h1>
-          </motion.div>
+      <motion.div
+        className="absolute inset-0 bg-black opacity-50"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.5 }}
+        transition={{ duration: 1.5 }}
+      />
 
-          <motion.div
-            className="text-center mb-8"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-          >
-            <p className="text-white text-lg md:text-xl max-w-2xl mx-auto text-shadow-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-              dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="flex flex-col md:flex-row items-start justify-between">
+          <motion.div className="md:w-1/2 mb-8 md:mb-0">
+            <div className="h-28 mb-4">
+              {" "}
+              {/* Increased height to accommodate larger text */}
+              <h1 className="text-[#FDB515] font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+                <TypeAnimation
+                  sequence={[
+                    "Your Trusted Legal Partner",
+                    1000,
+                    "Expert Legal",
+                    1000,
+                    "CLA Legal Solutions",
+                    1000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                  className="bg-gradient-to-r from-[#FDB515] to-white bg-clip-text text-transparent"
+                />
+              </h1>
+            </div>
+            <p className="text-white text-lg md:text-xl max-w-xl text-shadow-md">
+              Providing comprehensive legal services with expertise and
+              integrity. Your success is our priority.
             </p>
           </motion.div>
 
           <motion.div
-            className="flex gap-6"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 1 }}
+            className="md:w-1/2"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 0.5 }}
           >
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              className="drop-shadow-lg bg-gradient-to-r from-[#003262] to-white text-white p-3 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-gradient-to-r hover:from-[#003262] hover:to-white"
-            >
-              <p className="text-shadow-md">Order Now</p>
-            </motion.button>
-
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              className="drop-shadow-lg bg-gradient-to-r from-[#003262] to-white text-white p-3 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-gradient-to-r hover:from-[#003262] hover:to-white"
-            >
-              <p className="text-shadow-md">Learn More</p>
-            </motion.button>
+            <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 shadow-lg">
+              <h2 className="text-[#FDB515] text-2xl font-semibold mb-4">
+                Our Practice Areas
+              </h2>
+              <ul className="text-white space-y-2">
+                <li>• Corporate Law</li>
+                <li>• Intellectual Property</li>
+                <li>• Litigation & Dispute Resolution</li>
+                <li>• Employment Law</li>
+                <li>• Mergers & Acquisitions</li>
+              </ul>
+            </div>
           </motion.div>
         </div>
+
+        <motion.div
+          className="mt-12 flex justify-center gap-6"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-[#FDB515] text-white py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214]"
+          >
+            Schedule Consultation
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-white"
+          >
+            Learn More
+          </motion.button>
+        </motion.div>
       </div>
-      <motion.div
-        className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-30"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.3 }}
-        transition={{ duration: 1.5 }}
-      />
     </div>
   );
 }
