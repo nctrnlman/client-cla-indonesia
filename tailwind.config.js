@@ -7,8 +7,12 @@ export default {
       translate: ["active", "group-hover"],
       rotate: ["active", "group-hover"],
       scale: ["active", "group-hover"],
+      // fontFamily: {
+      //   sans: ["Roboto", "sans-serif"],
+      // },
       fontFamily: {
-        sans: ["Roboto", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        dm: ["DM Sans", "sans-serif"],
       },
       colors: () => ({
         primary: "#003262",

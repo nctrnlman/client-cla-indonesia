@@ -104,7 +104,7 @@ function Navbar() {
                   to="/"
                   className={`block py-2 pr-4 pl-3 text-primary relative ${
                     location.pathname === "/"
-                      ? "border-b-2 border-secondary"
+                      ? "border-b-2 border-secondary "
                       : ""
                   }`}
                   onClick={() => handleLinkClick("/")}
@@ -147,19 +147,18 @@ function Navbar() {
                 onMouseLeave={handleMouseLeave}
                 ref={otherServicesRef}
               >
-                <button className="block py-2 pr-4 pl-3 text-primary hover:text-secondary transition duration-300 ease-in-out">
+                <button className="block py-2 pr-4 pl-3 text-primary  ">
                   Other Services
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-1 inline-block transform transition-transform duration-300 ease-in-out"
-                    viewBox="0 0 20 20"
+                    className="h-2 w-4 ml-2 items-center inline-block transform transition-transform duration-300 ease-in-out arrow-icon text-secondary"
+                    width="10.033"
+                    height="5"
                     fill="currentColor"
                   >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 3a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-1.5 0V3.75A.75.75 0 0 1 10 3zm-2.22 1.47a.75.75 0 0 1 1.06-1.06l2.72 2.72a.75.75 0 0 1 0 1.06l-2.72 2.72a.75.75 0 0 1-1.06-1.06L11.94 8 7.78 3.84a.75.75 0 0 1-1.06 0z"
-                    />
+                    <path d="M5.016 0 0 .003 2.506 2.5 5.016 5l2.509-2.5L10.033.003 5.016 0z" />
                   </svg>
+                  <span className="border-animation"></span>
                 </button>
               </li>
             </ul>
