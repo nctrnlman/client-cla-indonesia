@@ -90,7 +90,6 @@
   transform-style: preserve-3d;
 }
 
-
 .gradient-text {
   background: linear-gradient(45deg, #003262, #ffffff);
   -webkit-background-clip: text;
@@ -103,3 +102,20 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.border-animation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: transparent;
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover .border-animation {
+  background-color: #fdb515; /* Replace with your secondary color */
+  transform: scaleX(1);
+}

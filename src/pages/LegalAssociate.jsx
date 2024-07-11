@@ -20,7 +20,7 @@ function LegalAssociate({ setIsLoading }) {
   }, [setIsLoading]);
 
   return (
-    <div className="bg-gradient-to-b from-yellow-100 to-secondary">
+    <div className="bg-gradient-to-b from-white to-[#7D590A]">
       <Helmet>
         <title>Legal Associate - CLA Indonesia</title>
         <meta
