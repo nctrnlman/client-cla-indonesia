@@ -4,7 +4,7 @@ function LegalAssociateInfo() {
   return (
     <div className="flex flex-col justify-center gap-16 items-center mx-auto h-full max-w-7xl pb-20">
       {/* note */}
-      <div className="bg-[#3B7EA1] text-white flex p-6 rounded-lg gap-4">
+      <div className="bg-gradient-to-r from-primary to-cyan-600 text-white flex p-6 rounded-lg gap-4 rounded-bl-3xl rounded-tr-3xl">
         {/* icon */}
         <div>
           <svg

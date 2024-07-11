@@ -58,7 +58,7 @@ function OtherService() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center ">
+    <div className="flex flex-col justify-center items-center relative">
       <div>
         <h2 className="mb-4 pb-12 text-3xl md:text-5xl tracking-tight font-extrabold text-primary">
           Other Service
@@ -77,6 +77,8 @@ function OtherService() {
           />
         ))}
       </div>
+      <div className="half-circle-right"></div>
+      <div className="half-circle-left"></div>
     </div>
   );
 }

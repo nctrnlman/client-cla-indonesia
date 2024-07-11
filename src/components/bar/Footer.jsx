@@ -3,7 +3,7 @@ import logo from "../../assets/logo/logo_cla_bnw.png";
 function Footer() {
   return (
     <div>
-      <footer className="bg-primary font-sans">
+      <footer className="bg-gradient-to-r from-primary to-cyan-600 font-sans">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-5">
             <div className="sm:col-span-2">
@@ -18,25 +18,25 @@ function Footer() {
               <div className="flex flex-col items-start md:pl-20 mt-5 space-y-2">
                 <Link
                   to="/"
-                  className="text-gray-600 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-secondary"
+                  className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
                 >
                   Home
                 </Link>
                 <Link
                   to="/legal-associate"
-                  className="text-gray-600 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-secondary"
+                  className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
                 >
                   Legal Associate
                 </Link>
                 <Link
                   to="/legal-training"
-                  className="text-gray-600 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-secondary"
+                  className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
                 >
                   Legal Training
                 </Link>
                 <Link
                   to="/other-service"
-                  className="text-gray-600 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-secondary"
+                  className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
                 >
                   Other Service
                 </Link>
@@ -49,13 +49,13 @@ function Footer() {
               </p>
 
               <div className="flex flex-col items-start mt-5 space-y-2">
-                <p className="text-gray-600 transition-colors duration-300   hover:text-secondary">
+                <p className="text-gray-100 transition-colors duration-300   hover:text-primary">
                   Jalan Pengadegan Utara II No. 30
                 </p>
-                <p className="text-gray-600 transition-colors duration-300   hover:text-secondary">
+                <p className="text-gray-100 transition-colors duration-300   hover:text-primary">
                   Pancoran, Jakarta Selatan.
                 </p>
-                <p className="text-gray-600 transition-colors duration-300   hover:text-secondary">
+                <p className="text-gray-100 transition-colors duration-300   hover:text-primary">
                   Indonesia
                 </p>
               </div>
@@ -66,10 +66,10 @@ function Footer() {
               </p>
 
               <div className="flex flex-col items-start mt-5 space-y-2">
-                <p className="text-gray-600 transition-colors duration-300   hover:text-secondary">
+                <p className="text-gray-100 transition-colors duration-300   hover:text-primary">
                   +62 812 1111 0564
                 </p>
-                <p className="text-gray-600 transition-colors duration-300   hover:text-secondary">
+                <p className="text-gray-100 transition-colors duration-300   hover:text-primary">
                   contact@mylaw.id, career@mylaw.id
                 </p>
               </div>

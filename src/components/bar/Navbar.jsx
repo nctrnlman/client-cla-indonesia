@@ -149,16 +149,24 @@ function Navbar() {
               >
                 <button className="block py-2 pr-4 pl-3 text-primary  ">
                   Other Services
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-2 w-4 ml-2 items-center inline-block transform transition-transform duration-300 ease-in-out arrow-icon text-secondary"
-                    width="10.033"
-                    height="5"
-                    fill="currentColor"
-                  >
-                    <path d="M5.016 0 0 .003 2.506 2.5 5.016 5l2.509-2.5L10.033.003 5.016 0z" />
-                  </svg>
                   <span className="border-animation"></span>
+                  <svg
+                    className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
+                      isOtherServicesOpen ? "rotate-90" : "rotate-0"
+                    } h-2 w-4 ml-4 items-center inline-block transition-transform duration-600 ease-in-out text-secondary`}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d={
+                        isOtherServicesOpen ? "M19 9l-7 7-7-7" : "M5 15l7-7 7 7"
+                      }
+                    />
+                  </svg>
                 </button>
               </li>
             </ul>

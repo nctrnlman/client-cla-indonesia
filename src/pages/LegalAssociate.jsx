@@ -5,6 +5,7 @@ import About from "../components/home/About";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import LegalAssociateInfo from "../components/legal-associate/LegalAssociateInfo";
+import SequentialForm from "../components/legal-training/SequentialForm";
 
 function LegalAssociate({ setIsLoading }) {
   useEffect(() => {
@@ -20,7 +21,7 @@ function LegalAssociate({ setIsLoading }) {
   }, [setIsLoading]);
 
   return (
-    <div className="bg-gradient-to-b from-white to-[#7D590A]">
+    <div className="">
       <Helmet>
         <title>Legal Associate - CLA Indonesia</title>
         <meta
@@ -35,10 +36,15 @@ function LegalAssociate({ setIsLoading }) {
       <Hero />
       <LegalAssociateInfo />
       <Subscription />
-
+      {/* <About /> */}
       {/* <div className="bg-white">
         <FAQ />
       </div> */}
+      <div id="SequentialForm">
+        <SequentialForm />
+      </div>
+      <div className="half-circle-right"></div>
+      <div className="half-circle-left"></div>
     </div>
   );
 }
