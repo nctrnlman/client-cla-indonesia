@@ -117,8 +117,14 @@ function About() {
 
   return (
     <div className=" py-40">
-      <div className="text-center ">
-        <h1 className="mb-4 text-3xl md:text-5xl tracking-tight font-extrabold text-primary pb-4">
+      <div className="flex flex-col justify-center items-center ">
+        <button
+          className="bg-secondary items-center p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300
+          "
+        >
+          ABOUT
+        </button>
+        <h1 className="mb-4 pt-6 text-3xl md:text-5xl tracking-tight font-extrabold text-primary pb-4">
           Why Choose Legal Associate
         </h1>
       </div>

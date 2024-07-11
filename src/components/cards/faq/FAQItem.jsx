@@ -40,7 +40,7 @@ const FAQItem = ({ question, answer }) => {
         style={{ maxHeight: expanded ? "1000px" : "0" }}
       >
         <div className="pb-5 leading-relaxed">
-          <div className="space-y-2 leading-relaxed text-gray-600">
+          <div className="space-y-2 leading-relaxed text-gray-700">
             {answer}
           </div>
         </div>
