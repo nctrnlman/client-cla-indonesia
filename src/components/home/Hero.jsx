@@ -32,23 +32,26 @@ function Hero() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-start justify-between">
           <motion.div className="md:w-1/2 mb-8 md:mb-0">
-            <div className="h-28 mb-4">
-              <h1 className="text-[#FDB515] font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            <div className="mb-4">
+              <h1 className="text-[#FDB515] uppercase font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2">
+                CLA Indonesia
+              </h1>
+              <div className="h-32">
                 <TypeAnimation
                   sequence={[
                     "Your Trusted Legal Partner",
                     1000,
-                    "Expert Legal",
+                    "Experts in Indonesian Law",
                     1000,
-                    "CLA Legal Solutions",
+                    "Empowering Your Business",
                     1000,
                   ]}
                   wrapper="span"
                   speed={50}
                   repeat={Infinity}
-                  className="bg-gradient-to-r from-[#FDB515] to-white bg-clip-text text-transparent"
+                  className="bg-gradient-to-r from-[#FDB515] to-white bg-clip-text text-transparent text-xl sm:text-2xl md:text-3xl lg:text-6xl font-bold"
                 />
-              </h1>
+              </div>
             </div>
             <p className="text-white text-lg md:text-xl max-w-xl text-shadow-md mb-6">
               Providing comprehensive legal services with expertise and
@@ -63,14 +66,14 @@ function Hero() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#FDB515] text-white py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214]"
+                className="bg-[#FDB515] text-primary py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214]"
               >
                 Schedule Consultation
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-white"
+                className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-primary"
               >
                 Learn More
               </motion.button>
@@ -107,7 +110,7 @@ function Hero() {
                     <h3 className="text-white font-medium text-lg mb-1">
                       {area.title}
                     </h3>
-                    <p className="text-gray-300 text-sm">
+                    <p className="text-gray-300 text-base">
                       Expert legal advice and representation
                     </p>
                   </motion.div>
