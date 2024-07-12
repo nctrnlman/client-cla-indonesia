@@ -2,6 +2,15 @@ import React from "react";
 import bg from "../../assets/bg/hero.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBuilding,
+  faLightbulb,
+  faGavel,
+  faUsers,
+  faHandshake,
+  faHome,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -24,8 +33,6 @@ function Hero() {
         <div className="flex flex-col md:flex-row items-start justify-between">
           <motion.div className="md:w-1/2 mb-8 md:mb-0">
             <div className="h-28 mb-4">
-              {" "}
-              {/* Increased height to accommodate larger text */}
               <h1 className="text-[#FDB515] font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
                 <TypeAnimation
                   sequence={[
@@ -43,54 +50,72 @@ function Hero() {
                 />
               </h1>
             </div>
-            <p className="text-white text-lg md:text-xl max-w-xl text-shadow-md">
+            <p className="text-white text-lg md:text-xl max-w-xl text-shadow-md mb-6">
               Providing comprehensive legal services with expertise and
               integrity. Your success is our priority.
             </p>
+            <motion.div
+              className="flex justify-start gap-4"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1 }}
+            >
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-[#FDB515] text-white py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214]"
+              >
+                Schedule Consultation
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-white"
+              >
+                Learn More
+              </motion.button>
+            </motion.div>
           </motion.div>
-
           <motion.div
             className="md:w-1/2"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 shadow-lg">
-              <h2 className="text-[#FDB515] text-2xl font-semibold mb-4">
+            <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-5 shadow-lg">
+              <h2 className="text-white shadow-lg text-center uppercase text-2xl font-semibold mb-4">
                 Our Practice Areas
               </h2>
-              <ul className="text-white space-y-2">
-                <li>• Corporate Law</li>
-                <li>• Intellectual Property</li>
-                <li>• Litigation & Dispute Resolution</li>
-                <li>• Employment Law</li>
-                <li>• Mergers & Acquisitions</li>
-              </ul>
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { title: "Corporate Law", icon: faBuilding },
+                  { title: "Intellectual Property", icon: faLightbulb },
+                  { title: "Litigation & Dispute Resolution", icon: faGavel },
+                  { title: "Employment Law", icon: faUsers },
+                  { title: "Mergers & Acquisitions", icon: faHandshake },
+                  { title: "Real Estate Law", icon: faHome },
+                ].map((area, index) => (
+                  <motion.div
+                    key={index}
+                    className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-300"
+                    whileHover={{ scale: 1.03 }}
+                  >
+                    <FontAwesomeIcon
+                      icon={area.icon}
+                      className="text-[#FDB515] text-2xl mb-2"
+                    />
+                    <h3 className="text-white font-medium text-lg mb-1">
+                      {area.title}
+                    </h3>
+                    <p className="text-gray-300 text-sm">
+                      Expert legal advice and representation
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
             </div>
           </motion.div>
         </div>
-
-        <motion.div
-          className="mt-12 flex justify-center gap-6"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 1 }}
-        >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-[#FDB515] text-white py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214]"
-          >
-            Schedule Consultation
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-white"
-          >
-            Learn More
-          </motion.button>
-        </motion.div>
       </div>
     </div>
   );
