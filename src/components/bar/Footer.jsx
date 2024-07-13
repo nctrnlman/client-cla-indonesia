@@ -4,16 +4,15 @@ function Footer() {
   return (
     <div>
       <footer className="bg-gradient-to-r from-primary to-cyan-600 font-sans">
-        <div className="container px-6 py-12 mx-auto">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-5">
-            <div className="sm:col-span-2">
+        <div className="container px-6 py-12 mx-auto max-w-7xl">
+          <div className="flex md:flex-row flex-col justify-between gap-8">
+            <div>
               <img src={logo} alt="Logo CLA" className="w-40" />
+              <p className=" text-white ">Your Trusted Legal Partner</p>
             </div>
 
             <div>
-              <p className="font-semibold md:pl-20 text-gray-800 dark:text-white">
-                Quick Link
-              </p>
+              <p className="font-semibold md:pl-20 text-white ">Quick Link</p>
 
               <div className="flex flex-col items-start md:pl-20 mt-5 space-y-2">
                 <Link
@@ -35,18 +34,16 @@ function Footer() {
                   Legal Training
                 </Link>
                 <Link
-                  to="/other-service"
+                  to="/"
                   className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
                 >
-                  Other Service
+                  Other Services
                 </Link>
               </div>
             </div>
 
             <div>
-              <p className="font-semibold text-gray-800 dark:text-white">
-                Company
-              </p>
+              <p className="font-semibold text-white ">Company</p>
 
               <div className="flex flex-col items-start mt-5 space-y-2">
                 <p className="text-gray-100 transition-colors duration-300   hover:text-primary">
@@ -61,9 +58,7 @@ function Footer() {
               </div>
             </div>
             <div>
-              <p className="font-semibold text-gray-800 dark:text-white">
-                Contact
-              </p>
+              <p className="font-semibold text-white ">Contact</p>
 
               <div className="flex flex-col items-start mt-5 space-y-2">
                 <p className="text-gray-100 transition-colors duration-300   hover:text-primary">

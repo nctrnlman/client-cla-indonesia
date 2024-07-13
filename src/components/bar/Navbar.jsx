@@ -53,6 +53,62 @@ function Navbar() {
     }, 1000);
   };
 
+  const servicesData = [
+    {
+      category: "LEGALITY",
+      items: [
+        { name: "PT / Perseroan Terbatas", slug: "pt-perseroan-terbatas" },
+        {
+          name: "CV / Commanditaire Venootschap",
+          slug: "cv-commanditaire-venootschap",
+        },
+        { name: "PT Perorangan", slug: "pt-perorangan" },
+        { name: "New", slug: "new" },
+        { name: "PT PMA", slug: "pt-pma" },
+        { name: "Firma", slug: "firma" },
+        { name: "Persekutuan Perdata", slug: "persekutuan-perdata" },
+        { name: "Perkumpulan", slug: "perkumpulan" },
+        { name: "Yayasan", slug: "yayasan" },
+      ],
+    },
+    {
+      category: "PERIZINAN",
+      items: [
+        { name: "NIB & OSS", slug: "nib-oss" },
+        { name: "Izin PKP", slug: "izin-pkp" },
+        { name: "Izin Restoran", slug: "izin-restoran" },
+        { name: "Izin Konstruksi", slug: "izin-konstruksi" },
+        { name: "Izin PSE", slug: "izin-pse" },
+        { name: "Izin K3L", slug: "izin-k3l" },
+        { name: "Izin Yayasan", slug: "izin-yayasan" },
+        { name: "33++ Izin Lainnya", slug: "33-lainnya" },
+        { name: "ALL", slug: "all" },
+      ],
+    },
+    {
+      category: "JASA HUKUM",
+      items: [
+        { name: "Virtual Office", slug: "virtual-office" },
+        { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
+        { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
+        { name: "Perjanjian Pisah Harta", slug: "perjanjian-pisah-harta" },
+        { name: "Pendaftaran Merek", slug: "pendaftaran-merek" },
+        { name: "KITAS Pekerja", slug: "kitas-pekerja" },
+        { name: "KITAS Investor", slug: "kitas-investor" },
+        { name: "17++ Layanan Lainnya", slug: "17-lainnya" },
+        { name: "ALL", slug: "all" },
+      ],
+    },
+    {
+      category: "LAINNYA",
+      items: [
+        { name: "Virtual Office", slug: "virtual-office" },
+        { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
+        { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
+      ],
+    },
+  ];
+
   return (
     <>
       <nav className="px-2 sm:px-4 py-2.5 shadow bg-white w-full fixed top-0 z-40">
@@ -265,75 +321,24 @@ function Navbar() {
               onMouseEnter={handleDropdownMouseEnter}
               onMouseLeave={handleDropdownMouseLeave}
             >
-              <div>
-                <div className="py-2 border-b border-gray-400">
-                  <button
-                    className="px-3 py-1 font-semibold text-sm  bg-secondary rounded-full
-                   "
-                  >
-                    LEGALITY
-                  </button>
+              {servicesData.map((serviceCategory) => (
+                <div key={serviceCategory.category}>
+                  <div className="py-2 border-b border-gray-400">
+                    <button className="px-3 py-1 font-semibold text-sm bg-secondary rounded-full">
+                      {serviceCategory.category}
+                    </button>
+                  </div>
+                  <ul className="mt-2 space-y-1">
+                    {serviceCategory.items.map((item) => (
+                      <li key={item.slug} className="hover:text-secondary">
+                        <Link to={`/other-service/${item.slug}`}>
+                          {item.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <ul className="mt-2 space-y-1 ">
-                  <li>PT / Perseroan Terbatas</li>
-                  <li>CV / Commanditaire Venootschap</li>
-                  <li>PT Perorangan</li>
-                  <li>New</li>
-                  <li>PT PMA</li>
-                  <li>Firma</li>
-                  <li>Persekutuan Perdata</li>
-                  <li>Perkumpulan</li>
-                  <li>Yayasan</li>
-                </ul>
-              </div>
-              <div>
-                <div className="py-2 border-b border-gray-400">
-                  <button className="font-semibold px-3 py-1 text-sm bg-secondary rounded-full">
-                    PERIZINAN
-                  </button>
-                </div>
-                <ul className="mt-2 space-y-1 ">
-                  <li>NIB & OSS</li>
-                  <li>Izin PKP</li>
-                  <li>Izin Restoran</li>
-                  <li>Izin Konstruksi</li>
-                  <li>Izin PSE</li>
-                  <li>Izin K3L</li>
-                  <li>Izin Yayasan</li>
-                  <li>33++ Izin Lainnya</li>
-                  <li>ALL</li>
-                </ul>
-              </div>
-              <div>
-                <div className="py-2 border-b border-gray-400">
-                  <button className="font-semibold px-3 py-1 text-sm bg-secondary rounded-full ">
-                    JASA HUKUM
-                  </button>
-                </div>
-                <ul className="mt-2 space-y-1 ">
-                  <li>Virtual Office</li>
-                  <li>Perubahan Anggaran Dasar</li>
-                  <li>Penutupan Perusahaan</li>
-                  <li>Perjanjian Pisah Harta</li>
-                  <li>Pendaftaran Merek</li>
-                  <li>KITAS Pekerja</li>
-                  <li>KITAS Investor</li>
-                  <li>17++ Layanan Lainnya</li>
-                  <li>ALL</li>
-                </ul>
-              </div>
-              <div>
-                <div className="py-2 border-b border-gray-400">
-                  <button className="font-semibold px-3 py-1 text-sm bg-secondary rounded-full ">
-                    LAINNYA
-                  </button>
-                </div>
-                <ul className="mt-2 space-y-1 ">
-                  <li>Virtual Office</li>
-                  <li>Perubahan Anggaran Dasar</li>
-                  <li>Penutupan Perusahaan</li>
-                </ul>
-              </div>
+              ))}
             </div>
           )}
         </ul>
@@ -348,75 +353,24 @@ function Navbar() {
           onMouseEnter={handleDropdownMouseEnter}
           onMouseLeave={handleDropdownMouseLeave}
         >
-          <div>
-            <div className="py-2 border-b border-gray-400">
-              <button className="font-bold px-3 py-1 text-sm rounded-full bg-secondary">
-                LEGALITY
-              </button>
+          {servicesData.map((serviceCategory) => (
+            <div key={serviceCategory.category}>
+              <div className="py-2 border-b border-gray-400">
+                <button className="font-bold px-3 py-1 text-sm rounded-full bg-secondary">
+                  {serviceCategory.category}
+                </button>
+              </div>
+              <ul className="mt-2 space-y-1 text-white ">
+                {serviceCategory.items.map((item) => (
+                  <li key={item.slug} className="hover:text-secondary">
+                    <Link to={`/other-service/${item.slug}`}>{item.name}</Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul className="mt-2 space-y-1 text-white">
-              <li>PT / Perseroan Terbatas</li>
-              <li>CV / Commanditaire Venootschap</li>
-              <li>PT Perorangan</li>
-              <li>New</li>
-              <li>PT PMA</li>
-              <li>Firma</li>
-              <li>Persekutuan Perdata</li>
-              <li>Perkumpulan</li>
-              <li>Yayasan</li>
-            </ul>
-          </div>
-          <div>
-            <div className="py-2 border-b border-gray-400">
-              <button className="font-bold px-3 py-1 text-sm rounded-full bg-secondary">
-                PERIZINAN
-              </button>
-            </div>
-            <ul className="mt-2 space-y-1 text-white">
-              <li>NIB & OSS</li>
-              <li>Izin PKP</li>
-              <li>Izin Restoran</li>
-              <li>Izin Konstruksi</li>
-              <li>Izin PSE</li>
-              <li>Izin K3L</li>
-              <li>Izin Yayasan</li>
-              <li>33++ Izin Lainnya</li>
-              <li>ALL</li>
-            </ul>
-          </div>
-          <div>
-            <div className="py-2 border-b border-gray-400">
-              <button className="font-bold px-3 py-1 text-sm rounded-full bg-secondary">
-                JASA HUKUM
-              </button>
-            </div>
-            <ul className="mt-2 space-y-1 text-white">
-              <li>Virtual Office</li>
-              <li>Perubahan Anggaran Dasar</li>
-              <li>Penutupan Perusahaan</li>
-              <li>Perjanjian Pisah Harta</li>
-              <li>Pendaftaran Merek</li>
-              <li>KITAS Pekerja</li>
-              <li>KITAS Investor</li>
-              <li>17++ Layanan Lainnya</li>
-              <li>ALL</li>
-            </ul>
-          </div>
-          <div>
-            <div className="py-2 border-b border-gray-400">
-              <button className="font-bold px-3 py-1 text-sm rounded-full bg-secondary">
-                LAINNYA
-              </button>
-            </div>
-            <ul className="mt-2 space-y-1 text-white">
-              <li>Virtual Office</li>
-              <li>Perubahan Anggaran Dasar</li>
-              <li>Penutupan Perusahaan</li>
-            </ul>
-          </div>
+          ))}
         </div>
       )}
-
       <div className="pt-20">
         <main></main>
       </div>
