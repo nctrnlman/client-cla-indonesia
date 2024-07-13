@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaCheck, FaChevronDown, FaChevronUp, FaStar } from "react-icons/fa";
+import bg_info from "../../assets/bg/note_banner.jpg";
 
 const PricingCard = ({
   title,
@@ -164,7 +165,14 @@ function Subscription() {
         </div>
         <div className="flex flex-col justify-center gap-16 items-center mx-auto h-full max-w-7xl pb-20 pt-20">
           {/* note */}
-          <div className="bg-gradient-to-r from-primary to-cyan-600 text-white flex p-6 gap-4 rounded-bl-3xl rounded-tr-3xl">
+          <div
+            className="text-white flex p-6 gap-4 rounded-tl-3xl rounded-br-3xl bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${bg_info})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
             {/* icon */}
             <div>
               <svg
