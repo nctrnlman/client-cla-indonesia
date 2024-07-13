@@ -153,7 +153,7 @@ function Navbar() {
                   <svg
                     className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
                       isOtherServicesOpen ? "rotate-90" : "rotate-0"
-                    } h-2 w-4 ml-4 items-center inline-block transition-transform duration-600 ease-in-out text-secondary`}
+                    } h-2 w-4 ml-2 items-center inline-block transition-transform duration-600 ease-in-out text-secondary`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -176,7 +176,7 @@ function Navbar() {
 
       {isOtherServicesOpen && (
         <div
-          className="fixed left-0 right-0 max-w-7xl mx-auto bg-white shadow-lg rounded mt-8 p-4 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 z-30"
+          className="fixed left-0 right-0 max-w-7xl mx-auto bg-gradient-to-r from-primary to-cyan-600 shadow-lg rounded mt-8 p-4 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 z-30"
           style={{ top: `${dropdownTop}px` }}
           onMouseEnter={handleDropdownMouseEnter}
           onMouseLeave={handleDropdownMouseLeave}
@@ -187,7 +187,7 @@ function Navbar() {
                 LEGALITY
               </button>
             </div>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 text-white">
               <li>PT / Perseroan Terbatas</li>
               <li>CV / Commanditaire Venootschap</li>
               <li>PT Perorangan</li>
@@ -205,7 +205,7 @@ function Navbar() {
                 PERIZINAN
               </button>
             </div>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 text-white">
               <li>NIB & OSS</li>
               <li>Izin PKP</li>
               <li>Izin Restoran</li>
@@ -223,7 +223,7 @@ function Navbar() {
                 JASA HUKUM
               </button>
             </div>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 text-white">
               <li>Virtual Office</li>
               <li>Perubahan Anggaran Dasar</li>
               <li>Penutupan Perusahaan</li>
@@ -241,7 +241,7 @@ function Navbar() {
                 LAINNYA
               </button>
             </div>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 text-white">
               <li>Virtual Office</li>
               <li>Perubahan Anggaran Dasar</li>
               <li>Penutupan Perusahaan</li>
