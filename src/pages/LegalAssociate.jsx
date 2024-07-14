@@ -34,7 +34,7 @@ function LegalAssociate({ setIsLoading }) {
         />
       </Helmet>
       <Hero />
-      <LegalAssociateInfo />
+      {/* <LegalAssociateInfo /> */}
       <Subscription />
       {/* <About /> */}
       {/* <div className="bg-white">
@@ -43,8 +43,6 @@ function LegalAssociate({ setIsLoading }) {
       <div id="SequentialForm">
         <SequentialForm />
       </div>
-      <div className="half-circle-right"></div>
-      <div className="half-circle-left"></div>
     </div>
   );
 }
