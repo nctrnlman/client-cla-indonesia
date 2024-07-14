@@ -1,4 +1,4 @@
-import Hero from "../components/legal-training/Hero";
+// import Hero from "../components/legal-training/Hero";
 import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
 import SequentialForm from "../components/legal-training/SequentialForm";
@@ -32,8 +32,8 @@ function LegalTraining({ setIsLoading }) {
           href="https://www.domainanda.com/legal-training"
         />
       </Helmet>
-      <Hero />
-      <PackageSubscription/>
+      {/* <Hero /> */}
+      <PackageSubscription />
       <div id="SequentialForm">
         <SequentialForm />
       </div>
