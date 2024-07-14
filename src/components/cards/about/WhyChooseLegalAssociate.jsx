@@ -1,49 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const WhyChooseLegalAssociate = ({
-  icon,
-  title,
-  description,
-  bgColor,
-  iconPosition,
-  maxIconSize,
-}) => {
-  const cardClasses = `bg-${bgColor} rounded-xl py-7 px-5 h-[32rem] `;
+const WhyChooseLegalAssociate = ({ icon, title, description, bgColor }) => {
+  const cardClasses = `bg-${bgColor} rounded-3xl p-6 h-[24rem] flex flex-col`;
 
   return (
     <div className={cardClasses}>
-      <div className="grid grid-cols-6 gap-3 justify-between h-full">
-        {iconPosition === "top" && (
-          <>
-            <div className="col-span-6 flex mb-4 ">
-              <div className="flex items-center justify-center border-b py-4 border-white w-full ">
-                {React.cloneElement(icon, {
-                  className: `w-${maxIconSize} h-${maxIconSize}`,
-                })}
-              </div>
-            </div>
-            <div className="col-span-6  py-2">
-              <p className="text-white text-xl font-extrabold">{title}</p>
-              <p className="text-white mt-4">{description}</p>
-            </div>
-          </>
-        )}
-        {iconPosition === "bottom" && (
-          <>
-            <div className="col-span-6  py-2">
-              <p className="text-white text-xl font-extrabold">{title}</p>
-              <p className="text-white  mt-4">{description}</p>
-            </div>
-            <div className="col-span-6 flex items-center justify-center mt-4 ">
-              <div className="flex items-center justify-center border-t border-white w-full py-4 pt-4  ">
-                {React.cloneElement(icon, {
-                  className: `w-${maxIconSize} h-${maxIconSize}`,
-                })}
-              </div>
-            </div>
-          </>
-        )}
+      <div className="mb-6 flex items-center justify-center h-1/3">
+        <div className="bg-white bg-opacity-20 rounded-full p-4">
+          {icon &&
+            React.cloneElement(icon, {
+              className: "w-16 h-16 text-white",
+            })}
+        </div>
+      </div>
+      <div className="flex-grow">
+        <h2 className="text-white text-2xl font-bold mb-2">{title}</h2>
+        <p className="text-white text-opacity-80">{description}</p>
       </div>
     </div>
   );
@@ -51,17 +24,13 @@ const WhyChooseLegalAssociate = ({
 
 WhyChooseLegalAssociate.propTypes = {
   icon: PropTypes.element,
-  title: PropTypes.string,
-  description: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   bgColor: PropTypes.string,
-  iconPosition: PropTypes.oneOf(["top", "bottom"]),
-  maxIconSize: PropTypes.string,
 };
 
 WhyChooseLegalAssociate.defaultProps = {
-  bgColor: "white",
-  iconPosition: "top",
-  maxIconSize: "12",
+  bgColor: "blue-900",
 };
 
 export default WhyChooseLegalAssociate;
