@@ -316,7 +316,7 @@ function Navbar() {
           </li>
           {isOtherServicesMobileOpen && (
             <div
-              className={`pl-6 mb-20 h-auto grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
+              className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
               style={{ top: `${dropdownTop}px` }}
               onMouseEnter={handleDropdownMouseEnter}
               onMouseLeave={handleDropdownMouseLeave}
