@@ -2,6 +2,7 @@ import Hero from "../components/legal-training/Hero";
 import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
 import SequentialForm from "../components/legal-training/SequentialForm";
+import PackageSubscription from "../components/legal-training/Package";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
@@ -32,6 +33,7 @@ function LegalTraining({ setIsLoading }) {
         />
       </Helmet>
       <Hero />
+      <PackageSubscription/>
       <div id="SequentialForm">
         <SequentialForm />
       </div>
