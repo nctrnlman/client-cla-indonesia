@@ -4,6 +4,7 @@ import {
   faCheckCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
+import people from "../../assets/bg/legal_associate_hero.png";
 
 function Hero() {
   const MotionText = ({ children, delay = 0 }) => (
@@ -18,27 +19,20 @@ function Hero() {
 
   return (
     <div className="pt-20">
-      <div className="flex flex-col justify-center gap-4 items-center mx-auto h-full ">
-        <button className="bg-secondary p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300">
+      <div className="flex flex-col justify-center gap-4 items-center mx-auto h-full">
+        <button className="bg-secondary p-4 px-6 rounded-full text-primary font-extrabold text-base md:text-lg transition duration-300">
           ABOUT
         </button>
-        <p className="text-center text-[#003262] font-extrabold outline-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl px-4 sm:px-8">
+        <p className="text-center text-[#003262] font-extrabold outline-2 text-2xl sm:text-2xl md:text-4xl lg:text-5xl px-4 sm:px-8">
           LEGAL ASSOCIATE
         </p>
       </div>
       {/* desc */}
-      <div className="bg-gradient-to-r from-primary to-cyan-600 h-full p-4 mt-14 w-full">
+      <div className="bg-gradient-to-r from-primary to-cyan-600 h-full p-4 mt-10 w-full">
         <div className="flex flex-col justify-center md:flex-row md:justify-around gap-6 max-w-7xl mx-auto py-10 items-center">
-          {/* icon for mobile */}
-          <div className="md:hidden flex justify-center mb-4">
-            <FontAwesomeIcon
-              icon={faBalanceScale}
-              className="text-yellow-400 h-24"
-            />
-          </div>
           {/* text */}
           <div className="px-4">
-            <p className="text-justify text-xl sm:text-2xl py-4 text-white">
+            <p className="text-justify text-xl md:text-2xl max-w-4xl py-4 text-white">
               Elevate your business&apos;s legal journey with our Legal
               Associate as your trusted partner. We provide legal assistance
               tailored to your company&apos;s needs and type. Our innovative
@@ -88,24 +82,25 @@ function Hero() {
                     </defs>
                   </svg>
                 </div>
-                <div className="text-base">
-                  <p className="font-bold text-xl">What’s more?</p>
-                  <p>FREE Legal Training</p>
+                <div className="text-sm">
+                  <p className="font-bold text-base md:text-xl">What’s more?</p>
+                  <p className="pt-1">FREE Legal Training</p>
                   <p>*You can also customize the services you require</p>
                   <p>
                     *Mix your necessities with our finance, tax, business, and
                     research services.
                   </p>
-                  <p> (*) means T&C is required</p>
+                  <p className="pt-4 text-sm"> (*) means T&C is required</p>
                 </div>
               </div>
             </div>
           </div>
           {/* icon for desktop */}
-          <div className="hidden md:block pl-20">
-            <FontAwesomeIcon
-              icon={faBalanceScale}
-              className="text-yellow-400 h-36"
+          <div className="hidden md:block">
+            <img
+              src={people}
+              alt="Legal Associate Hero"
+              className="w-full h-auto max-w-xs md:max-w-md lg:max-w-lg object-cover object-center"
             />
           </div>
         </div>
