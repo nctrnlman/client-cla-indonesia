@@ -2,30 +2,41 @@ import React, { useState, useEffect } from 'react';
 
 function Hero() {
   const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
+    days: 15,
+    hours: 10,
+    minutes: 24,
     seconds: 0
   });
 
   useEffect(() => {
-    const targetDate = new Date('2024-08-27T00:00:00').getTime();
-
     const timer = setInterval(() => {
-      const now = new Date().getTime();
-      const difference = targetDate - now;
-
-      if (difference < 0) {
-        clearInterval(timer);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-      } else {
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-        setTimeLeft({ days, hours, minutes, seconds });
-      }
+      setTimeLeft(prevTime => {
+        if (prevTime.days === 0 && prevTime.hours === 0 && prevTime.minutes === 0 && prevTime.seconds === 0) {
+          clearInterval(timer);
+          return prevTime;
+        }
+        
+        let newTime = { ...prevTime };
+        
+        if (newTime.seconds > 0) {
+          newTime.seconds--;
+        } else {
+          newTime.seconds = 59;
+          if (newTime.minutes > 0) {
+            newTime.minutes--;
+          } else {
+            newTime.minutes = 59;
+            if (newTime.hours > 0) {
+              newTime.hours--;
+            } else {
+              newTime.hours = 23;
+              newTime.days--;
+            }
+          }
+        }
+        
+        return newTime;
+      });
     }, 1000);
 
     return () => clearInterval(timer);
