@@ -23,7 +23,7 @@ function Home({ setIsLoading }) {
   }, [setIsLoading]);
 
   return (
-    <>
+    <div className="mt-9 ">
       <Helmet>
         <title>CLA Indonesia - Layanan Legal Terpercaya di Indonesia</title>
         <meta
@@ -46,7 +46,7 @@ function Home({ setIsLoading }) {
       <div id="SequentialForm">
         <SequentialForm />
       </div>
-    </>
+    </div>
   );
 }
 
