@@ -4,7 +4,6 @@ import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import LegalAssociateInfo from "../components/legal-associate/LegalAssociateInfo";
 import SequentialForm from "../components/legal-training/SequentialForm";
 
 function LegalAssociate({ setIsLoading }) {
@@ -34,12 +33,9 @@ function LegalAssociate({ setIsLoading }) {
         />
       </Helmet>
       <Hero />
-      {/* <LegalAssociateInfo /> */}
       <Subscription />
-      {/* <About /> */}
-      {/* <div className="bg-white">
-        <FAQ />
-      </div> */}
+      <About />
+      <FAQ />
       <div id="SequentialForm">
         <SequentialForm />
       </div>

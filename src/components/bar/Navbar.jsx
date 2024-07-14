@@ -348,7 +348,7 @@ function Navbar() {
         <div
           className={`fixed ${
             isMobileMenuOpen ? "right-0" : "left-0 right-0 mx-auto"
-          } max-w-7xl bg-gradient-to-r from-primary to-cyan-600 shadow-lg rounded mt-8 p-4 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 z-30`}
+          } max-w-7xl bg-gradient-to-r from-primary  to-cyan-600 pb-20 shadow-2xl rounded mt-8 p-4 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 z-30`}
           style={{ top: `${dropdownTop}px` }}
           onMouseEnter={handleDropdownMouseEnter}
           onMouseLeave={handleDropdownMouseLeave}
