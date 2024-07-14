@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Home",
+    "legalAssociate": "Legal Associate",
+    "legalTraining": "Legal Training",
+    "otherServices": "Other Services",
+    "services": {
+      "legality": "Legality",
+      "licensing": "Licensing",
+      "legalServices": "Legal Services",
+      "others": "Others"
+    }
+  }
+}

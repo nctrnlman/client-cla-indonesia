@@ -2,8 +2,10 @@ import { useState, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo/logo_cla.png";
 import useSmoothScroll from "../../components/hooks/useSmoothScroll";
+import { useTranslation, Trans } from "react-i18next";
 
 function Navbar() {
+  const { t, i18n } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOtherServicesOpen, setIsOtherServicesOpen] = useState(false);
   const [isOtherServicesMobileOpen, setIsOtherServicesMobileOpen] =
@@ -14,6 +16,10 @@ function Navbar() {
   const navigate = useNavigate();
   useSmoothScroll();
   let timeoutId = null;
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -165,7 +171,7 @@ function Navbar() {
                   }`}
                   onClick={() => handleLinkClick("/")}
                 >
-                  Home
+                  {t("navbar.home")}
                   <span className="border-animation"></span>
                 </Link>
               </li>
@@ -179,7 +185,7 @@ function Navbar() {
                   }`}
                   onClick={() => handleLinkClick("/legal-associate")}
                 >
-                  Legal Associate
+                  {t("navbar.legalAssociate")}
                   <span className="border-animation"></span>
                 </Link>
               </li>
@@ -193,7 +199,7 @@ function Navbar() {
                   }`}
                   onClick={() => handleLinkClick("/legal-training")}
                 >
-                  Legal Training
+                  {t("navbar.legalTraining")}
                   <span className="border-animation"></span>
                 </Link>
               </li>
@@ -203,7 +209,7 @@ function Navbar() {
                 ref={otherServicesRef}
               >
                 <button className="py-2 pr-4 pl-3 text-primary relative">
-                  Other Services
+                  {t("navbar.otherServices")}
                   <span className="border-animation"></span>
                   <svg
                     className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
@@ -224,6 +230,26 @@ function Navbar() {
                   </svg>
                 </button>
               </li>
+              {/* setup next fitur */}
+              {/* <ul className="ml-auto hidden md:flex items-center space-x-4">
+                <button
+                  onClick={() => changeLanguage("en")}
+                  className={`text-primary hover:text-secondary transition-colors duration-300 ${
+                    i18n.language === "en" ? "text-yellow-500" : ""
+                  }`}
+                >
+                  EN
+                </button>
+                <span className="text-gray-400">|</span>
+                <button
+                  onClick={() => changeLanguage("id")}
+                  className={`text-primary hover:text-secondary transition-colors duration-300 ${
+                    i18n.language === "id" ? "text-yellow-500" : ""
+                  }`}
+                >
+                  ID
+                </button>
+              </ul> */}
             </ul>
           </div>
         </div>
