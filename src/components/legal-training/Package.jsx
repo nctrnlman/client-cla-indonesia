@@ -30,15 +30,9 @@ function PackageCard({
   buttonColor,
   titleBackgroundColor,
   titleTextColor,
+  onButtonClick,
 }) {
   const [isOpen, setIsOpen] = useState(false);
-
-  const scrollToSequentialForm = () => {
-    const element = document.getElementById('SequentialForm');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <div
@@ -68,7 +62,7 @@ function PackageCard({
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={scrollToSequentialForm}
+            onClick={() => onButtonClick(title)}
             className={`${buttonColor} w-full py-2 px-4 rounded-full font-bold transition-all duration-300 hover:shadow-md`}
           >
             {buttonText}
@@ -116,7 +110,7 @@ function PackageCard({
   );
 }
 
-function PackageSubscription() {
+function PackageSubscription({ onPackageSelect }) {
   const cardVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -153,24 +147,8 @@ function PackageSubscription() {
               content={
                 <>
                   <p className="mb-4">
-                  For Further Information On Legal/Tax/Business Training.
+                    For Further Information On Legal/Tax/Business Training.
                   </p>
-                  {/* <ul className="text-left space-y-2">
-                    {[
-                      "Personalized legal advice",
-                      "Contract review and drafting",
-                      "Regulatory compliance assistance",
-                      "On-demand legal consultations",
-                    ].map((item, index) => (
-                      <li key={index}>
-                        <FontAwesomeIcon
-                          icon={faCheckCircle}
-                          className="mr-2 text-green-400"
-                        />{" "}
-                        {item}
-                      </li>
-                    ))}
-                  </ul> */}
                 </>
               }
               additionalContent={
@@ -186,6 +164,7 @@ function PackageSubscription() {
               buttonColor="bg-[#fdb515] text-primary hover:bg-yellow-300"
               titleBackgroundColor="bg-[#fdb515]"
               titleTextColor="text-primary"
+              onButtonClick={onPackageSelect}
             />
           </motion.div>
 
@@ -204,24 +183,8 @@ function PackageSubscription() {
               content={
                 <>
                   <p className="mb-4">
-                  For Further Information On Legal/Tax/Business Training.
+                    For Further Information On Legal/Tax/Business Training.
                   </p>
-                  {/* <ul className="text-left space-y-2">
-                    {[
-                      "Company incorporation services",
-                      "Virtual office address",
-                      "Mail handling and forwarding",
-                      "Meeting room access",
-                    ].map((item, index) => (
-                      <li key={index}>
-                        <FontAwesomeIcon
-                          icon={faCheckCircle}
-                          className="mr-2 text-green-500"
-                        />{" "}
-                        {item}
-                      </li>
-                    ))}
-                  </ul> */}
                 </>
               }
               additionalContent={
@@ -237,6 +200,7 @@ function PackageSubscription() {
               buttonColor="bg-primary text-white hover:bg-blue-700"
               titleBackgroundColor="bg-primary"
               titleTextColor="text-white"
+              onButtonClick={onPackageSelect}
             />
           </motion.div>
         </div>

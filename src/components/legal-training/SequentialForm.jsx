@@ -3,18 +3,28 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaUser, FaEnvelope, FaPhone, FaPencilAlt } from "react-icons/fa";
 import LoadingSpinner from "../Loading/LoadingSpinner";
 
-function ContactUsSection() {
+function ContactUsSection({ selectedPackage }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phoneCode: "",
     phoneNumber: "",
-    message: "",
+    message: selectedPackage ? `I'm interested in ${selectedPackage}` : "",
   });
   const [isLoading, setIsLoading] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [step, setStep] = useState(0);
   const formRef = useRef(null);
+
+  useEffect(() => {
+    if (selectedPackage) {
+      setFormData(prevData => ({
+        ...prevData,
+        message: `I'm interested in ${selectedPackage}`
+      }));
+      setStep(3); // Move to the message step
+    }
+  }, [selectedPackage]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -131,7 +141,7 @@ function ContactUsSection() {
   );
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br  pt-20 px-4 relative transition-all duration-500">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br pt-20 px-4 relative transition-all duration-500">
       <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
