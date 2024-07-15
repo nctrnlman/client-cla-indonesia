@@ -1,12 +1,14 @@
-// import Hero from "../components/legal-training/Hero";
+import React, { useEffect, useState, useRef } from "react";
+import { Helmet } from "react-helmet";
 import FAQ from "../components/home/FAQ";
 import About from "../components/home/About";
-import SequentialForm from "../components/legal-training/SequentialForm";
+import ContactUsSection from "../components/legal-training/SequentialForm";
 import PackageSubscription from "../components/legal-training/Package";
-import { useEffect } from "react";
-import { Helmet } from "react-helmet";
 
 function LegalTraining({ setIsLoading }) {
+  const [selectedPackage, setSelectedPackage] = useState(null);
+  const contactFormRef = useRef(null);
+
   useEffect(() => {
     setIsLoading(true);
 
@@ -18,6 +20,13 @@ function LegalTraining({ setIsLoading }) {
     // Cleanup function
     return () => clearTimeout(timer);
   }, [setIsLoading]);
+
+  const handlePackageSelect = (packageTitle) => {
+    setSelectedPackage(packageTitle);
+    if (contactFormRef.current) {
+      contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div>
@@ -32,12 +41,15 @@ function LegalTraining({ setIsLoading }) {
           href="https://www.domainanda.com/legal-training"
         />
       </Helmet>
-      {/* <Hero /> */}
-      <PackageSubscription />
-      <div id="SequentialForm">
-        <SequentialForm />
+      
+      <PackageSubscription onPackageSelect={handlePackageSelect} />
+      
+      <div ref={contactFormRef}>
+        <ContactUsSection selectedPackage={selectedPackage} />
       </div>
+      
       <About />
+      
       <FAQ />
     </div>
   );
