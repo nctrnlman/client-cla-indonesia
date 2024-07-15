@@ -14,6 +14,7 @@ function ContactUsSection({ selectedPackage }) {
   const [isLoading, setIsLoading] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [step, setStep] = useState(0);
+  const [showPackageNotification, setShowPackageNotification] = useState(!!selectedPackage);
   const formRef = useRef(null);
 
   useEffect(() => {
@@ -22,7 +23,8 @@ function ContactUsSection({ selectedPackage }) {
         ...prevData,
         message: `I'm interested in ${selectedPackage}`
       }));
-      setStep(3); // Move to the message step
+      setShowPackageNotification(true);
+      setTimeout(() => setShowPackageNotification(false), 5000);
     }
   }, [selectedPackage]);
 
@@ -172,7 +174,7 @@ function ContactUsSection({ selectedPackage }) {
                   </h2>
                   <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
                     <div
-                      className="bg-blue-600 h-2.5 rounded-full"
+                      className="bg-blue-600 h-2.5 rounded-full transition-all duration-300"
                       style={{ width: `${(step + 1) * 25}%` }}
                     ></div>
                   </div>
@@ -218,7 +220,7 @@ function ContactUsSection({ selectedPackage }) {
                         </motion.div>
                       )}
                     </AnimatePresence>
-                    {formData.message && (
+                    {step >= 3 && (
                       <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -269,6 +271,35 @@ function ContactUsSection({ selectedPackage }) {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <AnimatePresence>
+        {showPackageNotification && (
+          <motion.div
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -50 }}
+            className="fixed top-4 left-4 z-50"
+          >
+            <div role="alert" className="alert alert-info shadow-lg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="stroke-current shrink-0 w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <span>Selected package: {selectedPackage}</span>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <div className="half-circle-right"></div>
       <div className="half-circle-left"></div>
     </div>

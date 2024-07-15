@@ -31,9 +31,9 @@ function PackageCard({
   titleBackgroundColor,
   titleTextColor,
   onButtonClick,
+  isOpen,
+  onToggle,
 }) {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <div
       className={`${backgroundColor} ${textColor} rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl h-full flex flex-col`}
@@ -58,16 +58,6 @@ function PackageCard({
         <MotionText delay={0.6} className="flex-grow">
           {content}
         </MotionText>
-        <div className="mt-6">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => onButtonClick(title)}
-            className={`${buttonColor} w-full py-2 px-4 rounded-full font-bold transition-all duration-300 hover:shadow-md`}
-          >
-            {buttonText}
-          </motion.button>
-        </div>
         {icon && (
           <motion.div
             className="text-6xl mt-6 mb-4 text-center"
@@ -80,7 +70,7 @@ function PackageCard({
         )}
         <div className="mt-4">
           <button
-            onClick={() => setIsOpen(!isOpen)}
+            onClick={onToggle}
             className="flex items-center justify-center w-full focus:outline-none"
           >
             <span className="mr-2">See More</span>
@@ -100,7 +90,15 @@ function PackageCard({
                 transition={{ duration: 0.3 }}
                 className="mt-4 overflow-hidden"
               >
-                {additionalContent}
+                <p className="text-center font-bold mb-4">{additionalContent}</p>
+                <div className="mt-6">
+                  <button
+                    onClick={() => onButtonClick(title)}
+                    className={`btn ${buttonColor} w-full rounded-full`}
+                  >
+                    {buttonText}
+                  </button>
+                </div>
               </motion.div>
             )}
           </AnimatePresence>
@@ -111,9 +109,19 @@ function PackageCard({
 }
 
 function PackageSubscription({ onPackageSelect }) {
+  const [openPackage, setOpenPackage] = useState(null);
+
   const cardVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+
+  const togglePackage = (packageTitle) => {
+    if (openPackage === packageTitle) {
+      setOpenPackage(null);
+    } else {
+      setOpenPackage(packageTitle);
+    }
   };
 
   return (
@@ -147,17 +155,13 @@ function PackageSubscription({ onPackageSelect }) {
               content={
                 <>
                   <p className="mb-4">
-                    For Further Information On Legal/Tax/Business Training.
-                  </p>
-                </>
-              }
-              additionalContent={
-                <p>
                   Our In-House Training package offers comprehensive legal support
                   for your business. With personalized guidance and expert advice,
                   we ensure your company stays compliant and protected.
-                </p>
+                  </p>
+                </>
               }
+              additionalContent="In This Package You Can Choose Online and Offline*"
               buttonText="Contact Us"
               backgroundColor="bg-primary"
               textColor="text-white"
@@ -165,6 +169,8 @@ function PackageSubscription({ onPackageSelect }) {
               titleBackgroundColor="bg-[#fdb515]"
               titleTextColor="text-primary"
               onButtonClick={onPackageSelect}
+              isOpen={openPackage === "In-House Training"}
+              onToggle={() => togglePackage("In-House Training")}
             />
           </motion.div>
 
@@ -183,17 +189,13 @@ function PackageSubscription({ onPackageSelect }) {
               content={
                 <>
                   <p className="mb-4">
-                    For Further Information On Legal/Tax/Business Training.
-                  </p>
-                </>
-              }
-              additionalContent={
-                <p>
                   Our General Training package is designed to give your business
                   a strong foundation. From incorporation to providing a professional
                   address, we've got you covered every step of the way.
-                </p>
+                  </p>
+                </>
               }
+              additionalContent="In This Package You Can Choose Online and Offline*"
               buttonText="Contact Us"
               backgroundColor="bg-[#FDB515]"
               textColor="text-primary"
@@ -201,6 +203,8 @@ function PackageSubscription({ onPackageSelect }) {
               titleBackgroundColor="bg-primary"
               titleTextColor="text-white"
               onButtonClick={onPackageSelect}
+              isOpen={openPackage === "General Training"}
+              onToggle={() => togglePackage("General Training")}
             />
           </motion.div>
         </div>
