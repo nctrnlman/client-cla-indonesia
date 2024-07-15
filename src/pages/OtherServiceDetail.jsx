@@ -1,6 +1,10 @@
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 import Hero from "../components/other-service-detail/Hero";
+import Content from "../components/other-service-detail/Content";
+import SequentialForm from "../components/legal-training/SequentialForm";
+import FAQ from "../components/home/FAQ";
+import servicesData from "../data/servicesData";
 
 function OtherServiceDetail() {
   const { slug } = useParams();
@@ -15,8 +19,14 @@ function OtherServiceDetail() {
   const title = `${formattedSlug} | CLA Indonesia`;
   const description = `Find detailed information about ${formattedSlug} services offered by CLA Indonesia.`;
 
+  const servicePackage = servicesData
+    .flatMap((category) => category.items)
+    .find((item) => item.slug === slug);
+
+  const packages = servicePackage ? [servicePackage.package] : [];
+
   return (
-    <div className="h-screen bg-primary">
+    <div className="">
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -41,6 +51,13 @@ function OtherServiceDetail() {
       </Helmet>
 
       <Hero title={formattedSlug} />
+
+      <Content packages={packages} />
+
+      <div id="SequentialForm">
+        <SequentialForm />
+      </div>
+      <FAQ />
     </div>
   );
 }
