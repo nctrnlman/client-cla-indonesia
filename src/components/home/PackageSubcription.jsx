@@ -84,9 +84,18 @@ function PackageSubscription() {
 
   const handleButtonClick = (packageType) => {
     console.log(`${packageType} Selected`);
-    navigate("/legal-associate", {
-      state: { packageType },
-    });
+    if (packageType === "Legality Package Selected") {
+      // Scroll to the LegalityPackages component
+      const legalityPackagesElement = document.getElementById("legalityPackages");
+      if (legalityPackagesElement) {
+        legalityPackagesElement.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      // Navigate to legal associate page for other packages
+      navigate("/legal-associate", {
+        state: { packageType },
+      });
+    }
   };
 
   const cardVariants = {
