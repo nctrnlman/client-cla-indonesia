@@ -2,15 +2,23 @@ import Breadcrumb from "./Breadcrumb";
 
 function Hero({ title }) {
   return (
-    <div className="bg-[#E5E5E5] h-screen">
-      <div className="flex flex-col justify-center gap-16 items-center h-full">
+    <div className="bg-gradient-to-r from-primary to-cyan-600 p-20">
+      <div className=" max-w-7xl mx-auto justify-center ">
         <div>
           <Breadcrumb title={title} />
         </div>
-        <p className="text-center text-[#003262] font-bold text-xl sm:text-2xl md:text-4xl lg:text-5xl px-4 sm:px-8">
-          {title}
-        </p>
-        <div className="flex gap-8">
+        <div>
+          <p className=" text-white font-bold text-xl sm:text-2xl md:text-6xl pt-10">
+            {title}
+          </p>
+          <p className="  font-bold text-lg sm:text-xl md:text-3xl pt-10">
+            Elevate your business&apos;s legal journey with our Legal Associate
+            as your trusted partner. We provide legal assistance tailored to
+            your company&apos;s needs and type. Our innovative solutions
+          </p>
+        </div>
+
+        <div className="flex gap-8 pt-10">
           <button
             className="bg-secondary p-4 px-6 rounded-full text-primary font-semibold hover:bg-primary hover:text-secondary transition duration-300
           "
