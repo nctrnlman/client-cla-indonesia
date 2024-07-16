@@ -48,7 +48,7 @@ function LegalTraining({ setIsLoading }) {
         <ContactUsSection selectedPackage={selectedPackage} />
       </div>
       
-      <About />
+      {/* <About /> */}
       
       <FAQ />
     </div>
