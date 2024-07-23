@@ -73,7 +73,7 @@ function PackageCard({
             onClick={onToggle}
             className="flex items-center justify-center w-full focus:outline-none"
           >
-            <span className="mr-2">See More</span>
+            <span className="mr-2">{isOpen ? "See Less" : "See More"}</span>
             <motion.div
               animate={{ rotate: isOpen ? 180 : 0 }}
               transition={{ duration: 0.3 }}
@@ -155,9 +155,9 @@ function PackageSubscription({ onPackageSelect }) {
               content={
                 <>
                   <p className="mb-4">
-                  Our In-House Training package offers comprehensive legal support
-                  for your business. With personalized guidance and expert advice,
-                  we ensure your company stays compliant and protected.
+                    Our In-House Training package offers comprehensive legal support
+                    for your business. With personalized guidance and expert advice,
+                    we ensure your company stays compliant and protected.
                   </p>
                 </>
               }
@@ -189,9 +189,9 @@ function PackageSubscription({ onPackageSelect }) {
               content={
                 <>
                   <p className="mb-4">
-                  Our General Training package is designed to give your business
-                  a strong foundation. From incorporation to providing a professional
-                  address, we've got you covered every step of the way.
+                    Our General Training package is designed to give your business
+                    a strong foundation. From incorporation to providing a professional
+                    address, we've got you covered every step of the way.
                   </p>
                 </>
               }
