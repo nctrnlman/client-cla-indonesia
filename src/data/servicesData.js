@@ -7,12 +7,19 @@ const servicesData = [
         slug: "pt-perseroan-terbatas",
         package: {
           title: "Pendirian PT Standard (PMDN)",
-          description: "Detailed information about PT / Perseroan Terbatas.",
+          description:
+            "Elevate your business's legal journey with our Legal Associate as your trusted partner. We provide legal assistance tailored to your company's needs and type. Our innovative solutions",
           price: "3.500.000",
           fakePrice: "7.500.000",
           features: [
             "Konsultasi",
             "Penelusuran nama PT",
+            "Surat Keputusan Pendirian PT",
+            "Nomor Pokok Wajib Pajak Badan Usaha",
+            "Surat Keputusan Pendirian PT",
+            "Nomor Pokok Wajib Pajak Badan Usaha",
+            "Surat Keputusan Pendirian PT",
+            "Nomor Pokok Wajib Pajak Badan Usaha",
             "Surat Keputusan Pendirian PT",
             "Nomor Pokok Wajib Pajak Badan Usaha",
           ],
@@ -25,7 +32,7 @@ const servicesData = [
         package: {
           title: "Pendirian CV Standard",
           description:
-            "Detailed information about CV / Commanditaire Venootschap.",
+            "Elevate your business's legal journey with our Legal Associate as your trusted partner. We provide legal assistance tailored to your company's needs and type. Our innovative solutions.",
           price: "2.500.000",
           fakePrice: "5.000.000",
           features: [

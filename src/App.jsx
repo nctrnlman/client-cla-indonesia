@@ -29,7 +29,7 @@ function App() {
           element={<LegalTraining setIsLoading={setIsLoading} />}
         />
         <Route
-          path="/other-service"
+          path="/other-services"
           element={<OtherService setIsLoading={setIsLoading} />}
         />
         <Route

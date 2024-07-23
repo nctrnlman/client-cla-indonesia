@@ -5,6 +5,8 @@ import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/legal-training/SequentialForm";
 import FAQ from "../components/home/FAQ";
 import servicesData from "../data/servicesData";
+import Features from "../components/other-service-detail/Features";
+import Bonus from "../components/other-service-detail/Bonus";
 
 function OtherServiceDetail() {
   const { slug } = useParams();
@@ -50,14 +52,15 @@ function OtherServiceDetail() {
         />
       </Helmet>
 
-      <Hero title={formattedSlug} />
+      <Hero title={formattedSlug} description={packages[0].description} />
 
       <Content packages={packages} />
-
+      <Bonus />
+      <Features packages={packages} />
+      <FAQ />
       <div id="SequentialForm">
         <SequentialForm />
       </div>
-      <FAQ />
     </div>
   );
 }

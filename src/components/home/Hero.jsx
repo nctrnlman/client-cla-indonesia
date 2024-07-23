@@ -1,4 +1,3 @@
-import React from "react";
 import bg from "../../assets/bg/hero.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
