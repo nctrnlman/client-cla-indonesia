@@ -36,7 +36,7 @@ const PricingCard = ({
       <div className="p-6">
         <h3 className="text-2xl font-bold text-primary mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
-        <div className="mb-4">
+        <div className="mb-8">
           <span className="text-4xl font-bold text-primary">{price}</span>
           {fakePrice && (
             <span className="text-lg text-gray-500 line-through ml-2">
@@ -44,15 +44,15 @@ const PricingCard = ({
             </span>
           )}
         </div>
-        <ul className="mb-6 space-y-2">
+        {/* <ul className="mb-6 space-y-2">
           {features.slice(0, 3).map((feature, index) => (
             <li key={index} className="flex items-center">
               <FaCheck className="text-green-500 mr-2" />
               <span>{feature}</span>
             </li>
           ))}
-        </ul>
-        {features.length > 3 && (
+        </ul> */}
+        {/* {features.length > 3 && (
           <div>
             <motion.div
               initial={false}
@@ -80,7 +80,7 @@ const PricingCard = ({
               )}
             </button>
           </div>
-        )}
+        )} */}
         <motion.button
           className="w-full bg-primary text-white font-bold py-2 px-4 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
           whileHover={{ scale: 1.05 }}
@@ -95,7 +95,7 @@ const PricingCard = ({
 function Content({ packages }) {
   return (
     <div className="bg-gray-50 relative py-20 overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center mx-auto max-w-7xl gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center mx-auto py-20 max-w-7xl gap-10">
         <div className="grid grid-cols-1  gap-8">
           {packages.map((pkg, index) => (
             <PricingCard key={pkg.title} {...pkg} isPopular={index === 1} />

@@ -392,6 +392,9 @@ function Navbar() {
                     <Link to={`/other-service/${item.slug}`}>{item.name}</Link>
                   </li>
                 ))}
+                <li className="hover:text-secondary">
+                  <Link to={`/other-services`}>All</Link>
+                </li>
               </ul>
             </div>
           ))}
