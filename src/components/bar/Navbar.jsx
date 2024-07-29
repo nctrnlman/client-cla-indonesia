@@ -1,8 +1,8 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo/logo_cla.png";
 import useSmoothScroll from "../../components/hooks/useSmoothScroll";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -11,11 +11,31 @@ function Navbar() {
   const [isOtherServicesMobileOpen, setIsOtherServicesMobileOpen] =
     useState(false);
   const [dropdownTop, setDropdownTop] = useState(0);
+  const [closeTimer, setCloseTimer] = useState(null);
   const otherServicesRef = useRef(null);
+  const dropdownRef = useRef(null);
   const location = useLocation();
   const navigate = useNavigate();
   useSmoothScroll();
-  let timeoutId = null;
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target) &&
+        otherServicesRef.current &&
+        !otherServicesRef.current.contains(event.target)
+      ) {
+        setIsOtherServicesOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      if (closeTimer) clearTimeout(closeTimer);
+    };
+  }, [closeTimer]);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -35,7 +55,7 @@ function Navbar() {
   };
 
   const handleMouseEnter = () => {
-    clearTimeout(timeoutId);
+    if (closeTimer) clearTimeout(closeTimer);
     setIsOtherServicesOpen(true);
     if (otherServicesRef.current) {
       const rect = otherServicesRef.current.getBoundingClientRect();
@@ -44,19 +64,15 @@ function Navbar() {
   };
 
   const handleMouseLeave = () => {
-    timeoutId = setTimeout(() => {
+    const timer = setTimeout(() => {
       setIsOtherServicesOpen(false);
-    }, 1000);
+    }, 1000); // 3 seconds delay
+    setCloseTimer(timer);
   };
 
-  const handleDropdownMouseEnter = () => {
-    clearTimeout(timeoutId);
-  };
-
-  const handleDropdownMouseLeave = () => {
-    timeoutId = setTimeout(() => {
-      setIsOtherServicesOpen(false);
-    }, 1000);
+  const handleDropdownLinkClick = (to) => {
+    setIsOtherServicesOpen(false);
+    navigate(to);
   };
 
   const servicesData = [
@@ -127,7 +143,6 @@ function Navbar() {
             <img src={logo} alt="Logo CLA" className="h-24 w-auto" />
           </Link>
 
-          {/* Hamburger menu for mobile */}
           <div className="flex items-center md:hidden">
             <label className="btn btn-circle swap swap-rotate">
               <input
@@ -135,7 +150,6 @@ function Navbar() {
                 checked={isMobileMenuOpen}
                 onChange={toggleMobileMenu}
               />
-              {/* hamburger icon */}
               <svg
                 className="swap-off fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +159,6 @@ function Navbar() {
               >
                 <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
               </svg>
-              {/* close icon */}
               <svg
                 className="swap-on fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +171,6 @@ function Navbar() {
             </label>
           </div>
 
-          {/* Navigation links for desktop */}
           <div className="hidden md:flex items-center">
             <ul className="flex space-x-8 md:text-base md:font-bold items-center">
               <li>
@@ -230,32 +242,11 @@ function Navbar() {
                   </svg>
                 </button>
               </li>
-              {/* setup next fitur */}
-              {/* <ul className="ml-auto hidden md:flex items-center space-x-4">
-                <button
-                  onClick={() => changeLanguage("en")}
-                  className={`text-primary hover:text-secondary transition-colors duration-300 ${
-                    i18n.language === "en" ? "text-yellow-500" : ""
-                  }`}
-                >
-                  EN
-                </button>
-                <span className="text-gray-400">|</span>
-                <button
-                  onClick={() => changeLanguage("id")}
-                  className={`text-primary hover:text-secondary transition-colors duration-300 ${
-                    i18n.language === "id" ? "text-yellow-500" : ""
-                  }`}
-                >
-                  ID
-                </button>
-              </ul> */}
             </ul>
           </div>
         </div>
       </nav>
 
-      {/* Sidebar for mobile */}
       <div
         className={`md:hidden w-64 bg-white fixed top-0 left-0 h-full z-50 transform transition-transform duration-300 ease-in-out overflow-y-auto
            ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"}`}
@@ -344,8 +335,6 @@ function Navbar() {
             <div
               className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
               style={{ top: `${dropdownTop}px` }}
-              onMouseEnter={handleDropdownMouseEnter}
-              onMouseLeave={handleDropdownMouseLeave}
             >
               {servicesData.map((serviceCategory) => (
                 <div key={serviceCategory.category}>
@@ -357,7 +346,14 @@ function Navbar() {
                   <ul className="mt-2 space-y-1">
                     {serviceCategory.items.map((item) => (
                       <li key={item.slug} className="hover:text-secondary">
-                        <Link to={`/other-service/${item.slug}`}>
+                        <Link
+                          to={`/other-service/${item.slug}`}
+                          onClick={() =>
+                            handleDropdownLinkClick(
+                              `/other-service/${item.slug}`
+                            )
+                          }
+                        >
                           {item.name}
                         </Link>
                       </li>
@@ -372,12 +368,13 @@ function Navbar() {
 
       {isOtherServicesOpen && (
         <div
+          ref={dropdownRef}
           className={`fixed ${
             isMobileMenuOpen ? "right-0" : "left-0 right-0 mx-auto"
-          } max-w-7xl bg-gradient-to-r from-primary  to-cyan-600 pb-20 shadow-2xl rounded mt-8 p-4 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 z-30`}
+          } max-w-7xl bg-gradient-to-r from-primary to-cyan-600 pb-20 shadow-2xl rounded mt-8 p-4 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 z-30 transition-all duration-300 ease-in-out`}
           style={{ top: `${dropdownTop}px` }}
-          onMouseEnter={handleDropdownMouseEnter}
-          onMouseLeave={handleDropdownMouseLeave}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           {servicesData.map((serviceCategory) => (
             <div key={serviceCategory.category}>
@@ -389,11 +386,23 @@ function Navbar() {
               <ul className="mt-2 space-y-1 text-white ">
                 {serviceCategory.items.map((item) => (
                   <li key={item.slug} className="hover:text-secondary">
-                    <Link to={`/other-service/${item.slug}`}>{item.name}</Link>
+                    <Link
+                      to={`/other-service/${item.slug}`}
+                      onClick={() =>
+                        handleDropdownLinkClick(`/other-service/${item.slug}`)
+                      }
+                    >
+                      {item.name}
+                    </Link>
                   </li>
                 ))}
                 <li className="hover:text-secondary">
-                  <Link to={`/other-services`}>All</Link>
+                  <Link
+                    to={`/other-services`}
+                    onClick={() => handleDropdownLinkClick("/other-services")}
+                  >
+                    All
+                  </Link>
                 </li>
               </ul>
             </div>
