@@ -25,6 +25,14 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris",
+          "Nomor telepon dan email perusahaan",
+          "Mengisi formulir pendirian PT",
+          "Tanda tangan dokumen Notaris",
+          "KBLI adalah kode bidang usaha di Indonesia",
+          "Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+        ],
       },
       {
         name: "CV / Commanditaire Venootschap",
@@ -43,6 +51,14 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris",
+          "Khusus WNA melampirkan paspor;",
+          "Nomor telepon dan email perusahaan",
+          "Mengisi formulir pendirian PT PMA",
+          "Tanda tangan dokumen Notaris",
+          "KBLI adalah kode bidang usaha di Indonesia. Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+         ],
       },
       {
         name: "PT Perorangan",
