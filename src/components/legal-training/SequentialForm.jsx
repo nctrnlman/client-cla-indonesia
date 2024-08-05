@@ -153,8 +153,10 @@ function ContactUsSection({ selectedPackage }) {
         >
           <h1 className="text-5xl font-bold text-primary mb-4">Contact Us</h1>
           <p className="text-xl text-primary mb-4">
-            We'd love to hear from you! Fill out the form and we'll be in touch
-            as soon as possible.
+          Contact Us for FREE Legal Training <br/>
+          *Syarat & Ketentuan berlaku
+
+
           </p>
         </motion.div>
 

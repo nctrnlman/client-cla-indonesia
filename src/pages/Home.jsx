@@ -40,8 +40,8 @@ function Home({ setIsLoading }) {
       <div id="legalityPackages">
         <LegalityPackages />
       </div>
-      <About />
       <OtherService />
+      <About />
       <FAQ />
       <div id="SequentialForm">
         <SequentialForm />
