@@ -21,11 +21,12 @@ function OtherServiceDetail() {
   const title = `${formattedSlug} | CLA Indonesia`;
   const description = `Find detailed information about ${formattedSlug} services offered by CLA Indonesia.`;
 
-  const servicePackage = servicesData
+  const serviceItem = servicesData
     .flatMap((category) => category.items)
     .find((item) => item.slug === slug);
 
-  const packages = servicePackage ? [servicePackage.package] : [];
+  const packages = serviceItem ? [serviceItem.package] : [];
+  const content = serviceItem ? serviceItem.content : "";
 
   return (
     <div className="">
@@ -52,9 +53,9 @@ function OtherServiceDetail() {
         />
       </Helmet>
 
-      <Hero title={formattedSlug} description={packages[0].description} />
+      <Hero title={formattedSlug} description={packages[0]?.description || ""} />
 
-      <Content packages={packages} />
+      <Content packages={packages} content={content} />
       <Bonus />
       <Features packages={packages} />
       <FAQ />
