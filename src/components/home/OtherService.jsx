@@ -69,7 +69,7 @@ function OtherService() {
             PRODUCT
           </button>
           <h2 className="mt-6 text-3xl md:text-5xl font-extrabold text-primary">
-            Other Service
+            Solutions
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

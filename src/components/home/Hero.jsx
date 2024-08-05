@@ -33,7 +33,7 @@ function Hero() {
           <motion.div className="md:w-1/2 mb-8 md:mb-0">
             <div className="mb-4">
               <h1 className="text-[#FDB515] uppercase font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2">
-                CLA Indonesia
+                Corporate Legal Associate
               </h1>
               <div className="h-32">
                 <TypeAnimation
@@ -53,8 +53,8 @@ function Hero() {
               </div>
             </div>
             <p className="text-white text-lg md:text-xl max-w-xl text-shadow-md mb-6">
-              Providing comprehensive legal services with expertise and
-              integrity. Your success is our priority.
+            Providing comprehensive legal services with expertise and integrity since 2019. Your success is our priority.”
+            .<br/> Trusted by 100+ Business Actors in Indoensia
             </p>
             <motion.div
               className="flex justify-start gap-4"
