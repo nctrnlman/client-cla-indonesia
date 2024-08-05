@@ -73,7 +73,7 @@ function PackageCard({
             onClick={onToggle}
             className="flex items-center justify-center w-full focus:outline-none"
           >
-            <span className="mr-2">{isOpen ? "See Less" : "See More"}</span>
+            <span className="mr-2">{isOpen ? "Lihat Lebih Sedikit" : "Lihat Lebih Banyak"}</span>
             <motion.div
               animate={{ rotate: isOpen ? 180 : 0 }}
               transition={{ duration: 0.3 }}
@@ -133,7 +133,7 @@ function PackageSubscription({ onPackageSelect }) {
           transition={{ duration: 0.5 }}
           className="mb-4 pb-12 text-5xl text-center tracking-tight uppercase font-extrabold text-primary"
         >
-          Training Package
+          Paket Pelatihan
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-6">
@@ -145,7 +145,7 @@ function PackageSubscription({ onPackageSelect }) {
             className="h-full"
           >
             <PackageCard
-              title="In-House Training"
+              title="Pelatihan Internal"
               icon={
                 <FontAwesomeIcon
                   icon={faBalanceScale}
@@ -155,22 +155,22 @@ function PackageSubscription({ onPackageSelect }) {
               content={
                 <>
                   <p className="mb-4">
-                    Our In-House Training package offers comprehensive legal support
-                    for your business. With personalized guidance and expert advice,
-                    we ensure your company stays compliant and protected.
+                    Paket Pelatihan Internal kami menawarkan dukungan hukum yang komprehensif
+                    untuk bisnis Anda. Dengan panduan yang dipersonalisasi dan nasihat ahli,
+                    kami memastikan perusahaan Anda tetap mematuhi peraturan dan terlindungi.
                   </p>
                 </>
               }
-              additionalContent="In This Package You Can Choose Online and Offline*"
-              buttonText="Contact Us"
+              additionalContent="Dalam Paket Ini Anda Dapat Memilih Online dan Offline*"
+              buttonText="Hubungi Kami"
               backgroundColor="bg-primary"
               textColor="text-white"
               buttonColor="bg-[#fdb515] text-primary hover:bg-yellow-300"
               titleBackgroundColor="bg-[#fdb515]"
               titleTextColor="text-primary"
               onButtonClick={onPackageSelect}
-              isOpen={openPackage === "In-House Training"}
-              onToggle={() => togglePackage("In-House Training")}
+              isOpen={openPackage === "Pelatihan Internal"}
+              onToggle={() => togglePackage("Pelatihan Internal")}
             />
           </motion.div>
 
@@ -182,29 +182,29 @@ function PackageSubscription({ onPackageSelect }) {
             className="h-full"
           >
             <PackageCard
-              title="General Training"
+              title="Pelatihan Umum"
               icon={
                 <FontAwesomeIcon icon={faBuilding} className="text-primary" />
               }
               content={
                 <>
                   <p className="mb-4">
-                    Our General Training package is designed to give your business
-                    a strong foundation. From incorporation to providing a professional
-                    address, we've got you covered every step of the way.
+                    Paket Pelatihan Umum kami dirancang untuk memberikan fondasi yang kuat
+                    bagi bisnis Anda. Dari pendirian perusahaan hingga penyediaan alamat profesional,
+                    kami siap membantu Anda setiap langkah.
                   </p>
                 </>
               }
-              additionalContent="In This Package You Can Choose Online and Offline*"
-              buttonText="Contact Us"
+              additionalContent="Dalam Paket Ini Anda Dapat Memilih Online dan Offline*"
+              buttonText="Hubungi Kami"
               backgroundColor="bg-[#FDB515]"
               textColor="text-primary"
               buttonColor="bg-primary text-white hover:bg-blue-700"
               titleBackgroundColor="bg-primary"
               titleTextColor="text-white"
               onButtonClick={onPackageSelect}
-              isOpen={openPackage === "General Training"}
-              onToggle={() => togglePackage("General Training")}
+              isOpen={openPackage === "Pelatihan Umum"}
+              onToggle={() => togglePackage("Pelatihan Umum")}
             />
           </motion.div>
         </div>

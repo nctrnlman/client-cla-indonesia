@@ -4,24 +4,24 @@ import FAQItem from "../cards/faq/FAQItem";
 const FAQ = () => {
   const faqs = [
     {
-      question: "What are the typical responsibilities of a Legal Associate?",
+      question: "Apa tanggung jawab umum dari seorang Legal Associate?",
       answer:
-        "Legal Associates assist lawyers with research, preparation of legal documents, and client communication. They may also help with case management and legal strategy development.",
+        "Legal Associate membantu pengacara dengan penelitian, persiapan dokumen hukum, dan komunikasi dengan klien. Mereka juga dapat membantu dalam manajemen kasus dan pengembangan strategi hukum.",
     },
     {
-      question: "How does a Legal Associate support in legal research?",
+      question: "Bagaimana seorang Legal Associate mendukung penelitian hukum?",
       answer:
-        "Legal Associates conduct legal research to support cases, ensuring compliance with laws and regulations. They analyze precedents and provide summaries and recommendations to lawyers.",
+        "Legal Associate melakukan penelitian hukum untuk mendukung kasus, memastikan kepatuhan dengan hukum dan peraturan. Mereka menganalisis preseden dan memberikan ringkasan serta rekomendasi kepada pengacara.",
     },
     {
-      question: "What skills are important for a Legal Associate?",
+      question: "Keterampilan apa yang penting untuk seorang Legal Associate?",
       answer:
-        "Important skills for Legal Associates include legal research, writing, and analysis. They should have strong attention to detail, communication skills, and the ability to work under pressure.",
+        "Keterampilan penting untuk Legal Associate termasuk penelitian hukum, menulis, dan analisis. Mereka harus memiliki perhatian yang kuat terhadap detail, keterampilan komunikasi, dan kemampuan bekerja di bawah tekanan.",
     },
     {
-      question: "What qualifications are required to become a Legal Associate?",
+      question: "Kualifikasi apa yang dibutuhkan untuk menjadi seorang Legal Associate?",
       answer:
-        "Typically, a Legal Associate has a degree in law and may have completed internships or gained experience in a law firm. Some roles may require additional certifications or qualifications.",
+        "Biasanya, seorang Legal Associate memiliki gelar dalam bidang hukum dan mungkin telah menyelesaikan magang atau mendapatkan pengalaman di firma hukum. Beberapa peran mungkin memerlukan sertifikasi atau kualifikasi tambahan.",
     },
   ];
 
@@ -39,21 +39,21 @@ const FAQ = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Legal Associate FAQ
+            FAQ Legal Associate
           </motion.p>
           <h2 className="sm:text-5xl text-4xl font-extrabold text-primary mb-6">
-            Frequently Asked Questions
+            Pertanyaan yang Sering Diajukan
           </h2>
           <p className="text-gray-600 mb-8">
-            Find answers to common questions about the role and responsibilities
-            of a Legal Associate.
+            Temukan jawaban atas pertanyaan umum tentang peran dan tanggung jawab
+            seorang Legal Associate.
           </p>
           <motion.button
             className="bg-primary text-white font-bold py-3 px-6 rounded-full hover:bg-secondary hover:text-primary transition duration-300 shadow-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Contact Us for More Info
+            Hubungi Kami untuk Info Lebih Lanjut
           </motion.button>
         </div>
         <motion.ul
