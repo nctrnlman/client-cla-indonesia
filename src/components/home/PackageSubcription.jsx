@@ -112,7 +112,7 @@ function PackageSubscription() {
           transition={{ duration: 0.5 }}
           className="mb-4 pb-12 text-5xl text-center tracking-tight uppercase font-extrabold text-primary"
         >
-          Package Subscription
+          Berlangganan Paket
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-6">
@@ -135,17 +135,17 @@ function PackageSubscription() {
                 <>
                   <MotionText>
                     <p className="mb-4">
-                      Elevate your business legal journey with our Legal
-                      Associate as your trusted partner. We provide legal
-                      assistance tailored to your company needs and type.
+                      Tingkatkan perjalanan hukum bisnis Anda dengan Legal
+                      Associate kami sebagai mitra tepercaya Anda. Kami menyediakan bantuan hukum
+                      yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda.
                     </p>
                   </MotionText>
                   <ul className="text-left space-y-2">
                     {[
-                      "Personalized legal advice",
-                      "Contract review and drafting",
-                      "Regulatory compliance assistance",
-                      "On-demand legal consultations",
+                      "Nasihat hukum yang dipersonalisasi",
+                      "Peninjauan dan penyusunan kontrak",
+                      "Bantuan kepatuhan regulasi",
+                      "Konsultasi hukum sesuai permintaan",
                     ].map((item, index) => (
                       <MotionText key={index} delay={0.8 + index * 0.1}>
                         <li>
@@ -160,7 +160,7 @@ function PackageSubscription() {
                   </ul>
                 </>
               }
-              buttonText="Learn More"
+              buttonText="Pelajari Lebih Lanjut"
               onButtonClick={() =>
                 handleButtonClick("Legal Associate Package Selected")
               }
@@ -180,7 +180,7 @@ function PackageSubscription() {
             <PackageCard
               title={
                 <span className="text-primary">
-                  Legality (Incorporation and Virtual Office)
+                  Legalitas (Pendirian dan Kantor Virtual)
                 </span>
               }
               icon={
@@ -190,18 +190,15 @@ function PackageSubscription() {
                 <>
                   <MotionText>
                     <p className="mb-4">
-                      Streamline your business setup with our comprehensive
-                      Legality package. We handle incorporation and provide a
-                      virtual office solution to give your business a
-                      professional edge.
+                      Permudah pendirian bisnis Anda dengan paket Legalitas kami yang komprehensif. Kami menangani pendirian perusahaan dan menyediakan solusi kantor virtual untuk memberikan bisnis Anda keunggulan profesional.
                     </p>
                   </MotionText>
                   <ul className="text-left space-y-2">
                     {[
-                      "Company incorporation services",
-                      "Virtual office address",
-                      "Mail handling and forwarding",
-                      "Meeting room access",
+                      "Layanan pendirian perusahaan",
+                      "Alamat kantor virtual",
+                      "Penanganan dan penerusan surat",
+                      "Akses ruang rapat",
                     ].map((item, index) => (
                       <MotionText key={index} delay={0.8 + index * 0.1}>
                         <li>
@@ -216,7 +213,7 @@ function PackageSubscription() {
                   </ul>
                 </>
               }
-              buttonText="Explore"
+              buttonText="Jelajahi"
               onButtonClick={() =>
                 handleButtonClick("Legality Package Selected")
               }

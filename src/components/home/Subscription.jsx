@@ -95,51 +95,51 @@ const PricingCard = ({
 function Subscription() {
   const packages = [
     {
-      title: "Standard (for UMK only)",
+      title: "Standard (untuk UMK saja)",
       description:
-        "This package includes all the premium features such as A, B, and C.",
+        "Paket ini mencakup semua fitur premium seperti A, B, dan C.",
       price: "1.500.000",
       fakePrice: "2.500.000",
       features: [
-        "Unlimited online consultation",
-        "Drafting Employment Legal Documents (PKWT, PKWTT, Termination of Employment Agreement, and a Power of Attorney) per 3 months",
-        "Reviewing 2 Agreements per month",
-        "Compliance assistance: Filing Investment Activity Report (LKPM)",
-        "Complimentary Legal training provided once every 3 months",
+        "Konsultasi online tanpa batas",
+        "Penyusunan Dokumen Hukum Ketenagakerjaan (PKWT, PKWTT, Perjanjian Pengakhiran, dan Surat Kuasa) setiap 3 bulan",
+        "Meninjau 2 Perjanjian per bulan",
+        "Bantuan kepatuhan: Pengisian Laporan Kegiatan Penanaman Modal (LKPM)",
+        "Pelatihan Hukum gratis diberikan setiap 3 bulan sekali",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Berlangganan Sekarang",
       isPopular: false,
     },
     {
       title: "Premium",
       description:
-        "This package includes standard features such as X, Y, and Z.",
+        "Paket ini mencakup fitur standar seperti X, Y, dan Z.",
       price: "3.500.000",
       fakePrice: "4.000.000",
       features: [
-        "Unlimited online consultation",
-        "Drafting Employment Legal Documents (PKWT, PKWTT, Termination of Employment Agreement, and a Power of Attorney) per 3 months",
-        "Drafting 1 Business Agreement (Sale and Purchase Agreement, Share Purchase Agreement, MoU, or others) per 3 months",
-        "Reviewing 2 Agreements per month",
-        "Compliance assistance: Filing Investment Activity Report (LKPM)",
-        "Complimentary: Legal training provided once every 3 months, Filing monthly SPT Badan.",
+        "Konsultasi online tanpa batas",
+        "Penyusunan Dokumen Hukum Ketenagakerjaan (PKWT, PKWTT, Perjanjian Pengakhiran, dan Surat Kuasa) setiap 3 bulan",
+        "Penyusunan 1 Perjanjian Bisnis (Perjanjian Jual Beli, Perjanjian Pembelian Saham, MoU, atau lainnya) setiap 3 bulan",
+        "Meninjau 2 Perjanjian per bulan",
+        "Bantuan kepatuhan: Pengisian Laporan Kegiatan Penanaman Modal (LKPM)",
+        "Gratis: Pelatihan Hukum diberikan setiap 3 bulan sekali, Pengisian SPT Badan bulanan.",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Berlangganan Sekarang",
       isPopular: true,
     },
     {
       title: "Ultimate",
-      description: "This package includes basic features such as 1, 2, and 3.",
+      description: "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
       price: "5.000.000",
       fakePrice: "12.500.000",
       features: [
-        "Unlimited online consultation, including meeting with counterparts",
-        "Drafting or reviewing 5 Agreements per month",
-        "Compliance assistance: Filing Investment Activity Report (LKPM) and other technical reports.",
-        "Assisting with corporate documents (AGMS/EGMS, Director Resolution, and Shareholders' resolution)",
-        "Complimentary: Legal training provided once every 3 months, Filing yearly SPT Badan.",
+        "Konsultasi online tanpa batas, termasuk pertemuan dengan pihak lain",
+        "Penyusunan atau meninjau 5 Perjanjian per bulan",
+        "Bantuan kepatuhan: Pengisian Laporan Kegiatan Penanaman Modal (LKPM) dan laporan teknis lainnya.",
+        "Bantuan dokumen perusahaan (RUPS/RUPSLB, Keputusan Direksi, dan Keputusan Pemegang Saham)",
+        "Gratis: Pelatihan Hukum diberikan setiap 3 bulan sekali, Pengisian SPT Badan tahunan.",
       ],
-      buttonText: "Subscribe Now",
+      buttonText: "Berlangganan Sekarang",
       isPopular: false,
     },
   ];
@@ -196,10 +196,8 @@ function Subscription() {
               </svg>
             </div>
             <div className="text-lg">
-              Payment will be processed monthly for a duration of 3 consecutive
-              months. Price does not include Taxes, Transportation Costs, and
-              other fees beyond the Services mentioned above (if any).
-            </div>
+  Pembayaran akan diproses setiap bulan selama 3 bulan berturut-turut. Harga tidak termasuk Pajak, Biaya Transportasi, dan biaya lain di luar Layanan yang disebutkan di atas (jika ada).
+</div>
           </div>
         </div>
       </div>

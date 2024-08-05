@@ -19,8 +19,8 @@ const cardsData = [
         />
       </svg>
     ),
-    title: "Liaising with Government Authorities",
-    description: "Liaising with government authorities.",
+    title: "Berhubungan dengan Otoritas Pemerintah",
+    description: "Berhubungan dengan otoritas pemerintah.",
   },
   {
     icon: (
@@ -41,8 +41,8 @@ const cardsData = [
         />
       </svg>
     ),
-    title: "Business Approach Tasks",
-    description: "Conducting tasks with business approaches for your interest.",
+    title: "Tugas Pendekatan Bisnis",
+    description: "Melakukan tugas dengan pendekatan bisnis untuk kepentingan Anda.",
   },
   {
     icon: (
@@ -60,9 +60,9 @@ const cardsData = [
         />
       </svg>
     ),
-    title: "Company Compliance Alignment",
+    title: "Penyesuaian Kepatuhan Perusahaan",
     description:
-      "Our service aligns with company’s compliance, going beyond more requests.",
+      "Layanan kami sesuai dengan kepatuhan perusahaan, melampaui permintaan lainnya.",
   },
   {
     icon: (
@@ -79,9 +79,9 @@ const cardsData = [
         />
       </svg>
     ),
-    title: "Competitive Pricing and Efficiency",
-    description:
-      "We provide competitive pricing with transparent task descriptions and efficient work.",
+    title: "Harga Kompetitif dan Efisiensi",
+description: "Kami menyediakan harga yang kompetitif dengan deskripsi tugas yang transparan dan kerja yang efisien."
+
   },
 ];
 const sliderSettings = {
@@ -126,7 +126,7 @@ function About() {
           ABOUT
         </button>
         <h1 className="mb-4 pt-6 text-3xl md:text-5xl tracking-tight font-extrabold text-primary pb-4">
-          Why Choose Legal Associate
+        Mengapa Memilih Legal Associate
         </h1>
       </div>
       <div className="py-8 px-4 md:px-8 max-w-7xl mx-auto  ">

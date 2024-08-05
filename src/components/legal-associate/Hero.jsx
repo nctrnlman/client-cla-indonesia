@@ -32,20 +32,15 @@ function Hero() {
         <div className="flex flex-col justify-center md:flex-row md:justify-around gap-6 max-w-7xl mx-auto py-10 items-center">
           {/* text */}
           <div className="px-4">
-            <p className="text-justify text-xl md:text-2xl max-w-4xl py-4 text-white">
-              Elevate your business&apos;s legal journey with our Legal
-              Associate as your trusted partner. We provide legal assistance
-              tailored to your company&apos;s needs and type. Our innovative
-              solutions, quick responses, and flexible services ensure that your
-              legal needs are met efficiently. Partner with us to unlock your
-              business&apos;s full potential for growth and success.
-            </p>
+          <p className="text-justify text-xl md:text-2xl max-w-4xl py-4 text-white">
+  Tingkatkan perjalanan hukum bisnis Anda dengan Asisten Hukum kami sebagai mitra terpercaya Anda. Kami menyediakan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami, tanggapan cepat, dan layanan fleksibel memastikan bahwa kebutuhan hukum Anda terpenuhi dengan efisien. Bergabunglah dengan kami untuk membuka potensi penuh bisnis Anda untuk pertumbuhan dan kesuksesan.
+</p>
             <ul className="text-left space-y-2 py-2">
               {[
-                "Personalized legal advice",
-                "Contract review and drafting",
-                "Regulatory compliance assistance",
-                "On-demand legal consultations",
+                "Nasihat hukum yang dipersonalisasi",
+                "Tinjauan dan penyusunan kontrak",
+                "Bantuan kepatuhan regulasi",
+                "Konsultasi hukum sesuai permintaan",
               ].map((item, index) => (
                 <MotionText key={index} delay={0.8 + index * 0.1}>
                   <li className="text-base">
@@ -85,10 +80,10 @@ function Hero() {
                 <div className="text-sm">
                   <p className="font-bold text-base md:text-xl">What’s more?</p>
                   <p className="pt-1">FREE Legal Training</p>
-                  <p>*You can also customize the services you require</p>
+                  <p>*Anda juga dapat menyesuaikan layanan yang Anda butuhkan</p>
                   <p>
-                    *Mix your necessities with our finance, tax, business, and
-                    research services.
+                  *Campurkan kebutuhan Anda dengan layanan keuangan, pajak, bisnis, dan
+                   penelitian kami.
                   </p>
                   <p className="pt-4 text-sm"> (*) means T&C is required</p>
                 </div>
