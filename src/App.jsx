@@ -20,14 +20,7 @@ function App() {
       {isLoading && <LoadingSpinner />}
       <Routes>
         <Route path="/" element={<Home setIsLoading={setIsLoading} />} />
-        <Route
-          path="/legal-associate"
-          element={<LegalAssociate setIsLoading={setIsLoading} />}
-        />
-        <Route
-          path="/legal-training"
-          element={<LegalTraining setIsLoading={setIsLoading} />}
-        />
+       
         <Route
           path="/other-services"
           element={<OtherService setIsLoading={setIsLoading} />}
@@ -35,6 +28,14 @@ function App() {
         <Route
           path="/other-service/:slug"
           element={<OtherServiceDetail setIsLoading={setIsLoading} />}
+        /> 
+        <Route
+          path="/legal-associate"
+          element={<LegalAssociate setIsLoading={setIsLoading} />}
+        />
+        <Route
+          path="/legal-training"
+          element={<LegalTraining setIsLoading={setIsLoading} />}
         />
       </Routes>
       <ConsultationButton />

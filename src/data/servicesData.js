@@ -26,12 +26,7 @@ const servicesData = [
           buttonText: "Order Now",
         },
         content: [
-          "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris",
-          "Nomor telepon dan email perusahaan",
-          "Mengisi formulir pendirian PT",
-          "Tanda tangan dokumen Notaris",
-          "KBLI adalah kode bidang usaha di Indonesia",
-          "Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+          "Sesuai Pasal 7 ayat (1) UU 40/2007 tentang Perseroan Terbatas, PT harus didirikan oleh minimal 2 orang. Orang di sini dapat berupa individu, baik warga negara Indonesia maupun asing, atau badan hukum Indonesia maupun asing.",
         ],
       },
       {
@@ -52,13 +47,7 @@ const servicesData = [
           buttonText: "Order Now",
         },
         content: [
-          "KTP sekutu aktif & sekutu pasif",
-          "Nomor telepon dan email perusahaan",
-          "Nomor telepon dan email perusahaan",
-          "Mengisi formulir pendirian CV",
-          "Tanda tangan dokumen Notaris",
-          "KBLI adalah kode bidang usaha di Indonesia",
-          "Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+          "Commanditaire Vennootschap (CV), atau yang sering disebut CV, adalah bentuk kemitraan bisnis tanpa batas modal minimum. CV didirikan oleh dua orang atau lebih, di mana sebagian anggotanya memiliki tanggung jawab penuh, sementara yang lainnya memiliki tanggung jawab terbatas.",
          ],
       },
       {
@@ -120,12 +109,7 @@ const servicesData = [
           buttonText: "Order Now",
         },
         content: [
-          "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris",
-          "Khusus WNA melampirkan paspor",
-          "Nomor telepon dan email perusahaan",
-          "Mengisi formulir pendirian PT PMA",
-          "Tanda tangan dokumen Notaris",
-          "KBLI adalah kode bidang usaha di Indonesia. Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+          "Sesuai Peraturan Presiden 10/2021, penanaman modal dapat dilakukan oleh penanam modal dalam negeri dan asing. Penanam modal dalam negeri mencakup warga negara Indonesia, badan usaha Indonesia, dan pemerintah Indonesia. Penanam modal asing mencakup warga negara asing, badan usaha asing, dan pemerintah asing. Untuk mendirikan PT PMA bagi WNA, diperlukan dokumen paspor, dan untuk badan usaha asing, diperlukan dokumen legalitas dari negara asal.",
          ],
       },
       {
@@ -145,13 +129,7 @@ const servicesData = [
           buttonText: "Order Now",
         },
         content: [
-          "KTP & NPWP  seluruh sekutu Firma",
-          "Nomor telepon dan email perusahaan",
-          "Nomor telepon dan email perusahaan",
-          "Mengisi formulir pendirian Firma",
-          "Tanda tangan dokumen Notaris",
-          "KBLI adalah kode bidang usaha di Indonesia",
-          "Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+          "Sesuai Peraturan Menteri Hukum dan Ham Nomor 17 tahun 2018, pendiri firma memberikan kuasa kepada notaris untuk mendaftarkan firma melalui SABU. Pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus dalam akta notaris.",
          ],
       },
       {
@@ -171,12 +149,7 @@ const servicesData = [
           buttonText: "Order Now",
         },
         content: [
-          "KTP & NPWP seluruh sekutu Persekutuan Perdata",
-          "Nomor telepon dan email perusahaan",
-          "Mengisi form pendirian Persekutuan Perdata",
-          "Tanda tangan dokumen Notaris",
-          "KBLI adalah kode bidang usaha di Indonesia",
-          "Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha",
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
          ],
       },
       {
@@ -271,6 +244,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
       {
         name: "Izin Restoran",
@@ -287,6 +263,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
       {
         name: "Izin Konstruksi",
@@ -303,6 +282,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
       {
         name: "Izin PSE",
@@ -319,6 +301,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
       {
         name: "Izin K3L",
@@ -335,6 +320,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
       {
         name: "Izin Yayasan",
@@ -351,6 +339,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
       {
         name: "33++ Izin Lainnya",
@@ -367,6 +358,9 @@ const servicesData = [
           ],
           buttonText: "Order Now",
         },
+        content: [
+          "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri. Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU.",
+         ],
       },
     ],
   },

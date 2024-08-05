@@ -66,7 +66,7 @@ function Content({ packages, content }) {
           ))}
         </div>
         <div>
-          <h2 className="text-2xl font-bold text-primary mb-4">Dokumen Persyaratan</h2>
+          <h2 className="text-2xl font-bold text-primary mb-4">Overview</h2>
           <ul className="text-2xl font-bold text-primary mb-2 text-justify list-disc list-inside pl-5">
             {content.map((item, index) => (
               <li key={index}>{item}</li>
