@@ -10,8 +10,10 @@ import {
   faHandshake,
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
+  const { t } = useTranslation(["home"]);
   return (
     <div
       className="bg-[#E5E5E5] min-h-screen relative overflow-hidden flex items-center justify-center"
@@ -33,16 +35,16 @@ function Hero() {
           <motion.div className="md:w-1/2 mb-8 md:mb-0">
             <div className="mb-4">
               <h1 className="text-[#FDB515] uppercase font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-2">
-                Corporate Legal Associate
+                {t("hero.title")}
               </h1>
               <div className="h-32">
                 <TypeAnimation
                   sequence={[
-                    "Your Trusted Legal Partner",
+                    t("hero.type1"),
                     1000,
-                    "Experts in Indonesian Law",
+                    t("hero.type2"),
                     1000,
-                    "Empowering Your Business",
+                    t("hero.type3"),
                     1000,
                   ]}
                   wrapper="span"
@@ -53,8 +55,7 @@ function Hero() {
               </div>
             </div>
             <p className="text-white text-lg md:text-xl max-w-xl text-shadow-md mb-6">
-            Providing comprehensive legal services with expertise and integrity since 2019. Your success is our priority
-            .<br/> Trusted by 100+ Business Actors in Indoensia
+              {t("hero.description")}
             </p>
             <motion.div
               className="flex justify-start gap-4"
@@ -67,14 +68,14 @@ function Hero() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-[#FDB515] text-primary py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214]"
               >
-                Schedule Consultation
+                {t("hero.button1")}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-primary"
               >
-                Learn More
+                {t("hero.button2")}
               </motion.button>
             </motion.div>
           </motion.div>
@@ -86,16 +87,22 @@ function Hero() {
           >
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-5 shadow-lg">
               <h2 className="text-white shadow-lg text-center uppercase text-2xl font-semibold mb-4">
-                Our Practice Areas
+                {t("hero.practiceAreas")}
               </h2>
               <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                 {[
-                  { title: "Corporate Law", icon: faBuilding },
-                  { title: "Intellectual Property", icon: faLightbulb },
-                  { title: "Litigation & Dispute Resolution", icon: faGavel },
-                  { title: "Employment Law", icon: faUsers },
-                  { title: "Mergers & Acquisitions", icon: faHandshake },
-                  { title: "Real Estate Law", icon: faHome },
+                  { title: t("hero.areas.corporateLaw"), icon: faBuilding },
+                  {
+                    title: t("hero.areas.intellectualProperty"),
+                    icon: faLightbulb,
+                  },
+                  { title: t("hero.areas.litigation"), icon: faGavel },
+                  { title: t("hero.areas.employmentLaw"), icon: faUsers },
+                  {
+                    title: t("hero.areas.mergersAcquisitions"),
+                    icon: faHandshake,
+                  },
+                  { title: t("hero.areas.realEstateLaw"), icon: faHome },
                 ].map((area, index) => (
                   <motion.div
                     key={index}
@@ -110,7 +117,7 @@ function Hero() {
                       {area.title}
                     </h3>
                     <p className="text-gray-300 text-base">
-                      Expert legal advice and representation
+                      {t("hero.expertAdvice")}
                     </p>
                   </motion.div>
                 ))}

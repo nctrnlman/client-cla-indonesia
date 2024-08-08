@@ -2,26 +2,30 @@ import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaUser, FaEnvelope, FaPhone, FaPencilAlt } from "react-icons/fa";
 import LoadingSpinner from "../Loading/LoadingSpinner";
+import { useTranslation } from "react-i18next";
 
 function ContactUsSection({ selectedPackage }) {
+  const { t } = useTranslation("contactUs");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phoneCode: "",
     phoneNumber: "",
-    message: selectedPackage ? `I'm interested in ${selectedPackage}` : "",
+    message: t("interestedIn", { package: selectedPackage }),
   });
   const [isLoading, setIsLoading] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [step, setStep] = useState(0);
-  const [showPackageNotification, setShowPackageNotification] = useState(!!selectedPackage);
+  const [showPackageNotification, setShowPackageNotification] = useState(
+    !!selectedPackage
+  );
   const formRef = useRef(null);
 
   useEffect(() => {
     if (selectedPackage) {
-      setFormData(prevData => ({
+      setFormData((prevData) => ({
         ...prevData,
-        message: `I'm interested in ${selectedPackage}`
+        message: t("interestedIn", { package: selectedPackage }),
       }));
       setShowPackageNotification(true);
       setTimeout(() => setShowPackageNotification(false), 5000);
@@ -112,7 +116,7 @@ function ContactUsSection({ selectedPackage }) {
             <div className="label">
               <span className="label-text flex items-center text-primary">
                 <FaPhone />
-                <span className="ml-2">What is your phone number?</span>
+                <span className="ml-2">{t("phoneNumber")}</span>
               </span>
             </div>
             <div className="flex">
@@ -123,14 +127,14 @@ function ContactUsSection({ selectedPackage }) {
                 onChange={handleChange}
               >
                 <option value="" disabled>
-                  Code
+                  {t("code")}
                 </option>
                 <option value="+62">+62 (Indonesia)</option>
               </select>
               <input
                 type="tel"
                 name="phoneNumber"
-                placeholder="Phone number"
+                placeholder={t("phoneNumberPlaceholder")}
                 className="input input-bordered w-2/3 transition-all duration-300 focus:ring-2 focus:ring-primary bg-white text-primary"
                 value={formData.phoneNumber}
                 onChange={handleChange}
@@ -151,12 +155,11 @@ function ContactUsSection({ selectedPackage }) {
           transition={{ duration: 0.5 }}
           className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0"
         >
-          <h1 className="text-5xl font-bold text-primary mb-4">Contact Us</h1>
+          <h1 className="text-5xl font-bold text-primary mb-4">
+            {t("contactUs")}
+          </h1>
           <p className="text-xl text-primary mb-4">
-          Contact Us for FREE Legal Training <br/>
-          *Syarat & Ketentuan berlaku
-
-
+            {t("contactUsSubtitle")} <br />*{t("termsAndConditions")}
           </p>
         </motion.div>
 
@@ -172,7 +175,7 @@ function ContactUsSection({ selectedPackage }) {
               <div className="artboard artboard-demo phone-1 overflow-y-auto bg-white">
                 <div className="p-4" ref={formRef}>
                   <h2 className="text-2xl font-bold text-center mb-4 text-primary">
-                    Contact Form
+                    {t("contactForm")}
                   </h2>
                   <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
                     <div
@@ -208,12 +211,12 @@ function ContactUsSection({ selectedPackage }) {
                             <div className="label">
                               <span className="label-text flex items-center text-primary">
                                 <FaPencilAlt className="text-primary" />
-                                <span className="ml-2">Your message</span>
+                                <span className="ml-2">{t("message")}</span>
                               </span>
                             </div>
                             <textarea
                               className="textarea textarea-bordered h-24 w-full transition-all duration-300 focus:ring-2 focus:ring-primary bg-white text-primary"
-                              placeholder="Type your message here"
+                              placeholder={t("messagePlaceholder")}
                               name="message"
                               value={formData.message}
                               onChange={handleChange}
@@ -232,7 +235,7 @@ function ContactUsSection({ selectedPackage }) {
                           type="submit"
                           className="btn bg-secondary text-primary w-full hover:bg-primary hover:text-secondary border-secondary hover:border-secondary transition-all duration-300"
                         >
-                          Send
+                          {t("submit")}
                         </button>
                       </motion.div>
                     )}
@@ -268,7 +271,7 @@ function ContactUsSection({ selectedPackage }) {
                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <span>Your message has been sent!</span>
+              <span>{t("submissionSuccess")}</span>
             </div>
           </motion.div>
         )}
@@ -296,7 +299,7 @@ function ContactUsSection({ selectedPackage }) {
                   d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 ></path>
               </svg>
-              <span>Selected package: {selectedPackage}</span>
+              <span>{t("packageInterest", { package: selectedPackage })}</span>
             </div>
           </motion.div>
         )}

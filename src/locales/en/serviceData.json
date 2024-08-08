@@ -1,0 +1,2792 @@
+{
+  "navbar": {
+    "home": "Home",
+    "legalAssociate": "Legal Associate",
+    "legalTraining": "Legal Training",
+    "otherServices": "Other Services"
+  },
+  "servicesData": [
+    {
+      "category": "LEGAL",
+      "items": [
+        {
+          "name": "Perseroan Terbatas (PT)",
+          "slug": "perseroan-terbatas",
+          "package": {
+            "title": "Pembentukan PT Standar (Investasi Asing)",
+            "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asosiasi Hukum kami sebagai mitra tepercaya Anda. Kami memberikan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami.",
+            "price": "3.500.000",
+            "fakePrice": "7.500.000",
+            "features": [
+              "Konsultasi",
+              "Pencarian Nama PT",
+              "Keputusan Pendirian PT",
+              "Nomor Pokok Wajib Pajak",
+              "Akta Pendirian PT"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Sesuai Pasal 7 ayat (1) UU 40/2007 tentang Perseroan Terbatas, PT harus didirikan oleh minimal 2 orang. 'Orang' di sini dapat berupa individu, baik warga negara Indonesia maupun asing, atau badan hukum Indonesia maupun asing."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Saat mendirikan PT, pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, pengurus, dan hal lainnya yang dituangkan dalam akta notaris."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Notaris"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Menteri Hukum & HAM"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NPWP"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NIB dan Izin Usaha"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Berita Negara & Tambahan Berita Negara "
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email perusahaan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian PT; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berita Negara & Tambahan Berita Negara Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CV / Commanditaire Venootschap",
+          "slug": "cv-commanditaire-venootschap",
+          "package": {
+            "title": "Pendirian CV",
+            "description": "Dapatkan bantuan hukum untuk mendirikan persekutuan komanditer dengan proses cepat dan mudah.",
+            "price": "5.500.000",
+            "fakePrice": "12.500.000",
+            "features": [
+              "Konsultasi",
+              "Akta Pendirian",
+              "Surat Keputusan Pendirian PT",
+              "Nomor Pokok Wajib Pajak Badan Usaha",
+              "Nomor Induk Berusaha (NIB)",
+              "KPPR",
+              "Sertifikat Standar/Izin",
+              "Aktivitas EFIN Badan Usaha"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Commanditaire Vennootschap (CV), atau yang sering disebut CV, adalah bentuk kemitraan bisnis tanpa batas modal minimum. CV didirikan oleh dua orang atau lebih, di mana sebagian anggotanya memiliki tanggung jawab penuh, sementara yang lainnya memiliki tanggung jawab terbatas."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Sesuai dengan Pasal 19 KUHD (Kitab Undang-Undang Hukum Dagang), CV harus didirikan oleh minimal dua orang, dengan sekutu aktif dan sekutu pasif."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Menurut Pasal 1 ayat (1) Permenkumham 17/2018, CV adalah persekutuan yang dibentuk oleh satu atau lebih sekutu komanditer dan satu atau lebih sekutu komplementer untuk menjalankan usaha secara terus menerus."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Saat mendirikan CV, pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, pengurus, dan hal-hal lain yang dituangkan dalam akta notaris."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Notaris"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Menteri Hukum & HAM"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NPWP"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NIB dan Izin Usaha"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Berita Negara & Tambahan Berita Negara "
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP sekutu aktif & sekutu pasif;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email perusahaan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian CV; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berita Negara & Tambahan Berita Negara Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PT Perorangan",
+          "slug": "pt-perorangan",
+          "package": {
+            "title": "Pembentukan Kemitraan Standar",
+            "description": "Layanan lengkap untuk membentuk kemitraan dengan dukungan penuh dari ahli hukum kami.",
+            "price": "2.500.000",
+            "fakePrice": "5.000.000",
+            "features": [
+              "Konsultasi",
+              "Pendaftaran Kemitraan",
+              "Keputusan Kemitraan",
+              "Nomor Pokok Wajib Pajak",
+              "Akta Kemitraan"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Persekutuan komanditer terdiri dari satu atau lebih sekutu umum dan satu atau lebih sekutu komanditer."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Kami menyediakan layanan pendaftaran dan pembuatan akta persekutuan komanditer."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Dokumen harus dipersiapkan sesuai dengan ketentuan hukum yang berlaku."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Konsultasi hukum dan pendaftaran dapat dilakukan dengan mudah dan cepat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Nomor Pokok Wajib Pajak akan dikeluarkan sebagai bagian dari proses."
+            }
+          ],
+          "documents": [
+            "KTP & NPWP pendiri;",
+            "Nomor telepon dan email;",
+            "Formulir pendaftaran kemitraan yang lengkap;",
+            "Tanda tangan pada dokumen.",
+            "KBLI untuk bidang usaha."
+          ]
+        },
+        {
+          "name": "PT PMA",
+          "slug": "pt-pma",
+          "package": {
+            "title": "Pendirian PT PMA",
+            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+            "price": "7.500.000",
+            "fakePrice": "10.000.000",
+            "features": [
+              "Konsultasi",
+              "Penelusuran nama PT",
+              "Akta Pendirian",
+              "Surat Keputusan Pendirian PT",
+              "Nomor Pokok Wajib Pajak Badan Usaha",
+              "Nomor Induk Berusaha (NIB)",
+              "KPPR",
+              "Sertifikat Standar/Izin",
+              "Aktivitas EFIN Badan Usaha"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Sesuai Peraturan Presiden 10/2021, penanaman modal dapat dilakukan oleh penanam modal dalam negeri dan asing. Penanam modal dalam negeri mencakup warga negara Indonesia, badan usaha Indonesia, dan pemerintah Indonesia. Penanam modal asing mencakup warga negara asing, badan usaha asing, dan pemerintah asing. Untuk mendirikan PT PMA bagi WNA, diperlukan dokumen paspor, dan untuk badan usaha asing, diperlukan dokumen legalitas dari negara asal."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Menurut Peraturan Kepala BKPM Nomro 4 Tahun 2021, nilai investasi minimum bagi PMA adalah lebih dari Rp10 miliar, tidak termasuk tanah dan bangunan."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Notaris"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Menteri Hukum & HAM"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NPWP"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NIB dan Izin Usaha"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Berita Negara & Tambahan Berita Negara "
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris; Khusus WNA melampirkan paspor; Nomor telepon dan email perusahaan; Mengisi formulir pendirian PT PMA; dan Tanda tangan dokumen Notaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia. Di Legalitas.org kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Firma",
+          "slug": "firma",
+          "package": {
+            "title": "Pendirian Firma",
+            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "8.000.000",
+            "features": [
+              "Konsultasi",
+              "Akta Pendirian",
+              "Surat Keputusan Pendirian PT",
+              "Nomor Pokok Wajib Pajak Badan Usaha",
+              "Nomor Induk Berusaha (NIB)",
+              "KPPR",
+              "Sertifikat Standar/Izin",
+              "Aktivitas EFIN Badan Usaha"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Firma adalah salah satu jenis badan usaha yang bukan badan hukum. Pendirian firma dilakukan melalui pembuatan akta dan harus didaftarkan ke Sistem Administrasi Badan Usaha (SABU) di Kementerian Hukum dan HAM. Sebelumnya, pendaftaran firma dilakukan di Pengadilan Negeri sesuai dengan lokasi firma."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Sesuai Peraturan Menteri Hukum dan Ham Nomor 17 tahun 2018, pendiri firma memberikan kuasa kepada notaris untuk mendaftarkan firma melalui SABU. Pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus dalam akta notaris."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Notaris"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Menteri Hukum & HAM"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NPWP"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NIB dan Izin Usaha"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP  seluruh sekutu Firma;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email perusahaan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian Firma; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Persekutuan Perdata",
+          "slug": "persekutuan-perdata",
+          "package": {
+            "title": "Pembentukan Koperasi Standar",
+            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+            "price": "4.000.000",
+            "fakePrice": "8.000.000",
+            "features": [
+              "Konsultasi",
+              "Pendaftaran Koperasi",
+              "Keputusan Koperasi",
+              "Nomor Pokok Wajib Pajak",
+              "Akta Koperasi"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Notaris"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "Menteri Hukum & HAM"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NPWP"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                },
+                {
+                  "type": "h3",
+                  "className": "text-xl font-semibold text-gray-800 mt-4",
+                  "content": "NIB dan Izin Usaha"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP seluruh sekutu Persekutuan Perdata;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email perusahaan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian Persekutuan Perdata; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perkumpulan",
+          "slug": "perkumpulan",
+          "package": {
+            "title": "Perkumpulan",
+            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+            "price": "3.000.000",
+            "fakePrice": "5.000.000",
+            "features": [],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Perkumpulan adalah badan hukum yang terdiri dari kumpulan orang dengan tujuan tertentu di bidang sosial, keagamaan, dan kemanusiaan, tanpa membagikan keuntungan kepada anggotanya. Perkumpulan bukan badan usaha dan bersifat non-komersial, sehingga tidak boleh mencari keuntungan atau memiliki izin usaha. Ciri khas perkumpulan adalah kesamaan minat anggota, seperti perkumpulan penggemar klub sepakbola Manchester City. Penggemar yang ingin meresmikan fans club tersebut dapat mengajukan pengesahan badan hukum kepada Menteri Hukum dan Hak Asasi Manusia."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Menurut Permenkumham 3/2016, Pasal 5, nama Perkumpulan harus memenuhi syarat sebagai berikut:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify pt-4",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menggunakan huruf latin"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Minimal terdiri dari tiga kata"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Terdiri dari rangkaian huruf yang membentuk kata"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak menggunakan angka dan tanda baca"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak hanya menggunakan maksud dan tujuan serta kegiatan sebagai nama Perkumpulan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak bertentangan dengan ketertiban umum dan/atau kesusilaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak mempunyai arti sebagai Yayasan atau memiliki arti yang sama dengan Perkumpulan, badan hukum, persekutuan perdata, atau entitas lain yang bukan merupakan kewenangan Menteri untuk mengesahkan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg  text-justify",
+                  "content": "Saat mendirikan Perkumpulan, pendiri harus menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang akan dituangkan dalam Akta Notaris."
+                }
+              ]
+            },
+
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Notaris"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Sesuai UU No. 2/2014 tentang Jabatan Notaris, Notaris adalah pejabat umum yang membuat akta autentik. Proses pendirian Perkumpulan dilakukan berdasarkan akta yang dibuat oleh Notaris dan didaftarkan dalam sistem SABH di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Menteri Hukum & Hak Asasi Manusia"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Menteri akan menerbitkan pengesahan badan hukum Perkumpulan sesuai Pasal 11 Permenkumham 3/2016, yang menyatakan bahwa untuk memperoleh Keputusan Menteri mengenai pengesahan badan hukum Perkumpulan, pemohon harus mengajukan permohonan secara elektronik dan mengisi format pendirian pengesahan badan hukum Perkumpulan."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "NPWP"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Sesuai Peraturan Dirjen Pajak No. PER-02/PJ/2018, Nomor Pokok Wajib Pajak (NPWP) adalah nomor yang diberikan kepada Wajib Pajak untuk administrasi perpajakan. Saat proses SK Menteri, sistem SABH otomatis memberikan nomor NPWP terhadap pengesahan Perkumpulan baru. Kartu NPWP bisa dimohonkan ke kantor pajak setempat."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "NIB dan Izin Usaha"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Untuk percepatan penanaman modal dan usaha, pemerintah mengeluarkan PP No. 5/2021 tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko. Dalam platform OSS terdapat Nomor Induk Berusaha (NIB) dan izin usaha berupa a. Izin Usaha; dan b. Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email Yayasan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian Yayasan; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yayasan",
+          "slug": "yayasan",
+          "package": {
+            "title": "Pembentukan Koperasi Standar",
+            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+            "price": "7.500.000",
+            "fakePrice": "9.000.000",
+            "features": [
+              "Konsultasi",
+              "Akta Pendirian",
+              "Surat Keputusan Pendirian PT",
+              "Nomor Pokok Wajib Pajak Badan Usaha",
+              "Nomor Induk Berusaha (NIB)",
+              "KPPR",
+              "Sertifikat Standar/Izin",
+              "Aktivitas EFIN Badan Usaha"
+            ],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berdasarkan Permenkumham 2/2016, Yayasan adalah badan hukum dengan kekayaan terpisah untuk tujuan sosial, keagamaan, dan kemanusiaan, tanpa anggota."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Nama Yayasan Permenkumham 13/2019 Pasal 5 mengatur syarat nama Yayasan:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menggunakan huruf Latin."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Minimal tiga kata."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Membentuk kata dari huruf."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak menggunakan angka atau tanda baca."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak hanya menggunakan maksud dan tujuan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak bertentangan dengan ketertiban umum atau kesusilaan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tidak memiliki arti yang sama dengan entitas lain."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Pendiri Yayasan"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus dalam akta notaris."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Notaris"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Menteri Hukum & HAM"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "NPWP"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "NIB dan Izin Usaha"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email Yayasan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian Yayasan; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "PERIZINAN",
+      "items": [
+        {
+          "name": "Nomor Induk Berusaha (NIB)",
+          "slug": "nomor-induk-berusaha-nib",
+          "package": {
+            "title": "Nomor Induk Berusaha (NIB)",
+            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+            "price": "750.000",
+            "fakePrice": "2.000.000",
+            "features": [],
+            "buttonText": "Pesan Sekarang"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Nomor Induk Berusaha (NIB) adalah identitas unik bagi pelaku usaha yang digunakan untuk menjalankan kegiatan usaha sesuai bidangnya. Setiap pelaku usaha yang ingin mengurus perizinan usaha melalui OSS harus memiliki NIB."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "NIB terdiri dari 13 digit angka yang berbeda untuk setiap permohonan dan juga berfungsi sebagai Tanda Daftar Perusahaan (TDP), Angka Pengenal Importir (API), serta hak akses kepabeanan."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Setelah mendapatkan NIB, pelaku usaha perlu memperoleh Izin Usaha yang berlaku di seluruh Indonesia dan Izin Komersial atau Operasional untuk memenuhi standar dan lisensi produk. Izin ini berlaku setelah komitmen dan biaya perizinan diselesaikan."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Hal yang perlu diperhatikan saat mendapatkan NIB:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "OSS terintegrasi dengan Ditjen AHU (Kemenkumham) dan KSWP (Ditjen Pajak)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pastikan uraian usaha sesuai dengan KBLI 2020."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tempat usaha memiliki Izin Lokasi, Izin Lokasi Perairan, Izin Lingkungan, dan IMB."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan pajak rapi."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Jika berdampak lingkungan, wajib memiliki AMDAL."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "usaha perseorangan:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nama & NIK"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Alamat Tinggal"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bidang Usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Lokasi Penanaman Modal"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Besaran Rencana Penanaman Modal"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rencana Penggunaan Tenaga Kerja"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor Kontak Usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Pelaku Usaha perseorangan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rencana Permintaan Fasilitas Fiskal, Kepabeanan dan/atau fasilitas lainnya"
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "usaha non-perorangan:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nama badan usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Jenis bidang usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Status penanaman modal"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor akta pendirian atau nomor pendaftaran beserta pengesahannya"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Alamat korespondensi"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Besaran Rencana Penanaman Modal"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Data pengurus dan pemegang saham Negara Asal Penanaman Modal, jika terdapat penanaman modal asing"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Maksud dan tujuan badan usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon badan usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Alamat email badan usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP badan usaha"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Izin Pengusaha Kena Pajak (PKP)",
+          "slug": "izin-pkp",
+          "package": {
+            "title": "Izin Pengusaha Kena Pajak (PKP)",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "2.000.000",
+            "fakePrice": "4.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Pengertian"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Izin Pengusaha Kena Pajak (PKP) adalah izin yang diberikan oleh Direktorat Jenderal Pajak (DJP) kepada pengusaha yang memenuhi kriteria untuk dikenakan Pajak Pertambahan Nilai (PPN) dan Pajak Penjualan atas Barang Mewah (PPnBM). PKP merupakan kewajiban bagi pengusaha yang melakukan penjualan barang dan/atau jasa kena pajak dengan omzet di atas batas yang ditetapkan pemerintah."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Pengusaha dengan omzet tahunan di atas batas (Rp4.000.000.000) yang ditetapkan pemerintah harus mengajukan permohonan PKP."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Pengaturan mengenai PKP terdapat dalam Peraturan Pemerintah Nomor 44 Tahun 2022 tentang Penerapan Terhadap PPN Barang dan Jasa serta PPnBM (PP 44/2022)."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Proses Pengurusan:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify pt-2",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Persiapan Dokumen: Pengusaha harus menyiapkan dokumen-dokumen penting seperti Akta Pendirian Perusahaan, NPWP, surat izin usaha, dan bukti alamat kantor."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengajuan Permohonan: Permohonan pendaftaran PKP diajukan secara online melalui sistem e-Faktur atau e-Registration di situs resmi Direktorat Jenderal Pajak."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Verifikasi: DJP akan melakukan verifikasi terhadap dokumen yang diajukan. Pengusaha mungkin akan diminta untuk memberikan informasi tambahan jika diperlukan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penerbitan PKP: Setelah dokumen diverifikasi dan memenuhi syarat, DJP akan mengeluarkan Sertifikat Pengusaha Kena Pajak (PKP) yang dapat diunduh secara elektronik."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Keuntungan Memiliki PKP"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Kepatuhan Pajak: Memastikan bahwa pengusaha memenuhi kewajiban pajak sesuai dengan peraturan yang berlaku."
+            },
+            {
+              "type": "h3",
+              "className": "text-lg text-gray-700 mt-4 text-justify",
+              "content": "Pengembalian PPN: Memungkinkan pengusaha untuk mengklaim kembali PPN yang dibayar atas pembelian barang dan jasa."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Kepercayaan Mitra Bisnis: Meningkatkan kredibilitas dan kepercayaan mitra bisnis karena status sebagai PKP menunjukkan kepatuhan pajak yang baik."
+            },
+
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Masa Berlaku Sertifikat PKP berlaku selama pengusaha masih aktif menjalankan usaha dan memenuhi kriteria sebagai PKP. Pendaftaran PKP harus diperbarui jika ada perubahan signifikan dalam kegiatan usaha atau struktur perusahaan."
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen Identitas: Kartu Identitas Pengusaha atau Akta Pendirian Perusahaan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP: Nomor Pokok Wajib Pajak (NPWP) yang aktif."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bukti Alamat: Bukti alamat kantor atau lokasi usaha."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen Legalitas Usaha: Izin usaha, surat keterangan domisili, dan dokumen pendukung lainnya."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Izin Restoran",
+          "slug": "izin-restoran",
+          "package": {
+            "title": "Izin Restoran",
+            "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
+            "price": "7.000.000",
+            "fakePrice": "14.000.000",
+            "features": [],
+            "buttonText": "Hubungi Kami"
+          },
+          "overviews": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Berdasarkan KBLI 2020, kegiatan restoran dikategorikan sebagai berikut:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "56101 – Restoran Kelompok ini mencakup usaha jasa yang menyajikan makanan dan minuman untuk dikonsumsi di tempat, bertempat di sebagian atau seluruh bangunan permanen, dan dilengkapi dengan jasa pelayanan seperti memasak dan menyajikan sesuai pesanan."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Untuk risiko yang terkait dengan KBLI Restoran tersebut, rincian risikonya adalah sebagai berikut:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Restoran dengan kursi kurang dari 50 unit Kegiatan ini masuk ke dalam kategori risiko rendah. Oleh karena itu, perizinan yang diperlukan adalah Nomor Induk Berusaha (NIB). Restoran dengan kapasitas ini hanya bisa dijalankan oleh usaha mikro dan kecil."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Restoran dengan kursi 50 - 100 unit Kegiatan ini dikategorikan sebagai risiko menengah rendah. Perizinan yang diperlukan adalah NIB dan Sertifikat Standar berupa pernyataan mandiri untuk memenuhi standar usaha. Restoran dalam kategori ini bisa dijalankan oleh usaha mikro, kecil, menengah, dan besar."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Restoran dengan kursi 100 - 200 unit Kegiatan ini dikategorikan sebagai risiko menengah tinggi. Perizinan yang diperlukan adalah NIB dan Sertifikat Standar yang telah diverifikasi untuk memenuhi standar usaha. Restoran dalam kategori ini dapat dijalankan oleh semua skala usaha, mulai dari mikro hingga besar."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Restoran dengan kursi lebih dari 200 unit Kegiatan ini masuk dalam kategori risiko tinggi. Perizinan yang diperlukan mencakup NIB, Sertifikat Standar yang telah diverifikasi, dan Izin. Restoran dengan tingkat risiko ini juga dapat dijalankan oleh usaha mikro, kecil, menengah, dan besar."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi Formulir perizinan dan surat pernyataan tentang kebenaran data dan keabsahan data (dengan materai Rp 10.000);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP Pemilik dan Penanggung Jawab/Direktur Perusahaan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Direktur Perusahaan/ Perorangan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan Akta pendirian perusahaan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Badan usaha dari restoran ini dapat berbentuk PT, CV, Firma atau perorangan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP penerima kuasa dan surat kuasa pengurusan dengan materai Rp 6000 (jika dikuasakan);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Sertifikat Laik Sehat (SLS) / Sertifikat Laik Higiene Sanitasi (SLHS);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Sertifikat Penjamah Pangan - diberikan atas nama karyawan restoran;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Surat Pernyataan Pengelolaan Lingkungan (SPPL);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bukti kepemilikan tanah atau bangunan; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Proposal teknis (rencana pengelolaan usaha, foto berwarna sarana dan prasarana usaha ukuran 4R, foto dari luar, dan foto di dalam tiap ruangan, denah lokasi dan bangunan);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Memastikan domisili Usaha Restoran telah sesuai dengan ketentuan RDTR."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Izin Konstruksi",
+          "slug": "izin-konstruksi",
+          "package": {
+            "title": "Izin Konstruksi",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Berikut adalah sertifikat standar perizinan berusaha dalam subsektor jasa konstruksi:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+                  "content": "Sertifikat Badan Usaha (SBU) Konstruksi"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "SBU Konstruksi adalah sertifikat yang harus dimiliki oleh Badan Usaha Jasa Konstruksi (BUJK) yang menyediakan layanan jasa konstruksi. Sertifikat ini diterbitkan melalui sistem informasi jasa konstruksi yang terintegrasi, dan permohonannya dilakukan melalui OSS RBA."
+                },
+                {
+                  "type": "li",
+                  "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+                  "content": "Sertifikat Kompetensi Kerja (SKK) Konstruksi"
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg",
+                  "content": "SKK Konstruksi adalah sertifikat yang wajib dimiliki oleh tenaga kerja di bidang konstruksi. Sertifikat ini diterbitkan setelah melalui uji kompetensi sesuai dengan standar kompetensi kerja. Uji kompetensi dilaksanakan oleh Lembaga Sertifikasi Profesi (LSP) Konstruksi. SKK Konstruksi memiliki masa berlaku selama 5 tahun dan dapat diperpanjang sebelum masa berlakunya habis, serta dapat dilakukan perubahan jika diperlukan."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "PP No 5 tahun 2021 tentang Penyelenggaraan Perizinan Berusaha Berbasis RisikoPP ini mengatur mengenai Perizinan Berusaha berdasarkan tingkat Risiko kegiatan usaha. Penyelenggaraan Perizinan Berusaha Berbasis Risiko meliputi: "
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "pengaturan Perizinan Berusaha Berbasis Risiko; "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "norma, standar, prosedur, dan kriteria Perizinan Berusaha Berbasis Risiko; "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Perizinan Berusaha Berbasis Risiko melalui layanan Sistem Online Single Submission/OSS; "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "tata cara Pengawasan Perizinan Berusaha Berbasis Risiko;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "evaluasi dan reformasi kebijakan Perizinan Berusaha Berbasis Risiko; "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "pendanaan Perizinan Berusaha Berbasis Risiko;  "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "penyelesaian permasalahan dan hambatan Perizinan Berusaha Berbasis Risiko; dan "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "sanksi. "
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen perusahaan (Akta Pendirian & Perubahan, SIUP, NPWP, SKDU)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Sertifikat Keahlian (SKA) dan/atau Sertifikat Keterampilan Keahlian (SKK)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Struktur Organisasi"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Foto direktur 3x4"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP Direktur"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Direktur"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Surat Izin Lokasi"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Ijazah Tenaga Ahli Foto Tenaga Ahli 3x4"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Email Tenaga Ahli"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "No. Hp Tenaga Ahli"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Email Perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "No. Telp Kantor"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Notaris dan SK Kemenkumham"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP dan NPWP Direksi"
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "name": "Izin K3L",
+          "slug": "izin-k3l",
+          "package": {
+            "title": "Konsultasi Manajemen Keuangan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [
+              "Strategi Manajemen Keuangan",
+              "Analisis Keuangan",
+              "Perencanaan Anggaran",
+              "Konsultasi Investasi",
+              "Pelaporan Keuangan"
+            ],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Registrasi K3L (Keamanan, Keselamatan, Kesehatan, dan Lingkungan Hidup) adalah proses pendaftaran yang wajib dilakukan untuk produk listrik, elektronik, dan produk lain yang mengandung bahan berbahaya. Ini berlaku baik untuk barang yang diproduksi di dalam negeri maupun yang diimpor, sebelum produk tersebut dapat dipasarkan."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Pendaftaran ini dilakukan melalui portal Kemendag (Kementerian Perdagangan) untuk mendapatkan tanda daftar Registrasi K3L, yang nantinya akan dicantumkan pada label dan/atau kemasan produk. Tujuannya adalah untuk melindungi konsumen dari risiko keamanan yang dapat menyebabkan kerugian atau kerusakan terkait dengan K3L."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Barang yang wajib didaftarkan termasuk yang berhubungan dengan K3L, harus memiliki tanda daftar Registrasi K3L. Persyaratan keamanan dan metode pengujian produk harus dipenuhi, dengan sampel yang diuji sebaiknya mewakili jenis kategori serat, jenis kain, dan finishing. Perusahaan yang menjual atau mendistribusikan barang di pasar harus melakukan registrasi K3L ini."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Perpres No 63 tahun 2018 tentang Penetapan dan Pendaftaran Barang Terkait Dengan Keamanan, Keselamatan, Kesehatan, dan Lingkungan HidupPerpres ini mengatur mengenai Penetapan jenis Barang yang terkait dengan Keamanan, Keselamatan, Kesehatan, dan Lingkungan Hidup berdasarkan kriteria SNI atau standar lain yang diakui yang belum diberlakukan secara wajib. Penetapan jenis Barang ini meliputi: "
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Barang listrik atau elektronika; dan "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Barang yang mengandung bahan kimia berbahaya. Penetapan jenis Barang listrik atau elektronika dilakukan berdasarkan bahaya kejut listrik bagi konsumen dan penetapan jenis Barang yang mengandung bahan kimia berdasarkan kandungan kimia yang berbahaya bagi konsumen. "
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Tidak semua barang harus diregistrasi K3L. Sesuai dengan ketentuan maka barang-barang berikut ini yang harus di registrasi K3L :"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Barang Listrik dan Elektronika"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penghisap Debu (Vacuum Cleaner)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemanggang Roti Listrik (toaster)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penanak Nasi (Rice Cooker)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Teko Listrik (Electric Kettle)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengering Rambut (Hair Dryer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tungku Gelombang Mikro (Microwave Oven)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pencukur Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Piranti Pijat Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemanas Air Sesaat (Electric Immersion Stick)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Panci Listrik Serbaguna"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Oven Listrik Portabel (Electrical Portable Oven)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pelumat (Blender)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengejus (Juicer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pencampur (Mixer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemroses Makanan Listrik (Electrical Food Processor)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dispenser (Water Dispenser)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengering Tangan Listrik (Hand Dryer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Catok Rambut Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bor Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Gerinda Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mesin Serut"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Gergaji Listrik"
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "content": "Barang yang mengandung Bahan Kimia Berbahaya"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tekstil (Kain tenunan dan atau rajutan dari kapas yang dicelup dan atau dicetak, kecuali kain yang dicetak dengan tradisional batik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengering Rambut (Hair Dryer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tungku Gelombang Mikro (Microwave Oven)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pencukur Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Piranti Pijat Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemanas Air Sesaat (Electric Immersion Stick)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Panci Listrik Serbaguna"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Oven Listrik Portabel (Electrical Portable Oven)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pelumat (Blender)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengejus (Juicer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pencampur (Mixer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemroses Makanan Listrik (Electrical Food Processor)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dispenser (Water Dispenser)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengering Tangan Listrik (Hand Dryer)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Catok Rambut Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bor Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Gerinda Listrik"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mesin Serut"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Gergaji Listrik"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Izin Yayasan",
+          "slug": "izin-yayasan",
+          "package": {
+            "title": "Izin Yayasan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Yayasan adalah badan hukum yang memiliki kekayaan yang dipisahkan untuk mencapai tujuan tertentu dalam bidang sosial, keagamaan, dan kemanusiaan, tanpa memiliki anggota."
+            },
+
+            {
+              "type": "p",
+              "className": "text-lg text-gray-700 mt-4 text-justify",
+              "content": "Yayasan tidak berfungsi sebagai badan usaha dan bersifat non-komersial, sehingga tidak boleh mencari keuntungan dan tidak memerlukan izin usaha. Sesuai dengan aturan yang berlaku, yayasan harus berfokus pada bidang sosial, keagamaan, dan kemanusiaan. Contohnya adalah Yayasan Penyandang Anak Cacat (YPAC), yang bergerak di bidang kemanusiaan."
+            },
+            {
+              "type": "p",
+              "className": "text-lg text-gray-700 mt-4 text-justify",
+              "content": "Dalam sebuah yayasan terdapat beberapa organ, termasuk Pembina, Pengawas, dan Pengurus. Dalam struktur Pengurus, harus ada posisi Ketua, Sekretaris, dan Bendahara."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "UU No 16 tahun 2021 tentang Yayasan"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "UU Yayasan UU ini merupakan sumber hukum utama pengaturan yayasan di Indonesia"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "UU No 28 tahun 2004 tentang Perubahan UU 16/2001 tentang Yayasan"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "UU ini mengubah sebagian ketentuan UU 16/2001 tentang Yayasan"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "PP No 63 tahun 2008 tentang Yayasan"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "PP ini mengatur lebih rinci tentang bagaimana pengaturan yayasan di Indonesia. Sesuai dengan Pasal 6 PP 63/2008 Yayasan yang didirikan oleh WNI minimal kekayaan awal adalah Rp 10 juta, sedangkan yayasan yang didirikan oleh WNA atau bersama-sama dengan WMA minimal kekayaan awal adalah Rp 100 juta."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Permenkumham No 2 tahun 2016 tentang tentang Tata Cara Pengajuan Permohonan Pengesahan Badan Hukum dan Persetujuan Perubahan Anggaran Dasar Serta Penyampaian Pemberitahuan Perubahan Anggaran Dasar dan Perubahan Data Yayasan"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham ini mengatur lebih rinci tentang bagaimana proses pendirian badan hukum Yayasan di SABH Kemenkumham."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Permenkumham No 13 tahun 2019 tentang tentang Perubahan atas Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 2 Tahun 2016 Tentang Tata Cara Pengajuan Permohonan Pengesahan Badan Hukum dan Persetujuan Perubahan Anggaran Dasar Serta Penyampaian Pemberitahuan Perubahan Anggaran Dasar dan Perubahan Data Yayasan"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham ini mengubah sebagian ketentuan Permenkumham 2/2016."
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara);"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email Yayasan;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian Yayasan; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "JASA HUKUM",
+      "items": [
+        {
+          "name": "Virtual Office",
+          "slug": "virtual-office",
+          "package": {
+            "title": "Konsultasi Pajak Strategis",
+            "description": "Konsultasi pajak profesional untuk membantu Anda meminimalkan kewajiban pajak Anda.",
+            "price": "3.000.000",
+            "fakePrice": "8.000.000",
+            "features": [
+              "Analisis Pajak",
+              "Strategi Perencanaan",
+              "Konsultasi Pajak",
+              "Pelaporan Pajak",
+              "Optimasi Pajak"
+            ],
+            "buttonText": "Hubungi Kami"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Dokumen pajak tahunan;",
+            "Data transaksi perusahaan;",
+            "Laporan keuangan;",
+            "Dokumen pendukung perencanaan.",
+            "Data konsultan pajak."
+          ]
+        },
+        {
+          "name": "Perubahan Anggaran Dasar",
+          "slug": "perubahan-anggaran-dasar",
+          "package": {
+            "title": "Perubahan Anggaran Dasar",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "3.000.000",
+            "fakePrice": "5.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Anggaran dasar PT harus mencakup setidaknya:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Nama dan lokasi kantor pusat perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Maksud dan tujuan serta kegiatan usaha perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Jangka waktu keberadaan perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Besaran modal dasar, modal yang ditempatkan, dan modal yang disetor"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Jumlah saham, klasifikasi saham jika ada, hak-hak yang melekat pada setiap saham, dan nilai nominal setiap saham"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nama jabatan dan jumlah anggota Direksi dan Dewan Komisaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penetapan lokasi dan tata cara penyelenggaraan Rapat Umum Pemegang Saham (RUPS)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Prosedur pengangkatan, penggantian, dan pemberhentian anggota Direksi dan Dewan Komisaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Prosedur penggunaan laba dan pembagian dividen"
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "UU No 40 tahun 2007 tentang Perseroan Terbatas"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Undang-undang ini mengatur tentang bagaimana perubahan anggaran dasar PT dan PT PMA secara formal"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Permenkumham No 17 tahun 2018 tentang Tentang Pendaftaran Persekutuan Komanditer, Persekutuan Firma, dan Persekutuan Perdata"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
+            }
+          ],
+          "documents": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Syarat Penyelenggaraan RUPS PT"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berikut ini adalah yang menjadi persyaratan anggaran dasar PT adalah sebagai berikut:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Dokumen RUPS dengan agenda tertentu yang disetujui dan ditandatangani"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan dan NIB; dan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Status KSWP masih valid (lapor SPT Tahunan 2 (dua) tahun terakhir."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Syarat Penyelenggaraan RUPS CV"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berikut ini adalah yang menjadi persyaratan perubahan anggaran dasar CV adalah sebagai berikut: "
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "KTP dan NPWP semua sekutu CV;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Pendirian CV beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan dan NIB; dan"
+                },
+
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Status KSWP masih valid (lapor SPT Tahunan 2 (dua) tahun terakhir."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Penutupan Perusahaan",
+          "slug": "penutupan-perusahaan",
+          "package": {
+            "title": "Penutupan Perusahaan",
+            "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
+            "price": "5.000.000",
+            "fakePrice": "7.000.000",
+            "features": [],
+            "buttonText": "Hubungi Kami"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Penutupan atau pembubaran perusahaan adalah proses formal untuk menghentikan kegiatan bisnis, yang mencakup penghentian operasional, penutupan administrasi perpajakan, pencabutan izin usaha, distribusi aset kepada pemilik melalui proses likuidasi, hingga pengumuman di koran."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Terdapat dua jenis layanan untuk menghentikan bisnis, yaitu penonaktifan perusahaan dan pembubaran perusahaan."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Penyebab Bubarnya PT"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berdasarkan ketentuan Undang-Undang Perseroan Terbatas (UUPT), penyebab bubarnya sebuah Perseroan Terbatas antara lain:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Keputusan Rapat Umum Pemegang Saham (RUPS), di mana para pemegang saham memutuskan untuk membubarkan PT karena tidak lagi diperlukan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berakhirnya jangka waktu pendirian yang ditetapkan dalam anggaran dasar."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berdasarkan penetapan pengadilan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dicabutnya kepailitan oleh pengadilan niaga dengan keputusan yang telah berkekuatan hukum tetap, karena harta pailit PT tidak mencukupi untuk membayar biaya kepailitan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Harta pailit PT yang telah dinyatakan pailit berada dalam keadaan insolvensi sesuai dengan Undang-Undang tentang Kepailitan dan Penundaan Kewajiban Pembayaran Utang."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dicabutnya izin usaha PT yang mengharuskan perusahaan untuk melakukan likuidasi sesuai dengan peraturan perundang-undangan yang berlaku."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "UU No 40 tahun 2007 tentang Perseroan Terbatas"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Undang-undang ini mengatur tentang bagaimana perubahan anggaran dasar PT dan PT PMA secara formal"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Permenkumham No 17 tahun 2018 tentang Tentang Pendaftaran Persekutuan Komanditer, Persekutuan Firma, dan Persekutuan Perdata"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
+            }
+          ],
+          "documents": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berikut ini adalah dokumen yang menjadi persyaratan pembubarn PT adalah sebagai berikut :"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan dan NIB"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PKP (apabila ada)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bukti laporan Pajak bulanan dan tahunan PT"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Penonaktifan perusahaan berarti PT sudah tidak memiliki kewajiban untuk lapor pajak. Proses juga lebih cepat Dengan status non-aktif maka:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Status badan hukum PT masih ada"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Perizinan PT masih ada"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP perusahaan masih ada"
+                },
+
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Perusahaan tidak perlu lapor pajak selamanya"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perjanjian Pisah Harta",
+          "slug": "perjanjian-pisah-harta",
+          "package": {
+            "title": "Konsultasi Manajemen Keuangan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [
+              "Strategi Manajemen Keuangan",
+              "Analisis Keuangan",
+              "Perencanaan Anggaran",
+              "Konsultasi Investasi",
+              "Pelaporan Keuangan"
+            ],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Laporan keuangan;",
+            "Data anggaran;",
+            "Dokumen investasi;",
+            "Data analisis keuangan;",
+            "Laporan konsultasi."
+          ]
+        },
+        {
+          "name": "Pendaftaran Merek",
+          "slug": "pendaftaran-merek",
+          "package": {
+            "title": "Konsultasi Manajemen Keuangan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [
+              "Strategi Manajemen Keuangan",
+              "Analisis Keuangan",
+              "Perencanaan Anggaran",
+              "Konsultasi Investasi",
+              "Pelaporan Keuangan"
+            ],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Laporan keuangan;",
+            "Data anggaran;",
+            "Dokumen investasi;",
+            "Data analisis keuangan;",
+            "Laporan konsultasi."
+          ]
+        },
+        {
+          "name": "KITAS Pekerja",
+          "slug": "kitas-pekerja",
+          "package": {
+            "title": "Konsultasi Manajemen Keuangan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [
+              "Strategi Manajemen Keuangan",
+              "Analisis Keuangan",
+              "Perencanaan Anggaran",
+              "Konsultasi Investasi",
+              "Pelaporan Keuangan"
+            ],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Laporan keuangan;",
+            "Data anggaran;",
+            "Dokumen investasi;",
+            "Data analisis keuangan;",
+            "Laporan konsultasi."
+          ]
+        },
+        {
+          "name": "KITAS Investor",
+          "slug": "kitas-investor",
+          "package": {
+            "title": "Konsultasi Manajemen Keuangan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "5.500.000",
+            "fakePrice": "11.000.000",
+            "features": [
+              "Strategi Manajemen Keuangan",
+              "Analisis Keuangan",
+              "Perencanaan Anggaran",
+              "Konsultasi Investasi",
+              "Pelaporan Keuangan"
+            ],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Laporan keuangan;",
+            "Data anggaran;",
+            "Dokumen investasi;",
+            "Data analisis keuangan;",
+            "Laporan konsultasi."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "LAINNYA",
+      "items": [
+        {
+          "name": "Virtual Office",
+          "slug": "virtual-office",
+          "package": {
+            "title": "Konsultasi Pajak Strategis",
+            "description": "Konsultasi pajak profesional untuk membantu Anda meminimalkan kewajiban pajak Anda.",
+            "price": "4.000.000",
+            "fakePrice": "8.000.000",
+            "features": [
+              "Analisis Pajak",
+              "Strategi Perencanaan",
+              "Konsultasi Pajak",
+              "Pelaporan Pajak",
+              "Optimasi Pajak"
+            ],
+            "buttonText": "Hubungi Kami"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Dokumen pajak tahunan;",
+            "Data transaksi perusahaan;",
+            "Laporan keuangan;",
+            "Dokumen pendukung perencanaan.",
+            "Data konsultan pajak."
+          ]
+        },
+        {
+          "name": "Perubahan Anggaran Dasar",
+          "slug": "perubahan-anggaran-dasar",
+          "package": {
+            "title": "Perubahan Anggaran Dasar",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "6.000.000",
+            "fakePrice": "12.000.000",
+            "features": [
+              "Analisis Investasi",
+              "Strategi Investasi",
+              "Konsultasi Portofolio",
+              "Laporan Risiko",
+              "Perencanaan Investasi"
+            ],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg",
+              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+            }
+          ],
+          "documents": [
+            "Data portofolio investasi;",
+            "Laporan risiko;",
+            "Data pasar;",
+            "Dokumen analisis investasi;",
+            "Laporan konsultasi."
+          ]
+        }
+      ]
+    }
+  ]
+}

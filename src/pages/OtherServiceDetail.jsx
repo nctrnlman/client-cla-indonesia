@@ -5,10 +5,15 @@ import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/legal-training/SequentialForm";
 import FAQ from "../components/home/FAQ";
 import servicesData from "../data/servicesData";
-import Features from "../components/other-service-detail/Features";
+// import Features from "../components/other-service-detail/Features";
 import Bonus from "../components/other-service-detail/Bonus";
+import { useTranslation } from "react-i18next";
+import Overview from "../components/other-service-detail/Overview";
+import RequirementsDocument from "../components/other-service-detail/RequirementsDocument";
+import Process from "../components/other-service-detail/Process";
 
 function OtherServiceDetail() {
+  const { t } = useTranslation(["serviceData"]);
   const { slug } = useParams();
   const formatSlug = (text) => {
     return text
@@ -16,17 +21,23 @@ function OtherServiceDetail() {
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
   };
-
-  const formattedSlug = formatSlug(slug);
-  const title = `${formattedSlug} | CLA Indonesia`;
-  const description = `Find detailed information about ${formattedSlug} services offered by CLA Indonesia.`;
-
+  const servicesData = t("servicesData", { returnObjects: true });
   const serviceItem = servicesData
     .flatMap((category) => category.items)
     .find((item) => item.slug === slug);
 
+  const formattedSlug = formatSlug(slug);
+
+  const title = `${serviceItem?.name || ""} | CLA Indonesia`;
+  const description = `Find detailed information about ${
+    serviceItem?.name || ""
+  } services offered by CLA Indonesia.`;
+
   const packages = serviceItem ? [serviceItem.package] : [];
-  const content = serviceItem ? serviceItem.content : "";
+  const content = "-";
+  const overview = serviceItem ? serviceItem.overviews : "";
+  const requirementsDocument = serviceItem ? serviceItem.documents : "";
+  const process = serviceItem ? serviceItem.process : "";
 
   return (
     <div className="">
@@ -53,11 +64,15 @@ function OtherServiceDetail() {
         />
       </Helmet>
 
-      <Hero title={formattedSlug} description={packages[0]?.description || ""} />
-
+      <Hero
+        title={serviceItem?.name || ""}
+        description={packages[0]?.description || ""}
+      />
       <Content packages={packages} content={content} />
+      <Overview overview={overview} />
+      <RequirementsDocument documents={requirementsDocument} />
+      <Process process={process} />
       <Bonus />
-      <Features packages={packages} />
       <FAQ />
       <div id="SequentialForm">
         <SequentialForm />

@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "What are the general responsibilities of a Legal Associate?",
+      "answer": "A Legal Associate assists attorneys with legal research, document preparation, and client communication. They may also help with case management and legal strategy development."
+    },
+    {
+      "question": "How does a Legal Associate support legal research?",
+      "answer": "A Legal Associate conducts legal research to support cases, ensuring compliance with laws and regulations. They analyze precedents and provide summaries and recommendations to attorneys."
+    },
+    {
+      "question": "What skills are important for a Legal Associate?",
+      "answer": "Important skills for a Legal Associate include legal research, writing, and analysis. They must have a strong attention to detail, communication skills, and the ability to work under pressure."
+    },
+    {
+      "question": "What qualifications are needed to become a Legal Associate?",
+      "answer": "Typically, a Legal Associate has a degree in law and may have completed internships or gained experience in a law firm. Some roles may require additional certifications or qualifications."
+    }
+  ],
+  "faqTitle": "FAQ Legal Associate",
+  "faqHeading": "Frequently Asked Questions",
+  "faqDescription": "Find answers to common questions about the role and responsibilities of a Legal Associate.",
+  "contactButton": "Contact Us for More Information"
+}

@@ -1,0 +1,17 @@
+{
+  "contactUs": "联系我们",
+  "contactUsSubtitle": "我们很乐意听到您的声音！请填写下面的表格与我们联系。",
+  "termsAndConditions": "*适用条款和条件。",
+  "contactForm": "联系表单",
+  "namePlaceholder": "全名",
+  "emailPlaceholder": "电子邮件地址",
+  "phoneNumber": "电话号码",
+  "phoneNumberPlaceholder": "输入您的电话号码",
+  "message": "消息",
+  "messagePlaceholder": "在此输入您的消息",
+  "submit": "提交",
+  "submissionSuccess": "您的消息已成功发送！",
+  "packageInterest": "感谢您对{{package}}套餐的兴趣。",
+  "interestedIn": "我对{{package}}套餐感兴趣。",
+  "code": "代码"
+}

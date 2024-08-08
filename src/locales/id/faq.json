@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "Apa tanggung jawab umum dari seorang Legal Associate?",
+      "answer": "Legal Associate membantu pengacara dengan penelitian, persiapan dokumen hukum, dan komunikasi dengan klien. Mereka juga dapat membantu dalam manajemen kasus dan pengembangan strategi hukum."
+    },
+    {
+      "question": "Bagaimana seorang Legal Associate mendukung penelitian hukum?",
+      "answer": "Legal Associate melakukan penelitian hukum untuk mendukung kasus, memastikan kepatuhan dengan hukum dan peraturan. Mereka menganalisis preseden dan memberikan ringkasan serta rekomendasi kepada pengacara."
+    },
+    {
+      "question": "Keterampilan apa yang penting untuk seorang Legal Associate?",
+      "answer": "Keterampilan penting untuk Legal Associate termasuk penelitian hukum, menulis, dan analisis. Mereka harus memiliki perhatian yang kuat terhadap detail, keterampilan komunikasi, dan kemampuan bekerja di bawah tekanan."
+    },
+    {
+      "question": "Kualifikasi apa yang dibutuhkan untuk menjadi seorang Legal Associate?",
+      "answer": "Biasanya, seorang Legal Associate memiliki gelar dalam bidang hukum dan mungkin telah menyelesaikan magang atau mendapatkan pengalaman di firma hukum. Beberapa peran mungkin memerlukan sertifikasi atau kualifikasi tambahan."
+    }
+  ],
+  "faqTitle": "FAQ Legal Associate",
+  "faqHeading": "Pertanyaan yang Sering Diajukan",
+  "faqDescription": "Temukan jawaban atas pertanyaan umum tentang peran dan tanggung jawab seorang Legal Associate.",
+  "contactButton": "Hubungi Kami untuk Info Lebih Lanjut"
+}

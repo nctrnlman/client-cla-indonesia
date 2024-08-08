@@ -44,6 +44,43 @@ const PricingCard = ({
             </span>
           )}
         </div>
+        <ul className="mb-6 space-y-2">
+          {features.slice(0, 3).map((feature, index) => (
+            <li key={index} className="flex items-center">
+              <FaCheck className="text-green-500 mr-2" />
+              <span>{feature}</span>
+            </li>
+          ))}
+        </ul>
+        {features.length > 3 && (
+          <div>
+            <motion.div
+              initial={false}
+              animate={{ height: isExpanded ? "auto" : 0 }}
+              className="overflow-hidden"
+            >
+              <ul className="mb-6 space-y-2">
+                {features.slice(3).map((feature, index) => (
+                  <li key={index + 3} className="flex items-center">
+                    <FaCheck className="text-green-500 mr-2" />
+                    <span>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+            <button
+              className="text-primary hover:text-secondary transition duration-300 flex items-center justify-center w-full mb-4"
+              onClick={() => setIsExpanded(!isExpanded)}
+            >
+              {isExpanded ? "Show Less" : "Show More"}
+              {isExpanded ? (
+                <FaChevronUp className="ml-2" />
+              ) : (
+                <FaChevronDown className="ml-2" />
+              )}
+            </button>
+          </div>
+        )}
         <motion.button
           className="w-full bg-primary text-white font-bold py-2 px-4 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
           whileHover={{ scale: 1.05 }}
@@ -65,14 +102,14 @@ function Content({ packages, content }) {
             <PricingCard key={pkg.title} {...pkg} isPopular={index === 1} />
           ))}
         </div>
-        <div>
+        {/* <div>
           <h2 className="text-2xl font-bold text-primary mb-4">Overview</h2>
           <ul className="text-2xl font-bold text-primary mb-2 text-justify list-disc list-inside pl-5">
             {content.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
       <motion.div
         className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-secondary opacity-10 rounded-full"
@@ -88,18 +125,18 @@ function Content({ packages, content }) {
   );
 }
 
-Content.propTypes = {
-  packages: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      price: PropTypes.string.isRequired,
-      fakePrice: PropTypes.string,
-      features: PropTypes.arrayOf(PropTypes.string).isRequired,
-      buttonText: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-  content: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
+// Content.propTypes = {
+//   packages: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       title: PropTypes.string.isRequired,
+//       description: PropTypes.string.isRequired,
+//       price: PropTypes.string.isRequired,
+//       fakePrice: PropTypes.string,
+//       features: PropTypes.arrayOf(PropTypes.string).isRequired,
+//       buttonText: PropTypes.string.isRequired,
+//     })
+//   ).isRequired,
+//   content: PropTypes.arrayOf(PropTypes.string).isRequired,
+// };
 
 export default Content;
