@@ -1,0 +1,60 @@
+{
+  "product": "PRODUCT",
+  "subscriptionTitle": "3 Months Subscription",
+  "subscriptionSubtitle": "for Legal Associate",
+  "packages": [
+    {
+      "title": "Standard (for SMEs only)",
+      "description": "This package includes all premium features such as A, B, and C.",
+      "price": "1,500,000",
+      "fakePrice": "2,500,000",
+      "features": [
+        "Unlimited online consultations",
+        "Preparation of Labor Law Documents (PKWT, PKWTT, Termination Agreements, and Power of Attorney) every 3 months",
+        "Review 2 agreements per month",
+        "Compliance assistance: Filling out the Investment Activity Report (LKPM)",
+        "Free legal training provided every 3 months"
+      ],
+      "buttonText": "Subscribe Now",
+      "isPopular": false
+    },
+    {
+      "title": "Premium",
+      "description": "This package includes standard features such as X, Y, and Z.",
+      "price": "3,500,000",
+      "fakePrice": "4,000,000",
+      "features": [
+        "Unlimited online consultations",
+        "Preparation of Labor Law Documents (PKWT, PKWTT, Termination Agreements, and Power of Attorney) every 3 months",
+        "Preparation of 1 Business Agreement (Sales Agreement, Share Purchase Agreement, MoU, or others) every 3 months",
+        "Review 2 agreements per month",
+        "Compliance assistance: Filling out the Investment Activity Report (LKPM)",
+        "Free: Legal training provided every 3 months, Filling out monthly corporate tax reports."
+      ],
+      "buttonText": "Subscribe Now",
+      "isPopular": true
+    },
+    {
+      "title": "Ultimate",
+      "description": "This package includes basic features such as 1, 2, and 3.",
+      "price": "5,000,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "Unlimited online consultations, including meetings with other parties",
+        "Preparation or review of 5 agreements per month",
+        "Compliance assistance: Filling out the Investment Activity Report (LKPM) and other technical reports.",
+        "Corporate document assistance (GMS/GMSLB, Board of Directors Resolutions, and Shareholders Resolutions)",
+        "Free: Legal training provided every 3 months, Filling out annual corporate tax reports."
+      ],
+      "buttonText": "Subscribe Now",
+      "isPopular": false
+    }
+  ],
+  "note": {
+    "iconText": "Payment will be processed every month for 3 consecutive months. Prices do not include Taxes, Transportation Fees, and other costs outside the Services mentioned above (if any)."
+  },
+  "mostPopular": "Most Popular",
+  "features": "Features",
+  "seeLess": "See less",
+  "seeMore": "See more"
+}
