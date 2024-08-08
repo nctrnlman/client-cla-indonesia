@@ -1,0 +1,46 @@
+{
+  "home": "首页",
+  "legalAssociate": "法律顾问",
+  "legalTraining": "法律培训",
+  "otherServices": "其他服务",
+  "categories": {
+    "LEGALITY": [
+      { "name": "有限责任公司", "slug": "pt-perseroan-terbatas" },
+      { "name": "普通合伙公司", "slug": "cv-commanditaire-venootschap" },
+      { "name": "个人公司", "slug": "pt-perorangan" },
+      { "name": "新", "slug": "new" },
+      { "name": "外商投资公司", "slug": "pt-pma" },
+      { "name": "公司", "slug": "firma" },
+      { "name": "民事合伙", "slug": "persekutuan-perdata" },
+      { "name": "协会", "slug": "perkumpulan" },
+      { "name": "基金会", "slug": "yayasan" }
+    ],
+    "PERIZINAN": [
+      { "name": "NIB & OSS", "slug": "nib-oss" },
+      { "name": "增值税许可证", "slug": "izin-pkp" },
+      { "name": "餐馆许可证", "slug": "izin-restoran" },
+      { "name": "建设许可证", "slug": "izin-konstruksi" },
+      { "name": "PSE许可证", "slug": "izin-pse" },
+      { "name": "K3L许可证", "slug": "izin-k3l" },
+      { "name": "基金会许可证", "slug": "izin-yayasan" },
+      { "name": "33++ 其他许可证", "slug": "33-lainnya" },
+      { "name": "所有", "slug": "all" }
+    ],
+    "JASA HUKUM": [
+      { "name": "虚拟办公室", "slug": "virtual-office" },
+      { "name": "公司章程变更", "slug": "perubahan-anggaran-dasar" },
+      { "name": "公司注销", "slug": "penutupan-perusahaan" },
+      { "name": "财产分割协议", "slug": "perjanjian-pisah-harta" },
+      { "name": "商标注册", "slug": "pendaftaran-merek" },
+      { "name": "工作签证", "slug": "kitas-pekerja" },
+      { "name": "投资者签证", "slug": "kitas-investor" },
+      { "name": "17++ 其他服务", "slug": "17-lainnya" },
+      { "name": "所有", "slug": "all" }
+    ],
+    "LAINNYA": [
+      { "name": "虚拟办公室", "slug": "virtual-office" },
+      { "name": "公司章程变更", "slug": "perubahan-anggaran-dasar" },
+      { "name": "公司注销", "slug": "penutupan-perusahaan" }
+    ]
+  }
+}

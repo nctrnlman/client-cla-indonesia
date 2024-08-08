@@ -1,27 +1,26 @@
 import { motion } from "framer-motion";
 import FAQItem from "../cards/faq/FAQItem";
+import { useTranslation } from "react-i18next";
 
 const FAQ = () => {
+  const { t } = useTranslation("faq");
+
   const faqs = [
     {
-      question: "Apa tanggung jawab umum dari seorang Legal Associate?",
-      answer:
-        "Legal Associate membantu pengacara dengan penelitian, persiapan dokumen hukum, dan komunikasi dengan klien. Mereka juga dapat membantu dalam manajemen kasus dan pengembangan strategi hukum.",
+      question: t("faqs.0.question"),
+      answer: t("faqs.0.answer"),
     },
     {
-      question: "Bagaimana seorang Legal Associate mendukung penelitian hukum?",
-      answer:
-        "Legal Associate melakukan penelitian hukum untuk mendukung kasus, memastikan kepatuhan dengan hukum dan peraturan. Mereka menganalisis preseden dan memberikan ringkasan serta rekomendasi kepada pengacara.",
+      question: t("faqs.1.question"),
+      answer: t("faqs.1.answer"),
     },
     {
-      question: "Keterampilan apa yang penting untuk seorang Legal Associate?",
-      answer:
-        "Keterampilan penting untuk Legal Associate termasuk penelitian hukum, menulis, dan analisis. Mereka harus memiliki perhatian yang kuat terhadap detail, keterampilan komunikasi, dan kemampuan bekerja di bawah tekanan.",
+      question: t("faqs.2.question"),
+      answer: t("faqs.2.answer"),
     },
     {
-      question: "Kualifikasi apa yang dibutuhkan untuk menjadi seorang Legal Associate?",
-      answer:
-        "Biasanya, seorang Legal Associate memiliki gelar dalam bidang hukum dan mungkin telah menyelesaikan magang atau mendapatkan pengalaman di firma hukum. Beberapa peran mungkin memerlukan sertifikasi atau kualifikasi tambahan.",
+      question: t("faqs.3.question"),
+      answer: t("faqs.3.answer"),
     },
   ];
 
@@ -39,21 +38,18 @@ const FAQ = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            FAQ Legal Associate
+            {t("faqTitle")}
           </motion.p>
           <h2 className="sm:text-5xl text-4xl font-extrabold text-primary mb-6">
-            Pertanyaan yang Sering Diajukan
+            {t("faqHeading")}
           </h2>
-          <p className="text-gray-600 mb-8">
-            Temukan jawaban atas pertanyaan umum tentang peran dan tanggung jawab
-            seorang Legal Associate.
-          </p>
+          <p className="text-gray-600 mb-8">{t("faqDescription")}</p>
           <motion.button
             className="bg-primary text-white font-bold py-3 px-6 rounded-full hover:bg-secondary hover:text-primary transition duration-300 shadow-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Hubungi Kami untuk Info Lebih Lanjut
+            {t("contactButton")}
           </motion.button>
         </div>
         <motion.ul

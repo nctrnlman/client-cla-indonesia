@@ -5,7 +5,8 @@ import useSmoothScroll from "../../components/hooks/useSmoothScroll";
 import { useTranslation } from "react-i18next";
 
 function Navbar() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation(["serviceData"]);
+  const data = t("servicesData", { returnObjects: true });
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOtherServicesOpen, setIsOtherServicesOpen] = useState(false);
   const [isOtherServicesMobileOpen, setIsOtherServicesMobileOpen] =
@@ -66,7 +67,7 @@ function Navbar() {
   const handleMouseLeave = () => {
     const timer = setTimeout(() => {
       setIsOtherServicesOpen(false);
-    }, 1000); // 3 seconds delay
+    }, 1000); // 1 seconds delay
     setCloseTimer(timer);
   };
 
@@ -74,63 +75,77 @@ function Navbar() {
     setIsOtherServicesOpen(false);
     navigate(to);
   };
+  const servicesData = data.reduce((acc, service) => {
+    const { category, items } = service;
 
-  const servicesData = [
-    {
-      category: "LEGALITY",
-      items: [
-        { name: "PT / Perseroan Terbatas", slug: "pt-perseroan-terbatas" },
-        {
-          name: "CV / Commanditaire Venootschap",
-          slug: "cv-commanditaire-venootschap",
-        },
-        { name: "PT Perorangan", slug: "pt-perorangan" },
-        { name: "New", slug: "new" },
-        { name: "PT PMA", slug: "pt-pma" },
-        { name: "Firma", slug: "firma" },
-        { name: "Persekutuan Perdata", slug: "persekutuan-perdata" },
-        { name: "Perkumpulan", slug: "perkumpulan" },
-        { name: "Yayasan", slug: "yayasan" },
-      ],
-    },
-    {
-      category: "PERIZINAN",
-      items: [
-        { name: "NIB & OSS", slug: "nib-oss" },
-        { name: "Izin PKP", slug: "izin-pkp" },
-        { name: "Izin Restoran", slug: "izin-restoran" },
-        { name: "Izin Konstruksi", slug: "izin-konstruksi" },
-        { name: "Izin PSE", slug: "izin-pse" },
-        { name: "Izin K3L", slug: "izin-k3l" },
-        { name: "Izin Yayasan", slug: "izin-yayasan" },
-        { name: "33++ Izin Lainnya", slug: "33-lainnya" },
-        { name: "ALL", slug: "all" },
-      ],
-    },
-    {
-      category: "JASA HUKUM",
-      items: [
-        { name: "Virtual Office", slug: "virtual-office" },
-        { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
-        { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
-        { name: "Perjanjian Pisah Harta", slug: "perjanjian-pisah-harta" },
-        { name: "Pendaftaran Merek", slug: "pendaftaran-merek" },
-        { name: "KITAS Pekerja", slug: "kitas-pekerja" },
-        { name: "KITAS Investor", slug: "kitas-investor" },
-        { name: "17++ Layanan Lainnya", slug: "17-lainnya" },
-        { name: "ALL", slug: "all" },
-      ],
-    },
-    {
-      category: "LAINNYA",
-      items: [
-        { name: "Virtual Office", slug: "virtual-office" },
-        { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
-        { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
-      ],
-    },
-  ];
+    let categoryObject = acc.find((cat) => cat.category === category);
 
+    if (!categoryObject) {
+      categoryObject = { category, items: [] };
+      acc.push(categoryObject);
+    }
+
+    categoryObject.items.push(
+      ...items.map((item) => ({
+        name: item.name,
+        slug: item.slug,
+      }))
+    );
+
+    return acc;
+  }, []);
+
+  // const servicesData = [
+  //   {
+  //     category: "LEGALITY",
+  //     items: [
+  //       { name: "PT / Perseroan Terbatas", slug: "pt-perseroan-terbatas" },
+  //       {
+  //         name: "CV / Commanditaire Venootschap",
+  //         slug: "cv-commanditaire-venootschap",
+  //       },
+  //       { name: "PT Perorangan", slug: "pt-perorangan" },
+  //       { name: "PT PMA", slug: "pt-pma" },
+  //       { name: "Firma", slug: "firma" },
+  //       { name: "Persekutuan Perdata", slug: "persekutuan-perdata" },
+  //       { name: "Perkumpulan", slug: "perkumpulan" },
+  //       { name: "Yayasan", slug: "yayasan" },
+  //     ],
+  //   },
+  //   {
+  //     category: "PERIZINAN",
+  //     items: [
+  //       { name: "NIB & OSS", slug: "nib-oss" },
+  //       { name: "Izin PKP", slug: "izin-pkp" },
+  //       { name: "Izin Restoran", slug: "izin-restoran" },
+  //       { name: "Izin Konstruksi", slug: "izin-konstruksi" },
+  //       { name: "Izin PSE", slug: "izin-pse" },
+  //       { name: "Izin K3L", slug: "izin-k3l" },
+  //       { name: "Izin Yayasan", slug: "izin-yayasan" },
+  //     ],
+  //   },
+  //   {
+  //     category: "JASA HUKUM",
+  //     items: [
+  //       { name: "Virtual Office", slug: "virtual-office" },
+  //       { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
+  //       { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
+  //       { name: "Perjanjian Pisah Harta", slug: "perjanjian-pisah-harta" },
+  //       { name: "Pendaftaran Merek", slug: "pendaftaran-merek" },
+  //       { name: "KITAS Pekerja", slug: "kitas-pekerja" },
+  //       { name: "KITAS Investor", slug: "kitas-investor" },
+  //     ],
+  //   },
+  //   {
+  //     category: "LAINNYA",
+  //     items: [
+  //       { name: "Virtual Office", slug: "virtual-office" },
+  //       { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
+  //       { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
+  //     ],
+  //   },
+  // ];
+  // const servicesData = t("servicesData", { returnObjects: true });
   return (
     <>
       <nav className="px-2 sm:px-4 py-2.5 shadow bg-white w-full fixed top-0 z-40">
@@ -187,6 +202,33 @@ function Navbar() {
                   <span className="border-animation"></span>
                 </Link>
               </li>
+              <li
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                ref={otherServicesRef}
+              >
+                <button className="py-2 pr-4 pl-3 text-primary relative">
+                  {t("navbar.otherServices")}
+                  <span className="border-animation"></span>
+                  <svg
+                    className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
+                      isOtherServicesOpen ? "rotate-90" : "rotate-0"
+                    } h-2 w-4 ml-2 items-center inline-block transition-transform duration-600 ease-in-out text-secondary`}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d={
+                        isOtherServicesOpen ? "M19 9l-7 7-7-7" : "M5 15l7-7 7 7"
+                      }
+                    />
+                  </svg>
+                </button>
+              </li>
               <li>
                 <Link
                   to="/legal-associate"
@@ -215,31 +257,27 @@ function Navbar() {
                   <span className="border-animation"></span>
                 </Link>
               </li>
-              <li
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                ref={otherServicesRef}
-              >
-                <button className="py-2 pr-4 pl-3 text-primary relative">
-                  {t("navbar.otherServices")}
-                  <span className="border-animation"></span>
-                  <svg
-                    className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
-                      isOtherServicesOpen ? "rotate-90" : "rotate-0"
-                    } h-2 w-4 ml-2 items-center inline-block transition-transform duration-600 ease-in-out text-secondary`}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d={
-                        isOtherServicesOpen ? "M19 9l-7 7-7-7" : "M5 15l7-7 7 7"
-                      }
-                    />
-                  </svg>
+
+              <li className="flex gap-4">
+                <button
+                  onClick={() => changeLanguage("en")}
+                  className="text-primary"
+                >
+                  EN
+                </button>{" "}
+                |
+                <button
+                  onClick={() => changeLanguage("id")}
+                  className="text-primary"
+                >
+                  ID
+                </button>
+                |
+                <button
+                  onClick={() => changeLanguage("zh")}
+                  className="text-primary"
+                >
+                  ZH
                 </button>
               </li>
             </ul>
@@ -270,7 +308,7 @@ function Navbar() {
               }`}
               onClick={() => handleLinkClick("/")}
             >
-              Home
+              {t("navbar.home")}
               <span className="border-animation"></span>
             </Link>
           </li>
@@ -284,10 +322,11 @@ function Navbar() {
               }`}
               onClick={() => handleLinkClick("/legal-associate")}
             >
-              Legal Associate
+              {t("navbar.legalAssociate")}
               <span className="border-animation"></span>
             </Link>
           </li>
+
           <li>
             <Link
               to="/legal-training"
@@ -298,10 +337,11 @@ function Navbar() {
               }`}
               onClick={() => handleLinkClick("/legal-training")}
             >
-              Legal Training
+              {t("navbar.legalTraining")}
               <span className="border-animation"></span>
             </Link>
           </li>
+
           <li
             className="relative"
             onClick={() =>
@@ -309,7 +349,7 @@ function Navbar() {
             }
           >
             <button className="block py-2 pr-4 pl-3 text-primary font-semibold flex items-center justify-between">
-              <span>Other Services</span>
+              <span>{t("navbar.otherServices")}</span>
               <svg
                 className={`flex-shrink-0 w-4 h-4 transform ${
                   isOtherServicesMobileOpen ? "rotate-90" : "rotate-0"
@@ -331,6 +371,7 @@ function Navbar() {
               </svg>
             </button>
           </li>
+
           {isOtherServicesMobileOpen && (
             <div
               className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}

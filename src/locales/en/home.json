@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Corporate Legal Associate",
+    "type1": "Your Trusted Legal Partner",
+    "type2": "Experts in Indonesian Law",
+    "type3": "Empowering Your Business",
+    "description": "Providing comprehensive legal services with expertise and integrity since 2019. Your success is our priority. Trusted by 100+ Business Actors in Indonesia",
+    "button1": "Schedule Consultation",
+    "button2": "Learn More",
+    "practiceAreas": "Our Practice Areas",
+    "areas": {
+      "corporateLaw": "Corporate Law",
+      "intellectualProperty": "Intellectual Property",
+      "litigation": "Litigation & Dispute Resolution",
+      "employmentLaw": "Employment Law",
+      "mergersAcquisitions": "Mergers & Acquisitions",
+      "realEstateLaw": "Real Estate Law"
+    },
+    "expertAdvice": "Expert legal advice and representation"
+  }
+}

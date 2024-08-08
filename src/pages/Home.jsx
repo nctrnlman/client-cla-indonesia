@@ -13,12 +13,10 @@ function Home({ setIsLoading }) {
   useEffect(() => {
     setIsLoading(true);
 
-    // Simulate loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500); // Adjust this time as needed
+    }, 1500);
 
-    // Cleanup function
     return () => clearTimeout(timer);
   }, [setIsLoading]);
 

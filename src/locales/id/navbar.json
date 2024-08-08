@@ -1,0 +1,55 @@
+{
+  "home": "Beranda",
+  "legalAssociate": "Associate Hukum",
+  "legalTraining": "Pelatihan Hukum",
+  "otherServices": "Layanan Lainnya",
+  "categories": {
+    "LEGALITY": [
+      { "name": "PT / Perseroan Terbatas", "slug": "pt-perseroan-terbatas" },
+      {
+        "name": "CV / Commanditaire Venootschap",
+        "slug": "cv-commanditaire-venootschap"
+      },
+      { "name": "PT Perorangan", "slug": "pt-perorangan" },
+      { "name": "Baru", "slug": "new" },
+      { "name": "PT PMA", "slug": "pt-pma" },
+      { "name": "Firma", "slug": "firma" },
+      { "name": "Persekutuan Perdata", "slug": "persekutuan-perdata" },
+      { "name": "Perkumpulan", "slug": "perkumpulan" },
+      { "name": "Yayasan", "slug": "yayasan" }
+    ],
+    "PERIZINAN": [
+      { "name": "NIB & OSS", "slug": "nib-oss" },
+      { "name": "Izin PKP", "slug": "izin-pkp" },
+      { "name": "Izin Restoran", "slug": "izin-restoran" },
+      { "name": "Izin Konstruksi", "slug": "izin-konstruksi" },
+      { "name": "Izin PSE", "slug": "izin-pse" },
+      { "name": "Izin K3L", "slug": "izin-k3l" },
+      { "name": "Izin Yayasan", "slug": "izin-yayasan" },
+      { "name": "33++ Izin Lainnya", "slug": "33-lainnya" },
+      { "name": "SEMUA", "slug": "all" }
+    ],
+    "JASA HUKUM": [
+      { "name": "Virtual Office", "slug": "virtual-office" },
+      {
+        "name": "Perubahan Anggaran Dasar",
+        "slug": "perubahan-anggaran-dasar"
+      },
+      { "name": "Penutupan Perusahaan", "slug": "penutupan-perusahaan" },
+      { "name": "Perjanjian Pisah Harta", "slug": "perjanjian-pisah-harta" },
+      { "name": "Pendaftaran Merek", "slug": "pendaftaran-merek" },
+      { "name": "KITAS Pekerja", "slug": "kitas-pekerja" },
+      { "name": "KITAS Investor", "slug": "kitas-investor" },
+      { "name": "17++ Layanan Lainnya", "slug": "17-lainnya" },
+      { "name": "SEMUA", "slug": "all" }
+    ],
+    "LAINNYA": [
+      { "name": "Virtual Office", "slug": "virtual-office" },
+      {
+        "name": "Perubahan Anggaran Dasar",
+        "slug": "perubahan-anggaran-dasar"
+      },
+      { "name": "Penutupan Perusahaan", "slug": "penutupan-perusahaan" }
+    ]
+  }
+}
