@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import servicesData from "../../data/servicesData";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaCheck, FaChevronDown, FaChevronUp } from "react-icons/fa";
-
+import { useTranslation } from "react-i18next";
 const PricingCard = ({
   title,
   description,
@@ -94,6 +93,8 @@ const PricingCard = ({
 };
 
 function AllPackage() {
+  const { t, i18n } = useTranslation(["serviceData"]);
+  const servicesData = t("servicesData", { returnObjects: true });
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredServices, setFilteredServices] = useState(servicesData);
   const [visibleItems, setVisibleItems] = useState({});
@@ -133,7 +134,9 @@ function AllPackage() {
     .filter((category) => category.items.length > 0);
 
   const isAnyCategoryEmpty = filteredCategories.length === 0;
-
+  useEffect(() => {
+    setFilteredServices(t("servicesData", { returnObjects: true }));
+  }, [i18n.language]);
   return (
     <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <motion.div
