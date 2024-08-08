@@ -15,40 +15,44 @@ const useSmoothScroll = () => {
     );
   };
 
-  const scrollToTopFromBottom = useCallback(() => {
-    const scrollHeight = getScrollHeight();
-    
-    // First, scroll to the bottom instantly
-    window.scrollTo(0, scrollHeight);
+  const scrollToTop = useCallback((duration = 500) => {
+    const start = window.pageYOffset;
+    const startTime = 'now' in window.performance ? performance.now() : new Date().getTime();
 
-    // Then, after a short delay, smooth scroll to the top
-    setTimeout(() => {
-      if ('scrollBehavior' in document.documentElement.style) {
-        // Use native smooth scrolling if supported
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      } else {
-        // Fallback for browsers that don't support smooth scrolling
-        let currentPosition = window.pageYOffset;
-        const scrollStep = -currentPosition / 20;
+    const scroll = () => {
+      const now = 'now' in window.performance ? performance.now() : new Date().getTime();
+      const time = Math.min(1, (now - startTime) / duration);
+      window.scrollTo(0, Math.ceil((1 - time) * start));
 
-        const smoothScroll = () => {
-          currentPosition += scrollStep;
-          if (currentPosition > 0) {
-            window.scrollTo(0, currentPosition);
-            requestAnimationFrame(smoothScroll);
-          } else {
-            window.scrollTo(0, 0);
-          }
-        };
-
-        requestAnimationFrame(smoothScroll);
+      if (time < 1) {
+        requestAnimationFrame(scroll);
       }
-    }, 100); // Adjust this delay as needed
+    };
+
+    requestAnimationFrame(scroll);
   }, []);
 
+  const handlePageLoad = useCallback(() => {
+    // Delay the scroll to top to ensure content is loaded
+    setTimeout(() => {
+      scrollToTop(800);  // Adjust duration as needed
+    }, 100);  // Adjust delay as needed
+  }, [scrollToTop]);
+
   useEffect(() => {
-    scrollToTopFromBottom();
-  }, [pathname, scrollToTopFromBottom]);
+    // Add event listener for page load
+    window.addEventListener('load', handlePageLoad);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('load', handlePageLoad);
+    };
+  }, [handlePageLoad]);
+
+  useEffect(() => {
+    // Scroll to top on pathname change
+    scrollToTop(800);  // Adjust duration as needed
+  }, [pathname, scrollToTop]);
 };
 
 export default useSmoothScroll;
