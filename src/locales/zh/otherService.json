@@ -1,0 +1,23 @@
+{
+  "product": "产品",
+  "solutions": "解决方案",
+  "subscribe_now": "立即订阅",
+  "services": {
+    "finance_title": "财务，会计和税务",
+    "finance_description": "该套餐包括所有高级功能，如A，B和C。",
+    "business_title": "业务开发和研究",
+    "business_description": "该套餐包括标准功能，如X，Y和Z。",
+    "office_title": "虚拟或私人办公室",
+    "office_description": "该套餐包括基本功能，如1，2和3。"
+  },
+  "features": {
+    "consultation": "咨询",
+    "company_deed": "公司契约",
+    "pt_decree": "PT决议",
+    "company_tax_number": "公司税号",
+    "business_identification_number": "商业识别号码 (NIB)",
+    "kppr": "KPPR",
+    "standard_certificate": "标准证书/许可",
+    "company_efin_activity": "公司EFIN活动"
+  }
+}
