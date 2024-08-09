@@ -12,7 +12,7 @@ function PricingCard({
     <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
       <div className="card-body">
         <h3 className="card-title text-2xl font-bold text-primary">{title}</h3>
-        <p className="text-gray-600 mt-2">{description}</p>
+        {/* <p className="text-gray-600 mt-2">{description}</p> */}
         <div className="flex items-baseline mt-4 mb-6">
           <span className="text-3xl font-bold text-primary">{price}</span>
           <span className="text-xl text-gray-500 line-through ml-2">

@@ -9,6 +9,7 @@ import faqEN from "./locales/en/faq.json";
 import subscriptionEN from "./locales/en/subscription.json";
 import contactUsEN from "./locales/en/contactUs.json";
 import serviceDataEN from "./locales/en/serviceData.json";
+import otherServiceEN from "./locales/en/otherService.json";
 import translationID from "./locales/id/translation.json";
 import navbarID from "./locales/id/navbar.json";
 import homeID from "./locales/id/home.json";
@@ -16,6 +17,7 @@ import faqID from "./locales/id/faq.json";
 import subscriptionID from "./locales/id/subscription.json";
 import contactUsID from "./locales/id/contactUs.json";
 import serviceDataID from "./locales/id/serviceData.json";
+import otherServiceID from "./locales/id/otherService.json";
 // import translationZH from "./locales/zh/translation.json";
 import navbarZH from "./locales/zh/navbar.json";
 import homeZH from "./locales/zh/home.json";
@@ -23,6 +25,7 @@ import faqZH from "./locales/zh/faq.json";
 import subscriptionZH from "./locales/zh/subscription.json";
 import contactUsZH from "./locales/zh/contactUs.json";
 import serviceDataZH from "./locales/zh/serviceData.json";
+import otherServiceZH from "./locales/zh/otherService.json";
 
 const resources = {
   en: {
@@ -32,6 +35,7 @@ const resources = {
     faq: faqEN,
     subscription: subscriptionEN,
     serviceData: serviceDataEN,
+    otherService: otherServiceEN,
     contactUs: contactUsEN,
   },
   id: {
@@ -41,6 +45,7 @@ const resources = {
     faq: faqID,
     subscription: subscriptionID,
     serviceData: serviceDataID,
+    otherService: otherServiceID,
     contactUs: contactUsID,
   },
   zh: {
@@ -50,6 +55,7 @@ const resources = {
     faq: faqZH,
     subscription: subscriptionZH,
     serviceData: serviceDataZH,
+    otherService: otherServiceZH,
     contactUs: contactUsZH,
   },
 };

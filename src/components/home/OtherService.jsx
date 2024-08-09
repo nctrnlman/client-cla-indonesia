@@ -1,60 +1,60 @@
+import { useTranslation } from "react-i18next";
 import PricingCard from "../cards/pricing/PricingCard";
-// import OtherServiceCard from "../cards/other-service/OtherServiceCard"; flip card ga kepake
 
 function OtherService() {
+  const { t } = useTranslation("otherService");
+
   const services = [
     {
-      title: "Finance, Accounting and Tax",
-      description:
-        "This package includes all the premium features such as A, B, and C.",
+      title: t("services.finance_title"),
+      description: t("services.finance_description"),
       price: "5.500.000",
       fakePrice: "7.500.000",
       features: [
-        "Konsultasi",
-        "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
-        "Nomor Pokok Wajib Pajak Badan Usaha",
-        "Nomor Induk Berusaha (NIB)",
-        "KPPR",
-        "Sertifikat Standar/Izin",
-        "Aktivitas EFIN Badan Usaha",
+        t("features.consultation"),
+        t("features.company_deed"),
+        t("features.pt_decree"),
+        t("features.company_tax_number"),
+        t("features.business_identification_number"),
+        t("features.kppr"),
+        t("features.standard_certificate"),
+        t("features.company_efin_activity"),
       ],
-      buttonText: "Subscribe Now",
+      buttonText: t("subscribe_now"),
     },
     {
-      title: "Business Development and Research",
-      description:
-        "This package includes standard features such as X, Y, and Z.",
+      title: t("services.business_title"),
+      description: t("services.business_description"),
       price: "5.500.000",
       fakePrice: "7.500.000",
       features: [
-        "Konsultasi",
-        "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
-        "Nomor Pokok Wajib Pajak Badan Usaha",
-        "Nomor Induk Berusaha (NIB)",
-        "KPPR",
-        "Sertifikat Standar/Izin",
-        "Aktivitas EFIN Badan Usaha",
+        t("features.consultation"),
+        t("features.company_deed"),
+        t("features.pt_decree"),
+        t("features.company_tax_number"),
+        t("features.business_identification_number"),
+        t("features.kppr"),
+        t("features.standard_certificate"),
+        t("features.company_efin_activity"),
       ],
-      buttonText: "Subscribe Now",
+      buttonText: t("subscribe_now"),
     },
     {
-      title: "Virtual or Private Office",
-      description: "This package includes basic features such as 1, 2, and 3.",
+      title: t("services.office_title"),
+      description: t("services.office_description"),
       price: "7.500.000",
       fakePrice: "12.500.000",
       features: [
-        "Konsultasi",
-        "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
-        "Nomor Pokok Wajib Pajak Badan Usaha",
-        "Nomor Induk Berusaha (NIB)",
-        "KPPR",
-        "Sertifikat Standar/Izin",
-        "Aktivitas EFIN Badan Usaha",
+        t("features.consultation"),
+        t("features.company_deed"),
+        t("features.pt_decree"),
+        t("features.company_tax_number"),
+        t("features.business_identification_number"),
+        t("features.kppr"),
+        t("features.standard_certificate"),
+        t("features.company_efin_activity"),
       ],
-      buttonText: "Subscribe Now",
+      buttonText: t("subscribe_now"),
     },
   ];
 
@@ -62,14 +62,11 @@ function OtherService() {
     <section className="py-16 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <button
-            className="bg-secondary items-center p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300
-          "
-          >
-            PRODUCT
+          <button className="bg-secondary items-center p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300">
+            {t("product")}
           </button>
           <h2 className="mt-6 text-3xl md:text-5xl font-extrabold text-primary">
-            Solutions
+            {t("solutions")}
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

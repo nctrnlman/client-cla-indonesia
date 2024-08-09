@@ -1,0 +1,23 @@
+{
+  "product": "PRODUCT",
+  "solutions": "Solutions",
+  "subscribe_now": "Subscribe Now",
+  "services": {
+    "finance_title": "Finance, Accounting and Tax",
+    "finance_description": "This package includes all the premium features such as A, B, and C.",
+    "business_title": "Business Development and Research",
+    "business_description": "This package includes standard features such as X, Y, and Z.",
+    "office_title": "Virtual or Private Office",
+    "office_description": "This package includes basic features such as 1, 2, and 3."
+  },
+  "features": {
+    "consultation": "Consultation",
+    "company_deed": "Company Deed",
+    "pt_decree": "PT Decree",
+    "company_tax_number": "Company Tax Number",
+    "business_identification_number": "Business Identification Number (NIB)",
+    "kppr": "KPPR",
+    "standard_certificate": "Standard Certificate/Permit",
+    "company_efin_activity": "Company EFIN Activity"
+  }
+}
