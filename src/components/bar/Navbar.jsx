@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo/logo_cla.png";
 import useSmoothScroll from "../../components/hooks/useSmoothScroll";
 import { useTranslation } from "react-i18next";
+import Flag from "react-flagkit";
 
 function Navbar() {
   const { t, i18n } = useTranslation(["serviceData"]);
@@ -258,26 +259,26 @@ function Navbar() {
                 </Link>
               </li>
 
-              <li className="flex gap-4">
+              <li className="flex gap-4 items-center">
                 <button
                   onClick={() => changeLanguage("en")}
-                  className="text-primary"
+                  className="text-primary flex items-center gap-2"
                 >
-                  EN
+                  <Flag country="US" className="w-6 h-4" />
                 </button>{" "}
                 |
                 <button
                   onClick={() => changeLanguage("id")}
-                  className="text-primary"
+                  className="text-primary flex items-center gap-2"
                 >
-                  ID
-                </button>
+                  <Flag country="ID" className="w-6 h-4" />
+                </button>{" "}
                 |
                 <button
                   onClick={() => changeLanguage("zh")}
-                  className="text-primary"
+                  className="text-primary flex items-center gap-2"
                 >
-                  ZH
+                  <Flag country="CN" className="w-6 h-4" />
                 </button>
               </li>
             </ul>
