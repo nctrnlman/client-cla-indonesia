@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Navbar from "./components/bar/Navbar";
-import Footer from "./components/bar/Footer";
 import LegalAssociate from "./pages/LegalAssociate";
 import LegalTraining from "./pages/LegalTraining";
 import OtherService from "./pages/OtherService";
-import ConsultationButton from "./components/navigation/ConsultationButton";
-import LoadingSpinner from "./components/Loading/LoadingSpinner";
 import OtherServiceDetail from "./pages/OtherServiceDetail";
+import Navbar from "./components/global/bar/Navbar";
+import LoadingSpinner from "./components/global/Loading/LoadingSpinner";
+import ConsultationButton from "./components/global/navigation/ConsultationButton";
+import Footer from "./components/global/bar/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -20,7 +20,7 @@ function App() {
       {isLoading && <LoadingSpinner />}
       <Routes>
         <Route path="/" element={<Home setIsLoading={setIsLoading} />} />
-       
+
         <Route
           path="/other-services"
           element={<OtherService setIsLoading={setIsLoading} />}
@@ -28,7 +28,7 @@ function App() {
         <Route
           path="/other-service/:slug"
           element={<OtherServiceDetail setIsLoading={setIsLoading} />}
-        /> 
+        />
         <Route
           path="/legal-associate"
           element={<LegalAssociate setIsLoading={setIsLoading} />}

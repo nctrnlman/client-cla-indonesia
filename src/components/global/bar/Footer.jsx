@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/logo_cla_bnw.png";
+import logo from "../../../assets/logo/logo_cla_bnw.png";
 function Footer() {
   return (
     <div>

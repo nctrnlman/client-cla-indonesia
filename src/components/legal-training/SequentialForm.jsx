@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaUser, FaEnvelope, FaPhone, FaPencilAlt } from "react-icons/fa";
-import LoadingSpinner from "../Loading/LoadingSpinner";
+import LoadingSpinner from "../global/Loading/LoadingSpinner";
 import { useTranslation } from "react-i18next";
 
 function ContactUsSection({ selectedPackage }) {
