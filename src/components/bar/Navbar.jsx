@@ -262,23 +262,26 @@ function Navbar() {
               <li className="flex gap-4 items-center">
                 <button
                   onClick={() => changeLanguage("en")}
-                  className="text-primary flex items-center gap-2"
+                  className="text-primary flex items-center gap-2 hover:bg-gray-200 p-2 rounded transition-all"
                 >
                   <Flag country="US" className="w-6 h-4" />
+                  EN
                 </button>{" "}
                 |
                 <button
                   onClick={() => changeLanguage("id")}
-                  className="text-primary flex items-center gap-2"
+                  className="text-primary flex items-center gap-2 hover:bg-gray-200 p-2 rounded transition-all"
                 >
                   <Flag country="ID" className="w-6 h-4" />
+                  ID
                 </button>{" "}
                 |
                 <button
                   onClick={() => changeLanguage("zh")}
-                  className="text-primary flex items-center gap-2"
+                  className="text-primary flex items-center gap-2 hover:bg-gray-200 p-2 rounded transition-all"
                 >
                   <Flag country="CN" className="w-6 h-4" />
+                  ZH
                 </button>
               </li>
             </ul>
