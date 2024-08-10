@@ -2,21 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const WhyChooseLegalAssociate = ({ icon, title, description, bgColor }) => {
-  const cardClasses = `bg-${bgColor} rounded-3xl p-6 h-[24rem] flex flex-col`;
-
   return (
-    <div className={cardClasses}>
-      <div className="mb-6 flex items-center justify-center h-1/3">
-        <div className="bg-white bg-opacity-20 rounded-full p-4">
+    <div className={`bg-${bgColor} rounded-xl p-4 h-full flex flex-col`}>
+      <div className="mb-4 flex items-center justify-center">
+        <div className="bg-white bg-opacity-20 rounded-full p-3">
           {icon &&
             React.cloneElement(icon, {
-              className: "w-16 h-16 text-white",
+              className: "w-10 h-10 text-white",
             })}
         </div>
       </div>
       <div className="flex-grow">
-        <h2 className="text-white text-2xl font-bold mb-2">{title}</h2>
-        <p className="text-white text-opacity-80">{description}</p>
+        <h2 className="text-white text-xl font-bold mb-2">{title}</h2>
+        <p className="text-white text-opacity-80 text-sm">{description}</p>
       </div>
     </div>
   );

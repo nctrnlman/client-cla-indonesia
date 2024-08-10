@@ -21,7 +21,7 @@ function Home({ setIsLoading }) {
   }, [setIsLoading]);
 
   return (
-    <div className="mt-9 ">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Helmet>
         <title>CLA Indonesia - Layanan Legal Terpercaya di Indonesia</title>
         <meta
@@ -30,20 +30,22 @@ function Home({ setIsLoading }) {
         />
         <link rel="canonical" href="https://www.domainanda.com/" />
       </Helmet>
-      <Hero />
-      <div id="PackageSubcription">
-        <PackageSubcription />
-      </div>
-      <Subscription />
-      <div id="legalityPackages">
-        <LegalityPackages />
-      </div>
-      <OtherService />
-      <About />
-      <FAQ />
-      <div id="SequentialForm">
-        <SequentialForm />
-      </div>
+      <main className="flex-grow">
+        <Hero />
+        <div id="PackageSubcription">
+          <PackageSubcription />
+        </div>
+        <Subscription />
+        <div id="legalityPackages">
+          <LegalityPackages />
+        </div>
+        <OtherService />
+        <About />
+        <FAQ />
+        <div id="SequentialForm">
+          <SequentialForm />
+        </div>
+      </main>
     </div>
   );
 }
