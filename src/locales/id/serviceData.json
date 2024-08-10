@@ -3301,6 +3301,423 @@
               "content": "*Persyaratan Dokumen dapat dibantu oleh tim Corporate Legal Associate*"
             }
           ]
+        },
+        {
+          "name": "Likuidasi Perusahaan",
+          "slug": "likuidasi-perusahaan",
+          "package": {
+            "title": "Likuidasi Perusahaan",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "Start from 8.500.000",
+            "fakePrice": "12.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Proses likuidasi perusahaan adalah tahapan di mana perusahaan menyelesaikan semua tanggung jawabnya sebelum resmi dibubarkan. Jasa ini mencakup berbagai aspek legal dan administratif untuk memastikan likuidasi berjalan lancar dan sesuai dengan hukum yang berlaku di Indonesia."
+            },
+
+            {
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Lingkup Kerja:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Persiapan Dokumentasi Rapat Umum Pemegang Saham Luar Biasa (RUPS-LB):"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan dokumen yang diperlukan untuk RUPS-LB terkait keputusan likuidasi oleh para pemegang saham, termasuk rancangan resolusi dan agenda rapat."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Perwakilan di Hadapan Notaris:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg ",
+                  "content": "Bertindak atas nama klien dalam interaksi dengan notaris, memastikan semua dokumen legal yang diperlukan untuk proses likuidasi disiapkan, ditandatangani, dan dilaksanakan sesuai ketentuan hukum."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Pendataan dan Konsolidasi Aset dan Kewajiban:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Melakukan inventarisasi menyeluruh atas semua aset dan kewajiban perusahaan, mencakup dokumentasi dan penilaian yang akurat untuk memastikan distribusi aset yang adil."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Penyelesaian Pembayaran kepada Kreditur:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengelola pembayaran utang kepada kreditur, mencakup prioritas klaim, negosiasi penyelesaian, dan disbursement sesuai ketentuan hukum."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Distribusi dan Penyelesaian Aset:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengawasi distribusi sisa aset kepada pemegang saham setelah likuidasi, memastikan semua proses dilakukan secara adil dan sesuai dengan kewajiban hukum."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Pencabutan Berbagai Registrasi:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengurus pembatalan NPWP, SKT, NIB, dan izin lainnya dengan mengajukan dokumen yang diperlukan ke pihak berwenang terkait."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Pengumuman dan Pemberitahuan Publik:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengelola penerbitan pengumuman di surat kabar dan Lembaran Negara untuk memberi tahu semua pemangku kepentingan dan publik mengenai status likuidasi."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Penyusunan dan Persetujuan Laporan Likuidasi:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menyusun laporan likuidasi komprehensif yang kemudian diserahkan kepada pemegang saham untuk ditinjau dan disetujui, menandai akhir resmi proses likuidasi."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg pt-2",
+              "content": "Untuk melaksanakan proses likuidasi perusahaan, beberapa dokumen penting diperlukan. Berikut adalah daftar dokumen yang umumnya dibutuhkan:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Akta Pendirian dan Anggaran Dasar Perusahaan:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta pendirian perusahaan beserta semua perubahan anggaran dasar yang telah disahkan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Keputusan Rapat Umum Pemegang Saham (RUPS):"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berita acara RUPS mengenai keputusan untuk melikuidasi perusahaan, termasuk penunjukan likuidator."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Laporan Keuangan Terakhir:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan keuangan perusahaan yang telah diaudit untuk periode terakhir sebelum likuidasi."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Daftar Aset dan Kewajiban:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Inventaris lengkap dari semua aset dan kewajiban perusahaan, termasuk dokumen pendukung seperti sertifikat kepemilikan aset dan perjanjian utang."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Dokumen Pajak:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor Pokok Wajib Pajak (NPWP), Surat Keterangan Terdaftar (SKT), dan bukti pembayaran pajak terakhir."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Laporan Bank:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rekening koran atau laporan bank yang menunjukkan transaksi keuangan terbaru perusahaan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Daftar Kreditur:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Daftar lengkap kreditur beserta detail utang yang harus dilunasi."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Perjanjian dan Kontrak:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Salinan semua perjanjian dan kontrak yang masih berlaku dan perlu diselesaikan atau dihentikan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Surat Izin Usaha:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor Induk Berusaha (NIB) dan izin usaha lainnya yang dimiliki perusahaan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Dokumen Perpajakan Lainnya:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bukti pelaporan dan pembayaran pajak lainnya yang relevan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Dokumen Hukum:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen hukum lainnya yang relevan dengan operasional dan kewajiban perusahaan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "content": "Notaris:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Surat kuasa untuk notaris yang ditunjuk untuk menangani proses likuidasi."
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg font-semibold pt-2",
+              "content": "*Persyaratan Dokumen dapat dibantu oleh tim Corporate Legal Associate*"
+            }
+          ]
+        },
+        {
+          "name": "Legal Opinion",
+          "slug": "legal-opinion",
+          "package": {
+            "title": "Legal Opinion",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "Start from 8.500.000",
+            "fakePrice": "12.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Jasa pembuatan Legal Opinion (Pendapat Hukum) bertujuan untuk memberikan analisis hukum yang mendalam dan komprehensif terkait suatu isu atau kasus hukum tertentu. Pendapat hukum ini disusun oleh tim ahli hukum kami yang berpengalaman dan berkompeten dalam berbagai bidang hukum."
+            },
+
+            {
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Manfaat:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Kepastian Hukum: Memberikan panduan yang jelas dan pasti tentang posisi hukum dari suatu masalah atau kasus."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg ",
+                  "content": "Pengambilan Keputusan: Membantu klien dalam membuat keputusan yang tepat berdasarkan analisis hukum yang mendalam."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pencegahan Risiko: Mengidentifikasi potensi risiko hukum dan memberikan rekomendasi untuk mitigasi."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Produk Hukum: Pendapat Hukum Resmi."
+                }
+              ]
+            }
+          ],
+          "process": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Identifikasi Masalah: Memahami secara mendalam masalah atau isu hukum yang dihadapi klien."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penelitian Hukum: Melakukan penelitian menyeluruh terhadap peraturan perundang-undangan, yurisprudensi, dan literatur hukum yang relevan terhadap kasys  yang dihadapi saat ini."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Analisis Hukum: Menganalisis temuan penelitian dan menerapkannya pada situasi klien"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan Pendapat: Menyusun dokumen Legal Opinion yang jelas, terstruktur, dan dapat dipertanggungjawabkan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Diskusi dan Revisi: Membahas pendapat hukum dengan klien dan melakukan revisi jika diperlukan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legal Research",
+          "slug": "legal-research",
+          "package": {
+            "title": "Legal Research",
+            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+            "price": "Start from 5.500.000",
+            "fakePrice": "7.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Jasa Legal Research (Penelitian Hukum) menyediakan layanan penelitian yang mendalam dan komprehensif mengenai berbagai isu hukum. Tim peneliti hukum kami memiliki keahlian dalam mengumpulkan, menganalisis, dan menyajikan informasi hukum yang relevan dan up-to-date."
+            },
+
+            {
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Manfaat:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Informasi Terkini: Mendapatkan informasi hukum yang akurat dan terbaru yang relevan dengan kebutuhan klien."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg ",
+                  "content": "Dasar Pengambilan Keputusan: Menyediakan dasar yang kuat untuk pengambilan keputusan hukum yang informasional."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Kepatuhan Hukum: Memastikan kepatuhan terhadap peraturan perundang-undangan yang berlaku."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Produk Hukum: Laporan Riset."
+                }
+              ]
+            }
+          ],
+          "process": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Identifikasi Masalah: Memahami secara mendalam masalah atau isu hukum yang dihadapi klien."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penelitian Hukum: Melakukan penelitian menyeluruh terhadap peraturan perundang-undangan, yurisprudensi, dan literatur hukum yang relevan terhadap kasys  yang dihadapi saat ini."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Analisis Hukum: Menganalisis temuan penelitian dan menerapkannya pada situasi klien"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan Pendapat: Menyusun dokumen Legal Opinion yang jelas, terstruktur, dan dapat dipertanggungjawabkan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Diskusi dan Revisi: Membahas pendapat hukum dengan klien dan melakukan revisi jika diperlukan."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3522,65 +3939,714 @@
           ]
         },
         {
-          "name": "Perubahan Anggaran Dasar",
-          "slug": "perubahan-anggaran-dasar",
+          "name": "Riset Pasar dan Pengembangan Bisnis",
+          "slug": "riset-pasar-dan-pengembangan-bisnis",
           "package": {
-            "title": "Perubahan Anggaran Dasar",
+            "title": "Riset Pasar dan Pengembangan Bisnis",
             "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "6.000.000",
-            "fakePrice": "12.000.000",
-            "features": [
-              "Analisis Investasi",
-              "Strategi Investasi",
-              "Konsultasi Portofolio",
-              "Laporan Risiko",
-              "Perencanaan Investasi"
-            ],
+            "price": "Biaya Riset Pasar dan Pengembangan Bisnis bervariasi tergantung pada fasilitas dan jangka waktu yang diinginkan.",
+            "fakePrice": "",
+            "features": [],
             "buttonText": "Dapatkan Konsultasi"
           },
           "overviews": [
             {
               "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Jasa Riset Pasar dan Pengembangan Bisnis menyediakan solusi menyeluruh untuk membantu perusahaan memahami pasar, mengidentifikasi peluang, dan mengembangkan strategi pertumbuhan yang efektif. Layanan ini mencakup riset pasar yang mendalam, analisis kompetitif, pengembangan strategi bisnis, serta implementasi rencana pengembangan bisnis yang tepat sasaran. Dengan dukungan tim ahli yang berpengalaman, kami membantu perusahaan mencapai keunggulan kompetitif dan pertumbuhan berkelanjutan."
             },
             {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Manfaat Jasa Riset Pasar dan Pengembangan Bisnis:"
             },
             {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
+                  "content": "Pemahaman Mendalam tentang Pasar:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Memperoleh wawasan pasar yang akurat dan up-to-date"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengidentifikasi tren pasar, preferensi konsumen, dan kebutuhan pelanggan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Identifikasi Peluang Bisnis:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menemukan segmen pasar baru yang potensial."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengidentifikasi peluang investasi dan ekspansi bisnis."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Analisis Kompetitif:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menilai kekuatan dan kelemahan pesaing."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menentukan posisi kompetitif perusahaan di pasar."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Pengembangan Strategi Bisnis:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menyusun rencana bisnis yang strategis dan terukur."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Menyediakan panduan implementasi yang jelas dan praktis."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Efisiensi Operasional:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengidentifikasi area untuk peningkatan efisiensi dan produktivitas."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Memberikan rekomendasi untuk optimalisasi proses bisnis."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Pengambilan Keputusan Berdasarkan Data:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Memberikan data dan analisis yang mendalam untuk mendukung pengambilan keputusan yang lebih baik."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengurangi risiko bisnis melalui wawasan yang berbasis bukti."
+                }
+              ]
             },
             {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Fitur Utama:"
             },
             {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
-            },
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg pt-2 font-semibold",
+                  "content": "Riset Pasar:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg ",
+                  "content": "Pengumpulan data pasar melalui survei, wawancara, dan studi kasus."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg ",
+                  "content": "Analisis data untuk memahami dinamika pasar dan perilaku konsumen."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Analisis Kompetitif:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Studi mendalam tentang pesaing, termasuk analisis SWOT (Strengths, Weaknesses, Opportunities, Threats)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemantauan aktivitas pesaing dan tren industri."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Pengembangan Strategi Bisnis:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan rencana bisnis yang disesuaikan dengan visi dan misi perusahaan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Identifikasi inisiatif pertumbuhan dan inovasi bisnis."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Evaluasi Peluang Investasi:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Analisis kelayakan investasi dan identifikasi peluang investasi yang potensial."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan laporan kelayakan investasi yang komprehensif."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Laporan dan Rekomendasi:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyediaan laporan riset yang rinci dan mudah dipahami."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rekomendasi praktis dan implementatif untuk pengembangan bisnis."
+                }
+              ]
+            }
+          ],
+          "process": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Konsultasi Awal:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Diskusi dengan klien untuk memahami kebutuhan, tujuan, dan tantangan bisnis."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penentuan cakupan dan tujuan layanan yang akan diberikan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Pengumpulan Data:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengumpulan data primer dan sekunder melalui riset pasar, wawancara, dan survei."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Analisis data untuk mendapatkan wawasan yang relevan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Analisis dan Evaluasi:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Melakukan analisis mendalam terhadap data yang dikumpulkan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Evaluasi terhadap kekuatan, kelemahan, peluang, dan ancaman yang dihadapi perusahaan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Pengembangan Strategi:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan rencana strategi yang disesuaikan dengan kebutuhan dan tujuan bisnis klien."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyediaan rekomendasi untuk implementasi strategi."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 font-semibold text-lg pt-2",
+                  "content": "Penyampaian Laporan:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyusunan laporan akhir yang mendetail dan presentasi hasil kepada klien."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Diskusi mengenai temuan, rekomendasi, dan langkah selanjutnya."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FAT Pelaporan Tahunan SPT Badan",
+          "slug": "fat-pelaporan-tahunan-spt-badan",
+          "package": {
+            "title": "FAT Pelaporan Tahunan SPT Badan",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "Start from 1.250.000",
+            "fakePrice": "3.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
             {
               "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Surat Pemberitahuan yang selanjutnya disingkat SPT adalah surat yang digunakan untuk melaporkan penghitungan dan/atau pembayaran pajak, objek pajak dan/atau bukan objek pajak, dan/atau harta dan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan. Surat Pemberitahuan Tahunan Pajak Penghasilan yang selanjutnya disebut SPT Tahunan PPh adalah SPT PPh untuk suatu Tahun Pajak atau Bagian Tahun Pajak. Badan usaha maupun Orang Pribadi yang melakukan kegiatan usahanya yang telah terdaftar sebagai Wajib Pajak ditandai memiliki Nomor Pokok Wajib Pajak (NPWP) mempunyai kewajiban untuk menyampaikan Surat Pemberitahuan (SPT) Tahunan Pajak Penghasilan."
             },
+
             {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
+                  "content": "Dasar Hukum:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Peraturan mengenai SPT Tahunan diatur dalam Undang-Undang Nomor 28 Tahun 2007 tentang Ketentuan Umum dan Tata Cara Perpajakan (UU KUP) sebagaimana telah diubah terakhir dengan UU Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan atau UU HPP. Mengacu undang-undang tersebut, pemerintah mengharuskan seluruh wajib pajak agar melaporkan SPT sesuai dengan ketentuan yang berlaku."
+                },
+
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Proses Pengurusan:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pelaporan secara online melalui kanal DJP Online, kemudian dilanjutkan dengan pengajuan permintaan e-form SPT Tahunan yang akan difinalisasi berdasarkan dokumen yang sudah dipersiapkan seperti: Laporan Laba Rugi, Neraca, Buku Besar, Laporan Hutang, Laporan Penjualan dan Pembelian, Laporan rincian biaya – biaya, dll."
+                }
+              ]
             }
           ],
           "documents": [
-            "Data portofolio investasi;",
-            "Laporan risiko;",
-            "Data pasar;",
-            "Dokumen analisis investasi;",
-            "Laporan konsultasi."
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan keuangan (untuk WP OP dan WP BUT (Badan Usaha) yang melaksanakan pembukuan)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penghitungan Peredaran Bruto & Pembayaran (Khusus WP UMKM)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bukti Potong Formulir 1721 A1 atau A2 untuk WP status karyawan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FAT Pelaporan Tahunan SPT Masa",
+          "slug": "fat-pelaporan-tahunan-spt-masa",
+          "package": {
+            "title": "FAT Pelaporan Tahunan SPT Masa; PPH 21, PPH 22, PPH 23, PPH PS. 4 (2), PPN",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "Start from 1.000.000",
+            "fakePrice": "2.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "PT Masa PPh Pasal 21/26, melaporkan tentang pajak penghasilan karyawan, dimana pasal 21 mengatur karyawan Indonesia, dan pasal 26 mengatur karyawan asing yang berdomisili di Indonesia."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "SPT Masa PPh Pasal 22, melaporkan pajak yang dipungut bendaharawan pemerintah berkenaan dengan penghasilan dari transaksi impor."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "SPT Masa PPh Pasal 23/26, sehubungan dengan pajak yang dipotong dari hasil transaksi modal, seperti dividen, bunga, royalti, hadiah dan penghargaan, sewa dan pendapatan yang terkait dengan aset selain dari transaksi tanah dan bangunan dan jasa. Pasal 23 diperuntukkan untuk transaksi yang terjadi dengan wajib pajak Indonesia, pasal 26 dengan orang asing atau Badan Usaha Tetap milik asing."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "SPT Masa PPh Pasal 25, berhubungan dengan angsuran bulanan."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "SPT Masa PPh Pasal 4 ayat (2), sehubungan dengan pajak yang dipotong dari penghasilan yang dipotong dari bunga deposito dan tabungan lainnya, bunga obligasi dan surat utang negara, bunga simpanan yang dibayarkan koperasi, hadiah undian, transaksi saham dan sekuritas lainnya, serta transaksi lain sebagaimana diatur dalam peraturannya."
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Sertifikat Elektronik (jika ada) beserta passphrase"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan dan invoice biaya – biaya sebagai dasar perhitungan untuk proses pelaporan SPT Masa"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen informasi tambahan jika diperlukan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
+          "slug": "fat-pengukuhan-pkp-dan-aktivasi-akun-pkp",
+          "package": {
+            "title": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "Start from 1.250.000",
+            "fakePrice": "2.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Izin Pengusaha Kena Pajak (PKP) adalah izin yang diberikan oleh Direktorat Jenderal Pajak (DJP) kepada pengusaha yang memenuhi kriteria untuk dikenakan Pajak Pertambahan Nilai (PPN) dan Pajak Penjualan atas Barang Mewah (PPnBM). PKP merupakan kewajiban bagi pengusaha yang melakukan penjualan barang dan/atau jasa kena pajak dengan omzet di atas batas yang ditetapkan pemerintah."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Pengusaha dengan omzet tahunan di atas batas (Rp4.800.000.000) yang ditetapkan pemerintah harus mengajukan permohonan PKP. Peraturan mengenai PKP terdapat dalam Peraturan Pemerintah Nomor 44 Tahun 2022 tentang Penerapan Terhadap PPN Barang dan Jasa serta PPnBM (PP 44/2022)."
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
+                  "content": "Proses Pengurusan:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Persiapan Dokumen: Pengusaha harus menyiapkan dokumen-dokumen penting seperti Akta Pendirian Perusahaan, SK Kemenkumham, NPWP Badan dan Seluruh Pengurus dalam Akta Pendirian, KTP/Paspor Seluruh Pengurus dalam Akta Pendirian, NIB, dan Mapping Lokasi Usaha, Sudah harus melaporkan SPT Tahunan 2 tahun terakhir"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengajuan Permohonan: Permohonan pendaftaran PKP akan diajukan secara offline melalui sistem pelayanan atau help desk. Dalam hal permohonan wajib dihadiri Direktur sebagai bukti yang sah atas kepengurusan perusahaan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Verifikasi: DJP akan melakukan verifikasi terhadap dokumen yang diajukan. Pengusaha mungkin akan diminta untuk memberikan informasi tambahan jika diperlukan. Dalam proses verifikasi harus di hadiri oleh Direktur perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penerbitan PKP: Setelah dokumen diverifikasi dan memenuhi syarat, DJP akan mengeluarkan Surat Pengukuhan Pengusaha Kena Pajak (SPPKP)."
+                },
+
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Keuntungan Memiliki PKP"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Kepatuhan Pajak: Memastikan bahwa pengusaha memenuhi kewajiban pajak sesuai dengan peraturan yang berlaku."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengembalian PPN: Memungkinkan pengusaha untuk mengklaim kembali PPN yang dibayar atas pembelian barang dan jasa."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Kepercayaan Mitra Bisnis: Meningkatkan kredibilitas dan kepercayaan mitra bisnis karena status sebagai PKP menunjukkan kepatuhan pajak yang baik."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Masa Berlaku Sertifikat PKP berlaku selama pengusaha masih aktif menjalankan usaha dan memenuhi kriteria sebagai PKP. Pendaftaran PKP harus diperbarui jika ada perubahan signifikan dalam kegiatan usaha atau struktur perusahaan."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta pendirian dan/perubahan perusahaan dan SK Kemenkumham"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Badan Usaha dan NPWP Seluruh Pengurus Badan Usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP/Paspor Seluruh Pengurus Badan Usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Formulir Pengukuhan PKP dan Aktsivasi Akun PKP"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NIB"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Lokasi Badan Usaha"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FAT Pembuatan NPWP dan Aktivasi EFIN",
+          "slug": "fat-pembuatan-npwp-dan-aktivasi-efin",
+          "package": {
+            "title": "FAT Pembuatan NPWP dan Aktivasi EFIN",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "Start from 750.000",
+            "fakePrice": "2.000.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Berdasarkan Pasal 1 Nomor 6 Undang-undang Nomor 28 Tahun 2007, NPWP adalah identitas atau tanda pengenal bagi wajib pajak yang diberikan Direktorat Jenderal Pajak (DJP). "
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
+                  "content": "Proses Pengurusan:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Persiapan Dokumen: Pengusaha harus menyiapkan dokumen-dokumen penting seperti Akta Pendirian Perusahaan, SK Kemenkumham, NPWP dan NIB. Bagi orang pribadi cukup menyiapkan KTP/Paspor"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pengajuan Permohonan: Permohonan pendaftaran PKP diajukan secara  melalui system e-Registration di situs resmi Direktorat Jenderal Pajak atau onsite melalui pelayanan di KPP."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Verifikasi: DJP akan melakukan verifikasi terhadap dokumen yang diajukan. Pengusaha mungkin akan diminta untuk memberikan informasi tambahan jika diperlukan."
+                },
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold",
+                  "content": "Manfaat memiliki NPWP:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Identitas wajib pajak ini memberikan banyak manfaat baik untuk keperluan administrasi perpajakan atau untuk urusan administrasi di luar perpajakan. "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bagi Anda yang berniat mengajukan kredit ke bank, NPWP menjadi dokumen penting yang menjadi syarat pembuatan kredit. Kalau Anda punya usaha, sudah seharusnya memiliki NPWP. Sebab, NPWP diperlukan untuk pengurusan Nomor Induk Berusaha (NIB)"
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP bagi Wajib Pajak Orang Pribadi. Akta Pendirian/Perubahan dan SK Kemenkumham bagi Wajib Pajak Badan Usaha."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor Induk Berusaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Softcopy KTP dan NPWP seluruh pengurus bagi Wajib Pajak Badan Usaha"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Formulir Aktivasi EFIN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
+          "slug": "fat-pembukuan-jurnal-buku-besar-dan-laporan-keuangan",
+          "package": {
+            "title": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
+            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+            "price": "Start from 1.500.000",
+            "fakePrice": "2.500.000",
+            "features": [],
+            "buttonText": "Dapatkan Konsultasi"
+          },
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Pembukuan keuangan dalam akuntansi adalah proses pencatatan semua transaksi keuangan suatu entitas atau organisasi. Ini melibatkan pencatatan semua pemasukan dan pengeluaran yang terkait dengan aktivitas bisnis atau keuangan, termasuk pembelian, penjualan, biaya operasional, gaji, pajak, dan transaksi lainnya. "
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Pembukuan keuangan memiliki banyak manfaat, antara lain sebagai acuan untuk mengetahui keuntungan dan kerugian dan sebagai alat penilaian dan arsip dokumen mengenai semua jenis pembayaran. Selain itu, pembukuan juga sebagai alat pengontrol arus kas yang masuk dan keluar serta pengalokasian modal serta dana unuk keberlangsungan sebuah usaha. Sehingga dengan adanya pembukuan ini dapat meminimalisir risiko kehilangan produk, asset, uang, bahkan kecurangan lainnya. Pembukuan ini juga sebagai bahan evaluasi layak atau tidaknya usaha tersebut dipertahankan karena usaha yang baik dan berlanjut yakni usaha yang konsisten dalam pencatatan transaksi keuangannya."
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "p",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
+                  "content": "Proses Pengurusan:"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dari data yang ditelah diterima akan dilakukan pencatatan kemudian akan melalui proses penjurnalan berdasarkan prinsip akuntansi secara runtut dan historis. Kemudian atas proses jurnal tersebut akan diconvert menjadi Laporan Keuangan berisi Laba Rugi dan Neraca Perusahaan dan Laporan Arus Kas."
+                }
+              ]
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan seluruh Penjualan dan Pembelian"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Buku Bank / Mutasi Bank"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan biaya – biaya operasional perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan hutang – piutang"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan daftar Aset/Inventaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan pajak bulanan dan tahunan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan Modal Usaha"
+                }
+              ]
+            }
           ]
         }
       ]
