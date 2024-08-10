@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo from "../../assets/logo/logo_cla.png";
-import useSmoothScroll from "../../components/hooks/useSmoothScroll";
+import logo from "../../../assets/logo/logo_cla.png";
+import useSmoothScroll from "../../../hooks/useSmoothScroll";
 import { useTranslation } from "react-i18next";
 import Flag from "react-flagkit";
 
