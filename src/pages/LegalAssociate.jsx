@@ -20,7 +20,7 @@ function LegalAssociate({ setIsLoading }) {
   }, [setIsLoading]);
 
   return (
-    <div className="">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Helmet>
         <title>Legal Associate - CLA Indonesia</title>
         <meta
