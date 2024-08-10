@@ -275,6 +275,8 @@ function ContactUsSection({ selectedPackage }) {
           </motion.div>
         )}
       </AnimatePresence>
+      <div className="half-circle-right"></div>
+      <div className="half-circle-left"></div>
     </div>
   );
 }

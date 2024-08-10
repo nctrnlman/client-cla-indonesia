@@ -5,6 +5,13 @@
     "legalTraining": "法律培训",
     "otherServices": "其他服务"
   },
+  "otherServiceDetail": {
+    "description": "CLA Indonesia：被100多家印度尼西亚企业信赖。自2019年起提供专业且全面的法律服务。您的成功是我们的首要任务。",
+    "recommend": "推荐",
+    "overview": "概述 (Gàishù)",
+    "documents": "文件要求 (Wénjiàn Yāoqiú)",
+    "process": " 过程 (Guòchéng)"
+  },
   "servicesData": [
     {
       "category": "LEGAL",

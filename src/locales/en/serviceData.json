@@ -5,6 +5,14 @@
     "legalTraining": "Legal Training",
     "otherServices": "Other Services"
   },
+  "otherServiceDetail": {
+    "description": "CLA Indonesia: Trusted by 100+ Business Players in Indonesia. Providing comprehensive legal services with expertise and integrity since 2019. Your success is our priority.",
+    "recommend": "Recommended",
+
+    "overview": "Overview",
+    "documents": "Document Requirements",
+    "process": "Process"
+  },
   "servicesData": [
     {
       "category": "LEGAL",
