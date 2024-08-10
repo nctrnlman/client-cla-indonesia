@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaUser, FaEnvelope, FaPhone, FaPencilAlt } from "react-icons/fa";
 import LoadingSpinner from "../Loading/LoadingSpinner";
@@ -30,7 +30,7 @@ function ContactUsSection({ selectedPackage }) {
       setShowPackageNotification(true);
       setTimeout(() => setShowPackageNotification(false), 5000);
     }
-  }, [selectedPackage]);
+  }, [selectedPackage, t]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -68,7 +68,7 @@ function ContactUsSection({ selectedPackage }) {
   const renderField = (
     name,
     type = "text",
-    placeholder,
+    placeholderKey,
     icon,
     showIf = true
   ) => (
@@ -85,13 +85,13 @@ function ContactUsSection({ selectedPackage }) {
             <div className="label">
               <span className="label-text flex items-center text-primary">
                 {icon}
-                <span className="ml-2">{placeholder}</span>
+                <span className="ml-2">{t(placeholderKey)}</span>
               </span>
             </div>
             <input
               type={type}
               name={name}
-              placeholder={placeholder}
+              placeholder={t(placeholderKey)}
               className="input input-bordered w-full transition-all duration-300 focus:ring-2 focus:ring-primary bg-white text-primary"
               value={formData[name]}
               onChange={handleChange}
@@ -153,13 +153,15 @@ function ContactUsSection({ selectedPackage }) {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0"
+          className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 pr-6"
         >
           <h1 className="text-5xl font-bold text-primary mb-4">
             {t("contactUs")}
           </h1>
-          <p className="text-xl text-primary mb-4">
-            {t("contactUsSubtitle")} <br />*{t("termsAndConditions")}
+          <p className="text-lg text-primary mb-4">
+            {t("contactUsSubtitle")} <br />
+            <br />
+            {t("termsAndConditions")}
           </p>
         </motion.div>
 
@@ -187,13 +189,13 @@ function ContactUsSection({ selectedPackage }) {
                     {renderField(
                       "name",
                       "text",
-                      "What is your name?",
+                      "namePlaceholder",
                       <FaUser className="text-primary" />
                     )}
                     {renderField(
                       "email",
                       "email",
-                      "What is your email?",
+                      "emailPlaceholder",
                       <FaEnvelope className="text-primary" />,
                       step >= 1
                     )}
@@ -240,73 +242,39 @@ function ContactUsSection({ selectedPackage }) {
                       </motion.div>
                     )}
                   </form>
+                  {isLoading && (
+                    <div className="text-center mt-4">
+                      <LoadingSpinner />
+                    </div>
+                  )}
+                  {showAlert && (
+                    <div className="alert alert-success mt-4 text-center">
+                      <div className="flex-1">
+                        <div className="text-white">
+                          {t("submissionSuccess")}
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
           </div>
         </motion.div>
       </div>
-
-      {isLoading && <LoadingSpinner />}
-
-      <AnimatePresence>
-        {showAlert && (
-          <motion.div
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -50 }}
-            className="fixed top-4 right-4 z-50"
-          >
-            <div role="alert" className="alert alert-success shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="stroke-current shrink-0 h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <span>{t("submissionSuccess")}</span>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
       <AnimatePresence>
         {showPackageNotification && (
           <motion.div
-            initial={{ opacity: 0, y: -50 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -50 }}
-            className="fixed top-4 left-4 z-50"
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="fixed top-5 right-5 bg-blue-500 text-white p-3 rounded-lg shadow-lg"
           >
-            <div role="alert" className="alert alert-info shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="stroke-current shrink-0 w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                ></path>
-              </svg>
-              <span>{t("packageInterest", { package: selectedPackage })}</span>
-            </div>
+            <span>{t("interestedIn", { package: selectedPackage })}</span>
           </motion.div>
         )}
       </AnimatePresence>
-
-      <div className="half-circle-right"></div>
-      <div className="half-circle-left"></div>
     </div>
   );
 }
