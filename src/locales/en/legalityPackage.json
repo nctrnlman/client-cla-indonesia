@@ -1,0 +1,111 @@
+{
+  "product": "Product",
+  "legality_packages": "Legality Packages",
+  "choose_package": "Choose the right package for your business needs and start your journey with confidence.",
+  "most_popular": "Most Popular",
+  "order_now": "Order Now",
+  "show_more": "Show More",
+  "show_less": "Show Less",
+  "not_sure": "Not sure which package is right for you?",
+  "contact_us": "Contact Us for Consultation",
+  "packages": [
+    {
+      "title": "Standard PT Establishment (PMDN)",
+      "description": "This package includes all the premium features such as A, B, and C.",
+      "price": "3,500,000",
+      "fakePrice": "7,500,000",
+      "features": [
+        "Consultation",
+        "PT name search",
+        "PT Establishment Decree",
+        "Tax Identification Number for Business Entity"
+      ],
+      "buttonText": "Order Now"
+    },
+    {
+      "title": "Complete PT Establishment (PMDN)",
+      "description": "This package includes standard features such as X, Y, and Z.",
+      "price": "5,500,000",
+      "fakePrice": "7,500,000",
+      "features": [
+        "Consultation",
+        "PT name search",
+        "PT Establishment Decree",
+        "Tax Identification Number for Business Entity",
+        "Business Identification Number (NIB)",
+        "KPPR",
+        "Standard Certificate/License",
+        "Business Entity EFIN Activation"
+      ],
+      "buttonText": "Order Now"
+    },
+    {
+      "title": "PMA PT Establishment",
+      "description": "This package includes basic features such as 1, 2, and 3.",
+      "price": "7,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "Consultation",
+        "Deed of Establishment",
+        "PT Establishment Decree",
+        "Tax Identification Number for Business Entity",
+        "Business Identification Number (NIB)",
+        "KPPR",
+        "Standard Certificate/License",
+        "Business Entity EFIN Activation"
+      ],
+      "buttonText": "Order Now"
+    },
+    {
+      "title": "CV Establishment",
+      "description": "This package includes basic features such as 1, 2, and 3.",
+      "price": "5,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "Consultation",
+        "Deed of Establishment",
+        "PT Establishment Decree",
+        "Tax Identification Number for Business Entity",
+        "Business Identification Number (NIB)",
+        "KPPR",
+        "Standard Certificate/License",
+        "Business Entity EFIN Activation"
+      ],
+      "buttonText": "Order Now"
+    },
+    {
+      "title": "Firm Establishment",
+      "description": "This package includes basic features such as 1, 2, and 3.",
+      "price": "5,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "Consultation",
+        "Deed of Establishment",
+        "PT Establishment Decree",
+        "Tax Identification Number for Business Entity",
+        "Business Identification Number (NIB)",
+        "KPPR",
+        "Standard Certificate/License",
+        "Business Entity EFIN Activation"
+      ],
+      "buttonText": "Order Now"
+    },
+    {
+      "title": "Foundation Establishment",
+      "description": "This package includes basic features such as 1, 2, and 3.",
+      "price": "7,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "Consultation",
+        "Deed of Establishment",
+        "PT Establishment Decree",
+        "Tax Identification Number for Business Entity",
+        "Business Identification Number (NIB)",
+        "KPPR",
+        "Standard Certificate/License",
+        "Business Entity EFIN Activation"
+      ],
+      "buttonText": "Order Now"
+    }
+  ]
+}

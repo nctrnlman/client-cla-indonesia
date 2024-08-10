@@ -2,6 +2,8 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
 // Import translations from all languages
+
+// English
 import translationEN from "./locales/en/translation.json";
 import navbarEN from "./locales/en/navbar.json";
 import homeEN from "./locales/en/home.json";
@@ -10,6 +12,9 @@ import subscriptionEN from "./locales/en/subscription.json";
 import contactUsEN from "./locales/en/contactUs.json";
 import serviceDataEN from "./locales/en/serviceData.json";
 import otherServiceEN from "./locales/en/otherService.json";
+import legalityPackageEN from "./locales/en/legalityPackage.json";
+
+// Indonesia
 import translationID from "./locales/id/translation.json";
 import navbarID from "./locales/id/navbar.json";
 import homeID from "./locales/id/home.json";
@@ -18,6 +23,9 @@ import subscriptionID from "./locales/id/subscription.json";
 import contactUsID from "./locales/id/contactUs.json";
 import serviceDataID from "./locales/id/serviceData.json";
 import otherServiceID from "./locales/id/otherService.json";
+import legalityPackageID from "./locales/id/legalityPackage.json";
+
+// Chinese
 // import translationZH from "./locales/zh/translation.json";
 import navbarZH from "./locales/zh/navbar.json";
 import homeZH from "./locales/zh/home.json";
@@ -26,6 +34,7 @@ import subscriptionZH from "./locales/zh/subscription.json";
 import contactUsZH from "./locales/zh/contactUs.json";
 import serviceDataZH from "./locales/zh/serviceData.json";
 import otherServiceZH from "./locales/zh/otherService.json";
+import legalityPackageZH from "./locales/zh/legalityPackage.json";
 
 const resources = {
   en: {
@@ -36,6 +45,7 @@ const resources = {
     subscription: subscriptionEN,
     serviceData: serviceDataEN,
     otherService: otherServiceEN,
+    legalityPackage: legalityPackageEN,
     contactUs: contactUsEN,
   },
   id: {
@@ -46,6 +56,7 @@ const resources = {
     subscription: subscriptionID,
     serviceData: serviceDataID,
     otherService: otherServiceID,
+    legalityPackage: legalityPackageID,
     contactUs: contactUsID,
   },
   zh: {
@@ -56,6 +67,7 @@ const resources = {
     subscription: subscriptionZH,
     serviceData: serviceDataZH,
     otherService: otherServiceZH,
+    legalityPackage: legalityPackageZH,
     contactUs: contactUsZH,
   },
 };

@@ -1,0 +1,106 @@
+{
+  "product": "产品",
+  "legality_packages": "法律包",
+  "choose_package": "选择适合您业务需求的套餐，充满信心地开始您的旅程。",
+  "most_popular": "最受欢迎",
+  "order_now": "立即订购",
+  "show_more": "显示更多",
+  "show_less": "显示更少",
+  "not_sure": "不确定哪个套餐适合您？",
+  "contact_us": "联系我们进行咨询",
+  "packages": [
+    {
+      "title": "标准 PT 成立 (PMDN)",
+      "description": "此套餐包括所有高级功能，例如 A、B 和 C。",
+      "price": "3,500,000",
+      "fakePrice": "7,500,000",
+      "features": ["咨询", "PT 名称搜索", "PT 成立法令", "企业实体税号"],
+      "buttonText": "立即订购"
+    },
+    {
+      "title": "完整的 PT 成立 (PMDN)",
+      "description": "此套餐包括标准功能，例如 X、Y 和 Z。",
+      "price": "5,500,000",
+      "fakePrice": "7,500,000",
+      "features": [
+        "咨询",
+        "PT 名称搜索",
+        "PT 成立法令",
+        "企业实体税号",
+        "营业执照号码 (NIB)",
+        "KPPR",
+        "标准证书/许可证",
+        "企业实体 EFIN 激活"
+      ],
+      "buttonText": "立即订购"
+    },
+    {
+      "title": "PMA PT 成立",
+      "description": "此套餐包括基本功能，例如 1、2 和 3。",
+      "price": "7,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "咨询",
+        "成立契约",
+        "PT 成立法令",
+        "企业实体税号",
+        "营业执照号码 (NIB)",
+        "KPPR",
+        "标准证书/许可证",
+        "企业实体 EFIN 激活"
+      ],
+      "buttonText": "立即订购"
+    },
+    {
+      "title": "CV 成立",
+      "description": "此套餐包括基本功能，例如 1、2 和 3。",
+      "price": "5,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "咨询",
+        "成立契约",
+        "PT 成立法令",
+        "企业实体税号",
+        "营业执照号码 (NIB)",
+        "KPPR",
+        "标准证书/许可证",
+        "企业实体 EFIN 激活"
+      ],
+      "buttonText": "立即订购"
+    },
+    {
+      "title": "公司成立",
+      "description": "此套餐包括基本功能，例如 1、2 和 3。",
+      "price": "5,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "咨询",
+        "成立契约",
+        "PT 成立法令",
+        "企业实体税号",
+        "营业执照号码 (NIB)",
+        "KPPR",
+        "标准证书/许可证",
+        "企业实体 EFIN 激活"
+      ],
+      "buttonText": "立即订购"
+    },
+    {
+      "title": "基金会成立",
+      "description": "此套餐包括基本功能，例如 1、2 和 3。",
+      "price": "7,500,000",
+      "fakePrice": "12,500,000",
+      "features": [
+        "咨询",
+        "成立契约",
+        "PT 成立法令",
+        "企业实体税号",
+        "营业执照号码 (NIB)",
+        "KPPR",
+        "标准证书/许可证",
+        "企业实体 EFIN 激活"
+      ],
+      "buttonText": "立即订购"
+    }
+  ]
+}
