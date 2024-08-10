@@ -5,6 +5,13 @@
     "legalTraining": "Pelatihan Hukum",
     "otherServices": "Layanan Lainnya"
   },
+  "otherServiceDetail": {
+    "description": "CLA Indonesia: Dipercaya oleh 100+ Pelaku Usaha di Indonesia. Menyediakan layanan legalitas komprehensif dengan keahlian dan integritas sejak 2019. Kesuksesan Anda adalah prioritas kami.",
+    "recommend": "Rekomendasi Kami",
+    "overview": "Ikhtisar",
+    "documents": "Persyaratan Dokumen",
+    "process": "Proses"
+  },
   "servicesData": [
     {
       "category": "LEGAL",
