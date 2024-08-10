@@ -1,0 +1,111 @@
+{
+  "product": "Produk",
+  "legality_packages": "Paket Legalitas",
+  "choose_package": "Pilih paket yang tepat untuk kebutuhan bisnis Anda dan mulai perjalanan Anda dengan percaya diri.",
+  "most_popular": "Paling Populer",
+  "order_now": "Pesan Sekarang",
+  "show_more": "Tampilkan Lebih Banyak",
+  "show_less": "Tampilkan Lebih Sedikit",
+  "not_sure": "Tidak yakin paket mana yang tepat untuk Anda?",
+  "contact_us": "Hubungi Kami untuk Konsultasi",
+  "packages": [
+    {
+      "title": "Pendirian PT Standard (PMDN)",
+      "description": "Paket ini mencakup semua fitur premium seperti A, B, dan C.",
+      "price": "3.500.000",
+      "fakePrice": "7.500.000",
+      "features": [
+        "Konsultasi",
+        "Penelusuran nama PT",
+        "Surat Keputusan Pendirian PT",
+        "Nomor Pokok Wajib Pajak Badan Usaha"
+      ],
+      "buttonText": "Pesan Sekarang"
+    },
+    {
+      "title": "Pendirian PT Lengkap (PMDN)",
+      "description": "Paket ini mencakup fitur standar seperti X, Y, dan Z.",
+      "price": "5.500.000",
+      "fakePrice": "7.500.000",
+      "features": [
+        "Konsultasi",
+        "Penelusuran nama PT",
+        "Surat Keputusan Pendirian PT",
+        "Nomor Pokok Wajib Pajak Badan Usaha",
+        "Nomor Induk Berusaha (NIB)",
+        "KPPR",
+        "Sertifikat Standar/Izin",
+        "Aktivasi EFIN Badan Usaha"
+      ],
+      "buttonText": "Pesan Sekarang"
+    },
+    {
+      "title": "Pendirian PT PMA",
+      "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
+      "price": "7.500.000",
+      "fakePrice": "12.500.000",
+      "features": [
+        "Konsultasi",
+        "Akta Pendirian",
+        "Surat Keputusan Pendirian PT",
+        "Nomor Pokok Wajib Pajak Badan Usaha",
+        "Nomor Induk Berusaha (NIB)",
+        "KPPR",
+        "Sertifikat Standar/Izin",
+        "Aktivasi EFIN Badan Usaha"
+      ],
+      "buttonText": "Pesan Sekarang"
+    },
+    {
+      "title": "Pendirian CV",
+      "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
+      "price": "5.500.000",
+      "fakePrice": "12.500.000",
+      "features": [
+        "Konsultasi",
+        "Akta Pendirian",
+        "Surat Keputusan Pendirian PT",
+        "Nomor Pokok Wajib Pajak Badan Usaha",
+        "Nomor Induk Berusaha (NIB)",
+        "KPPR",
+        "Sertifikat Standar/Izin",
+        "Aktivasi EFIN Badan Usaha"
+      ],
+      "buttonText": "Pesan Sekarang"
+    },
+    {
+      "title": "Pendirian Firma",
+      "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
+      "price": "5.500.000",
+      "fakePrice": "12.500.000",
+      "features": [
+        "Konsultasi",
+        "Akta Pendirian",
+        "Surat Keputusan Pendirian PT",
+        "Nomor Pokok Wajib Pajak Badan Usaha",
+        "Nomor Induk Berusaha (NIB)",
+        "KPPR",
+        "Sertifikat Standar/Izin",
+        "Aktivasi EFIN Badan Usaha"
+      ],
+      "buttonText": "Pesan Sekarang"
+    },
+    {
+      "title": "Pendirian Yayasan",
+      "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
+      "price": "7.500.000",
+      "fakePrice": "12.500.000",
+      "features": [
+        "Konsultasi",
+        "Akta Pendirian",
+        "Surat Keputusan Pendirian PT",
+        "Nomor Pokok Wajib Pajak Badan Usaha",
+        "Nomor Induk Berusaha (NIB)",
+        "KPPR",
+        "Sertifikat Standar/Izin",
+        "Aktivasi EFIN Badan Usaha"
+      ],
+      "buttonText": "Pesan Sekarang"
+    }
+  ]
+}
