@@ -6,7 +6,7 @@ function Hero({ title, description }) {
   const { t } = useTranslation(["serviceData"]);
 
   return (
-    <div className="bg-gradient-to-r from-primary to-cyan-600 p-6 pt-20 sm:p-10 md:p-16 lg:p-20">
+    <div className="bg-gradient-to-r from-primary to-cyan-600 py-20 sm:p-10 md:p-16 lg:p-20">
       <div className="max-w-7xl mx-auto px-4">
         <div>
           <Breadcrumb title={title} />

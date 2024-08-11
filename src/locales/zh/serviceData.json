@@ -12,6 +12,26 @@
     "documents": "文件要求 (Wénjiàn Yāoqiú)",
     "process": " 过程 (Guòchéng)"
   },
+
+  "bonus": {
+    "labels": {
+      "product": "产品",
+      "more_bonus": "更多奖励"
+    },
+    "liaising_with_government_authorities": {
+      "title": "与政府部门联系",
+      "description": "与政府部门联系。"
+    },
+    "business_approach_tasks": {
+      "title": "商业方法任务",
+      "description": "以商业方法执行任务，符合您的利益。"
+    },
+    "company_compliance_alignment": {
+      "title": "公司合规对齐",
+      "description": "我们的服务与公司的合规性保持一致，超出更多要求。"
+    }
+  },
+
   "servicesData": [
     {
       "category": "LEGAL",
