@@ -35,7 +35,7 @@ const PricingCard = ({
       )}
       <div className="p-6">
         <h3 className="text-2xl font-bold text-primary mb-2">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
+        {/* <p className="text-gray-600 mb-4">{description}</p> */}
         <div className="mb-8">
           <span className="text-4xl font-bold text-primary">{price}</span>
           {fakePrice && (
@@ -95,8 +95,8 @@ const PricingCard = ({
 
 function Content({ packages, content }) {
   return (
-    <div className="bg-gray-50 relative py-20 overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center mx-auto py-20 max-w-7xl gap-10">
+    <div className="bg-gray-50 relative md:py-20 overflow-hidden">
+      <div className="grid grid-cols-1  justify-center mx-auto py-20 max-w-7xl gap-10">
         <div className="grid grid-cols-1 gap-8">
           {packages.map((pkg, index) => (
             <PricingCard key={pkg.title} {...pkg} isPopular={index === 1} />

@@ -13,6 +13,25 @@
     "documents": "Document Requirements",
     "process": "Process"
   },
+  "bonus": {
+    "labels": {
+      "product": "PRODUCT",
+      "more_bonus": "More Bonus"
+    },
+    "liaising_with_government_authorities": {
+      "title": "Liaising with Government Authorities",
+      "description": "Liaising with government authorities."
+    },
+    "business_approach_tasks": {
+      "title": "Business Approach Tasks",
+      "description": "Conducting tasks with business approaches for your interest."
+    },
+    "company_compliance_alignment": {
+      "title": "Company Compliance Alignment",
+      "description": "Our service aligns with company’s compliance, going beyond more requests."
+    }
+  },
+
   "servicesData": [
     {
       "category": "LEGAL",

@@ -12,6 +12,24 @@
     "documents": "Persyaratan Dokumen",
     "process": "Proses"
   },
+  "bonus": {
+    "labels": {
+      "product": "PRODUK",
+      "more_bonus": "Bonus Lebih"
+    },
+    "liaising_with_government_authorities": {
+      "title": "Berhubungan dengan Otoritas Pemerintah",
+      "description": "Berhubungan dengan otoritas pemerintah."
+    },
+    "business_approach_tasks": {
+      "title": "Tugas Pendekatan Bisnis",
+      "description": "Melakukan tugas dengan pendekatan bisnis untuk kepentingan Anda."
+    },
+    "company_compliance_alignment": {
+      "title": "Penyelarasan Kepatuhan Perusahaan",
+      "description": "Layanan kami selaras dengan kepatuhan perusahaan, melampaui permintaan lebih lanjut."
+    }
+  },
   "servicesData": [
     {
       "category": "LEGAL",

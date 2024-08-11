@@ -4,7 +4,6 @@ import Hero from "../components/other-service-detail/Hero";
 import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/legal-training/SequentialForm";
 import FAQ from "../components/home/FAQ";
-import servicesData from "../data/servicesData";
 // import Features from "../components/other-service-detail/Features";
 import Bonus from "../components/other-service-detail/Bonus";
 import { useTranslation } from "react-i18next";
@@ -15,25 +14,28 @@ import Process from "../components/other-service-detail/Process";
 function OtherServiceDetail() {
   const { t } = useTranslation(["serviceData"]);
   const { slug } = useParams();
-  const formatSlug = (text) => {
-    return text
-      .split("-")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
-  };
-  const servicesData = t("servicesData", { returnObjects: true });
-  const serviceItem = servicesData
-    .flatMap((category) => category.items)
-    .find((item) => item.slug === slug);
 
-  const formattedSlug = formatSlug(slug);
+  // const formatSlug = (text) => {
+  //   return text
+  //     .split("-")
+  //     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+  //     .join(" ");
+  // };
+
+  const translatedServicesData = t("servicesData", { returnObjects: true });
+  const serviceItem = translatedServicesData
+    ?.flatMap((category) => category.items || [])
+    ?.find((item) => item.slug === slug);
+
+  // const formattedSlug = formatSlug(slug);
 
   const title = `${serviceItem?.name || ""} | CLA Indonesia`;
   const description = `Find detailed information about ${
     serviceItem?.name || ""
   } services offered by CLA Indonesia.`;
 
-  const packages = serviceItem ? [serviceItem.package] : [];
+  const packages =
+    serviceItem && serviceItem.package ? [serviceItem.package] : [];
   const content = "-";
   const overview = serviceItem ? serviceItem.overviews : "";
   const requirementsDocument = serviceItem ? serviceItem.documents : "";
@@ -74,9 +76,7 @@ function OtherServiceDetail() {
       <Process process={process} />
       <Bonus />
       <FAQ />
-      <div id="SequentialForm">
-        <SequentialForm />
-      </div>
+      <SequentialForm />
     </div>
   );
 }
