@@ -15,6 +15,7 @@ import otherServiceEN from "./locales/en/otherService.json";
 import legalityPackageEN from "./locales/en/legalityPackage.json";
 import packageSubscriptionEN from "./locales/en/packageSubscription.json";
 import aboutEN from "./locales/en/about.json";
+import packageEN from "./locales/en/package.json";
 
 // Indonesia
 import translationID from "./locales/id/translation.json";
@@ -28,9 +29,10 @@ import otherServiceID from "./locales/id/otherService.json";
 import legalityPackageID from "./locales/id/legalityPackage.json";
 import packageSubscriptionID from "./locales/id/packageSubscription.json";
 import aboutID from "./locales/id/about.json";
+import packageID from "./locales/id/package.json";
 
 // Chinese
-// import translationZH from "./locales/zh/translation.json";
+import translationZH from "./locales/zh/translation.json";
 import navbarZH from "./locales/zh/navbar.json";
 import homeZH from "./locales/zh/home.json";
 import faqZH from "./locales/zh/faq.json";
@@ -41,6 +43,7 @@ import otherServiceZH from "./locales/zh/otherService.json";
 import legalityPackageZH from "./locales/zh/legalityPackage.json";
 import packageSubscriptionZH from "./locales/zh/packageSubscription.json";
 import aboutZH from "./locales/zh/about.json";
+import packageZH from "./locales/zh/package.json";
 
 const resources = {
   en: {
@@ -55,6 +58,7 @@ const resources = {
     contactUs: contactUsEN,
     packageSubscription: packageSubscriptionEN,
     about: aboutEN,
+    package: packageEN,
   },
   id: {
     translation: translationID,
@@ -68,9 +72,10 @@ const resources = {
     contactUs: contactUsID,
     packageSubscription: packageSubscriptionID,
     about: aboutID,
+    package: packageID,
   },
   zh: {
-    // translation: translationZH,
+    translation: translationZH,
     navbar: navbarZH,
     home: homeZH,
     faq: faqZH,
@@ -81,6 +86,7 @@ const resources = {
     contactUs: contactUsZH,
     packageSubscription: packageSubscriptionZH,
     about: aboutZH,
+    package: packageZH,
   },
 };
 

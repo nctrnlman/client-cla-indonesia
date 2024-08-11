@@ -1,0 +1,19 @@
+{
+  "packageSubscription": {
+    "title": "培训套餐",
+    "internalPackage": {
+      "title": "内部培训",
+      "content": "我们的内部培训套餐为您的业务提供全面的法律支持。通过个性化指导和专家建议，我们确保您的公司保持合规并受到保护。",
+      "additionalContent": "在此套餐中，您可以选择在线和离线*",
+      "buttonText": "联系我们"
+    },
+    "generalPackage": {
+      "title": "通用培训",
+      "content": "我们的通用培训套餐旨在为您的业务提供坚实的基础。从公司成立到提供专业地址，我们随时为您提供帮助。",
+      "additionalContent": "在此套餐中，您可以选择在线和离线*",
+      "buttonText": "联系我们"
+    },
+    "viewMore": "查看更多",
+    "viewLess": "收起"
+  }
+}
