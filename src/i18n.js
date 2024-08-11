@@ -16,6 +16,7 @@ import legalityPackageEN from "./locales/en/legalityPackage.json";
 import packageSubscriptionEN from "./locales/en/packageSubscription.json";
 import aboutEN from "./locales/en/about.json";
 import trainingPackageEN from "./locales/en/trainingPackage.json";
+import legalAssociateEN from "./locales/en/legalAssociate.json";
 
 // Indonesia
 import translationID from "./locales/id/translation.json";
@@ -30,6 +31,7 @@ import legalityPackageID from "./locales/id/legalityPackage.json";
 import packageSubscriptionID from "./locales/id/packageSubscription.json";
 import aboutID from "./locales/id/about.json";
 import trainingPackageID from "./locales/id/trainingPackage.json";
+import legalAssociateID from "./locales/id/legalAssociate.json";
 
 // Chinese
 import translationZH from "./locales/zh/translation.json";
@@ -44,6 +46,7 @@ import legalityPackageZH from "./locales/zh/legalityPackage.json";
 import packageSubscriptionZH from "./locales/zh/packageSubscription.json";
 import aboutZH from "./locales/zh/about.json";
 import trainingPackageZH from "./locales/zh/trainingPackage.json";
+import legalAssociateZH from "./locales/zh/legalAssociate.json";
 
 const resources = {
   en: {
@@ -59,6 +62,7 @@ const resources = {
     packageSubscription: packageSubscriptionEN,
     about: aboutEN,
     trainingPackage: trainingPackageEN,
+    legalAssociate: legalAssociateEN,
   },
   id: {
     translation: translationID,
@@ -73,6 +77,7 @@ const resources = {
     packageSubscription: packageSubscriptionID,
     about: aboutID,
     trainingPackage: trainingPackageID,
+    legalAssociate: legalAssociateID,
   },
   zh: {
     translation: translationZH,
@@ -87,6 +92,7 @@ const resources = {
     packageSubscription: packageSubscriptionZH,
     about: aboutZH,
     trainingPackage: trainingPackageZH,
+    legalAssociate: legalAssociateZH,
   },
 };
 

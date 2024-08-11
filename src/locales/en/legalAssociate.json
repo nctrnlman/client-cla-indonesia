@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "aboutButton": "ABOUT",
+    "title": "LEGAL ASSOCIATE",
+    "description": "Elevate your business's legal journey with our Legal Associate as your trusted partner. We provide tailored legal assistance to suit your company's needs and type. Our innovative solutions, prompt responses, and flexible services ensure your legal needs are met efficiently. Join us to unlock your business's full potential for growth and success.",
+    "features": [
+      "Personalized legal advice",
+      "Contract review and drafting",
+      "Regulatory compliance assistance",
+      "On-demand legal consultations"
+    ],
+    "moreInfo": {
+      "heading": "What’s more?",
+      "subheading": "FREE Legal Training",
+      "customServices": "You can also customize the services you need",
+      "additionalServices": "Mix your needs with our financial, tax, business, and research services.",
+      "note": "(*) means T&C is required"
+    }
+  }
+}
