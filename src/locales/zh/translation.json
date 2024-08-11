@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "legalAssociate": "Asosiasi Hukum",
+    "legalTraining": "Pelatihan Hukum",
+    "otherServices": "Layanan Lainnya",
+    "services": {
+      "legality": "Legalitas",
+      "licensing": "Perizinan",
+      "legalServices": "Layanan Hukum",
+      "others": "Lainnya"
+    }
+  }
+}
