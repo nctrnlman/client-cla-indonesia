@@ -1,21 +1,21 @@
 {
   "hero": {
-    "title": "Asosiasi Hukum Korporat",
-    "type1": "Mitra Hukum Terpercaya Anda",
-    "type2": "Ahli dalam Hukum Indonesia",
-    "type3": "Memberdayakan Bisnis Anda",
-    "description": "Menyediakan layanan hukum komprehensif dengan keahlian dan integritas sejak 2019. Kesuksesan Anda adalah prioritas kami. Dipercaya oleh 100+ Pelaku Bisnis di Indonesia",
-    "button1": "Jadwalkan Konsultasi",
-    "button2": "Pelajari Lebih Lanjut",
-    "practiceAreas": "Bidang Praktik Kami",
+    "title": "企业法律协会", 
+    "type1": "您的值得信赖的法律伙伴", 
+    "type2": "印尼法律专家", 
+    "type3": "赋能您的业务", 
+   "description": "Providing comprehensive legal services with expertise and integrity since 2019. Your success is our priority. Trusted by 100+ Business Actors in Indonesia",
+    "button1": "预约咨询", 
+    "button2": "了解更多", 
+    "practiceAreas": "我们的实践领域", 
     "areas": {
-      "corporateLaw": "Hukum Korporat",
-      "intellectualProperty": "Kekayaan Intelektual",
-      "litigation": "Litigasi & Penyelesaian Sengketa",
-      "employmentLaw": "Hukum Ketenagakerjaan",
-      "mergersAcquisitions": "Penggabungan & Akuisisi",
-      "realEstateLaw": "Hukum Properti"
+      "corporateLaw": "公司法", 
+      "intellectualProperty": "知识产权", 
+      "litigation": "诉讼与争议解决", 
+      "employmentLaw": "劳动法", 
+      "mergersAcquisitions": "并购", 
+      "realEstateLaw": "房地产法" 
     },
-    "expertAdvice": "Nasihat hukum dan representasi ahli"
+    "expertAdvice": "专业的法律建议和代理" 
   }
 }

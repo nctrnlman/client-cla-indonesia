@@ -13,6 +13,8 @@ import contactUsEN from "./locales/en/contactUs.json";
 import serviceDataEN from "./locales/en/serviceData.json";
 import otherServiceEN from "./locales/en/otherService.json";
 import legalityPackageEN from "./locales/en/legalityPackage.json";
+import packageSubscriptionEN from "./locales/en/packageSubscription.json";
+import aboutEN from "./locales/en/about.json";
 
 // Indonesia
 import translationID from "./locales/id/translation.json";
@@ -24,6 +26,8 @@ import contactUsID from "./locales/id/contactUs.json";
 import serviceDataID from "./locales/id/serviceData.json";
 import otherServiceID from "./locales/id/otherService.json";
 import legalityPackageID from "./locales/id/legalityPackage.json";
+import packageSubscriptionID from "./locales/id/packageSubscription.json";
+import aboutID from "./locales/id/about.json";
 
 // Chinese
 // import translationZH from "./locales/zh/translation.json";
@@ -35,6 +39,8 @@ import contactUsZH from "./locales/zh/contactUs.json";
 import serviceDataZH from "./locales/zh/serviceData.json";
 import otherServiceZH from "./locales/zh/otherService.json";
 import legalityPackageZH from "./locales/zh/legalityPackage.json";
+import packageSubscriptionZH from "./locales/zh/packageSubscription.json";
+import aboutZH from "./locales/zh/about.json";
 
 const resources = {
   en: {
@@ -47,6 +53,8 @@ const resources = {
     otherService: otherServiceEN,
     legalityPackage: legalityPackageEN,
     contactUs: contactUsEN,
+    packageSubscription: packageSubscriptionEN,
+    about: aboutEN,
   },
   id: {
     translation: translationID,
@@ -58,6 +66,8 @@ const resources = {
     otherService: otherServiceID,
     legalityPackage: legalityPackageID,
     contactUs: contactUsID,
+    packageSubscription: packageSubscriptionID,
+    about: aboutID,
   },
   zh: {
     // translation: translationZH,
@@ -69,6 +79,8 @@ const resources = {
     otherService: otherServiceZH,
     legalityPackage: legalityPackageZH,
     contactUs: contactUsZH,
+    packageSubscription: packageSubscriptionZH,
+    about: aboutZH,
   },
 };
 
