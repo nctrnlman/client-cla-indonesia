@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "aboutButton": "TENTANG",
+    "title": "ASSISTEN HUKUM",
+    "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asisten Hukum kami sebagai mitra terpercaya Anda. Kami menyediakan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami, tanggapan cepat, dan layanan fleksibel memastikan bahwa kebutuhan hukum Anda terpenuhi dengan efisien. Bergabunglah dengan kami untuk membuka potensi penuh bisnis Anda untuk pertumbuhan dan kesuksesan.",
+    "features": [
+      "Nasihat hukum yang dipersonalisasi",
+      "Tinjauan dan penyusunan kontrak",
+      "Bantuan kepatuhan regulasi",
+      "Konsultasi hukum sesuai permintaan"
+    ],
+    "moreInfo": {
+      "heading": "Apa lagi?",
+      "subheading": "Pelatihan Hukum GRATIS",
+      "customServices": "Anda juga dapat menyesuaikan layanan yang Anda butuhkan",
+      "additionalServices": "Campurkan kebutuhan Anda dengan layanan keuangan, pajak, bisnis, dan penelitian kami.",
+      "note": "(*) berarti S&K berlaku"
+    }
+  }
+}
