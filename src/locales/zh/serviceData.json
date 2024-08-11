@@ -37,21 +37,21 @@
       "category": "LEGAL",
       "items": [
         {
-          "name": "Perseroan Terbatas (PT)",
+          "name": "有限责任公司（LLC）",
           "slug": "perseroan-terbatas",
           "package": {
-            "title": "Pembentukan PT Standar (Investasi Asing)",
-            "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asosiasi Hukum kami sebagai mitra tepercaya Anda. Kami memberikan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami.",
-            "price": "3.500.000",
-            "fakePrice": "7.500.000",
+            "title": "标准有限责任公司设立（外国投资）",
+            "description": "通过我们的法律协会作为您值得信赖的合作伙伴，提升您的商业法律旅程。我们提供量身定制的法律援助，满足您的需求和公司类型。我们的创新解决方案。",
+            "price": "IDR 3,500,000",
+            "fakePrice": "IDR 7,500,000",
             "features": [
-              "Konsultasi",
-              "Pencarian Nama PT",
-              "Keputusan Pendirian PT",
-              "Nomor Pokok Wajib Pajak",
-              "Akta Pendirian PT"
+              "咨询",
+              "公司名称查询",
+              "有限责任公司成立法令",
+              "税务识别号",
+              "有限责任公司章程"
             ],
-            "buttonText": "Pesan Sekarang"
+            "buttonText": "立即订购"
           },
           "overviews": [
             {
@@ -61,62 +61,62 @@
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg text-justify",
-                  "content": "Sesuai Pasal 7 ayat (1) UU 40/2007 tentang Perseroan Terbatas, PT harus didirikan oleh minimal 2 orang. 'Orang' di sini dapat berupa individu, baik warga negara Indonesia maupun asing, atau badan hukum Indonesia maupun asing."
+                  "content": "根据2007年第40号有限责任公司法第7条第1款，LLC必须由至少2人建立。这里的‘人’可以是个人，无论是印度尼西亚国籍还是外国国籍，或者印度尼西亚或外国法人实体。"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg text-justify",
-                  "content": "Saat mendirikan PT, pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, pengurus, dan hal lainnya yang dituangkan dalam akta notaris."
+                  "content": "在成立LLC时，创始人就公司名称、住所、业务领域、资本、管理等事项达成协议，并在公证书中规定。"
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Notaris"
+                  "content": "公证人"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                  "content": "第2号法令（2014年）规定公证人是制作正式文件的公共官员。基金会的成立是通过公证书进行的，并在法律和人权部登记。"
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Menteri Hukum & HAM"
+                  "content": "法律与人权部部长"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                  "content": "2016年第2号部长令第10条规定，部长通过SABH发出基金会的合法化。"
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "NPWP"
+                  "content": "税务识别号（NPWP）"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                  "content": "根据税务总局第PER-02/PJ/2018号规程，NPWP是税务管理的识别号。SABH在部长令发布时自动提供NPWP；NPWP卡可以在税务局申请。"
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "NIB dan Izin Usaha"
+                  "content": "商业注册号（NIB）和营业执照"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                  "content": "政府第5号规程（2021年）关于风险基础商业许可提供了通过OSS的电子许可服务，包括NIB和营业执照以及商业或运营许可。"
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Berita Negara & Tambahan Berita Negara "
+                  "content": "国家公报与附加国家公报"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                  "content": "国家公报和附加国家公报是官方政府媒体，被认为是正式的并且被所有人知晓（公开原则）。"
                 }
               ]
             }
@@ -129,37 +129,37 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                  "content": "股东、董事会和监事会成员的身份证和税务识别号"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email perusahaan;"
+                  "content": "公司电话号码和电子邮件"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian PT; dan"
+                  "content": "填写完整的LLC成立表格"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Tanda tangan dokumen Notaris."
+                  "content": "公证文件签名。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                  "content": "KBLI是印尼的商业领域代码。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                  "content": "在CLA Indonesia，您可以选择最多20个KBLI代码/业务领域。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Berita Negara & Tambahan Berita Negara Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                  "content": "国家公报和附加国家公报是官方政府媒体，被认为是正式的并且被所有人知晓（公开原则）。"
                 }
               ]
             }
@@ -3663,27 +3663,26 @@
           ]
         },
         {
-          "name": "Legal Research",
+          "name": "法律研究",
           "slug": "legal-research",
           "package": {
-            "title": "Legal Research",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "Start from 5.500.000",
-            "fakePrice": "7.000.000",
+            "title": "法律研究",
+            "description": "为更好和更高效的财务管理提供咨询服务。",
+            "price": "起价 IDR 5,500,000",
+            "fakePrice": "IDR 7,000,000",
             "features": [],
-            "buttonText": "Dapatkan Konsultasi"
+            "buttonText": "获取咨询"
           },
           "overviews": [
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify mt-2",
-              "content": "Jasa Legal Research (Penelitian Hukum) menyediakan layanan penelitian yang mendalam dan komprehensif mengenai berbagai isu hukum. Tim peneliti hukum kami memiliki keahlian dalam mengumpulkan, menganalisis, dan menyajikan informasi hukum yang relevan dan up-to-date."
+              "content": "法律研究服务提供对各种法律问题的深入和全面的研究。我们的法律研究团队在收集、分析和呈现相关且最新的法律信息方面具有专业知识。"
             },
-
             {
               "type": "h3",
               "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
-              "content": "Manfaat:"
+              "content": "好处："
             },
             {
               "type": "ul",
@@ -3692,22 +3691,22 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Informasi Terkini: Mendapatkan informasi hukum yang akurat dan terbaru yang relevan dengan kebutuhan klien."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg ",
-                  "content": "Dasar Pengambilan Keputusan: Menyediakan dasar yang kuat untuk pengambilan keputusan hukum yang informasional."
+                  "content": "最新信息：获取与客户需求相关的准确和最新的法律信息。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Kepatuhan Hukum: Memastikan kepatuhan terhadap peraturan perundang-undangan yang berlaku."
+                  "content": "决策基础：为做出明智的法律决策提供坚实的基础。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Produk Hukum: Laporan Riset."
+                  "content": "法律合规：确保遵守适用的法规和法律。"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "法律产品：研究报告。"
                 }
               ]
             }
@@ -3720,27 +3719,27 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Identifikasi Masalah: Memahami secara mendalam masalah atau isu hukum yang dihadapi klien."
+                  "content": "问题识别：深入了解客户面临的法律问题或难题。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Penelitian Hukum: Melakukan penelitian menyeluruh terhadap peraturan perundang-undangan, yurisprudensi, dan literatur hukum yang relevan terhadap kasys  yang dihadapi saat ini."
+                  "content": "法律研究：对相关法律、判例和法律文献进行全面研究。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Analisis Hukum: Menganalisis temuan penelitian dan menerapkannya pada situasi klien"
+                  "content": "法律分析：分析研究结果并将其应用于客户的情况。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Penyusunan Pendapat: Menyusun dokumen Legal Opinion yang jelas, terstruktur, dan dapat dipertanggungjawabkan."
+                  "content": "意见撰写：准备清晰、结构化且可靠的法律意见文件。"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Diskusi dan Revisi: Membahas pendapat hukum dengan klien dan melakukan revisi jika diperlukan."
+                  "content": "讨论和修订：与客户讨论法律意见，并在必要时进行修订。"
                 }
               ]
             }

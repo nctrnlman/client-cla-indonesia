@@ -1,0 +1,17 @@
+{
+  "title": "Training Packages",
+  "internalPackage": {
+    "title": "Internal Training",
+    "content": "Our Internal Training package offers comprehensive legal support for your business. With personalized guidance and expert advice, we ensure your company remains compliant and protected.",
+    "additionalContent": "In this package, you can choose between Online and Offline*",
+    "buttonText": "Contact Us"
+  },
+  "generalPackage": {
+    "title": "General Training",
+    "content": "Our General Training package is designed to provide a strong foundation for your business. From company formation to providing a professional address, we are here to assist you every step of the way.",
+    "additionalContent": "In this package, you can choose between Online and Offline*",
+    "buttonText": "Contact Us"
+  },
+  "viewMore": "View More",
+  "viewLess": "View Less"
+}
