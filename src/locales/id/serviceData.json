@@ -40,8 +40,8 @@
           "package": {
             "title": "Pembentukan PT Standar (Investasi Asing)",
             "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asosiasi Hukum kami sebagai mitra tepercaya Anda. Kami memberikan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami.",
-            "price": "3.500.000",
-            "fakePrice": "7.500.000",
+            "price": "IDR 3.500.000",
+            "fakePrice": "IDR 7.500.000",
             "features": [
               "Konsultasi",
               "Pencarian Nama PT",
@@ -109,7 +109,7 @@
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Berita Negara & Tambahan Berita Negara "
+                  "content": "Berita Negara & Tambahan Berita Negara"
                 },
                 {
                   "type": "p",
@@ -152,12 +152,12 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Berita Negara & Tambahan Berita Negara Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                  "content": "Berita Negara & Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
                 }
               ]
             }
@@ -269,17 +269,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP sekutu aktif & sekutu pasif;"
+                  "content": "KTP sekutu aktif & sekutu pasif."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email perusahaan;"
+                  "content": "Nomor telepon dan email perusahaan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian CV; dan"
+                  "content": "Mengisi formulir pendirian CV."
                 },
                 {
                   "type": "li",
@@ -3674,10 +3674,9 @@
           "overviews": [
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify mt-2",
+              "className": "text-gray-700 text-lg text-justify",
               "content": "Jasa Legal Research (Penelitian Hukum) menyediakan layanan penelitian yang mendalam dan komprehensif mengenai berbagai isu hukum. Tim peneliti hukum kami memiliki keahlian dalam mengumpulkan, menganalisis, dan menyajikan informasi hukum yang relevan dan up-to-date."
             },
-
             {
               "type": "h3",
               "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",

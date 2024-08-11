@@ -15,7 +15,7 @@ import otherServiceEN from "./locales/en/otherService.json";
 import legalityPackageEN from "./locales/en/legalityPackage.json";
 import packageSubscriptionEN from "./locales/en/packageSubscription.json";
 import aboutEN from "./locales/en/about.json";
-import packageEN from "./locales/en/package.json";
+import trainingPackageEN from "./locales/en/trainingPackage.json";
 
 // Indonesia
 import translationID from "./locales/id/translation.json";
@@ -29,7 +29,7 @@ import otherServiceID from "./locales/id/otherService.json";
 import legalityPackageID from "./locales/id/legalityPackage.json";
 import packageSubscriptionID from "./locales/id/packageSubscription.json";
 import aboutID from "./locales/id/about.json";
-import packageID from "./locales/id/package.json";
+import trainingPackageID from "./locales/id/trainingPackage.json";
 
 // Chinese
 import translationZH from "./locales/zh/translation.json";
@@ -43,7 +43,7 @@ import otherServiceZH from "./locales/zh/otherService.json";
 import legalityPackageZH from "./locales/zh/legalityPackage.json";
 import packageSubscriptionZH from "./locales/zh/packageSubscription.json";
 import aboutZH from "./locales/zh/about.json";
-import packageZH from "./locales/zh/package.json";
+import trainingPackageZH from "./locales/zh/trainingPackage.json";
 
 const resources = {
   en: {
@@ -58,7 +58,7 @@ const resources = {
     contactUs: contactUsEN,
     packageSubscription: packageSubscriptionEN,
     about: aboutEN,
-    package: packageEN,
+    trainingPackage: trainingPackageEN,
   },
   id: {
     translation: translationID,
@@ -72,7 +72,7 @@ const resources = {
     contactUs: contactUsID,
     packageSubscription: packageSubscriptionID,
     about: aboutID,
-    package: packageID,
+    trainingPackage: trainingPackageID,
   },
   zh: {
     translation: translationZH,
@@ -86,7 +86,7 @@ const resources = {
     contactUs: contactUsZH,
     packageSubscription: packageSubscriptionZH,
     about: aboutZH,
-    package: packageZH,
+    trainingPackage: trainingPackageZH,
   },
 };
 

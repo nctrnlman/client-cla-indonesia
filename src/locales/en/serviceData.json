@@ -37,21 +37,21 @@
       "category": "LEGAL",
       "items": [
         {
-          "name": "Perseroan Terbatas (PT)",
+          "name": "Limited Liability Company (LLC)",
           "slug": "perseroan-terbatas",
           "package": {
-            "title": "Pembentukan PT Standar (Investasi Asing)",
-            "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asosiasi Hukum kami sebagai mitra tepercaya Anda. Kami memberikan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami.",
-            "price": "3.500.000",
-            "fakePrice": "7.500.000",
+            "title": "Standard LLC Formation (Foreign Investment)",
+            "description": "Enhance your business legal journey with our Law Association as your trusted partner. We provide legal assistance tailored to your needs and the type of company you have. Our innovative solutions.",
+            "price": "IDR 3,500,000",
+            "fakePrice": "IDR 7,500,000",
             "features": [
-              "Konsultasi",
-              "Pencarian Nama PT",
-              "Keputusan Pendirian PT",
-              "Nomor Pokok Wajib Pajak",
-              "Akta Pendirian PT"
+              "Consultation",
+              "Company Name Search",
+              "LLC Establishment Decree",
+              "Tax Identification Number",
+              "LLC Deed"
             ],
-            "buttonText": "Pesan Sekarang"
+            "buttonText": "Order Now"
           },
           "overviews": [
             {
@@ -61,62 +61,62 @@
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg text-justify",
-                  "content": "Sesuai Pasal 7 ayat (1) UU 40/2007 tentang Perseroan Terbatas, PT harus didirikan oleh minimal 2 orang. 'Orang' di sini dapat berupa individu, baik warga negara Indonesia maupun asing, atau badan hukum Indonesia maupun asing."
+                  "content": "According to Article 7 paragraph (1) of Law 40/2007 on Limited Liability Companies, an LLC must be established by at least 2 persons. 'Persons' here can be individuals, either Indonesian or foreign citizens, or Indonesian or foreign legal entities."
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg text-justify",
-                  "content": "Saat mendirikan PT, pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, pengurus, dan hal lainnya yang dituangkan dalam akta notaris."
+                  "content": "When establishing an LLC, the founders agree on the name, domicile, business field, capital, management, and other matters as stipulated in the notarial deed."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Notaris"
+                  "content": "Notary"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
+                  "content": "Law No. 2/2014 states that a notary is a public official who creates authentic deeds. Foundation establishment is carried out through a notarial deed and registered with the Ministry of Law and Human Rights."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Menteri Hukum & HAM"
+                  "content": "Minister of Law & Human Rights"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
+                  "content": "Ministerial Regulation 2/2016 Article 10 states that the Minister issues foundation legalization through SABH."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "NPWP"
+                  "content": "Tax Identification Number (NPWP)"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
+                  "content": "According to Director General of Taxes Regulation No. PER-02/PJ/2018, NPWP is an identification number for tax administration. SABH automatically provides NPWP when the Ministerial Decree is issued; the NPWP card can be requested at the tax office."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "NIB dan Izin Usaha"
+                  "content": "Business Registration Number (NIB) and Business Licenses"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
+                  "content": "Government Regulation No. 5/2021 on Risk-Based Business Licensing provides electronic licensing services through OSS, including NIB and Business Licenses and Commercial or Operational Licenses."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "Berita Negara & Tambahan Berita Negara "
+                  "content": "State Gazette & Additional State Gazette"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                  "content": "The State Gazette and Additional State Gazette are official government media considered authentic and known by everyone (principle of publicity)."
                 }
               ]
             }
@@ -129,37 +129,37 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                  "content": "ID card & Tax ID of shareholders, Board of Directors, and Board of Commissioners."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email perusahaan;"
+                  "content": "Company phone number and email."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian PT; dan"
+                  "content": "Complete LLC formation form."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Tanda tangan dokumen Notaris."
+                  "content": "Notarial document signature."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KBLI adalah kode bidang usaha di Indonesia."
+                  "content": "KBLI is the business field code in Indonesia."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
+                  "content": "In CLA Indonesia, you can choose up to 20 KBLI codes / business fields."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Berita Negara & Tambahan Berita Negara Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
+                  "content": "State Gazette & Additional State Gazette are official government media considered authentic and known by everyone (principle of publicity)."
                 }
               ]
             }
@@ -3667,23 +3667,22 @@
           "slug": "legal-research",
           "package": {
             "title": "Legal Research",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "Start from 5.500.000",
-            "fakePrice": "7.000.000",
+            "description": "Consulting service for better and more efficient financial management.",
+            "price": "Start from IDR 5,500,000",
+            "fakePrice": "IDR 7,000,000",
             "features": [],
-            "buttonText": "Dapatkan Konsultasi"
+            "buttonText": "Get Consultation"
           },
           "overviews": [
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify mt-2",
-              "content": "Jasa Legal Research (Penelitian Hukum) menyediakan layanan penelitian yang mendalam dan komprehensif mengenai berbagai isu hukum. Tim peneliti hukum kami memiliki keahlian dalam mengumpulkan, menganalisis, dan menyajikan informasi hukum yang relevan dan up-to-date."
+              "content": "Legal Research services provide in-depth and comprehensive research on various legal issues. Our legal research team has expertise in gathering, analyzing, and presenting relevant and up-to-date legal information."
             },
-
             {
               "type": "h3",
               "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
-              "content": "Manfaat:"
+              "content": "Benefits:"
             },
             {
               "type": "ul",
@@ -3692,22 +3691,22 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Informasi Terkini: Mendapatkan informasi hukum yang akurat dan terbaru yang relevan dengan kebutuhan klien."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg ",
-                  "content": "Dasar Pengambilan Keputusan: Menyediakan dasar yang kuat untuk pengambilan keputusan hukum yang informasional."
+                  "content": "Up-to-Date Information: Obtain accurate and latest legal information relevant to the client's needs."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Kepatuhan Hukum: Memastikan kepatuhan terhadap peraturan perundang-undangan yang berlaku."
+                  "content": "Decision-Making Basis: Provide a solid foundation for informed legal decision-making."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Produk Hukum: Laporan Riset."
+                  "content": "Legal Compliance: Ensure compliance with applicable regulations and legislation."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Legal Products: Research Reports."
                 }
               ]
             }
@@ -3720,27 +3719,27 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Identifikasi Masalah: Memahami secara mendalam masalah atau isu hukum yang dihadapi klien."
+                  "content": "Problem Identification: Thoroughly understand the legal issue or problem faced by the client."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Penelitian Hukum: Melakukan penelitian menyeluruh terhadap peraturan perundang-undangan, yurisprudensi, dan literatur hukum yang relevan terhadap kasys  yang dihadapi saat ini."
+                  "content": "Legal Research: Conduct comprehensive research on relevant laws, case law, and legal literature related to the current issues."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Analisis Hukum: Menganalisis temuan penelitian dan menerapkannya pada situasi klien"
+                  "content": "Legal Analysis: Analyze the research findings and apply them to the client's situation."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Penyusunan Pendapat: Menyusun dokumen Legal Opinion yang jelas, terstruktur, dan dapat dipertanggungjawabkan."
+                  "content": "Opinion Drafting: Prepare a clear, structured, and accountable Legal Opinion document."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Diskusi dan Revisi: Membahas pendapat hukum dengan klien dan melakukan revisi jika diperlukan."
+                  "content": "Discussion and Revision: Discuss the legal opinion with the client and make revisions if necessary."
                 }
               ]
             }
