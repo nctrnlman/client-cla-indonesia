@@ -1,14 +1,14 @@
 {
   "navbar": {
-    "home": "Beranda",
-    "legalAssociate": "Asosiasi Hukum",
-    "legalTraining": "Pelatihan Hukum",
-    "otherServices": "Layanan Lainnya",
+    "home": "首页",
+    "legalAssociate": "法律顾问",
+    "legalTraining": "法律培训",
+    "otherServices": "其他服务",
     "services": {
-      "legality": "Legalitas",
-      "licensing": "Perizinan",
-      "legalServices": "Layanan Hukum",
-      "others": "Lainnya"
+      "legality": "合法性",
+      "licensing": "许可",
+      "legalServices": "法律服务",
+      "others": "其他"
     }
   }
 }

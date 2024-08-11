@@ -1,0 +1,19 @@
+{
+  "packageSubscription": {
+    "title": "Paket Pelatihan",
+    "internalPackage": {
+      "title": "Pelatihan Internal",
+      "content": "Paket Pelatihan Internal kami menawarkan dukungan hukum yang komprehensif untuk bisnis Anda. Dengan panduan yang dipersonalisasi dan nasihat ahli, kami memastikan perusahaan Anda tetap mematuhi peraturan dan terlindungi.",
+      "additionalContent": "Dalam Paket Ini Anda Dapat Memilih Online dan Offline*",
+      "buttonText": "Hubungi Kami"
+    },
+    "generalPackage": {
+      "title": "Pelatihan Umum",
+      "content": "Paket Pelatihan Umum kami dirancang untuk memberikan fondasi yang kuat bagi bisnis Anda. Dari pendirian perusahaan hingga penyediaan alamat profesional, kami siap membantu Anda setiap langkah.",
+      "additionalContent": "Dalam Paket Ini Anda Dapat Memilih Online dan Offline*",
+      "buttonText": "Hubungi Kami"
+    },
+    "viewMore": "Lihat Lebih Banyak",
+    "viewLess": "Lihat Lebih Sedikit"
+  }
+}
