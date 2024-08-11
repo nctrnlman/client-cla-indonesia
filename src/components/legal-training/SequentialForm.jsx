@@ -147,7 +147,7 @@ function ContactUsSection({ selectedPackage }) {
   );
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br pt-20 px-4 relative transition-all duration-500">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br py-20 px-4 relative transition-all duration-500">
       <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}

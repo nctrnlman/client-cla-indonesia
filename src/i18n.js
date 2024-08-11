@@ -6,6 +6,7 @@ import { initReactI18next } from "react-i18next";
 // English
 import translationEN from "./locales/en/translation.json";
 import navbarEN from "./locales/en/navbar.json";
+import footerEN from "./locales/en/footer.json";
 import homeEN from "./locales/en/home.json";
 import faqEN from "./locales/en/faq.json";
 import subscriptionEN from "./locales/en/subscription.json";
@@ -21,6 +22,7 @@ import legalAssociateEN from "./locales/en/legalAssociate.json";
 // Indonesia
 import translationID from "./locales/id/translation.json";
 import navbarID from "./locales/id/navbar.json";
+import footerID from "./locales/id/footer.json";
 import homeID from "./locales/id/home.json";
 import faqID from "./locales/id/faq.json";
 import subscriptionID from "./locales/id/subscription.json";
@@ -36,6 +38,7 @@ import legalAssociateID from "./locales/id/legalAssociate.json";
 // Chinese
 import translationZH from "./locales/zh/translation.json";
 import navbarZH from "./locales/zh/navbar.json";
+import footerZH from "./locales/zh/footer.json";
 import homeZH from "./locales/zh/home.json";
 import faqZH from "./locales/zh/faq.json";
 import subscriptionZH from "./locales/zh/subscription.json";
@@ -52,6 +55,7 @@ const resources = {
   en: {
     translation: translationEN,
     navbar: navbarEN,
+    footer: footerEN,
     home: homeEN,
     faq: faqEN,
     subscription: subscriptionEN,
@@ -67,6 +71,7 @@ const resources = {
   id: {
     translation: translationID,
     navbar: navbarID,
+    footer: footerID,
     home: homeID,
     faq: faqID,
     subscription: subscriptionID,
@@ -82,6 +87,7 @@ const resources = {
   zh: {
     translation: translationZH,
     navbar: navbarZH,
+    footer: footerZH,
     home: homeZH,
     faq: faqZH,
     subscription: subscriptionZH,
