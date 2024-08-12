@@ -13,6 +13,10 @@
     "documents": "Document Requirements",
     "process": "Process"
   },
+  "noContent": {
+    "message": "Contact us to get information about the required documents, service process, and costs.",
+    "contactUs": "Contact Us"
+  },
   "bonus": {
     "labels": {
       "product": "PRODUCT",

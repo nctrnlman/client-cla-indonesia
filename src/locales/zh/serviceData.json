@@ -31,6 +31,10 @@
       "description": "我们的服务与公司的合规性保持一致，超出更多要求。"
     }
   },
+  "noContent": {
+    "message": "联系我们以获取有关所需文件、服务流程和费用的信息。",
+    "contactUs": "联系我们"
+  },
   "allPackage": {
     "product": "产品",
     "allServices": "所有服务",

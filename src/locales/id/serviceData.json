@@ -30,6 +30,10 @@
       "description": "Layanan kami selaras dengan kepatuhan perusahaan, melampaui permintaan lebih lanjut."
     }
   },
+  "noContent": {
+    "message": "Hubungi kami untuk mendapatkan informasi dokumen persyaratan, proses layanan, serta biaya.",
+    "contactUs": "Hubungi Kami"
+  },
   "allPackage": {
     "product": "Produk",
     "allServices": "Semua Layanan",
