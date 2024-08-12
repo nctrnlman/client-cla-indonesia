@@ -31,7 +31,23 @@
       "description": "Our service aligns with company’s compliance, going beyond more requests."
     }
   },
-
+  "allPackage": {
+    "product": "Product",
+    "allServices": "All Services",
+    "choosePackage": "Choose the right package for your business needs and start your journey with confidence.",
+    "searchPlaceholder": "Search for a service...",
+    "filterByCategory": "Filter by Category",
+    "allCategories": "All Categories",
+    "untitledPackage": "Untitled Package",
+    "noDescription": "No description available",
+    "noPrice": "No price available",
+    "learnMore": "Learn More",
+    "seeMore": "See More",
+    "noPackagesFound": "Not sure which package is right for you?",
+    "contactUsButton": "Contact Us for Consultation",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
   "servicesData": [
     {
       "category": "LEGAL",

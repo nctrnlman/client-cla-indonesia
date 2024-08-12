@@ -30,6 +30,23 @@
       "description": "Layanan kami selaras dengan kepatuhan perusahaan, melampaui permintaan lebih lanjut."
     }
   },
+  "allPackage": {
+    "product": "Produk",
+    "allServices": "Semua Layanan",
+    "choosePackage": "Pilih paket yang tepat untuk kebutuhan bisnis Anda dan mulai perjalanan Anda dengan percaya diri.",
+    "searchPlaceholder": "Cari layanan...",
+    "filterByCategory": "Filter berdasarkan Kategori",
+    "allCategories": "Semua Kategori",
+    "untitledPackage": "Paket Tanpa Judul",
+    "noDescription": "Deskripsi tidak tersedia",
+    "noPrice": "Harga tidak tersedia",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "seeMore": "Lihat Selengkapnya",
+    "noPackagesFound": "Tidak yakin paket mana yang tepat untuk Anda?",
+    "showMore": "Lihat Lebih Banyak",
+    "showLess": "Lihat Lebih Sedikit",
+    "contactUsButton": "Hubungi Kami untuk Konsultasi"
+  },
   "servicesData": [
     {
       "category": "LEGAL",
