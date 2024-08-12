@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaCheck, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
 const LegalityPackageCard = ({
   title,
@@ -14,6 +15,11 @@ const LegalityPackageCard = ({
 }) => {
   const { t } = useTranslation("legalityPackage");
   const [isExpanded, setIsExpanded] = React.useState(false);
+  const whatsappUrl = generateWhatsAppUrl(title);
+
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <motion.div
@@ -85,6 +91,7 @@ const LegalityPackageCard = ({
           className="w-full bg-primary text-white font-bold py-2 px-4 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
+          onClick={handleButtonClick}
         >
           {buttonText}
         </motion.button>

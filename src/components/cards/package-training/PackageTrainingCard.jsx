@@ -3,6 +3,7 @@ import MotionText from "./MotionText";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
+import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
 function PackageTrainingCard({
   title,
@@ -20,7 +21,11 @@ function PackageTrainingCard({
   onToggle,
 }) {
   const { t } = useTranslation(["trainingPackage"]);
+  const whatsappUrl = generateWhatsAppUrl(title);
 
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
   return (
     <div
       className={`${backgroundColor} ${textColor} rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl h-full flex flex-col`}
@@ -86,6 +91,7 @@ function PackageTrainingCard({
                   <button
                     onClick={() => onButtonClick(title)}
                     className={`btn ${buttonColor} w-full rounded-full`}
+                    onClick={handleButtonClick}
                   >
                     {buttonText}
                   </button>

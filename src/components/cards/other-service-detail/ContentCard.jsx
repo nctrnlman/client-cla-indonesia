@@ -1,6 +1,7 @@
 import { FaCheck, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
 const ContentCard = ({
   title,
@@ -12,6 +13,11 @@ const ContentCard = ({
   isPopular,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const whatsappUrl = generateWhatsAppUrl(title);
+
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <motion.div
@@ -84,6 +90,7 @@ const ContentCard = ({
           className="w-full bg-primary text-white font-bold py-2 px-4 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
+          onClick={handleButtonClick}
         >
           {buttonText}
         </motion.button>

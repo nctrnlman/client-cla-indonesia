@@ -1,10 +1,15 @@
 import { motion } from "framer-motion";
 import FAQItem from "../cards/faq/FAQItem";
 import { useTranslation } from "react-i18next";
+import { generateWhatsAppUrl } from "../../utils/whatsappUtils";
 
 const FAQ = () => {
   const { t } = useTranslation("faq");
+  const whatsappUrl = generateWhatsAppUrl();
 
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
   const faqs = [
     {
       question: t("faqs.0.question"),
@@ -48,6 +53,7 @@ const FAQ = () => {
             className="bg-primary text-white font-bold py-3 px-6 rounded-full hover:bg-secondary hover:text-primary transition duration-300 shadow-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={handleButtonClick}
           >
             {t("contactButton")}
           </motion.button>
