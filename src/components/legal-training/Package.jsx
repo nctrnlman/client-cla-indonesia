@@ -44,7 +44,7 @@ function PackageTraining({ onPackageSelect }) {
   );
 
   return (
-    <div className="min-h-screen py-20 pt-40 relative">
+    <div className="min-h-screen py-20 pt-35 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="bg-secondary p-4 px-6 rounded-full text-primary font-extrabold text-base md:text-lg transition duration-300">
