@@ -13,7 +13,12 @@ import {
 import { useTranslation } from "react-i18next";
 
 function Hero() {
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
+
+  // Tambahkan log untuk debugging
+  console.log("Current language:", i18n.language);
+  console.log("Hero title:", t("hero.title"));
+
   return (
     <div
       className="bg-[#E5E5E5] min-h-screen relative overflow-hidden flex items-center justify-center"
