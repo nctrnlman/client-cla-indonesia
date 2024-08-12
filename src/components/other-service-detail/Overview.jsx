@@ -21,7 +21,7 @@ function Overview({ overview }) {
           );
         }
         return (
-          <Tag key={index} className={`text-gray-800 mb-4 ${item.className}`}>
+          <Tag key={index} className={` mb-4 ${item.className}`}>
             {item.content}
           </Tag>
         );

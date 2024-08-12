@@ -5,7 +5,7 @@ function Breadcrumb({ title }) {
         <ol className="inline-flex flex-wrap items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
           <li className="inline-flex items-center">
             <a
-              href="/"
+              href="/other-services"
               className="inline-flex items-center text-sm font-medium text-secondary"
             >
               <svg

@@ -4,7 +4,6 @@ import Hero from "../components/other-service-detail/Hero";
 import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/home/SequentialForm";
 import FAQ from "../components/home/FAQ";
-// import Features from "../components/other-service-detail/Features";
 import Bonus from "../components/other-service-detail/Bonus";
 import { useTranslation } from "react-i18next";
 import Overview from "../components/other-service-detail/Overview";
@@ -15,19 +14,10 @@ function OtherServiceDetail() {
   const { t } = useTranslation(["serviceData"]);
   const { slug } = useParams();
 
-  // const formatSlug = (text) => {
-  //   return text
-  //     .split("-")
-  //     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-  //     .join(" ");
-  // };
-
   const translatedServicesData = t("servicesData", { returnObjects: true });
   const serviceItem = translatedServicesData
     ?.flatMap((category) => category.items || [])
     ?.find((item) => item.slug === slug);
-
-  // const formattedSlug = formatSlug(slug);
 
   const title = `${serviceItem?.name || ""} | CLA Indonesia`;
   const description = `Find detailed information about ${
@@ -35,14 +25,21 @@ function OtherServiceDetail() {
   } services offered by CLA Indonesia.`;
 
   const packages =
-    serviceItem && serviceItem.package ? [serviceItem.package] : [];
-  const content = "-";
-  const overview = serviceItem ? serviceItem.overviews : "";
-  const requirementsDocument = serviceItem ? serviceItem.documents : "";
-  const process = serviceItem ? serviceItem.process : "";
+    serviceItem && serviceItem.package ? serviceItem.package : [];
+  const overview =
+    serviceItem && serviceItem.overviews ? serviceItem.overviews : [];
+  const requirementsDocument =
+    serviceItem && serviceItem.documents ? serviceItem.documents : [];
+  const process = serviceItem && serviceItem.process ? serviceItem.process : [];
+
+  const hasContent =
+    packages.length > 0 ||
+    overview.length > 0 ||
+    requirementsDocument.length > 0 ||
+    process.length > 0;
 
   return (
-    <div className="">
+    <div className="min-h-screen bg-gray-100">
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -70,10 +67,31 @@ function OtherServiceDetail() {
         title={serviceItem?.name || ""}
         description={packages[0]?.description || ""}
       />
-      <Content packages={packages} content={content} />
-      <Overview overview={overview} />
-      <RequirementsDocument documents={requirementsDocument} />
-      <Process process={process} />
+      {hasContent ? (
+        <>
+          <Content packages={packages} />
+          <Overview overview={overview} />
+          <RequirementsDocument documents={requirementsDocument} />
+          <Process process={process} />
+        </>
+      ) : (
+        <div className="flex items-center justify-center  py-20 px-4">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full text-center">
+            <p className="text-lg text-gray-700 mb-6">
+              Hubungi kami untuk mendapatkan informasi dokumen persyaratan,
+              proses layanan serta biaya.
+            </p>
+            <a
+              href="https://wa.me/YOUR_PHONE_NUMBER"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-primary text-white px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300 ease-in-out"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      )}
       <Bonus />
       <FAQ />
       <SequentialForm />
