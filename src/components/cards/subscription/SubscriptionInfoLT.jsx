@@ -35,7 +35,10 @@ const SubscriptionInfo = () => {
             </defs>
           </svg>
         </div>
-        <div className="text-lg">{t("note.iconText")}</div>
+        <div className="flex flex-col gap-4">
+          <p className="text-xl">{t("note.iconText")}</p>
+          <p className="text-base">{t("note.note")}</p>
+        </div>
       </div>
     </div>
   );

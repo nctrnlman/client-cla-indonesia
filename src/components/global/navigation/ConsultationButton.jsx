@@ -1,15 +1,21 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
 const ConsultationButton = () => {
   const [hovered, setHovered] = useState(false);
+  const whatsappUrl = generateWhatsAppUrl();
 
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
   return (
     <motion.button
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      onClick={handleButtonClick}
       className="fixed bottom-5 right-5 flex items-center justify-center px-6 py-3 bg-secondary text-primary rounded-full shadow-lg z-50 hover:bg-primary hover:text-white transition duration-300"
     >
       <AnimatePresence mode="wait">

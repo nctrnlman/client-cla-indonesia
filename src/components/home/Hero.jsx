@@ -16,8 +16,8 @@ function Hero() {
   const { t, i18n } = useTranslation("home");
 
   // Tambahkan log untuk debugging
-  console.log("Current language:", i18n.language);
-  console.log("Hero title:", t("hero.title"));
+  // console.log("Current language:", i18n.language);
+  // console.log("Hero title:", t("hero.title"));
 
   return (
     <div

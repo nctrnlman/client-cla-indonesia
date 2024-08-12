@@ -2076,340 +2076,7 @@
           "overviews": [],
           "documents": []
         },
-        {
-          "name": "Perubahan Anggaran Dasar",
-          "slug": "perubahan-anggaran-dasar",
-          "package": [
-            {
-              "title": "Perubahan Anggaran Dasar",
-              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-              "price": "Start from 3.000.000",
-              "fakePrice": "5.000.000",
-              "features": [],
-              "buttonText": "Dapatkan Konsultasi"
-            }
-          ],
-          "overviews": [
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Anggaran dasar PT harus mencakup setidaknya:"
-            },
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg pt-2",
-                  "content": "Nama dan lokasi kantor pusat perusahaan"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Maksud dan tujuan serta kegiatan usaha perusahaan"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Jangka waktu keberadaan perusahaan"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Besaran modal dasar, modal yang ditempatkan, dan modal yang disetor"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Jumlah saham, klasifikasi saham jika ada, hak-hak yang melekat pada setiap saham, dan nilai nominal setiap saham"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Nama jabatan dan jumlah anggota Direksi dan Dewan Komisaris"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Penetapan lokasi dan tata cara penyelenggaraan Rapat Umum Pemegang Saham (RUPS)"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Prosedur pengangkatan, penggantian, dan pemberhentian anggota Direksi dan Dewan Komisaris"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Prosedur penggunaan laba dan pembagian dividen"
-                }
-              ]
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "UU No 40 tahun 2007 tentang Perseroan Terbatas"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Undang-undang ini mengatur tentang bagaimana perubahan anggaran dasar PT dan PT PMA secara formal"
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Permenkumham No 17 tahun 2018 tentang Tentang Pendaftaran Persekutuan Komanditer, Persekutuan Firma, dan Persekutuan Perdata"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
-            }
-          ],
-          "documents": [
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Syarat Penyelenggaraan RUPS PT"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Berikut ini adalah yang menjadi persyaratan anggaran dasar PT adalah sebagai berikut:"
-            },
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg pt-2",
-                  "content": "Dokumen RUPS dengan agenda tertentu yang disetujui dan ditandatangani"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "NPWP Perusahaan dan NIB"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Status KSWP masih valid (lapor SPT Tahunan 2 (dua) tahun terakhir."
-                }
-              ]
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Syarat Penyelenggaraan RUPS CV"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Berikut ini adalah yang menjadi persyaratan perubahan anggaran dasar CV adalah sebagai berikut: "
-            },
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg pt-2",
-                  "content": "KTP dan NPWP semua sekutu CV"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Akta Pendirian CV beserta dengan seluruh perubahannya beserta dengan SK Menteri"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "NPWP Perusahaan dan NIB dan"
-                },
 
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Status KSWP masih valid (lapor SPT Tahunan 2 (dua) tahun terakhir."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Penutupan Perusahaan",
-          "slug": "penutupan-perusahaan",
-          "package": [
-            {
-              "title": "Penutupan Perusahaan",
-              "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
-              "price": "Start from 5.000.000",
-              "fakePrice": "7.000.000",
-              "features": [],
-              "buttonText": "Hubungi Kami"
-            }
-          ],
-          "overviews": [
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Penutupan atau pembubaran perusahaan adalah proses formal untuk menghentikan kegiatan bisnis, yang mencakup penghentian operasional, penutupan administrasi perpajakan, pencabutan izin usaha, distribusi aset kepada pemilik melalui proses likuidasi, hingga pengumuman di koran."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify pt-2",
-              "content": "Terdapat dua jenis layanan untuk menghentikan bisnis, yaitu penonaktifan perusahaan dan pembubaran perusahaan."
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Penyebab Bubarnya PT"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Berdasarkan ketentuan Undang-Undang Perseroan Terbatas (UUPT), penyebab bubarnya sebuah Perseroan Terbatas antara lain:"
-            },
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg pt-2",
-                  "content": "Keputusan Rapat Umum Pemegang Saham (RUPS), di mana para pemegang saham memutuskan untuk membubarkan PT karena tidak lagi diperlukan."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Berakhirnya jangka waktu pendirian yang ditetapkan dalam anggaran dasar."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Berdasarkan penetapan pengadilan."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Dicabutnya kepailitan oleh pengadilan niaga dengan keputusan yang telah berkekuatan hukum tetap, karena harta pailit PT tidak mencukupi untuk membayar biaya kepailitan."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Harta pailit PT yang telah dinyatakan pailit berada dalam keadaan insolvensi sesuai dengan Undang-Undang tentang Kepailitan dan Penundaan Kewajiban Pembayaran Utang."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Dicabutnya izin usaha PT yang mengharuskan perusahaan untuk melakukan likuidasi sesuai dengan peraturan perundang-undangan yang berlaku."
-                }
-              ]
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "UU No 40 tahun 2007 tentang Perseroan Terbatas"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Undang-undang ini mengatur tentang bagaimana perubahan anggaran dasar PT dan PT PMA secara formal"
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Permenkumham No 17 tahun 2018 tentang Tentang Pendaftaran Persekutuan Komanditer, Persekutuan Firma, dan Persekutuan Perdata"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
-            }
-          ],
-          "documents": [
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Berikut ini adalah dokumen yang menjadi persyaratan pembubarn PT adalah sebagai berikut :"
-            },
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris;"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "NPWP Perusahaan dan NIB"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "PKP (apabila ada)"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Bukti laporan Pajak bulanan dan tahunan PT"
-                }
-              ]
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Penonaktifan perusahaan berarti PT sudah tidak memiliki kewajiban untuk lapor pajak. Proses juga lebih cepat Dengan status non-aktif maka:"
-            },
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg pt-2",
-                  "content": "Status badan hukum PT masih ada"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Perizinan PT masih ada"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "NPWP perusahaan masih ada"
-                },
-
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Perusahaan tidak perlu lapor pajak selamanya"
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Perjanjian Pisah Harta",
           "slug": "perjanjian-pisah-harta",
@@ -4245,6 +3912,340 @@
                   "type": "li",
                   "className": "text-gray-700 text-lg",
                   "content": "Diskusi mengenai temuan, rekomendasi, dan langkah selanjutnya."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perubahan Anggaran Dasar",
+          "slug": "perubahan-anggaran-dasar",
+          "package": [
+            {
+              "title": "Perubahan Anggaran Dasar",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 3.000.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
+          "overviews": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Anggaran dasar PT harus mencakup setidaknya:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Nama dan lokasi kantor pusat perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Maksud dan tujuan serta kegiatan usaha perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Jangka waktu keberadaan perusahaan"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Besaran modal dasar, modal yang ditempatkan, dan modal yang disetor"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Jumlah saham, klasifikasi saham jika ada, hak-hak yang melekat pada setiap saham, dan nilai nominal setiap saham"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nama jabatan dan jumlah anggota Direksi dan Dewan Komisaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penetapan lokasi dan tata cara penyelenggaraan Rapat Umum Pemegang Saham (RUPS)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Prosedur pengangkatan, penggantian, dan pemberhentian anggota Direksi dan Dewan Komisaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Prosedur penggunaan laba dan pembagian dividen"
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "UU No 40 tahun 2007 tentang Perseroan Terbatas"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Undang-undang ini mengatur tentang bagaimana perubahan anggaran dasar PT dan PT PMA secara formal"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Permenkumham No 17 tahun 2018 tentang Tentang Pendaftaran Persekutuan Komanditer, Persekutuan Firma, dan Persekutuan Perdata"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
+            }
+          ],
+          "documents": [
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Syarat Penyelenggaraan RUPS PT"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berikut ini adalah yang menjadi persyaratan anggaran dasar PT adalah sebagai berikut:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Dokumen RUPS dengan agenda tertentu yang disetujui dan ditandatangani"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan dan NIB"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Status KSWP masih valid (lapor SPT Tahunan 2 (dua) tahun terakhir."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Syarat Penyelenggaraan RUPS CV"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berikut ini adalah yang menjadi persyaratan perubahan anggaran dasar CV adalah sebagai berikut: "
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "KTP dan NPWP semua sekutu CV"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Pendirian CV beserta dengan seluruh perubahannya beserta dengan SK Menteri"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan dan NIB dan"
+                },
+
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Status KSWP masih valid (lapor SPT Tahunan 2 (dua) tahun terakhir."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Penutupan Perusahaan",
+          "slug": "penutupan-perusahaan",
+          "package": [
+            {
+              "title": "Penutupan Perusahaan",
+              "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
+              "price": "Start from 5.000.000",
+              "fakePrice": "7.000.000",
+              "features": [],
+              "buttonText": "Hubungi Kami"
+            }
+          ],
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Penutupan atau pembubaran perusahaan adalah proses formal untuk menghentikan kegiatan bisnis, yang mencakup penghentian operasional, penutupan administrasi perpajakan, pencabutan izin usaha, distribusi aset kepada pemilik melalui proses likuidasi, hingga pengumuman di koran."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify pt-2",
+              "content": "Terdapat dua jenis layanan untuk menghentikan bisnis, yaitu penonaktifan perusahaan dan pembubaran perusahaan."
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Penyebab Bubarnya PT"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berdasarkan ketentuan Undang-Undang Perseroan Terbatas (UUPT), penyebab bubarnya sebuah Perseroan Terbatas antara lain:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Keputusan Rapat Umum Pemegang Saham (RUPS), di mana para pemegang saham memutuskan untuk membubarkan PT karena tidak lagi diperlukan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berakhirnya jangka waktu pendirian yang ditetapkan dalam anggaran dasar."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Berdasarkan penetapan pengadilan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dicabutnya kepailitan oleh pengadilan niaga dengan keputusan yang telah berkekuatan hukum tetap, karena harta pailit PT tidak mencukupi untuk membayar biaya kepailitan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Harta pailit PT yang telah dinyatakan pailit berada dalam keadaan insolvensi sesuai dengan Undang-Undang tentang Kepailitan dan Penundaan Kewajiban Pembayaran Utang."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dicabutnya izin usaha PT yang mengharuskan perusahaan untuk melakukan likuidasi sesuai dengan peraturan perundang-undangan yang berlaku."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "UU No 40 tahun 2007 tentang Perseroan Terbatas"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Undang-undang ini mengatur tentang bagaimana perubahan anggaran dasar PT dan PT PMA secara formal"
+            },
+            {
+              "type": "h3",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
+              "content": "Permenkumham No 17 tahun 2018 tentang Tentang Pendaftaran Persekutuan Komanditer, Persekutuan Firma, dan Persekutuan Perdata"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
+            }
+          ],
+          "documents": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Berikut ini adalah dokumen yang menjadi persyaratan pembubarn PT adalah sebagai berikut :"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP Perusahaan dan NIB"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "PKP (apabila ada)"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Bukti laporan Pajak bulanan dan tahunan PT"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Penonaktifan perusahaan berarti PT sudah tidak memiliki kewajiban untuk lapor pajak. Proses juga lebih cepat Dengan status non-aktif maka:"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Status badan hukum PT masih ada"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Perizinan PT masih ada"
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "NPWP perusahaan masih ada"
+                },
+
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Perusahaan tidak perlu lapor pajak selamanya"
                 }
               ]
             }
