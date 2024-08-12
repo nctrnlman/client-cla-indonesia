@@ -1,10 +1,15 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import LegalityPackageCard from "../../components/cards/legality-package/LegalityPackageCard";
+import { generateWhatsAppUrl } from "../../utils/whatsappUtils";
 function LegalityPackages() {
   const { t } = useTranslation("legalityPackage");
   const packages = t("packages", { returnObjects: true });
+  const whatsappUrl = generateWhatsAppUrl();
 
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
   return (
     <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <motion.div
@@ -51,6 +56,7 @@ function LegalityPackages() {
             className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={handleButtonClick}
           >
             {t("contact_us")}
           </motion.button>

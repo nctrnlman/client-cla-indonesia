@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
 function PricingCard({
   title,
@@ -8,6 +9,11 @@ function PricingCard({
   features,
   buttonText,
 }) {
+  const whatsappUrl = generateWhatsAppUrl(title);
+
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
   return (
     <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
       <div className="card-body">
@@ -42,7 +48,10 @@ function PricingCard({
           ))}
         </ul>
         <div className="card-actions">
-          <button className="btn bg-primary text-secondary btn-block">
+          <button
+            className="btn bg-primary text-secondary btn-block"
+            onClick={handleButtonClick}
+          >
             {buttonText}
           </button>
         </div>

@@ -7,7 +7,7 @@ function Process({ process }) {
   }
 
   return (
-    <section className="p-8 max-w-7xl mx-auto relative bg-white shadow-md rounded-lg my-20 mb-8">
+    <section className="p-8 max-w-7xl mx-auto relative bg-white shadow-md rounded-lg my-20 mb-8 overflow-hidden">
       <h2 className="text-4xl font-bold text-gray-900 mb-6 border-b-4 border-primary pb-2">
         {t("otherServiceDetail.process")}
       </h2>

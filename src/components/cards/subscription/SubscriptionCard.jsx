@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { FaCheck, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 const SubscriptionCard = ({
   title,
   description,
@@ -14,6 +15,12 @@ const SubscriptionCard = ({
   const [isExpanded, setIsExpanded] = useState(false);
   const [maxHeight, setMaxHeight] = useState("0px");
   const contentRef = useRef(null);
+
+  const whatsappUrl = generateWhatsAppUrl(title);
+
+  const handleButtonClick = () => {
+    window.open(whatsappUrl, "_blank");
+  };
 
   useEffect(() => {
     if (isExpanded) {
@@ -41,7 +48,10 @@ const SubscriptionCard = ({
         {fakePrice && (
           <p className="text-red-500 line-through mb-4">Rp {fakePrice}</p>
         )}
-        <button className="w-full bg-secondary text-primary font-bold py-2 px-4 rounded-full hover:bg-primary hover:text-secondary transition duration-300">
+        <button
+          onClick={handleButtonClick}
+          className="w-full bg-secondary text-primary font-bold py-2 px-4 rounded-full hover:bg-primary hover:text-secondary transition duration-300"
+        >
           {buttonText}
         </button>
       </div>

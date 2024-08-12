@@ -7,7 +7,7 @@ function RequirementsDocument({ documents }) {
   }
 
   return (
-    <section className="p-8 max-w-7xl mx-auto bg-white shadow-md relative rounded-lg my-20 mb-8">
+    <section className="p-8 max-w-7xl mx-auto bg-white shadow-md relative rounded-lg my-20 mb-8 overflow-hidden">
       <h2 className="text-4xl font-bold text-gray-900 mb-6 border-b-4 border-primary pb-2">
         {t("otherServiceDetail.documents")}
       </h2>
