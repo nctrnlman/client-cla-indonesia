@@ -20,7 +20,6 @@ import trainingPackageEN from "./locales/en/trainingPackage.json";
 import legalAssociateEN from "./locales/en/legalAssociate.json";
 import contactUsLTEN from "./locales/en/contactUsLT.json";
 
-
 // Indonesia
 import translationID from "./locales/id/translation.json";
 import navbarID from "./locales/id/navbar.json";
@@ -37,7 +36,6 @@ import aboutID from "./locales/id/about.json";
 import trainingPackageID from "./locales/id/trainingPackage.json";
 import legalAssociateID from "./locales/id/legalAssociate.json";
 import contactUsLTID from "./locales/id/contactUsLT.json";
-
 
 // Chinese
 import translationZH from "./locales/zh/translation.json";
@@ -73,7 +71,6 @@ const resources = {
     trainingPackage: trainingPackageEN,
     legalAssociate: legalAssociateEN,
     contactUsLT: contactUsLTEN,
-
   },
   id: {
     translation: translationID,

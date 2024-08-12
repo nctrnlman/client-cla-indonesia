@@ -1,20 +1,20 @@
 {
   "trustedPartner": "您的成功是我们的首要任务。",
-  "quickLinks": "Tautan Cepat",
-  "home": "Beranda",
-  "legalAssociate": "Asosiasi Hukum",
-  "legalTraining": "Pelatihan Hukum",
-  "otherServices": "Layanan Lainnya",
-  "company": "Perusahaan",
-  "address": "Jalan Pengadegan Utara II No. 30, Pancoran, Jakarta Selatan, Indonesia",
-  "contact": "Kontak",
+  "quickLinks": "快速链接",
+  "home": "首页",
+  "legalAssociate": "法律协会",
+  "legalTraining": "法律培训",
+  "otherServices": "其他服务",
+  "company": "公司",
+  "address": "Jl. Pengadegan Utara II No. 30, Pancoran, 南雅加达, 印度尼西亚",
+  "contact": "联系",
   "phone": "+62 812 1111 0564",
   "emails": "contact@mylaw.id, career@mylaw.id",
   "socialMedia": {
-    "facebook": "Facebook",
-    "twitter": "Twitter",
+    "facebook": "脸书",
+    "twitter": "推特",
     "instagram": "Instagram",
-    "linkedin": "LinkedIn"
+    "linkedin": "领英"
   },
-  "copyright": "© 2023 Corporate Legal Indonesia. Semua hak dilindungi."
+  "copyright": "© 2023 Corporate Legal Indonesia. 版权所有。"
 }
