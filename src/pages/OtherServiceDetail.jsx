@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import Overview from "../components/other-service-detail/Overview";
 import RequirementsDocument from "../components/other-service-detail/RequirementsDocument";
 import Process from "../components/other-service-detail/Process";
+import NoContent from "../components/other-service-detail/NoContent";
 
 function OtherServiceDetail() {
   const { t } = useTranslation(["serviceData"]);
@@ -75,22 +76,7 @@ function OtherServiceDetail() {
           <Process process={process} />
         </>
       ) : (
-        <div className="flex items-center justify-center  py-20 px-4">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full text-center">
-            <p className="text-lg text-gray-700 mb-6">
-              Hubungi kami untuk mendapatkan informasi dokumen persyaratan,
-              proses layanan serta biaya.
-            </p>
-            <a
-              href="https://wa.me/YOUR_PHONE_NUMBER"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-primary text-white px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300 ease-in-out"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
+        <NoContent serviceTitle={serviceItem?.name || ""} />
       )}
       <Bonus />
       <FAQ />
