@@ -22,15 +22,4 @@ const WhyChooseLegalAssociate = ({ icon, title, description, bgColor }) => {
   );
 };
 
-WhyChooseLegalAssociate.propTypes = {
-  icon: PropTypes.element,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  bgColor: PropTypes.string,
-};
-
-WhyChooseLegalAssociate.defaultProps = {
-  bgColor: "blue-900",
-};
-
 export default WhyChooseLegalAssociate;
