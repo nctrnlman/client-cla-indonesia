@@ -4,6 +4,7 @@ import logo from "../../../assets/logo/logo_cla.png";
 import useSmoothScroll from "../../../hooks/useSmoothScroll";
 import { useTranslation } from "react-i18next";
 import Flag from "react-flagkit";
+import { Globe } from "lucide-react";
 
 function Navbar() {
   const { t, i18n } = useTranslation(["serviceData"]);
@@ -14,6 +15,7 @@ function Navbar() {
     useState(false);
   const [dropdownTop, setDropdownTop] = useState(0);
   const [closeTimer, setCloseTimer] = useState(null);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const otherServicesRef = useRef(null);
   const dropdownRef = useRef(null);
   const location = useLocation();
@@ -41,6 +43,7 @@ function Navbar() {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    setIsLanguageDropdownOpen(false);
   };
 
   const toggleMobileMenu = () => {
@@ -68,7 +71,7 @@ function Navbar() {
   const handleMouseLeave = () => {
     const timer = setTimeout(() => {
       setIsOtherServicesOpen(false);
-    }, 1000); // 1 seconds delay
+    }, 1000); // 1 second delay
     setCloseTimer(timer);
   };
 
@@ -76,6 +79,11 @@ function Navbar() {
     setIsOtherServicesOpen(false);
     navigate(to);
   };
+
+  const toggleLanguageDropdown = () => {
+    setIsLanguageDropdownOpen(!isLanguageDropdownOpen);
+  };
+
   const servicesData = data.reduce((acc, service) => {
     const { category, items } = service;
 
@@ -96,57 +104,6 @@ function Navbar() {
     return acc;
   }, []);
 
-  // const servicesData = [
-  //   {
-  //     category: "LEGALITY",
-  //     items: [
-  //       { name: "PT / Perseroan Terbatas", slug: "pt-perseroan-terbatas" },
-  //       {
-  //         name: "CV / Commanditaire Venootschap",
-  //         slug: "cv-commanditaire-venootschap",
-  //       },
-  //       { name: "PT Perorangan", slug: "pt-perorangan" },
-  //       { name: "PT PMA", slug: "pt-pma" },
-  //       { name: "Firma", slug: "firma" },
-  //       { name: "Persekutuan Perdata", slug: "persekutuan-perdata" },
-  //       { name: "Perkumpulan", slug: "perkumpulan" },
-  //       { name: "Yayasan", slug: "yayasan" },
-  //     ],
-  //   },
-  //   {
-  //     category: "PERIZINAN",
-  //     items: [
-  //       { name: "NIB & OSS", slug: "nib-oss" },
-  //       { name: "Izin PKP", slug: "izin-pkp" },
-  //       { name: "Izin Restoran", slug: "izin-restoran" },
-  //       { name: "Izin Konstruksi", slug: "izin-konstruksi" },
-  //       { name: "Izin PSE", slug: "izin-pse" },
-  //       { name: "Izin K3L", slug: "izin-k3l" },
-  //       { name: "Izin Yayasan", slug: "izin-yayasan" },
-  //     ],
-  //   },
-  //   {
-  //     category: "JASA HUKUM",
-  //     items: [
-  //       { name: "Virtual Office", slug: "virtual-office" },
-  //       { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
-  //       { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
-  //       { name: "Perjanjian Pisah Harta", slug: "perjanjian-pisah-harta" },
-  //       { name: "Pendaftaran Merek", slug: "pendaftaran-merek" },
-  //       { name: "KITAS Pekerja", slug: "kitas-pekerja" },
-  //       { name: "KITAS Investor", slug: "kitas-investor" },
-  //     ],
-  //   },
-  //   {
-  //     category: "LAINNYA",
-  //     items: [
-  //       { name: "Virtual Office", slug: "virtual-office" },
-  //       { name: "Perubahan Anggaran Dasar", slug: "perubahan-anggaran-dasar" },
-  //       { name: "Penutupan Perusahaan", slug: "penutupan-perusahaan" },
-  //     ],
-  //   },
-  // ];
-  // const servicesData = t("servicesData", { returnObjects: true });
   return (
     <>
       <nav className="px-2 sm:px-4 py-2.5 shadow bg-white w-full fixed top-0 z-40">
@@ -160,6 +117,12 @@ function Navbar() {
           </Link>
 
           <div className="flex items-center md:hidden">
+            <button
+              onClick={toggleLanguageDropdown}
+              className="mr-4 text-primary hover:text-secondary transition-colors"
+            >
+              <Globe size={24} />
+            </button>
             <label className="btn btn-circle swap swap-rotate">
               <input
                 type="checkbox"
@@ -410,6 +373,40 @@ function Navbar() {
           )}
         </ul>
       </div>
+
+      {isLanguageDropdownOpen && (
+        <div className="md:hidden fixed top-16 right-0 bg-white shadow-md rounded-bl-lg z-50">
+          <ul className="py-2">
+            <li>
+              <button
+                onClick={() => changeLanguage("en")}
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+              >
+                <Flag country="US" className="w-6 h-4 inline-block mr-2" />
+                English
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => changeLanguage("id")}
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+              >
+                <Flag country="ID" className="w-6 h-4 inline-block mr-2" />
+                Bahasa Indonesia
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => changeLanguage("zh")}
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+              >
+                <Flag country="CN" className="w-6 h-4 inline-block mr-2" />
+                中文
+              </button>
+            </li>
+          </ul>
+        </div>
+      )}
 
       {isOtherServicesOpen && (
         <div
