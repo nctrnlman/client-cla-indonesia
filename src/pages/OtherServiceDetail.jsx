@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 import Hero from "../components/other-service-detail/Hero";
 import Content from "../components/other-service-detail/Content";
-import SequentialForm from "../components/legal-training/SequentialForm";
+import SequentialForm from "../components/home/SequentialForm";
 import FAQ from "../components/home/FAQ";
 // import Features from "../components/other-service-detail/Features";
 import Bonus from "../components/other-service-detail/Bonus";

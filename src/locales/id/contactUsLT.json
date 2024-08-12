@@ -1,0 +1,17 @@
+{
+  "contactUs": "Hubungi Kami",
+  "contactUsSubtitle": "*Hubungi Kami untuk Pelatihan Hukum GRATIS",
+  "termsAndConditions": "*Syarat dan ketentuan berlaku.",
+  "contactForm": "Formulir Kontak",
+  "namePlaceholder": "Nama Lengkap",
+  "emailPlaceholder": "Alamat Email",
+  "phoneNumber": "Nomor Telepon",
+  "phoneNumberPlaceholder": "Masukkan nomor telepon Anda",
+  "message": "Pesan",
+  "messagePlaceholder": "Pesan Anda di sini",
+  "submit": "Kirim",
+  "submissionSuccess": "Pesan Anda telah berhasil dikirim!",
+  "packageInterest": "Terima kasih atas minat Anda pada paket {{package}}.",
+  "interestedIn": "Saya tertarik dengan paket {{package}}.",
+  "code": "Kode"
+}
