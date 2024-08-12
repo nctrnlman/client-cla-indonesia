@@ -37,22 +37,42 @@
       "category": "LEGAL",
       "items": [
         {
-          "name": "有限责任公司（LLC）",
+          "name": "Perseroan Terbatas (PT)",
           "slug": "perseroan-terbatas",
-          "package": {
-            "title": "标准有限责任公司设立（外国投资）",
-            "description": "通过我们的法律协会作为您值得信赖的合作伙伴，提升您的商业法律旅程。我们提供量身定制的法律援助，满足您的需求和公司类型。我们的创新解决方案。",
-            "price": "IDR 3,500,000",
-            "fakePrice": "IDR 7,500,000",
-            "features": [
-              "咨询",
-              "公司名称查询",
-              "有限责任公司成立法令",
-              "税务识别号",
-              "有限责任公司章程"
-            ],
-            "buttonText": "立即订购"
-          },
+          "package": [
+            {
+              "title": "Pendirian PT Standar (PMDN)",
+              "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asosiasi Hukum kami sebagai mitra tepercaya Anda. Kami memberikan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami.",
+              "price": "Start from 3.500.000",
+              "fakePrice": "5.500.000",
+              "features": [
+                "Konsultasi",
+                "Penelusuran Nama PT",
+                "Akta Pendirian",
+                "Surat Keputusan Pendirian PT",
+                "Nomor Pokok Wajib Pajak Badan Usaha"
+              ],
+              "buttonText": "Pesan Sekarang"
+            },
+            {
+              "title": "Pendirian PT Lengkap (PMDN)",
+              "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asosiasi Hukum kami sebagai mitra tepercaya Anda. Kami memberikan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami.",
+              "price": "5.500.000",
+              "fakePrice": "7.500.000",
+              "features": [
+                "Konsultasi",
+                "Penelusuran Nama PT",
+                "Akta Pendirian",
+                "Surat Keputusan Pendirian PT",
+                "Nomor Pokok Wajib Pajak Badan Usaha",
+                "Nomor Induk Berusaha (NIB)",
+                "KPPR",
+                "Sertifikat Standar/Izin",
+                "Aktivitas EFIN Badan Usaha"
+              ],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "ul",
@@ -61,62 +81,62 @@
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg text-justify",
-                  "content": "根据2007年第40号有限责任公司法第7条第1款，LLC必须由至少2人建立。这里的‘人’可以是个人，无论是印度尼西亚国籍还是外国国籍，或者印度尼西亚或外国法人实体。"
+                  "content": "Sesuai Pasal 7 ayat (1) UU 40/2007 tentang Perseroan Terbatas, PT harus didirikan oleh minimal 2 orang. 'Orang' di sini dapat berupa individu, baik warga negara Indonesia maupun asing, atau badan hukum Indonesia maupun asing."
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg text-justify",
-                  "content": "在成立LLC时，创始人就公司名称、住所、业务领域、资本、管理等事项达成协议，并在公证书中规定。"
+                  "content": "Saat mendirikan PT, pendiri menyepakati nama, tempat kedudukan, bidang usaha, permodalan, pengurus, dan hal lainnya yang dituangkan dalam akta notaris."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "公证人"
+                  "content": "Notaris"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "第2号法令（2014年）规定公证人是制作正式文件的公共官员。基金会的成立是通过公证书进行的，并在法律和人权部登记。"
+                  "content": "UU No. 2/2014 menyatakan notaris adalah pejabat umum yang membuat akta autentik. Pendirian Yayasan dilakukan melalui akta notaris dan didaftarkan di SABH Kementerian Hukum dan HAM."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "法律与人权部部长"
+                  "content": "Menteri Hukum & HAM"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "2016年第2号部长令第10条规定，部长通过SABH发出基金会的合法化。"
+                  "content": "Permenkumham 2/2016 Pasal 10 menyatakan Menteri menerbitkan pengesahan Yayasan melalui SABH."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "税务识别号（NPWP）"
+                  "content": "NPWP"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "根据税务总局第PER-02/PJ/2018号规程，NPWP是税务管理的识别号。SABH在部长令发布时自动提供NPWP；NPWP卡可以在税务局申请。"
+                  "content": "Per Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan; kartu NPWP dapat diminta di kantor pajak."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "商业注册号（NIB）和营业执照"
+                  "content": "NIB dan Izin Usaha"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "政府第5号规程（2021年）关于风险基础商业许可提供了通过OSS的电子许可服务，包括NIB和营业执照以及商业或运营许可。"
+                  "content": "PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS, termasuk NIB serta Izin Usaha dan Izin Komersial atau Operasional."
                 },
                 {
                   "type": "h3",
                   "className": "text-xl font-semibold text-gray-800 mt-4",
-                  "content": "国家公报与附加国家公报"
+                  "content": "Berita Negara & Tambahan Berita Negara"
                 },
                 {
                   "type": "p",
                   "className": "text-gray-700 text-lg",
-                  "content": "国家公报和附加国家公报是官方政府媒体，被认为是正式的并且被所有人知晓（公开原则）。"
+                  "content": "Berita Negara dan Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
                 }
               ]
             }
@@ -129,37 +149,37 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "股东、董事会和监事会成员的身份证和税务识别号"
+                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "公司电话号码和电子邮件"
+                  "content": "Nomor telepon dan email perusahaan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "填写完整的LLC成立表格"
+                  "content": "Mengisi formulir pendirian PT."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "公证文件签名。"
+                  "content": "Tanda tangan dokumen Notaris."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KBLI是印尼的商业领域代码。"
+                  "content": "KBLI adalah kode bidang usaha di Indonesia."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "在CLA Indonesia，您可以选择最多20个KBLI代码/业务领域。"
+                  "content": "Di CLA Indonesia kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "国家公报和附加国家公报是官方政府媒体，被认为是正式的并且被所有人知晓（公开原则）。"
+                  "content": "Berita Negara & Tambahan Berita Negara adalah media resmi pemerintah yang autentik dan dianggap telah diketahui oleh semua orang (asas publisitas)."
                 }
               ]
             }
@@ -168,23 +188,25 @@
         {
           "name": "CV / Commanditaire Venootschap",
           "slug": "cv-commanditaire-venootschap",
-          "package": {
-            "title": "Pendirian CV",
-            "description": "Dapatkan bantuan hukum untuk mendirikan persekutuan komanditer dengan proses cepat dan mudah.",
-            "price": "5.500.000",
-            "fakePrice": "12.500.000",
-            "features": [
-              "Konsultasi",
-              "Akta Pendirian",
-              "Surat Keputusan Pendirian PT",
-              "Nomor Pokok Wajib Pajak Badan Usaha",
-              "Nomor Induk Berusaha (NIB)",
-              "KPPR",
-              "Sertifikat Standar/Izin",
-              "Aktivitas EFIN Badan Usaha"
-            ],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Pendirian CV",
+              "description": "Dapatkan bantuan hukum untuk mendirikan persekutuan komanditer dengan proses cepat dan mudah.",
+              "price": "5.500.000",
+              "fakePrice": "12.500.000",
+              "features": [
+                "Konsultasi",
+                "Akta Pendirian",
+                "Surat Keputusan Pendirian PT",
+                "Nomor Pokok Wajib Pajak Badan Usaha",
+                "Nomor Induk Berusaha (NIB)",
+                "KPPR",
+                "Sertifikat Standar/Izin",
+                "Aktivitas EFIN Badan Usaha"
+              ],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "ul",
@@ -271,17 +293,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP sekutu aktif & sekutu pasif;"
+                  "content": "KTP sekutu aktif & sekutu pasif."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email perusahaan;"
+                  "content": "Nomor telepon dan email perusahaan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian CV; dan"
+                  "content": "Mengisi formulir pendirian CV."
                 },
                 {
                   "type": "li",
@@ -310,76 +332,33 @@
         {
           "name": "PT Perorangan",
           "slug": "pt-perorangan",
-          "package": {
-            "title": "Pembentukan Kemitraan Standar",
-            "description": "Layanan lengkap untuk membentuk kemitraan dengan dukungan penuh dari ahli hukum kami.",
-            "price": "2.500.000",
-            "fakePrice": "5.000.000",
-            "features": [
-              "Konsultasi",
-              "Pendaftaran Kemitraan",
-              "Keputusan Kemitraan",
-              "Nomor Pokok Wajib Pajak",
-              "Akta Kemitraan"
-            ],
-            "buttonText": "Pesan Sekarang"
-          },
-          "overviews": [
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Persekutuan komanditer terdiri dari satu atau lebih sekutu umum dan satu atau lebih sekutu komanditer."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Kami menyediakan layanan pendaftaran dan pembuatan akta persekutuan komanditer."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Dokumen harus dipersiapkan sesuai dengan ketentuan hukum yang berlaku."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Konsultasi hukum dan pendaftaran dapat dilakukan dengan mudah dan cepat."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Nomor Pokok Wajib Pajak akan dikeluarkan sebagai bagian dari proses."
-            }
-          ],
-          "documents": [
-            "KTP & NPWP pendiri;",
-            "Nomor telepon dan email;",
-            "Formulir pendaftaran kemitraan yang lengkap;",
-            "Tanda tangan pada dokumen.",
-            "KBLI untuk bidang usaha."
-          ]
+          "package": [],
+          "overviews": [],
+          "documents": []
         },
         {
           "name": "PT PMA",
           "slug": "pt-pma",
-          "package": {
-            "title": "Pendirian PT PMA",
-            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
-            "price": "7.500.000",
-            "fakePrice": "10.000.000",
-            "features": [
-              "Konsultasi",
-              "Penelusuran nama PT",
-              "Akta Pendirian",
-              "Surat Keputusan Pendirian PT",
-              "Nomor Pokok Wajib Pajak Badan Usaha",
-              "Nomor Induk Berusaha (NIB)",
-              "KPPR",
-              "Sertifikat Standar/Izin",
-              "Aktivitas EFIN Badan Usaha"
-            ],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Pendirian PT PMA",
+              "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+              "price": "7.500.000",
+              "fakePrice": "10.000.000",
+              "features": [
+                "Konsultasi",
+                "Penelusuran nama PT",
+                "Akta Pendirian",
+                "Surat Keputusan Pendirian PT",
+                "Nomor Pokok Wajib Pajak Badan Usaha",
+                "Nomor Induk Berusaha (NIB)",
+                "KPPR",
+                "Sertifikat Standar/Izin",
+                "Aktivitas EFIN Badan Usaha"
+              ],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "ul",
@@ -456,7 +435,27 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris; Khusus WNA melampirkan paspor; Nomor telepon dan email perusahaan; Mengisi formulir pendirian PT PMA; dan Tanda tangan dokumen Notaris"
+                  "content": "KTP & NPWP pemegang saham, Direksi dan Dewan Komisaris."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Khusus WNA melampirkan paspor."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor telepon dan email perusahaan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Mengisi formulir pendirian PT PMA."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Tanda tangan dokumen Notaris."
                 },
                 {
                   "type": "li",
@@ -470,23 +469,25 @@
         {
           "name": "Firma",
           "slug": "firma",
-          "package": {
-            "title": "Pendirian Firma",
-            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
-            "price": "5.500.000",
-            "fakePrice": "8.000.000",
-            "features": [
-              "Konsultasi",
-              "Akta Pendirian",
-              "Surat Keputusan Pendirian PT",
-              "Nomor Pokok Wajib Pajak Badan Usaha",
-              "Nomor Induk Berusaha (NIB)",
-              "KPPR",
-              "Sertifikat Standar/Izin",
-              "Aktivitas EFIN Badan Usaha"
-            ],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Pendirian Firma",
+              "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+              "price": "5.500.000",
+              "fakePrice": "8.000.000",
+              "features": [
+                "Konsultasi",
+                "Akta Pendirian",
+                "Surat Keputusan Pendirian PT",
+                "Nomor Pokok Wajib Pajak Badan Usaha",
+                "Nomor Induk Berusaha (NIB)",
+                "KPPR",
+                "Sertifikat Standar/Izin",
+                "Aktivitas EFIN Badan Usaha"
+              ],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "ul",
@@ -587,20 +588,22 @@
         {
           "name": "Persekutuan Perdata",
           "slug": "persekutuan-perdata",
-          "package": {
-            "title": "Pembentukan Koperasi Standar",
-            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
-            "price": "4.000.000",
-            "fakePrice": "8.000.000",
-            "features": [
-              "Konsultasi",
-              "Pendaftaran Koperasi",
-              "Keputusan Koperasi",
-              "Nomor Pokok Wajib Pajak",
-              "Akta Koperasi"
-            ],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Pembentukan Koperasi Standar",
+              "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+              "price": "4.000.000",
+              "fakePrice": "8.000.000",
+              "features": [
+                "Konsultasi",
+                "Pendaftaran Koperasi",
+                "Keputusan Koperasi",
+                "Nomor Pokok Wajib Pajak",
+                "Akta Koperasi"
+              ],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "ul",
@@ -706,14 +709,16 @@
         {
           "name": "Perkumpulan",
           "slug": "perkumpulan",
-          "package": {
-            "title": "Perkumpulan",
-            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
-            "price": "3.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Perkumpulan",
+              "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+              "price": "Start from 3.000.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -727,7 +732,7 @@
             },
             {
               "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify pt-4",
+              "className": "list-disc list-inside space-y-3 text-justify pt-2",
               "content": [
                 {
                   "type": "li",
@@ -821,17 +826,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara);"
+                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara)"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email Yayasan;"
+                  "content": "Nomor telepon dan email Yayasan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian Yayasan; dan"
+                  "content": "Mengisi formulir pendirian Yayasan."
                 },
                 {
                   "type": "li",
@@ -855,23 +860,25 @@
         {
           "name": "Yayasan",
           "slug": "yayasan",
-          "package": {
-            "title": "Pembentukan Koperasi Standar",
-            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
-            "price": "7.500.000",
-            "fakePrice": "9.000.000",
-            "features": [
-              "Konsultasi",
-              "Akta Pendirian",
-              "Surat Keputusan Pendirian PT",
-              "Nomor Pokok Wajib Pajak Badan Usaha",
-              "Nomor Induk Berusaha (NIB)",
-              "KPPR",
-              "Sertifikat Standar/Izin",
-              "Aktivitas EFIN Badan Usaha"
-            ],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Pendirian Yayasan",
+              "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+              "price": "7.500.000",
+              "fakePrice": "9.000.000",
+              "features": [
+                "Konsultasi",
+                "Akta Pendirian",
+                "Surat Keputusan Pendirian PT",
+                "Nomor Pokok Wajib Pajak Badan Usaha",
+                "Nomor Induk Berusaha (NIB)",
+                "KPPR",
+                "Sertifikat Standar/Izin",
+                "Aktivitas EFIN Badan Usaha"
+              ],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -1022,14 +1029,16 @@
         {
           "name": "Nomor Induk Berusaha (NIB)",
           "slug": "nomor-induk-berusaha-nib",
-          "package": {
-            "title": "Nomor Induk Berusaha (NIB)",
-            "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
-            "price": "750.000",
-            "fakePrice": "2.000.000",
-            "features": [],
-            "buttonText": "Pesan Sekarang"
-          },
+          "package": [
+            {
+              "title": "Nomor Induk Berusaha (NIB)",
+              "description": "Layanan untuk membentuk koperasi dengan proses cepat dan efisien.",
+              "price": "Start from 750.000",
+              "fakePrice": "2.000.000",
+              "features": [],
+              "buttonText": "Pesan Sekarang"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -1048,7 +1057,7 @@
             },
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "className": "text-xl font-semibold text-gray-800 mt-4  text-justify",
               "content": "Hal yang perlu diperhatikan saat mendapatkan NIB:"
             },
             {
@@ -1086,8 +1095,8 @@
           "documents": [
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
-              "content": "usaha perseorangan:"
+              "className": "text-xl font-semibold text-gray-800 mt-4  text-justify",
+              "content": "Usaha Perseorangan:"
             },
             {
               "type": "ul",
@@ -1142,8 +1151,8 @@
             },
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
-              "content": "usaha non-perorangan:"
+              "className": "text-xl font-semibold text-gray-800 mt-4  text-justify",
+              "content": "Usaha Non-Perorangan:"
             },
             {
               "type": "ul",
@@ -1211,14 +1220,16 @@
         {
           "name": "Izin Pengusaha Kena Pajak (PKP)",
           "slug": "izin-pkp",
-          "package": {
-            "title": "Izin Pengusaha Kena Pajak (PKP)",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "2.000.000",
-            "fakePrice": "4.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Izin Pengusaha Kena Pajak (PKP)",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 2.000.000",
+              "fakePrice": "4.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "h3",
@@ -1227,7 +1238,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify pt-2",
+              "className": "text-gray-700 text-lg text-justify",
               "content": "Izin Pengusaha Kena Pajak (PKP) adalah izin yang diberikan oleh Direktorat Jenderal Pajak (DJP) kepada pengusaha yang memenuhi kriteria untuk dikenakan Pajak Pertambahan Nilai (PPN) dan Pajak Penjualan atas Barang Mewah (PPnBM). PKP merupakan kewajiban bagi pengusaha yang melakukan penjualan barang dan/atau jasa kena pajak dengan omzet di atas batas yang ditetapkan pemerintah."
             },
             {
@@ -1247,7 +1258,7 @@
             },
             {
               "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify pt-2",
+              "className": "list-disc list-inside space-y-3 text-justify ",
               "content": [
                 {
                   "type": "li",
@@ -1278,17 +1289,17 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify pt-2",
+              "className": "text-gray-700 text-lg text-justify ",
               "content": "Kepatuhan Pajak: Memastikan bahwa pengusaha memenuhi kewajiban pajak sesuai dengan peraturan yang berlaku."
             },
             {
               "type": "h3",
-              "className": "text-lg text-gray-700 mt-4 text-justify",
+              "className": "text-lg text-gray-700 text-justify",
               "content": "Pengembalian PPN: Memungkinkan pengusaha untuk mengklaim kembali PPN yang dibayar atas pembelian barang dan jasa."
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify pt-2",
+              "className": "text-gray-700 text-lg text-justify",
               "content": "Kepercayaan Mitra Bisnis: Meningkatkan kredibilitas dan kepercayaan mitra bisnis karena status sebagai PKP menunjukkan kepatuhan pajak yang baik."
             },
 
@@ -1330,18 +1341,19 @@
         {
           "name": "Izin Restoran",
           "slug": "izin-restoran",
-          "package": {
-            "title": "Izin Restoran",
-            "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
-            "price": "7.000.000",
-            "fakePrice": "14.000.000",
-            "features": [],
-            "buttonText": "Hubungi Kami"
-          },
+          "package": [
+            {
+              "title": "Izin Restoran",
+              "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
+              "price": "Biaya pengurusan izin restoran bervariasi tergantung pada skala dan risiko bisnis restoran.",
+              "features": [],
+              "buttonText": "Hubungi Kami"
+            }
+          ],
           "overviews": [
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
               "content": "Berdasarkan KBLI 2020, kegiatan restoran dikategorikan sebagai berikut:"
             },
             {
@@ -1357,7 +1369,7 @@
             },
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
+              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
               "content": "Untuk risiko yang terkait dengan KBLI Restoran tersebut, rincian risikonya adalah sebagai berikut:"
             },
             {
@@ -1395,57 +1407,57 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi Formulir perizinan dan surat pernyataan tentang kebenaran data dan keabsahan data (dengan materai Rp 10.000);"
+                  "content": "Mengisi Formulir perizinan dan surat pernyataan tentang kebenaran data dan keabsahan data (dengan materai Rp 10.000)"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP Pemilik dan Penanggung Jawab/Direktur Perusahaan;"
+                  "content": "KTP Pemilik dan Penanggung Jawab/Direktur Perusahaan"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "NPWP Direktur Perusahaan/ Perorangan;"
+                  "content": "NPWP Direktur Perusahaan/ Perorangan"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "NPWP Perusahaan Akta pendirian perusahaan;"
+                  "content": "NPWP Perusahaan Akta pendirian perusahaan"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Badan usaha dari restoran ini dapat berbentuk PT, CV, Firma atau perorangan;"
+                  "content": "Badan usaha dari restoran ini dapat berbentuk PT, CV, Firma atau perorangan"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP penerima kuasa dan surat kuasa pengurusan dengan materai Rp 6000 (jika dikuasakan);"
+                  "content": "KTP penerima kuasa dan surat kuasa pengurusan dengan materai Rp 6000 (jika dikuasakan)"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Sertifikat Laik Sehat (SLS) / Sertifikat Laik Higiene Sanitasi (SLHS);"
+                  "content": "Sertifikat Laik Sehat (SLS) / Sertifikat Laik Higiene Sanitasi (SLHS)"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Sertifikat Penjamah Pangan - diberikan atas nama karyawan restoran;"
+                  "content": "Sertifikat Penjamah Pangan - diberikan atas nama karyawan restoran"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Surat Pernyataan Pengelolaan Lingkungan (SPPL);"
+                  "content": "Surat Pernyataan Pengelolaan Lingkungan (SPPL)"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Bukti kepemilikan tanah atau bangunan; dan"
+                  "content": "Bukti kepemilikan tanah atau bangunan"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Proposal teknis (rencana pengelolaan usaha, foto berwarna sarana dan prasarana usaha ukuran 4R, foto dari luar, dan foto di dalam tiap ruangan, denah lokasi dan bangunan);"
+                  "content": "Proposal teknis (rencana pengelolaan usaha, foto berwarna sarana dan prasarana usaha ukuran 4R, foto dari luar, dan foto di dalam tiap ruangan, denah lokasi dan bangunan)"
                 },
                 {
                   "type": "li",
@@ -1459,14 +1471,16 @@
         {
           "name": "Izin Konstruksi",
           "slug": "izin-konstruksi",
-          "package": {
-            "title": "Izin Konstruksi",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "5.500.000",
-            "fakePrice": "11.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Izin Konstruksi",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Biaya pengurusan izin konstruksi bervariasi tergantung pada skala dan risiko bisnis.",
+
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "h3",
@@ -1511,42 +1525,37 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "pengaturan Perizinan Berusaha Berbasis Risiko; "
+                  "content": "pengaturan Perizinan Berusaha Berbasis Risiko"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "norma, standar, prosedur, dan kriteria Perizinan Berusaha Berbasis Risiko; "
+                  "content": "norma, standar, prosedur, dan kriteria Perizinan Berusaha Berbasis Risiko "
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Perizinan Berusaha Berbasis Risiko melalui layanan Sistem Online Single Submission/OSS; "
+                  "content": "Perizinan Berusaha Berbasis Risiko melalui layanan Sistem Online Single Submission/OSS "
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "tata cara Pengawasan Perizinan Berusaha Berbasis Risiko;"
+                  "content": "tata cara Pengawasan Perizinan Berusaha Berbasis Risiko"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "evaluasi dan reformasi kebijakan Perizinan Berusaha Berbasis Risiko; "
+                  "content": "evaluasi dan reformasi kebijakan Perizinan Berusaha Berbasis Risiko "
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "pendanaan Perizinan Berusaha Berbasis Risiko;  "
+                  "content": "pendanaan Perizinan Berusaha Berbasis Risiko"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "penyelesaian permasalahan dan hambatan Perizinan Berusaha Berbasis Risiko; dan "
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "sanksi. "
+                  "content": "penyelesaian permasalahan dan hambatan Perizinan Berusaha Berbasis Risiko dan sanksi."
                 }
               ]
             }
@@ -1630,24 +1639,19 @@
             }
           ]
         },
-
         {
           "name": "Izin K3L",
           "slug": "izin-k3l",
-          "package": {
-            "title": "Konsultasi Manajemen Keuangan",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "5.500.000",
-            "fakePrice": "11.000.000",
-            "features": [
-              "Strategi Manajemen Keuangan",
-              "Analisis Keuangan",
-              "Perencanaan Anggaran",
-              "Konsultasi Investasi",
-              "Pelaporan Keuangan"
-            ],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Izin K3L",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Biaya pengurusan izin K3L bervariasi tergantung pada skala dan risiko bisnis.",
+
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -1924,14 +1928,16 @@
         {
           "name": "Izin Yayasan",
           "slug": "izin-yayasan",
-          "package": {
-            "title": "Izin Yayasan",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "5.500.000",
-            "fakePrice": "11.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Izin Yayasan",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Hubungi kami untuk biaya Izin Yayasan",
+
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -2008,17 +2014,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara);"
+                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara)."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email Yayasan;"
+                  "content": "Nomor telepon dan email Yayasan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian Yayasan; dan"
+                  "content": "Mengisi formulir pendirian Yayasan."
                 },
                 {
                   "type": "li",
@@ -2047,76 +2053,23 @@
         {
           "name": "Virtual Office",
           "slug": "virtual-office",
-          "package": {
-            "title": "Konsultasi Pajak Strategis",
-            "description": "Konsultasi pajak profesional untuk membantu Anda meminimalkan kewajiban pajak Anda.",
-            "price": "3.000.000",
-            "fakePrice": "8.000.000",
-            "features": [
-              "Analisis Pajak",
-              "Strategi Perencanaan",
-              "Konsultasi Pajak",
-              "Pelaporan Pajak",
-              "Optimasi Pajak"
-            ],
-            "buttonText": "Hubungi Kami"
-          },
-          "overviews": [
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Sesuai Pasal 1 butir (3) Permenkumham 17/2018, Persekutuan Perdata adalah persekutuan yang menjalankan profesi secara terus-menerus di mana setiap sekutu bertindak dan bertanggung jawab atas nama sendiri."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Pasal 3 menyatakan bahwa pendiri atau sekutu memberikan kuasa kepada notaris untuk mendaftarkan Persekutuan Perdata melalui SABU."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Pendiri Persekutuan Perdata menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang dituangkan dalam akta notaris."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Notaris Menurut UU No. 2/2014, notaris adalah pejabat umum yang membuat akta autentik. Pendirian Persekutuan Perdata dilakukan melalui akta notaris dan didaftarkan dalam SABU di Kementerian Hukum dan HAM."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "Menteri Hukum & HAM Pasal 3 Permenkumham 17/2018 menyatakan bahwa permohonan pendaftaran Persekutuan Perdata diajukan oleh pendiri atau sekutu melalui notaris kepada Menteri melalui SABU."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "NPWP Menurut Peraturan Dirjen Pajak No. PER-02/PJ/2018, NPWP adalah nomor identifikasi untuk administrasi perpajakan. Sistem SABH otomatis memberikan NPWP saat SK Menteri dikeluarkan, dan kartu NPWP dapat diminta di kantor pajak setempat."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg",
-              "content": "NIB dan Izin Usaha PP No. 5/2021 tentang Perizinan Berusaha Berbasis Risiko menyediakan layanan perizinan elektronik melalui OSS. Dalam OSS, terdapat Nomor Induk Berusaha (NIB) dan jenis perizinan seperti Izin Usaha dan Izin Komersial atau Operasional."
-            }
-          ],
-          "documents": [
-            "Dokumen pajak tahunan;",
-            "Data transaksi perusahaan;",
-            "Laporan keuangan;",
-            "Dokumen pendukung perencanaan.",
-            "Data konsultan pajak."
-          ]
+          "package": [],
+          "overviews": [],
+          "documents": []
         },
         {
           "name": "Perubahan Anggaran Dasar",
           "slug": "perubahan-anggaran-dasar",
-          "package": {
-            "title": "Perubahan Anggaran Dasar",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "3.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Perubahan Anggaran Dasar",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 3.000.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "h3",
@@ -2218,17 +2171,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris;"
+                  "content": "KTP dan NPWP pemegang saham, Direksi dan Dewan Komisaris"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
+                  "content": "Akta Pendirian PT beserta dengan seluruh perubahannya beserta dengan SK Menteri"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "NPWP Perusahaan dan NIB; dan"
+                  "content": "NPWP Perusahaan dan NIB"
                 },
                 {
                   "type": "li",
@@ -2254,17 +2207,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg pt-2",
-                  "content": "KTP dan NPWP semua sekutu CV;"
+                  "content": "KTP dan NPWP semua sekutu CV"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Akta Pendirian CV beserta dengan seluruh perubahannya beserta dengan SK Menteri;"
+                  "content": "Akta Pendirian CV beserta dengan seluruh perubahannya beserta dengan SK Menteri"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "NPWP Perusahaan dan NIB; dan"
+                  "content": "NPWP Perusahaan dan NIB dan"
                 },
 
                 {
@@ -2279,14 +2232,16 @@
         {
           "name": "Penutupan Perusahaan",
           "slug": "penutupan-perusahaan",
-          "package": {
-            "title": "Penutupan Perusahaan",
-            "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
-            "price": "5.000.000",
-            "fakePrice": "7.000.000",
-            "features": [],
-            "buttonText": "Hubungi Kami"
-          },
+          "package": [
+            {
+              "title": "Penutupan Perusahaan",
+              "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
+              "price": "Start from 5.000.000",
+              "fakePrice": "7.000.000",
+              "features": [],
+              "buttonText": "Hubungi Kami"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -2439,14 +2394,16 @@
         {
           "name": "Perjanjian Pisah Harta",
           "slug": "perjanjian-pisah-harta",
-          "package": {
-            "title": "Perjanjian Pisah Harta",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "2.500.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Perjanjian Pisah Harta",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "2.500.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -2546,14 +2503,16 @@
         {
           "name": "Pendaftaran Merek",
           "slug": "pendaftaran-merek",
-          "package": {
-            "title": "Pendaftaran Merek",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "2.000.000",
-            "fakePrice": "4.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Pendaftaran Merek",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Start from 2.000.000",
+              "fakePrice": "4.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "h3",
@@ -2673,14 +2632,16 @@
         {
           "name": "KITAS Pekerja",
           "slug": "kitas-pekerja",
-          "package": {
-            "title": "Pengurusan KITAS Pekerja",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "3.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Pengurusan KITAS Pekerja",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "3.000.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -2695,7 +2656,7 @@
 
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
+              "className": "text-gray-800 text-xl font-semibold text-justify",
               "content": "KITAS diberikan kepada:"
             },
             {
@@ -2731,17 +2692,17 @@
                   "type": "li",
                   "className": "text-gray-700 text-lg",
                   "content": "Anak dari warga asing yang menikah secara sah dengan warga negara Indonesia."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg text-justify",
+                  "content": "Dengan memiliki KITAS, WNA dapat lebih leluasa dalam melakukan berbagai aktivitas di Indonesia."
                 }
               ]
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Dengan memiliki KITAS, WNA dapat lebih leluasa dalam melakukan berbagai aktivitas di Indonesia."
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify mt-2",
+              "className": "text-gray-800 text-xl font-semibold text-justify mt-4",
               "content": "Permohonan KITAS untuk keperluan kerja dapat diajukan oleh Penjamin kepada Pejabat Imigrasi di Direktorat Jenderal Imigrasi melalui aplikasi, dengan melampirkan dokumen-dokumen berikut: "
             },
             {
@@ -2823,14 +2784,16 @@
         {
           "name": "KITAS Investor",
           "slug": "kitas-investor",
-          "package": {
-            "title": "Pengurusan KITAS Investor",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "3.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Pengurusan KITAS Investor",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "3.000.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -2839,7 +2802,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
+              "className": "text-gray-800 text-xl font-semibold text-justify",
               "content": "Pemegang KITAS Investor di Indonesia hanya diperbolehkan melakukan aktivitas yang diizinkan oleh hukum, yaitu:"
             },
             {
@@ -2885,7 +2848,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify mt-2",
+              "className": "text-gray-800 text-xl font-semibold text-justify mt-2",
               "content": "KITAS Investor memiliki dua durasi yang berbeda:"
             },
             {
@@ -2918,7 +2881,7 @@
           "documents": [
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
+              "className": "text-gray-800 text-xl font-semibold text-justify",
               "content": "Berikut ini adalah persyaratan pengurusan izin KITAS Investor adalah sebagai berikut :"
             },
             {
@@ -2972,14 +2935,16 @@
         {
           "name": "Surat Tanda Pendaftaran Agen/Distributor",
           "slug": "surat-tanda-pendaftaran-agen-distributor",
-          "package": {
-            "title": "Surat Tanda Pendaftaran Agen/Distributor",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "2.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Surat Tanda Pendaftaran Agen/Distributor",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Start from 2.000.000",
+              "fakePrice": "5.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -3008,7 +2973,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
+              "className": "text-gray-800 text-xl font-semibold text-justify",
               "content": "Adapun Proses Pembuatan STP-AD sebagai berikut:"
             },
             {
@@ -3039,7 +3004,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify mt-2",
+              "className": "text-gray-700 text-lg text-justify mt-4",
               "content": "Jangka Waktu Penerbita: 7 (tujuh) hari kerja sejak dokumen lengkap."
             },
             {
@@ -3085,14 +3050,16 @@
         {
           "name": "Sertifikat Laik Fungsi",
           "slug": "sertifikat-laik-fungsi",
-          "package": {
-            "title": "Sertifikat Laik Fungsi",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "2.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Sertifikat Laik Fungsi",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Biaya pengurusan SLF dapat bervariasi tergantung pada jenis bangunan, lokasi, dan kompleksitas proses pemeriksaan. ",
+
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -3121,7 +3088,7 @@
             },
             {
               "type": "h3",
-              "className": "text-gray-700 text-xl text-justify mt-2 font-semibold",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
               "content": "Keuntungan Memiliki SLF"
             },
             {
@@ -3190,7 +3157,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg font-semibold pt-2",
+              "className": "text-gray-700 text-lg font-semibold pt-4",
               "content": "*Persyaratan Dokumen dapat dibantu oleh tim Corporate Legal Associate*"
             }
           ]
@@ -3198,14 +3165,15 @@
         {
           "name": "Analisis Dampak Lalu Lintas",
           "slug": "analisis-dampak-lalu-lintas",
-          "package": {
-            "title": "Analisis Dampak Lalu Lintas",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "2.000.000",
-            "fakePrice": "5.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Analisis Dampak Lalu Lintas",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Biaya pembuatan ANDALALIN bervariasi tergantung pada skala dan kompleksitas proyek serta area yang terkena dampak",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -3219,7 +3187,7 @@
             },
             {
               "type": "h3",
-              "className": "text-gray-700 text-xl text-justify mt-2 font-semibold",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
               "content": "Proses Pengurusan"
             },
             {
@@ -3260,7 +3228,7 @@
             },
             {
               "type": "h3",
-              "className": "text-gray-700 text-xl text-justify mt-2 font-semibold",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
               "content": "Keuntungan Memiliki ANDALALIN"
             },
             {
@@ -3291,7 +3259,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify mt-2",
+              "className": "text-gray-700 text-lg text-justify mt-4",
               "content": "Masa Berlaku ANDALALIN berlaku selama masa pembangunan dan operasional proyek, namun perlu diperbarui jika terjadi perubahan signifikan pada proyek atau kondisi lalu lintas di area tersebut."
             }
           ],
@@ -3332,14 +3300,16 @@
         {
           "name": "Likuidasi Perusahaan",
           "slug": "likuidasi-perusahaan",
-          "package": {
-            "title": "Likuidasi Perusahaan",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "Start from 8.500.000",
-            "fakePrice": "12.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Likuidasi Perusahaan",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Start from 8.500.000",
+              "fakePrice": "12.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -3358,7 +3328,7 @@
               "content": [
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Persiapan Dokumentasi Rapat Umum Pemegang Saham Luar Biasa (RUPS-LB):"
                 },
                 {
@@ -3368,7 +3338,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Perwakilan di Hadapan Notaris:"
                 },
                 {
@@ -3378,17 +3348,17 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Pendataan dan Konsolidasi Aset dan Kewajiban:"
                 },
                 {
                   "type": "li",
-                  "className": "text-gray-700 text-lg",
+                  "className": "text-gray-800 text-lg",
                   "content": "Melakukan inventarisasi menyeluruh atas semua aset dan kewajiban perusahaan, mencakup dokumentasi dan penilaian yang akurat untuk memastikan distribusi aset yang adil."
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Penyelesaian Pembayaran kepada Kreditur:"
                 },
                 {
@@ -3398,7 +3368,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Distribusi dan Penyelesaian Aset:"
                 },
                 {
@@ -3408,7 +3378,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Pencabutan Berbagai Registrasi:"
                 },
                 {
@@ -3418,7 +3388,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Pengumuman dan Pemberitahuan Publik:"
                 },
                 {
@@ -3428,7 +3398,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Penyusunan dan Persetujuan Laporan Likuidasi:"
                 },
                 {
@@ -3442,7 +3412,7 @@
           "documents": [
             {
               "type": "p",
-              "className": "text-gray-700 text-lg pt-2",
+              "className": "text-gray-800 text-xl font-semibold pt-2",
               "content": "Untuk melaksanakan proses likuidasi perusahaan, beberapa dokumen penting diperlukan. Berikut adalah daftar dokumen yang umumnya dibutuhkan:"
             },
             {
@@ -3451,7 +3421,7 @@
               "content": [
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Akta Pendirian dan Anggaran Dasar Perusahaan:"
                 },
                 {
@@ -3461,7 +3431,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Keputusan Rapat Umum Pemegang Saham (RUPS):"
                 },
                 {
@@ -3471,7 +3441,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Laporan Keuangan Terakhir:"
                 },
                 {
@@ -3481,7 +3451,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Daftar Aset dan Kewajiban:"
                 },
                 {
@@ -3491,7 +3461,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Dokumen Pajak:"
                 },
                 {
@@ -3501,7 +3471,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Laporan Bank:"
                 },
                 {
@@ -3511,7 +3481,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Daftar Kreditur:"
                 },
                 {
@@ -3521,7 +3491,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Perjanjian dan Kontrak:"
                 },
                 {
@@ -3531,7 +3501,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Surat Izin Usaha:"
                 },
                 {
@@ -3541,7 +3511,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Dokumen Perpajakan Lainnya:"
                 },
                 {
@@ -3551,7 +3521,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Dokumen Hukum:"
                 },
                 {
@@ -3561,7 +3531,7 @@
                 },
                 {
                   "type": "p",
-                  "className": "text-gray-700 text-lg font-semibold pt-2",
+                  "className": "text-gray-800 text-lg font-semibold pt-2",
                   "content": "Notaris:"
                 },
                 {
@@ -3573,7 +3543,7 @@
             },
             {
               "type": "p",
-              "className": "text-gray-700 text-lg font-semibold pt-2",
+              "className": "text-gray-800 text-lg font-semibold pt-4",
               "content": "*Persyaratan Dokumen dapat dibantu oleh tim Corporate Legal Associate*"
             }
           ]
@@ -3581,14 +3551,16 @@
         {
           "name": "Legal Opinion",
           "slug": "legal-opinion",
-          "package": {
-            "title": "Legal Opinion",
-            "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-            "price": "Start from 8.500.000",
-            "fakePrice": "12.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Legal Opinion",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Start from 8.500.000",
+              "fakePrice": "12.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -3663,26 +3635,28 @@
           ]
         },
         {
-          "name": "法律研究",
+          "name": "Legal Research",
           "slug": "legal-research",
-          "package": {
-            "title": "法律研究",
-            "description": "为更好和更高效的财务管理提供咨询服务。",
-            "price": "起价 IDR 5,500,000",
-            "fakePrice": "IDR 7,000,000",
-            "features": [],
-            "buttonText": "获取咨询"
-          },
+          "package": [
+            {
+              "title": "Legal Research",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Start from 5.500.000",
+              "fakePrice": "7.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
-              "className": "text-gray-700 text-lg text-justify mt-2",
-              "content": "法律研究服务提供对各种法律问题的深入和全面的研究。我们的法律研究团队在收集、分析和呈现相关且最新的法律信息方面具有专业知识。"
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Jasa Legal Research (Penelitian Hukum) menyediakan layanan penelitian yang mendalam dan komprehensif mengenai berbagai isu hukum. Tim peneliti hukum kami memiliki keahlian dalam mengumpulkan, menganalisis, dan menyajikan informasi hukum yang relevan dan up-to-date."
             },
             {
               "type": "h3",
               "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
-              "content": "好处："
+              "content": "Manfaat:"
             },
             {
               "type": "ul",
@@ -3691,22 +3665,22 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "最新信息：获取与客户需求相关的准确和最新的法律信息。"
+                  "content": "Informasi Terkini: Mendapatkan informasi hukum yang akurat dan terbaru yang relevan dengan kebutuhan klien."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg ",
+                  "content": "Dasar Pengambilan Keputusan: Menyediakan dasar yang kuat untuk pengambilan keputusan hukum yang informasional."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "决策基础：为做出明智的法律决策提供坚实的基础。"
+                  "content": "Kepatuhan Hukum: Memastikan kepatuhan terhadap peraturan perundang-undangan yang berlaku."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "法律合规：确保遵守适用的法规和法律。"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "法律产品：研究报告。"
+                  "content": "Produk Hukum: Laporan Riset."
                 }
               ]
             }
@@ -3719,27 +3693,27 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "问题识别：深入了解客户面临的法律问题或难题。"
+                  "content": "Identifikasi Masalah: Memahami secara mendalam masalah atau isu hukum yang dihadapi klien."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "法律研究：对相关法律、判例和法律文献进行全面研究。"
+                  "content": "Penelitian Hukum: Melakukan penelitian menyeluruh terhadap peraturan perundang-undangan, yurisprudensi, dan literatur hukum yang relevan terhadap kasys  yang dihadapi saat ini."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "法律分析：分析研究结果并将其应用于客户的情况。"
+                  "content": "Analisis Hukum: Menganalisis temuan penelitian dan menerapkannya pada situasi klien"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "意见撰写：准备清晰、结构化且可靠的法律意见文件。"
+                  "content": "Penyusunan Pendapat: Menyusun dokumen Legal Opinion yang jelas, terstruktur, dan dapat dipertanggungjawabkan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "讨论和修订：与客户讨论法律意见，并在必要时进行修订。"
+                  "content": "Diskusi dan Revisi: Membahas pendapat hukum dengan klien dan melakukan revisi jika diperlukan."
                 }
               ]
             }
@@ -3753,14 +3727,16 @@
         {
           "name": "Virtual Office",
           "slug": "lainnya-virtual-office",
-          "package": {
-            "title": "Virtual Office",
-            "description": "Konsultasi pajak profesional untuk membantu Anda meminimalkan kewajiban pajak Anda.",
-            "price": "2.000.000",
-            "fakePrice": "3.000.000",
-            "features": [],
-            "buttonText": "Hubungi Kami"
-          },
+          "package": [
+            {
+              "title": "Virtual Office",
+              "description": "Konsultasi pajak profesional untuk membantu Anda meminimalkan kewajiban pajak Anda.",
+              "price": "Start from 2.000.000",
+              "fakePrice": "3.000.000",
+              "features": [],
+              "buttonText": "Hubungi Kami"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -3967,14 +3943,16 @@
         {
           "name": "Riset Pasar dan Pengembangan Bisnis",
           "slug": "riset-pasar-dan-pengembangan-bisnis",
-          "package": {
-            "title": "Riset Pasar dan Pengembangan Bisnis",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "Biaya Riset Pasar dan Pengembangan Bisnis bervariasi tergantung pada fasilitas dan jangka waktu yang diinginkan.",
-            "fakePrice": "",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "Riset Pasar dan Pengembangan Bisnis",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Biaya Riset Pasar dan Pengembangan Bisnis bervariasi tergantung pada fasilitas dan jangka waktu yang diinginkan.",
+              "fakePrice": "",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -4256,14 +4234,16 @@
         {
           "name": "FAT Pelaporan Tahunan SPT Badan",
           "slug": "fat-pelaporan-tahunan-spt-badan",
-          "package": {
-            "title": "FAT Pelaporan Tahunan SPT Badan",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "Start from 1.250.000",
-            "fakePrice": "3.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "FAT Pelaporan Tahunan SPT Badan",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 1.250.000",
+              "fakePrice": "3.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -4326,14 +4306,16 @@
         {
           "name": "FAT Pelaporan Tahunan SPT Masa",
           "slug": "fat-pelaporan-tahunan-spt-masa",
-          "package": {
-            "title": "FAT Pelaporan Tahunan SPT Masa; PPH 21, PPH 22, PPH 23, PPH PS. 4 (2), PPN",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "Start from 1.000.000",
-            "fakePrice": "2.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "FAT Pelaporan Tahunan SPT Masa; PPH 21, PPH 22, PPH 23, PPH PS. 4 (2), PPN",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 1.000.000",
+              "fakePrice": "2.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -4388,14 +4370,16 @@
         {
           "name": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
           "slug": "fat-pengukuhan-pkp-dan-aktivasi-akun-pkp",
-          "package": {
-            "title": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "Start from 1.250.000",
-            "fakePrice": "2.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 1.250.000",
+              "fakePrice": "2.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -4507,14 +4491,16 @@
         {
           "name": "FAT Pembuatan NPWP dan Aktivasi EFIN",
           "slug": "fat-pembuatan-npwp-dan-aktivasi-efin",
-          "package": {
-            "title": "FAT Pembuatan NPWP dan Aktivasi EFIN",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "Start from 750.000",
-            "fakePrice": "2.000.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "FAT Pembuatan NPWP dan Aktivasi EFIN",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 750.000",
+              "fakePrice": "2.000.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",
@@ -4595,14 +4581,16 @@
         {
           "name": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
           "slug": "fat-pembukuan-jurnal-buku-besar-dan-laporan-keuangan",
-          "package": {
-            "title": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
-            "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-            "price": "Start from 1.500.000",
-            "fakePrice": "2.500.000",
-            "features": [],
-            "buttonText": "Dapatkan Konsultasi"
-          },
+          "package": [
+            {
+              "title": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
+              "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
+              "price": "Start from 1.500.000",
+              "fakePrice": "2.500.000",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
           "overviews": [
             {
               "type": "p",

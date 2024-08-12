@@ -34,7 +34,7 @@ const PricingCard = ({
       )}
       <div className="p-6">
         <h3 className="text-2xl font-bold text-primary mb-2">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
+        {/* <p className="text-gray-600 mb-4">{description}</p> */}
         <div className="mb-4">
           <span className="text-4xl font-bold text-primary">{price}</span>
           {fakePrice && (
@@ -94,7 +94,7 @@ const PricingCard = ({
 
 function AllPackage() {
   const { t, i18n } = useTranslation(["serviceData"]);
-  const servicesData = t("servicesData", { returnObjects: true });
+  const servicesData = t("servicesData", { returnObjects: true }) || [];
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredServices, setFilteredServices] = useState(servicesData);
   const [visibleItems, setVisibleItems] = useState({});
@@ -107,16 +107,18 @@ function AllPackage() {
     const filtered = servicesData
       .map((category) => ({
         ...category,
-        items: category.items.filter((item) =>
-          item.package.title.toLowerCase().includes(searchValue)
-        ),
+        items:
+          category.items?.filter((item) =>
+            item.package[0]?.title.toLowerCase().includes(searchValue)
+          ) || [],
       }))
       .filter((category) => category.items.length > 0);
 
     setFilteredServices(filtered);
   };
-  const handleCategoryChange = (e) => {
-    setSelectedCategory(e);
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
   };
 
   const handleSeeMore = (categoryIndex) => {
@@ -134,9 +136,11 @@ function AllPackage() {
     .filter((category) => category.items.length > 0);
 
   const isAnyCategoryEmpty = filteredCategories.length === 0;
+
   useEffect(() => {
-    setFilteredServices(t("servicesData", { returnObjects: true }));
+    setFilteredServices(t("servicesData", { returnObjects: true }) || []);
   }, [i18n.language]);
+
   return (
     <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <motion.div
@@ -206,11 +210,20 @@ function AllPackage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {category.items
                 .slice(0, visibleItems[categoryIndex] || 3)
+                .filter((pkg) => pkg.package[0]?.title && pkg.package[0]?.price) // Filter out incomplete packages
                 .map((pkg, index) => (
                   <PricingCard
-                    key={pkg.name}
-                    {...pkg.package}
-                    isPopular={index === 1}
+                    key={pkg.package[0].title} // Ensure key is unique
+                    title={pkg.package[0]?.title || "Untitled Package"}
+                    description={
+                      pkg.package[0]?.description || "No description available"
+                    }
+                    price={pkg.package[0]?.price || "No price available"}
+                    fakePrice={
+                      pkg.package[0]?.fakePrice || "No fake price available"
+                    }
+                    features={pkg.package[0]?.features || []}
+                    buttonText={pkg.package[0]?.buttonText || "Learn More"}
                   />
                 ))}
             </div>

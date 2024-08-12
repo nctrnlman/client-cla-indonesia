@@ -40,7 +40,7 @@ function Footer() {
                   {t("legalTraining")}
                 </Link>
                 <Link
-                  to="/"
+                  to="/other-services"
                   className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
                 >
                   {t("otherServices")}
