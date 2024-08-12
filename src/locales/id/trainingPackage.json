@@ -1,17 +1,29 @@
 {
+  "product": "PRODUK",
   "title": "Paket Pelatihan",
   "internalPackage": {
     "title": "Pelatihan Internal",
-    "content": "Paket Pelatihan Internal kami menawarkan dukungan hukum yang komprehensif untuk bisnis Anda. Dengan panduan yang dipersonalisasi dan nasihat ahli, kami memastikan perusahaan Anda tetap mematuhi peraturan dan terlindungi.",
-    "additionalContent": "Dalam Paket Ini Anda Dapat Memilih Online dan Offline*",
-    "buttonText": "Hubungi Kami"
+    "content": "Paket Pelatihan Internal kami menawarkan dukungan hukum yang komprehensif untuk bisnis Anda. Dengan bimbingan personal dan saran ahli, kami memastikan perusahaan Anda tetap patuh dan terlindungi.",
+    "additionalContent": "Dalam paket ini, Anda dapat memilih antara Online dan Offline*",
+    "buttonText": "Hubungi Kami Untuk Pelatihan Hukum Gratis!",
+    "pricing": "Mulai Dari Rp2.000.000 per perusahaan (termasuk e-sertifikat dan Souvenir)",
+    "perCompany": "per perusahaan"
   },
   "generalPackage": {
     "title": "Pelatihan Umum",
-    "content": "Paket Pelatihan Umum kami dirancang untuk memberikan fondasi yang kuat bagi bisnis Anda. Dari pendirian perusahaan hingga penyediaan alamat profesional, kami siap membantu Anda setiap langkah.",
-    "additionalContent": "Dalam Paket Ini Anda Dapat Memilih Online dan Offline*",
-    "buttonText": "Hubungi Kami"
+    "content": "Paket Pelatihan Umum kami dirancang untuk memberikan dasar yang kuat bagi bisnis Anda. Dari pembentukan perusahaan hingga menyediakan alamat profesional, kami siap membantu Anda di setiap langkah.",
+    "additionalContent": "Dalam paket ini, Anda dapat memilih antara Online dan Offline*",
+    "buttonText": "Hubungi Kami Untuk Pelatihan Hukum Gratis!",
+    "pricing": "Mulai Dari Rp500.000 per paket (termasuk e-sertifikat)",
+    "perPackage": "per paket"
   },
   "viewMore": "Lihat Lebih Banyak",
-  "viewLess": "Lihat Lebih Sedikit"
+  "viewLess": "Lihat Lebih Sedikit",
+  "features": {
+    "e_certificate": "E-Sertifikat",
+    "souvenir": "Souvenir"
+  },
+  "note": {
+    "iconText": "Hubungi Kami Untuk Pelatihan Hukum Gratis!"
+  }
 }

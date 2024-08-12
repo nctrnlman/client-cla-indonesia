@@ -1,0 +1,17 @@
+{
+  "contactUs": "Contact Us",
+  "contactUsSubtitle": "*Contact Us for FREE Legal Training ",
+  "termsAndConditions": "*Terms and conditions apply.",
+  "contactForm": "Contact Form",
+  "namePlaceholder": "Full Name",
+  "emailPlaceholder": "Email Address",
+  "phoneNumber": "Phone Number",
+  "phoneNumberPlaceholder": "Enter your phone number",
+  "message": "Message",
+  "messagePlaceholder": "Your message here",
+  "submit": "Submit",
+  "submissionSuccess": "Your message has been sent successfully!",
+  "packageInterest": "Thank you for your interest in the {{package}} package.",
+  "interestedIn": "I am interested in the {{package}} package.",
+  "code": "Code"
+}
