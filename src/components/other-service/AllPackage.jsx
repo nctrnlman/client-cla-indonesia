@@ -1,102 +1,14 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { FaCheck, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-const PricingCard = ({
-  title,
-  description,
-  price,
-  fakePrice,
-  features,
-  buttonText,
-  isPopular,
-}) => {
-  const [isExpanded, setIsExpanded] = React.useState(false);
-
-  return (
-    <motion.div
-      className={`bg-white rounded-lg shadow-lg overflow-hidden ${
-        isPopular ? "border-4 border-secondary" : ""
-      }`}
-      whileHover={{ y: -5 }}
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
-    >
-      {isPopular && (
-        <motion.div
-          className="bg-secondary text-primary text-center py-2 font-bold"
-          animate={{ opacity: [0.5, 1, 0.5] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          Most Popular
-        </motion.div>
-      )}
-      <div className="p-6">
-        <h3 className="text-2xl font-bold text-primary mb-2">{title}</h3>
-        {/* <p className="text-gray-600 mb-4">{description}</p> */}
-        <div className="mb-4">
-          <span className="text-4xl font-bold text-primary">{price}</span>
-          {fakePrice && (
-            <span className="text-lg text-gray-500 line-through ml-2">
-              {fakePrice}
-            </span>
-          )}
-        </div>
-        <ul className="mb-6 space-y-2">
-          {features.slice(0, 3).map((feature, index) => (
-            <li key={index} className="flex items-center">
-              <FaCheck className="text-green-500 mr-2" />
-              <span>{feature}</span>
-            </li>
-          ))}
-        </ul>
-        {features.length > 3 && (
-          <div>
-            <motion.div
-              initial={false}
-              animate={{ height: isExpanded ? "auto" : 0 }}
-              className="overflow-hidden"
-            >
-              <ul className="mb-6 space-y-2">
-                {features.slice(3).map((feature, index) => (
-                  <li key={index + 3} className="flex items-center">
-                    <FaCheck className="text-green-500 mr-2" />
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-            <button
-              className="text-primary hover:text-secondary transition duration-300 flex items-center justify-center w-full mb-4"
-              onClick={() => setIsExpanded(!isExpanded)}
-            >
-              {isExpanded ? "Show Less" : "Show More"}
-              {isExpanded ? (
-                <FaChevronUp className="ml-2" />
-              ) : (
-                <FaChevronDown className="ml-2" />
-              )}
-            </button>
-          </div>
-        )}
-        <motion.button
-          className="w-full bg-primary text-white font-bold py-2 px-4 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          {buttonText}
-        </motion.button>
-      </div>
-    </motion.div>
-  );
-};
+import OtherServicesCard from "../cards/other-services/OtherServicesCard";
 
 function AllPackage() {
   const { t, i18n } = useTranslation(["serviceData"]);
   const servicesData = t("servicesData", { returnObjects: true }) || [];
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredServices, setFilteredServices] = useState(servicesData);
+  const [filteredServices, setFilteredServices] = useState([]);
   const [visibleItems, setVisibleItems] = useState({});
   const [selectedCategory, setSelectedCategory] = useState("");
 
@@ -107,10 +19,9 @@ function AllPackage() {
     const filtered = servicesData
       .map((category) => ({
         ...category,
-        items:
-          category.items?.filter((item) =>
-            item.package[0]?.title.toLowerCase().includes(searchValue)
-          ) || [],
+        items: (category.items || []).filter((item) =>
+          item.package[0]?.title.toLowerCase().includes(searchValue)
+        ),
       }))
       .filter((category) => category.items.length > 0);
 
@@ -138,8 +49,20 @@ function AllPackage() {
   const isAnyCategoryEmpty = filteredCategories.length === 0;
 
   useEffect(() => {
-    setFilteredServices(t("servicesData", { returnObjects: true }) || []);
-  }, [i18n.language]);
+    const updatedServices = t("servicesData", { returnObjects: true }) || [];
+    const filtered = updatedServices
+      .map((category) => ({
+        ...category,
+        items: (category.items || []).filter((item) =>
+          item.package[0]?.title
+            .toLowerCase()
+            .includes(searchTerm.toLowerCase())
+        ),
+      }))
+      .filter((category) => category.items.length > 0);
+
+    setFilteredServices(filtered);
+  }, [i18n.language, searchTerm]);
 
   return (
     <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
@@ -156,14 +79,13 @@ function AllPackage() {
           transition={{ delay: 0.2, duration: 0.5 }}
         >
           <span className="inline-block bg-secondary text-primary font-extrabold text-sm px-4 py-2 rounded-full uppercase tracking-wide mb-4">
-            Product
+            {t("allPackage.product")}
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-primary mb-4">
-            All Services
+            {t("allPackage.allServices")}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose the right package for your business needs and start your
-            journey with confidence.
+            {t("allPackage.choosePackage")}
           </p>
         </motion.div>
 
@@ -172,7 +94,7 @@ function AllPackage() {
             type="text"
             value={searchTerm}
             onChange={handleSearch}
-            placeholder="Search for a service..."
+            placeholder={t("allPackage.searchPlaceholder")}
             className="p-2 px-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent mr-4"
           />
 
@@ -182,14 +104,16 @@ function AllPackage() {
               role="button"
               className="p-2 px-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent"
             >
-              Filter by Category
+              {t("allPackage.filterByCategory")}
             </div>
             <ul
               tabIndex={0}
               className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
             >
               <li>
-                <a onClick={() => handleCategoryChange("")}>All Categories</a>
+                <a onClick={() => handleCategoryChange("")}>
+                  {t("allPackage.allCategories")}
+                </a>
               </li>
               {servicesData.map((category, index) => (
                 <li key={index}>
@@ -210,20 +134,24 @@ function AllPackage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {category.items
                 .slice(0, visibleItems[categoryIndex] || 3)
-                .filter((pkg) => pkg.package[0]?.title && pkg.package[0]?.price) // Filter out incomplete packages
-                .map((pkg, index) => (
-                  <PricingCard
-                    key={pkg.package[0].title} // Ensure key is unique
-                    title={pkg.package[0]?.title || "Untitled Package"}
+                .filter((pkg) => pkg.package[0]?.title && pkg.package[0]?.price)
+                .map((pkg) => (
+                  <OtherServicesCard
+                    key={pkg.package[0]?.title || pkg.slug}
+                    title={
+                      pkg.package[0]?.title || t("allPackage.untitledPackage")
+                    }
+                    slug={pkg.slug}
                     description={
-                      pkg.package[0]?.description || "No description available"
+                      pkg.package[0]?.description ||
+                      t("allPackage.noDescription")
                     }
-                    price={pkg.package[0]?.price || "No price available"}
-                    fakePrice={
-                      pkg.package[0]?.fakePrice || "No fake price available"
-                    }
+                    price={pkg.package[0]?.price || t("allPackage.noPrice")}
+                    fakePrice={pkg.package[0]?.fakePrice}
                     features={pkg.package[0]?.features || []}
-                    buttonText={pkg.package[0]?.buttonText || "Learn More"}
+                    buttonText={
+                      pkg.package[0]?.buttonText || t("allPackage.learnMore")
+                    }
                   />
                 ))}
             </div>
@@ -233,7 +161,7 @@ function AllPackage() {
                   onClick={() => handleSeeMore(categoryIndex)}
                   className="flex items-center justify-center text-primary hover:text-secondary transition duration-300"
                 >
-                  <span className="mr-2">See More</span>
+                  <span className="mr-2">{t("allPackage.seeMore")}</span>
                   <FaChevronDown />
                 </button>
               </div>
@@ -249,14 +177,14 @@ function AllPackage() {
             transition={{ delay: 0.4, duration: 0.5 }}
           >
             <p className="text-lg text-gray-600 mb-4">
-              Not sure which package is right for you?
+              {t("allPackage.noPackagesFound")}
             </p>
             <motion.button
               className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Contact Us for Consultation
+              {t("allPackage.contactUsButton")}
             </motion.button>
           </motion.div>
         )}
@@ -269,7 +197,7 @@ function AllPackage() {
         <motion.div
           className="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-primary opacity-10 rounded-full"
           animate={{ scale: [1, 1.1, 1] }}
-          transition={{ duration: 5, repeat: Infinity, delay: 2.5 }}
+          transition={{ duration: 5, repeat: Infinity }}
         />
       </motion.div>
     </div>

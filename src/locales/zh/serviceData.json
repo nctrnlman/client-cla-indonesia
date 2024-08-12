@@ -31,7 +31,23 @@
       "description": "我们的服务与公司的合规性保持一致，超出更多要求。"
     }
   },
-
+  "allPackage": {
+    "product": "产品",
+    "allServices": "所有服务",
+    "choosePackage": "选择适合您业务需求的套餐，开始自信的旅程。",
+    "searchPlaceholder": "搜索服务...",
+    "filterByCategory": "按类别筛选",
+    "allCategories": "所有类别",
+    "untitledPackage": "无标题套餐",
+    "noDescription": "暂无描述",
+    "noPrice": "暂无价格",
+    "learnMore": "了解更多",
+    "seeMore": "查看更多",
+    "noPackagesFound": "不确定哪个套餐适合您？",
+    "showMore": "显示更多",
+    "showLess": "显示更少",
+    "contactUsButton": "联系我们咨询"
+  },
   "servicesData": [
     {
       "category": "LEGAL",
