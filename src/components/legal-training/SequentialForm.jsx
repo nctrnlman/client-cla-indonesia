@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaUser, FaEnvelope, FaPhone, FaPencilAlt } from "react-icons/fa";
 import LoadingSpinner from "../global/Loading/LoadingSpinner";
 import { useTranslation } from "react-i18next";
+import emailjs from "emailjs-com";
 
 function ContactUsSection({ selectedPackage }) {
   const { t } = useTranslation("contactUs");
@@ -39,15 +40,17 @@ function ContactUsSection({ selectedPackage }) {
     if (name === "email" && value !== "") setStep(2);
     if (name === "phoneNumber" && value !== "") setStep(3);
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-    setIsLoading(false);
-    setShowAlert(true);
-    setTimeout(() => {
-      setShowAlert(false);
+    try {
+      await emailjs.send(
+        "service_wx9ykwp",
+        "template_nyyswl6",
+        formData,
+        "t-2dF4yUyNrBIBT45"
+      );
+      setShowAlert(true);
       setFormData({
         name: "",
         email: "",
@@ -56,9 +59,13 @@ function ContactUsSection({ selectedPackage }) {
         message: "",
       });
       setStep(0);
-    }, 3000);
+    } catch (error) {
+      console.error("Error sending email:", error);
+    } finally {
+      setIsLoading(false);
+      setTimeout(() => setShowAlert(false), 3000);
+    }
   };
-
   useEffect(() => {
     if (formRef.current) {
       formRef.current.scrollIntoView({ behavior: "smooth" });
