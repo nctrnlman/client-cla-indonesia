@@ -1,4 +1,4 @@
-import React from "react";
+import { useMemo } from "react";
 import bg from "../../assets/bg/hero.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
@@ -13,25 +13,29 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import { generateWhatsAppUrl } from "../../utils/whatsappUtils";
 
 function Hero() {
   const { t, i18n } = useTranslation("home");
   const navigate = useNavigate();
+  const whatsappUrl = generateWhatsAppUrl();
+
+  const typeAnimationSequence = useMemo(
+    () => [t("hero.type1"), 1000, t("hero.type2"), 1000, t("hero.type3"), 1000],
+    [i18n.language, t]
+  );
 
   const handleLearnMore = () => {
     navigate("/legal-associate/");
   };
 
   const handleScheduleConsultation = () => {
-    navigate("/schedule-consultation/");
+    window.open(whatsappUrl, "_blank");
   };
-
-  console.log("Current language:", i18n.language);
-  console.log("Hero title:", t("hero.title"));
 
   return (
     <div
-      className="bg-gray-50 min-h-screen relative overflow-hidden flex items-center justify-center"
+      className="bg-gray-50 min-h-screen relative overflow-hidden flex items-center justify-center py-20"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
@@ -62,16 +66,10 @@ function Hero() {
               >
                 {t("hero.title")}
               </motion.h1>
-              <div className="h-32 sm:h-40 md:h-48">
+              <div className="h-10 sm:h-40 md:h-48">
                 <TypeAnimation
-                  sequence={[
-                    t("hero.type1"),
-                    1000,
-                    t("hero.type2"),
-                    1000,
-                    t("hero.type3"),
-                    1000,
-                  ]}
+                  key={i18n.language}
+                  sequence={typeAnimationSequence}
                   wrapper="span"
                   speed={50}
                   repeat={Infinity}
