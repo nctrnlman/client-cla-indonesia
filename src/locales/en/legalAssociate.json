@@ -2,7 +2,10 @@
   "hero": {
     "aboutButton": "ABOUT",
     "title": "LEGAL ASSOCIATE",
-    "description": "Elevate your business's legal journey with our Legal Associate as your trusted partner. We provide tailored legal assistance to suit your company's needs and type. Our innovative solutions, prompt responses, and flexible services ensure your legal needs are met efficiently. Join us to unlock your business's full potential for growth and success.",
+    "intro": "At CLA, we pride ourselves on being your go-to legal consultants, ready to cater to all your legal needs. Since the first year of our inception, we've achieved an astounding success rate of over 99.8% in settling cases, leaving our clients with 100% satisfaction. Our combined professional and success fees have exceeded seven hundred sixty-five million rupiah in our first year of incorporation.",
+    "team": "Our team at CLA is composed of lawyers who have been deeply immersed in the world of corporate and commercial law, debt recovery, as well as civil and criminal litigation since 2014. In our first year of incorporation, we've earned the trust of over 50 clients who have entrusted us with the responsibility of arbitrating and mediating their cases, leading to consistently favorable outcomes.",
+    "recognition": "Our lawyers have honed their legal skills across Indonesia and are recognized by esteemed institutions such as the Indonesian Advocates Association (Perhimpunan Advokat Indonesia - PERADI) and the Indonesian Lawyers Association (Asosiasi Advokat Indonesia - AAI).",
+    "expertise": "With our extensive expertise in corporate, commercial, civil law, and debt recovery, CLA is the preferred choice for landlords, tenants, businesses of all sizes, private foundations, individuals, and families seeking to safeguard their rights and interests. We're here to stand by your side and provide the legal support you need.",
     "features": [
       "Personalized legal advice",
       "Contract review and drafting",

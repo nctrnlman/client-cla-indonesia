@@ -18,7 +18,7 @@ function Hero() {
   );
 
   return (
-    <div className="pt-20 ">
+    <div className="pt-20">
       <div className="flex flex-col justify-center gap-4 items-center mx-auto h-full text-center">
         <button className="bg-secondary p-4 px-6 rounded-full text-primary font-extrabold text-base md:text-lg transition duration-300">
           {t("hero.aboutButton")}
@@ -33,9 +33,18 @@ function Hero() {
           {/* text */}
           <div className="text-white max-w-4xl">
             <p className="text-justify text-base md:text-lg lg:text-xl py-4">
-              {t("hero.description")}
+              {t("hero.intro")}
             </p>
-            <ul className="text-left space-y-2 py-2">
+            <p className="text-justify text-base md:text-lg lg:text-xl py-4">
+              {t("hero.team")}
+            </p>
+            <p className="text-justify text-base md:text-lg lg:text-xl py-4">
+              {t("hero.recognition")}
+            </p>
+            <p className="text-justify text-base md:text-lg lg:text-xl py-4">
+              {t("hero.expertise")}
+            </p>
+            {/* <ul className="text-left space-y-2 py-2">
               {t("hero.features", { returnObjects: true }).map(
                 (item, index) => (
                   <MotionText key={index} delay={0.8 + index * 0.1}>
@@ -49,7 +58,7 @@ function Hero() {
                   </MotionText>
                 )
               )}
-            </ul>
+            </ul> */}
             <div className="bg-white text-primary w-full md:w-fit flex p-6 rounded-lg gap-4 rounded-tl-3xl rounded-br-3xl mt-10">
               {/* icon */}
               <div>

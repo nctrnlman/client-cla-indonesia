@@ -2,7 +2,10 @@
   "hero": {
     "aboutButton": "TENTANG",
     "title": "ASSISTEN HUKUM",
-    "description": "Tingkatkan perjalanan hukum bisnis Anda dengan Asisten Hukum kami sebagai mitra terpercaya Anda. Kami menyediakan bantuan hukum yang disesuaikan dengan kebutuhan dan jenis perusahaan Anda. Solusi inovatif kami, tanggapan cepat, dan layanan fleksibel memastikan bahwa kebutuhan hukum Anda terpenuhi dengan efisien. Bergabunglah dengan kami untuk membuka potensi penuh bisnis Anda untuk pertumbuhan dan kesuksesan.",
+    "intro": "Di CLA, kami bangga menjadi konsultan hukum yang siap memenuhi semua kebutuhan hukum Anda. Sejak tahun pertama berdiri, kami telah mencapai tingkat keberhasilan yang luar biasa lebih dari 99,8% dalam menyelesaikan kasus, memberikan kepuasan 100% kepada klien kami. Biaya profesional dan kesuksesan kami telah melebihi tujuh ratus enam puluh lima juta rupiah pada tahun pertama pendirian kami.",
+    "team": "Tim kami di CLA terdiri dari pengacara yang telah mendalami dunia hukum korporasi dan komersial, pemulihan utang, serta litigasi perdata dan pidana sejak tahun 2014. Pada tahun pertama pendirian kami, kami telah mendapatkan kepercayaan dari lebih dari 50 klien yang telah mempercayakan kami untuk melakukan arbitrase dan mediasi kasus mereka, yang menghasilkan hasil yang selalu menguntungkan.",
+    "recognition": "Pengacara kami telah mengasah keterampilan hukum mereka di seluruh Indonesia dan diakui oleh lembaga terkemuka seperti Perhimpunan Advokat Indonesia (PERADI) dan Asosiasi Advokat Indonesia (AAI).",
+    "expertise": "Dengan keahlian yang luas dalam hukum korporasi, komersial, perdata, dan pemulihan utang, CLA adalah pilihan utama bagi pemilik tanah, penyewa, bisnis dari berbagai ukuran, yayasan swasta, individu, dan keluarga yang mencari perlindungan hak dan kepentingan mereka. Kami siap mendampingi Anda dan memberikan dukungan hukum yang Anda butuhkan.",
     "features": [
       "Nasihat hukum yang dipersonalisasi",
       "Tinjauan dan penyusunan kontrak",
