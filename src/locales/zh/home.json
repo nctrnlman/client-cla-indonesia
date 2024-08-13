@@ -1,21 +1,21 @@
 {
   "hero": {
-    "title": "企业法律协会", 
-    "type1": "您的值得信赖的法律伙伴", 
-    "type2": "印尼法律专家", 
-    "type3": "赋能您的业务", 
-   "description": "Providing comprehensive legal services with expertise and integrity since 2019. Your success is our priority. Trusted by 100+ Business Actors in Indonesia",
-    "button1": "预约咨询", 
-    "button2": "了解更多", 
-    "practiceAreas": "我们的实践领域", 
+    "title": "企业法律协会",
+    "type1": "您的值得信赖的法律伙伴",
+    "type2": "印尼法律专家",
+    "type3": "赋能您的业务",
+    "description": "受到印尼100多家企业的信任。自2019年以来，我们以专业知识和诚信提供全面的法律服务。您的成功是我们的首要任务。",
+    "button1": "预约咨询",
+    "button2": "了解更多",
+    "practiceAreas": "我们的实践领域",
     "areas": {
-      "corporateLaw": "公司法", 
-      "intellectualProperty": "知识产权", 
-      "litigation": "诉讼与争议解决", 
-      "employmentLaw": "劳动法", 
-      "mergersAcquisitions": "并购", 
-      "realEstateLaw": "房地产法" 
+      "corporateLaw": "公司法",
+      "intellectualProperty": "知识产权",
+      "litigation": "诉讼与争议解决",
+      "employmentLaw": "劳动法",
+      "mergersAcquisitions": "并购",
+      "realEstateLaw": "房地产法"
     },
-    "expertAdvice": "专业的法律建议和代理" 
+    "expertAdvice": "专业的法律建议和代理"
   }
 }
