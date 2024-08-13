@@ -279,36 +279,6 @@ function Navbar() {
               <span className="border-animation"></span>
             </Link>
           </li>
-          <li>
-            <Link
-              to="/legal-associate"
-              className={`block py-2 pr-4 pl-3 font-semibold text-primary relative ${
-                location.pathname === "/legal-associate"
-                  ? "border-b-2 border-secondary"
-                  : ""
-              }`}
-              onClick={() => handleLinkClick("/legal-associate")}
-            >
-              {t("navbar.legalAssociate")}
-              <span className="border-animation"></span>
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              to="/legal-training"
-              className={`block py-2 pr-4 pl-3 font-semibold text-primary relative ${
-                location.pathname === "/legal-training"
-                  ? "border-b-2 border-secondary"
-                  : ""
-              }`}
-              onClick={() => handleLinkClick("/legal-training")}
-            >
-              {t("navbar.legalTraining")}
-              <span className="border-animation"></span>
-            </Link>
-          </li>
-
           <li
             className="relative"
             onClick={() =>
@@ -338,40 +308,68 @@ function Navbar() {
               </svg>
             </button>
           </li>
-
-          {isOtherServicesMobileOpen && (
-            <div
-              className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
-              style={{ top: `${dropdownTop}px` }}
+          <li>
+            <Link
+              to="/legal-associate"
+              className={`block py-2 pr-4 pl-3 font-semibold text-primary relative ${
+                location.pathname === "/legal-associate"
+                  ? "border-b-2 border-secondary"
+                  : ""
+              }`}
+              onClick={() => handleLinkClick("/legal-associate")}
             >
-              {servicesData.map((serviceCategory) => (
-                <div key={serviceCategory.category}>
-                  <div className="py-2 border-b border-gray-400">
-                    <button className="px-3 py-1 font-semibold text-sm bg-secondary rounded-full">
-                      {serviceCategory.category}
-                    </button>
-                  </div>
-                  <ul className="mt-2 space-y-1">
-                    {serviceCategory.items.map((item) => (
-                      <li key={item.slug} className="hover:text-secondary">
-                        <Link
-                          to={`/other-service/${item.slug}`}
-                          onClick={() =>
-                            handleDropdownLinkClick(
-                              `/other-service/${item.slug}`
-                            )
-                          }
-                        >
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          )}
+              {t("navbar.legalAssociate")}
+              <span className="border-animation"></span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/legal-training"
+              className={`block py-2 pr-4 pl-3 font-semibold text-primary relative ${
+                location.pathname === "/legal-training"
+                  ? "border-b-2 border-secondary"
+                  : ""
+              }`}
+              onClick={() => handleLinkClick("/legal-training")}
+            >
+              {t("navbar.legalTraining")}
+              <span className="border-animation"></span>
+            </Link>
+          </li>
         </ul>
+
+        {isOtherServicesMobileOpen && (
+          <div
+            className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
+            style={{ top: `${dropdownTop}px` }}
+          >
+            {servicesData.map((serviceCategory) => (
+              <div key={serviceCategory.category}>
+                <div className="py-2 border-b border-gray-400">
+                  <button className="px-3 py-1 font-semibold text-sm bg-secondary rounded-full">
+                    {serviceCategory.category}
+                  </button>
+                </div>
+                <ul className="mt-2 space-y-1">
+                  {serviceCategory.items.map((item) => (
+                    <li key={item.slug} className="hover:text-secondary">
+                      <Link
+                        to={`/other-service/${item.slug}`}
+                        onClick={() =>
+                          handleDropdownLinkClick(
+                            `/other-service/${item.slug}`
+                          )
+                        }
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       {isLanguageDropdownOpen && (
