@@ -308,6 +308,38 @@ function Navbar() {
               </svg>
             </button>
           </li>
+          {isOtherServicesMobileOpen && (
+            <div
+              className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
+              style={{ top: `${dropdownTop}px` }}
+            >
+              {servicesData.map((serviceCategory) => (
+                <div key={serviceCategory.category}>
+                  <div className="py-2 border-b border-gray-400">
+                    <button className="px-3 py-1 font-semibold text-sm bg-secondary rounded-full">
+                      {serviceCategory.category}
+                    </button>
+                  </div>
+                  <ul className="mt-2 space-y-1">
+                    {serviceCategory.items.map((item) => (
+                      <li key={item.slug} className="hover:text-secondary">
+                        <Link
+                          to={`/other-service/${item.slug}`}
+                          onClick={() =>
+                            handleDropdownLinkClick(
+                              `/other-service/${item.slug}`
+                            )
+                          }
+                        >
+                          {item.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          )}
           <li>
             <Link
               to="/legal-associate"
@@ -322,6 +354,7 @@ function Navbar() {
               <span className="border-animation"></span>
             </Link>
           </li>
+
           <li>
             <Link
               to="/legal-training"
@@ -336,40 +369,70 @@ function Navbar() {
               <span className="border-animation"></span>
             </Link>
           </li>
-        </ul>
 
-        {isOtherServicesMobileOpen && (
-          <div
-            className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
-            style={{ top: `${dropdownTop}px` }}
+          {/* <li
+            className="relative"
+            onClick={() =>
+              setIsOtherServicesMobileOpen(!isOtherServicesMobileOpen)
+            }
           >
-            {servicesData.map((serviceCategory) => (
-              <div key={serviceCategory.category}>
-                <div className="py-2 border-b border-gray-400">
-                  <button className="px-3 py-1 font-semibold text-sm bg-secondary rounded-full">
-                    {serviceCategory.category}
-                  </button>
+            <button className="block py-2 pr-4 pl-3 text-primary font-semibold flex items-center justify-between">
+              <span>{t("navbar.otherServices")}</span>
+              <svg
+                className={`flex-shrink-0 w-4 h-4 transform ${
+                  isOtherServicesMobileOpen ? "rotate-90" : "rotate-0"
+                } ml-2 items-center inline-block transition-transform duration-300 ease-in-out text-secondary`}
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d={
+                    isOtherServicesMobileOpen
+                      ? "M19 9l-7 7-7-7"
+                      : "M5 15l7-7 7 7"
+                  }
+                />
+              </svg>
+            </button>
+          </li> */}
+
+          {/* {isOtherServicesMobileOpen && (
+            <div
+              className={`pl-6 grid grid-cols-1 w-full justify-center sm:grid-cols-2 lg:grid-cols-4 gap-4 text-primary transition-opacity duration-300 ease-in-out opacity-100`}
+              style={{ top: `${dropdownTop}px` }}
+            >
+              {servicesData.map((serviceCategory) => (
+                <div key={serviceCategory.category}>
+                  <div className="py-2 border-b border-gray-400">
+                    <button className="px-3 py-1 font-semibold text-sm bg-secondary rounded-full">
+                      {serviceCategory.category}
+                    </button>
+                  </div>
+                  <ul className="mt-2 space-y-1">
+                    {serviceCategory.items.map((item) => (
+                      <li key={item.slug} className="hover:text-secondary">
+                        <Link
+                          to={`/other-service/${item.slug}`}
+                          onClick={() =>
+                            handleDropdownLinkClick(
+                              `/other-service/${item.slug}`
+                            )
+                          }
+                        >
+                          {item.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <ul className="mt-2 space-y-1">
-                  {serviceCategory.items.map((item) => (
-                    <li key={item.slug} className="hover:text-secondary">
-                      <Link
-                        to={`/other-service/${item.slug}`}
-                        onClick={() =>
-                          handleDropdownLinkClick(
-                            `/other-service/${item.slug}`
-                          )
-                        }
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )} */}
+        </ul>
       </div>
 
       {isLanguageDropdownOpen && (
