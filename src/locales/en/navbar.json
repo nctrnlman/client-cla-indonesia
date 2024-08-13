@@ -2,7 +2,7 @@
   "home": "Home",
   "legalAssociate": "Legal Associate",
   "legalTraining": "Legal Training",
-  "otherServices": "Other Services",
+  "otherServices": "Solution",
   "categories": {
     "LEGALITY": [
       { "name": "PT / Perseroan Terbatas", "slug": "pt-perseroan-terbatas" },

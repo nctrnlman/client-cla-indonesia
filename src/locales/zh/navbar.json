@@ -2,7 +2,7 @@
   "home": "首页",
   "legalAssociate": "法律顾问",
   "legalTraining": "法律培训",
-  "otherServices": "其他服务",
+  "otherServices": "解决方案",
   "categories": {
     "LEGALITY": [
       { "name": "有限责任公司", "slug": "pt-perseroan-terbatas" },
