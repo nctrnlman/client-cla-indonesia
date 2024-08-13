@@ -2,7 +2,7 @@
   "home": "Beranda",
   "legalAssociate": "Associate Hukum",
   "legalTraining": "Pelatihan Hukum",
-  "otherServices": "Layanan Lainnya",
+  "otherServices": "Solusi",
   "categories": {
     "LEGALITY": [
       { "name": "PT / Perseroan Terbatas", "slug": "pt-perseroan-terbatas" },
