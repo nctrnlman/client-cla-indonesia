@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuilding, faBalanceScale, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBuilding,
+  faBalanceScale,
+  faCheckCircle,
+} from "@fortawesome/free-solid-svg-icons";
 import PackageTrainingCard from "../cards/package-training/PackageTrainingCard";
 import { useTranslation } from "react-i18next";
 import SubscriptionInfo from "../cards/subscription/SubscriptionInfoLT";
@@ -27,15 +31,18 @@ function PackageTraining({ onPackageSelect }) {
     <div className="mt-4 mb-6">
       <div className="flex items-baseline">
         <span className="text-3xl font-bold text-primary">Rp {price}</span>
-        <span className="text-xl text-gray-500 line-through ml-2">
+        <span className="text-xl text-primary line-through ml-2">
           Rp {fakePrice}
         </span>
-        <span className="ml-2 text-gray-600">/ {unit}</span>
+        <span className="ml-2 text-primary">/ {unit}</span>
       </div>
       <ul className="mt-4 space-y-2">
         {features.map((feature, index) => (
           <li key={index} className="flex items-center">
-            <FontAwesomeIcon icon={faCheckCircle} className="text-green-500 mr-2" />
+            <FontAwesomeIcon
+              icon={faCheckCircle}
+              className="text-green-500 mr-2"
+            />
             <span>{feature}</span>
           </li>
         ))}
@@ -64,49 +71,56 @@ function PackageTraining({ onPackageSelect }) {
             className="h-full"
           >
             <PackageTrainingCard
-  title={t("internalPackage.title")}
-  icon={
-    <FontAwesomeIcon
-      icon={faBalanceScale}
-      className="text-yellow-400"
-    />
-  }
-  content={
-    <>
-      <p className="mb-4">{t("internalPackage.content")}</p>
-      <div className="mt-4 mb-6">
-        <div className="flex items-baseline">
-          <span className="text-3xl font-bold text-white">Rp 2.000.000</span>
-          <span className="text-xl text-gray-500 line-through ml-2">
-            Rp 2.500.000
-          </span>
-          <span className="ml-2 text-gray-600">/ {t("internalPackage.perCompany")}</span>
-        </div>
-        <ul className="mt-4 space-y-2">
-          {[
-            t("features.e_certificate"),
-            t("features.souvenir")
-          ].map((feature, index) => (
-            <li key={index} className="flex items-center">
-              <FontAwesomeIcon icon={faCheckCircle} className="text-green-500 mr-2" />
-              <span>{feature}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </>
-  }
-  additionalContent={t("internalPackage.additionalContent")}
-  buttonText={t("internalPackage.buttonText")}
-  backgroundColor="bg-primary"
-  textColor="text-white"
-  buttonColor="bg-[#fdb515] text-primary hover:bg-yellow-300"
-  titleBackgroundColor="bg-[#fdb515]"
-  titleTextColor="text-primary"
-  onButtonClick={onPackageSelect}
-  isOpen={openPackage === t("internalPackage.title")}
-  onToggle={() => togglePackage(t("internalPackage.title"))}
-/>
+              title={t("internalPackage.title")}
+              icon={
+                <FontAwesomeIcon
+                  icon={faBalanceScale}
+                  className="text-yellow-400"
+                />
+              }
+              content={
+                <>
+                  <p className="mb-4">{t("internalPackage.content")}</p>
+                  <div className="mt-4 mb-6">
+                    <div className="flex items-baseline">
+                      <span className="text-3xl font-bold text-white">
+                        Rp 2.000.000
+                      </span>
+                      <span className="text-xl text-gray-500 line-through ml-2">
+                        Rp 2.500.000
+                      </span>
+                      <span className="ml-2 text-gray-600">
+                        / {t("internalPackage.perCompany")}
+                      </span>
+                    </div>
+                    <ul className="mt-4 space-y-2">
+                      {[
+                        t("features.e_certificate"),
+                        t("features.souvenir"),
+                      ].map((feature, index) => (
+                        <li key={index} className="flex items-center">
+                          <FontAwesomeIcon
+                            icon={faCheckCircle}
+                            className="text-green-500 mr-2"
+                          />
+                          <span>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </>
+              }
+              additionalContent={t("internalPackage.additionalContent")}
+              buttonText={t("internalPackage.buttonText")}
+              backgroundColor="bg-primary"
+              textColor="text-white"
+              buttonColor="bg-[#fdb515] text-primary hover:bg-yellow-300"
+              titleBackgroundColor="bg-[#fdb515]"
+              titleTextColor="text-primary"
+              onButtonClick={onPackageSelect}
+              isOpen={openPackage === t("internalPackage.title")}
+              onToggle={() => togglePackage(t("internalPackage.title"))}
+            />
           </motion.div>
 
           <motion.div
@@ -124,13 +138,11 @@ function PackageTraining({ onPackageSelect }) {
               content={
                 <>
                   <p className="mb-4">{t("generalPackage.content")}</p>
-                  <PriceDisplay 
-                    price="500.000" 
-                    fakePrice="750.000" 
+                  <PriceDisplay
+                    price="500.000"
+                    fakePrice="750.000"
                     unit={t("generalPackage.perPackage")}
-                    features={[
-                      t("features.e_certificate")
-                    ]}
+                    features={[t("features.e_certificate")]}
                   />
                 </>
               }
