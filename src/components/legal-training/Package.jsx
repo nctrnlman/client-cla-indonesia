@@ -80,7 +80,7 @@ function PackageTraining({ onPackageSelect }) {
               }
               content={
                 <>
-                  <p className="mb-4">{t("internalPackage.content")}</p>
+                  {/* <p className="mb-4">{t("internalPackage.content")}</p> */}
                   <div className="mt-4 mb-6">
                     <div className="flex items-baseline">
                       <span className="text-3xl font-bold text-white">
@@ -137,7 +137,7 @@ function PackageTraining({ onPackageSelect }) {
               }
               content={
                 <>
-                  <p className="mb-4">{t("generalPackage.content")}</p>
+                  {/* <p className="mb-4">{t("generalPackage.content")}</p> */}
                   <PriceDisplay
                     price="500.000"
                     fakePrice="750.000"
