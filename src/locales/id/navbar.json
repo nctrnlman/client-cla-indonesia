@@ -6,13 +6,13 @@
   "categories": {
     "LEGALITY": [
       { "name": "PT / Perseroan Terbatas", "slug": "pt-perseroan-terbatas" },
+      { "name": "PT Perorangan", "slug": "pt-perorangan" },
+      { "name": "Baru", "slug": "new" },
+      { "name": "PT PMA", "slug": "pt-pma" },
       {
         "name": "CV / Commanditaire Venootschap",
         "slug": "cv-commanditaire-venootschap"
       },
-      { "name": "PT Perorangan", "slug": "pt-perorangan" },
-      { "name": "Baru", "slug": "new" },
-      { "name": "PT PMA", "slug": "pt-pma" },
       { "name": "Firma", "slug": "firma" },
       { "name": "Persekutuan Perdata", "slug": "persekutuan-perdata" },
       { "name": "Perkumpulan", "slug": "perkumpulan" },

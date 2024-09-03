@@ -55,7 +55,7 @@ function PricingCard({
         </ul>
         <div className="card-actions mt-auto">
           <button
-            className="btn bg-primary text-white btn-block"
+            className="btn bg-primary z-10 text-white btn-block"
             onClick={handleButtonClick}
           >
             {buttonText}
