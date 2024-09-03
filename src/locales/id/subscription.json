@@ -1,16 +1,16 @@
 {
   "product": "PRODUK",
-  "subscriptionTitle": "Berlangganan 3 Bulan",
-  "subscriptionSubtitle": "untuk Asosiasi Hukum",
+  "subscriptionTitle": "Legal Associate",
+  "subscriptionSubtitle": "untuk berlangganan 3 Bulan ",
   "packages": [
     {
       "title": "Standar (untuk UMK saja)",
-      "description": "Paket ini mencakup semua fitur premium seperti A, B, dan C.",
-      "price": "1.500.000",
+      "description": "Paket ini mencakup semua layanan premium seperti A, B, dan C.",
+      "price": "1.500.000/bulan",
       "fakePrice": "2.500.000",
       "features": [
         "Konsultasi online tanpa batas",
-        "Penyusunan Dokumen Hukum Ketenagakerjaan (PKWT, PKWTT, Perjanjian Pengakhiran, dan Surat Kuasa) setiap 3 bulan",
+        "Penyusunan Dokumen Hukum Ketenagakerjaan (PKWT, PKWTT, Perjanjian Pengakhiran, dan Surat Kuasa) ",
         "Meninjau 2 Perjanjian per bulan",
         "Bantuan kepatuhan: Pengisian Laporan Kegiatan Penanaman Modal (LKPM)",
         "Pelatihan Hukum gratis diberikan setiap 3 bulan sekali"
@@ -20,12 +20,12 @@
     },
     {
       "title": "Premium",
-      "description": "Paket ini mencakup fitur standar seperti X, Y, dan Z.",
-      "price": "3.500.000",
+      "description": "Paket ini mencakup layanan standar seperti X, Y, dan Z.",
+      "price": "3.500.000/bulan",
       "fakePrice": "4.000.000",
       "features": [
         "Konsultasi online tanpa batas",
-        "Penyusunan Dokumen Hukum Ketenagakerjaan (PKWT, PKWTT, Perjanjian Pengakhiran, dan Surat Kuasa) setiap 3 bulan",
+        "Penyusunan Dokumen Hukum Ketenagakerjaan (PKWT, PKWTT, Perjanjian Pengakhiran, dan Surat Kuasa)",
         "Penyusunan 1 Perjanjian Bisnis (Perjanjian Jual Beli, Perjanjian Pembelian Saham, MoU, atau lainnya) setiap 3 bulan",
         "Meninjau 2 Perjanjian per bulan",
         "Bantuan kepatuhan: Pengisian Laporan Kegiatan Penanaman Modal (LKPM)",
@@ -36,14 +36,14 @@
     },
     {
       "title": "Ultimate",
-      "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
-      "price": "5.000.000",
+      "description": "Paket ini mencakup layanan dasar seperti 1, 2, dan 3.",
+      "price": "5.000.000/bulan",
       "fakePrice": "12.500.000",
       "features": [
         "Konsultasi online tanpa batas, termasuk pertemuan dengan pihak lain",
         "Penyusunan atau meninjau 5 Perjanjian per bulan",
         "Bantuan kepatuhan: Pengisian Laporan Kegiatan Penanaman Modal (LKPM) dan laporan teknis lainnya.",
-        "Bantuan dokumen perusahaan (RUPS/RUPSLB, Keputusan Direksi, dan Keputusan Pemegang Saham)",
+        "Bantuan dokumen perusahaan (RUPS/RUPSLB, Keputusan Direksi, dan Keputusan Pemegang Saham) dan dokumen lainnya.",
         "Gratis: Pelatihan Hukum diberikan setiap 3 bulan sekali, Pengisian SPT Badan tahunan."
       ],
       "buttonText": "Berlangganan Sekarang",
@@ -54,7 +54,7 @@
     "iconText": "Pembayaran akan diproses setiap bulan selama 3 bulan berturut-turut. Harga tidak termasuk Pajak, Biaya Transportasi, dan biaya lain di luar Layanan yang disebutkan di atas (jika ada)."
   },
   "mostPopular": "Paling Populer",
-  "features": "Fitur",
+  "features": "Layanan",
   "seeLess": "Lihat lebih sedikit",
   "seeMore": "Lihat lebih banyak"
 }
