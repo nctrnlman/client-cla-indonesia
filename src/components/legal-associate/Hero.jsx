@@ -86,9 +86,12 @@ function Hero() {
                 <p className="font-bold text-base md:text-lg lg:text-xl">
                   {t("hero.moreInfo.heading")}
                 </p>
-                <p className="pt-1">{t("hero.moreInfo.subheading")}</p>
-                <p>{t("hero.moreInfo.customServices")}</p>
-                <p>{t("hero.moreInfo.additionalServices")}</p>
+                <ul className="list-disc pl-3">
+                  <li className="pt-1">{t("hero.moreInfo.subheading")}</li>
+                  <li>{t("hero.moreInfo.customServices")}</li>
+                  <li>{t("hero.moreInfo.additionalServices")}</li>
+                </ul>
+
                 <p className="pt-4 text-sm">{t("hero.moreInfo.note")}</p>
               </div>
             </div>
