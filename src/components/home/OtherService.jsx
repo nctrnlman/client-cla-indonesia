@@ -65,9 +65,9 @@ function OtherService() {
           <button className="bg-secondary items-center p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300">
             {t("product")}
           </button>
-          <h2 className="mt-6 text-3xl md:text-5xl font-extrabold text-primary">
+          {/* <h2 className="mt-6 text-3xl md:text-5xl font-extrabold text-primary">
             {t("solutions")}
-          </h2>
+          </h2> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (

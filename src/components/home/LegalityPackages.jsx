@@ -51,7 +51,7 @@ function LegalityPackages() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <p className="text-lg text-gray-600 mb-4">{t("not_sure")}</p>
+          <p className="text-lg text-gray-800 mb-4">{t("not_sure")}</p>
           <motion.button
             className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-secondary hover:text-primary transition duration-300"
             whileHover={{ scale: 1.05 }}

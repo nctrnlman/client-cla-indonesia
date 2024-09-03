@@ -12,7 +12,7 @@ function Footer() {
           <div className="flex md:flex-row flex-col justify-between gap-8">
             <div>
               <img src={logo} alt="Logo CLA" className="w-40" />
-              <p className="text-white">{t("trustedPartner")}</p>
+              <p className="text-white font-bold">{t("trustedPartner")}</p>
             </div>
 
             <div>
@@ -67,7 +67,10 @@ function Footer() {
                   {t("phone")}
                 </p>
                 <p className="text-gray-100 transition-colors duration-300 hover:text-primary">
-                  {t("emails")}
+                  {t("email1")}
+                </p>
+                <p className="text-gray-100 transition-colors duration-300 hover:text-primary">
+                  {t("email2")}
                 </p>
               </div>
             </div>

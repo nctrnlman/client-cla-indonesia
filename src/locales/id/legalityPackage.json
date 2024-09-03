@@ -64,11 +64,10 @@
       "features": [
         "Konsultasi",
         "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
+        "Surat Keputusan Pendirian CV",
         "Nomor Pokok Wajib Pajak Badan Usaha",
         "Nomor Induk Berusaha (NIB)",
         "KPPR",
-        "Sertifikat Standar/Izin",
         "Aktivasi EFIN Badan Usaha"
       ],
       "buttonText": "Pesan Sekarang"
@@ -81,11 +80,10 @@
       "features": [
         "Konsultasi",
         "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
+        "Surat Keputusan Pendirian Firma",
         "Nomor Pokok Wajib Pajak Badan Usaha",
         "Nomor Induk Berusaha (NIB)",
         "KPPR",
-        "Sertifikat Standar/Izin",
         "Aktivasi EFIN Badan Usaha"
       ],
       "buttonText": "Pesan Sekarang"
@@ -98,7 +96,7 @@
       "features": [
         "Konsultasi",
         "Akta Pendirian",
-        "Surat Keputusan Pendirian PT",
+        "Surat Keputusan Pendirian Yayasan",
         "Nomor Pokok Wajib Pajak Badan Usaha",
         "Nomor Induk Berusaha (NIB)",
         "KPPR",
