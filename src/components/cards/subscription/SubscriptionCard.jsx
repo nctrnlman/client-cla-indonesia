@@ -44,7 +44,7 @@ const SubscriptionCard = ({
         )}
         <h3 className="text-2xl font-bold text-primary mb-2">{title}</h3>
         {/* <p className="text-gray-600 mb-4">{description}</p> */}
-        <div className="text-4xl font-bold text-primary mb-2">Rp {price}</div>
+        <div className="text-3xl font-bold text-primary mb-2">Rp {price}</div>
         {fakePrice && (
           <p className="text-red-500 line-through mb-4">Rp {fakePrice}</p>
         )}

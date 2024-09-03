@@ -1,7 +1,7 @@
 {
   "product": "PRODUCT",
-  "subscriptionTitle": "3 Months Subscription",
-  "subscriptionSubtitle": "for Legal Associate",
+  "subscriptionTitle": "for Legal Associate",
+  "subscriptionSubtitle": "3 Months Subscription",
   "packages": [
     {
       "title": "Standard (for SMEs only)",

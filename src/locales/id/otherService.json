@@ -1,11 +1,11 @@
 {
-  "product": "PRODUK",
+  "product": "Product Lainnya",
   "solutions": "Solusi",
-  "subscribe_now": "Berlangganan Sekarang",
+  "subscribe_now": "Konsultasi Sekarang",
   "services": {
     "finance_title": "Keuangan, Akuntansi, dan Pajak",
     "finance_description": "Paket ini mencakup semua fitur premium seperti A, B, dan C.",
-    "business_title": "Pengembangan dan Penelitian Bisnis",
+    "business_title": "Riset Pasar dan Pengembangan Bisnis",
     "business_description": "Paket ini mencakup fitur standar seperti X, Y, dan Z.",
     "office_title": "Kantor Virtual atau Pribadi",
     "office_description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3."

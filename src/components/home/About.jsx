@@ -120,7 +120,7 @@ function About() {
   const alternatingColors = ["primary", "secondary"];
 
   return (
-    <div className="py-40">
+    <div className="py-20">
       <div className="flex flex-col justify-center items-center">
         <button className="bg-secondary items-center p-4 px-6 rounded-full text-primary font-extrabold text-lg hover:bg-primary hover:text-secondary transition duration-300">
           ABOUT

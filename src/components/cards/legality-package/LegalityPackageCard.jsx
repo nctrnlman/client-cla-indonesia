@@ -42,15 +42,13 @@ const LegalityPackageCard = ({
       )}
       <div className="p-6">
         <h3 className="text-2xl font-bold text-primary mb-2">{title}</h3>
-        <div className="mb-4">
-          <span className="text-4xl font-bold text-primary">{price}</span>
-          {fakePrice && (
-            <span className="text-lg text-gray-500 line-through ml-2">
-              {fakePrice}
-            </span>
-          )}
-        </div>
-        <ul className="mb-6 space-y-2">
+
+        <span className="text-4xl font-bold text-primary">Rp {price}</span>
+        {fakePrice && (
+          <p className=" text-red-500 line-through mb-4 mt-2">Rp {fakePrice}</p>
+        )}
+
+        <ul className="mb-2 space-y-2">
           {features.slice(0, 3).map((feature, index) => (
             <li key={index} className="flex items-center">
               <FaCheck className="text-green-500 mr-2" />
