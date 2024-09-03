@@ -32,7 +32,7 @@ function Home({ setIsLoading }) {
       </Helmet>
       <main className="flex-grow">
         <Hero />
-        <div id="PackageSubcription">
+        <div id="PackageSubcription" className="-mt-28">
           <PackageSubcription />
         </div>
         <Subscription />

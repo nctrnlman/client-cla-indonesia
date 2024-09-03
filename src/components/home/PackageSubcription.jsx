@@ -88,7 +88,8 @@ function PackageSubscription() {
     console.log(`${packageType} Selected`);
     if (packageType === t("legalityPackageSelected")) {
       // Scroll to the LegalityPackages component
-      const legalityPackagesElement = document.getElementById("legalityPackages");
+      const legalityPackagesElement =
+        document.getElementById("legalityPackages");
       if (legalityPackagesElement) {
         legalityPackagesElement.scrollIntoView({ behavior: "smooth" });
       }
@@ -136,9 +137,7 @@ function PackageSubscription() {
               content={
                 <>
                   <MotionText>
-                    <p className="mb-4">
-                      {t("legalAssociateContent")}
-                    </p>
+                    <p className="mb-4">{t("legalAssociateContent")}</p>
                   </MotionText>
                   <ul className="text-left space-y-2">
                     {[
@@ -189,9 +188,7 @@ function PackageSubscription() {
               content={
                 <>
                   <MotionText>
-                    <p className="mb-4">
-                      {t("legalityContent")}
-                    </p>
+                    <p className="mb-4">{t("legalityContent")}</p>
                   </MotionText>
                   <ul className="text-left space-y-2">
                     {[
