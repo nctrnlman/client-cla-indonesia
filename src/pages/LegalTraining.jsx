@@ -1,7 +1,6 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Helmet } from "react-helmet";
 import FAQ from "../components/home/FAQ";
-import About from "../components/home/About";
 import ContactUsSection from "../components/legal-training/SequentialForm";
 import PackageTraining from "../components/legal-training/Package";
 
@@ -45,9 +44,6 @@ function LegalTraining({ setIsLoading }) {
       <div ref={contactFormRef}>
         <ContactUsSection selectedPackage={selectedPackage} />
       </div>
-
-      {/* <About /> */}
-
       <FAQ />
     </div>
   );

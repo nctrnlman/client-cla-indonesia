@@ -13,6 +13,7 @@ const OtherServicesCard = ({
   features,
   buttonText,
   isPopular,
+  note,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const { t } = useTranslation("serviceData");
@@ -50,10 +51,11 @@ const OtherServicesCard = ({
             {price}
           </span>
           {fakePrice && (
-            <span className="text-base text-gray-500 line-through ml-2">
-              {fakePrice}
-            </span>
+            <p className="text-base text-red-500 line-through mt-2 mb-2">
+              Rp {fakePrice}
+            </p>
           )}
+          {note && <span> {note}</span>}
         </div>
         <div className="flex-grow mb-6">
           <ul className="space-y-2">

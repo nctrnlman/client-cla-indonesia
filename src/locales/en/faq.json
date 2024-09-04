@@ -15,9 +15,26 @@
     {
       "question": "Can a Legal Associate service handle cross-border legal issues for multinational corporations?",
       "answer": "Yes, a Legal Associate service can manage cross-border legal issues by providing expert advice on international regulations, trade laws, and cross-jurisdictional compliance. This service is especially valuable for multinational corporations navigating the complexities of operating in multiple countries, ensuring they remain compliant with local laws and international agreements."
+    },
+    {
+      "question": "How can a Legal Associate service support corporate governance?",
+      "answer": "A Legal Associate service can enhance corporate governance by advising on best practices, drafting governance policies, and ensuring compliance with corporate laws and regulations. This service also provides guidance on board structure, shareholder rights, and other governance matters to ensure that the corporation operates transparently and effectively."
+    },
+    {
+      "question": "Is a Legal Associate service suitable for start-ups and small businesses?",
+      "answer": "Yes, a Legal Associate service is highly suitable for start-ups and small businesses. It offers flexible legal support without the high costs associated with hiring full-time legal counsel. This service provides crucial legal guidance during the early stages of business growth, helping to navigate the complexities of business formation, contract negotiation, and regulatory compliance."
+    },
+    {
+      "question": "How does a Legal Associate service handle urgent legal matters?",
+      "answer": "Legal Associate services are designed to be responsive and efficient, providing timely legal support in urgent situations. Whether it's a pending lawsuit, a compliance issue, or a contract negotiation with a tight deadline, a Legal Associate can quickly step in to provide the necessary legal assistance, ensuring that the corporation's interests are protected."
+    },
+    {
+      "question": "What industries can benefit from a Legal Associate service?",
+      "answer": "A Legal Associate service is versatile and can benefit a wide range of industries, including finance, healthcare, technology, real estate, manufacturing, and more. By offering industry-specific legal expertise, this service helps corporations navigate sector-specific regulations and legal challenges, ensuring they remain compliant and competitive in their respective markets."
     }
   ],
   "faqTitle": "FAQ Legal Associate",
+  "faqTitleBasic": "FAQ",
   "faqHeading": "Frequently Asked Questions",
   "faqDescription": "Find answers to common questions about the role and responsibilities of a Legal Associate.",
   "contactButton": "Contact Us for More Information"

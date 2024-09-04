@@ -3,13 +3,13 @@ import { useParams } from "react-router-dom";
 import Hero from "../components/other-service-detail/Hero";
 import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/home/SequentialForm";
-import FAQ from "../components/home/FAQ";
-import Bonus from "../components/other-service-detail/Bonus";
+import FAQ from "../components/other-service-detail/FAQ";
 import { useTranslation } from "react-i18next";
 import Overview from "../components/other-service-detail/Overview";
 import RequirementsDocument from "../components/other-service-detail/RequirementsDocument";
 import Process from "../components/other-service-detail/Process";
 import NoContent from "../components/other-service-detail/NoContent";
+import About from "../components/other-service-detail/About";
 
 function OtherServiceDetail() {
   const { t } = useTranslation(["serviceData"]);
@@ -78,7 +78,7 @@ function OtherServiceDetail() {
       ) : (
         <NoContent serviceTitle={serviceItem?.name || ""} />
       )}
-      <Bonus />
+      <About />
       <FAQ />
       <SequentialForm />
     </div>
