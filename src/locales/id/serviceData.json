@@ -3060,7 +3060,7 @@
             {
               "title": "Legal Opinion",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-              "price": "Start from 8.500.000",
+              "price": "Start from 8.500.000 (Biaya Jasa Legal Opinion bervariasi tergantung pada skala dan kompleksitas kasus dan isu hukum yang dihadapi.)",
               "fakePrice": "12.000.000",
               "features": [],
               "buttonText": "Dapatkan Konsultasi"
@@ -3403,8 +3403,8 @@
             {
               "title": "Penutupan Perusahaan",
               "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
-              "price": "Start from 5.000.000",
-              "fakePrice": "7.000.000",
+              "price": "Start from 8.00.000",
+              "fakePrice": "12.500.000",
               "features": [],
               "buttonText": "Hubungi Kami"
             }
@@ -3487,12 +3487,7 @@
               "content": "Permenkumham ini mengatur tentang bagaimana cara perubahan anggaran dasar CV, Firma dan Persekutuan Perdata"
             }
           ],
-          "documents": [
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Berikut ini adalah dokumen yang menjadi persyaratan pembubarn PT adalah sebagai berikut :"
-            },
+          "documents": [            
             {
               "type": "ul",
               "className": "list-disc list-inside space-y-3 text-justify",
@@ -3523,11 +3518,6 @@
                   "content": "Bukti laporan Pajak bulanan dan tahunan PT"
                 }
               ]
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Penonaktifan perusahaan berarti PT sudah tidak memiliki kewajiban untuk lapor pajak. Proses juga lebih cepat Dengan status non-aktif maka:"
             },
             {
               "type": "ul",
@@ -4072,13 +4062,13 @@
         },
 
         {
-          "name": "FAT Pelaporan Tahunan SPT Badan",
+          "name": "FAT : Pelaporan Tahunan SPT Badan",
           "slug": "fat-pelaporan-tahunan-spt-badan",
           "package": [
             {
-              "title": "FAT Pelaporan Tahunan SPT Badan",
+              "title": "FAT : Pelaporan Tahunan SPT Badan",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-              "price": "Start from 1.250.000",
+              "price": "Start from 1.000.000",
               "fakePrice": "3.000.000",
               "features": [],
               "buttonText": "Dapatkan Konsultasi"
@@ -4144,11 +4134,11 @@
           ]
         },
         {
-          "name": "FAT Pelaporan Tahunan SPT Masa",
+          "name": "FAT : Pelaporan Tahunan SPT Masa",
           "slug": "fat-pelaporan-tahunan-spt-masa",
           "package": [
             {
-              "title": "FAT Pelaporan Tahunan SPT Masa; PPH 21, PPH 22, PPH 23, PPH PS. 4 (2), PPN",
+              "title": "FAT : Pelaporan Tahunan SPT Masa; PPH 21, PPH 22, PPH 23, PPH PS. 4 (2), PPN",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
               "price": "Start from 1.000.000",
               "fakePrice": "2.000.000",
@@ -4208,11 +4198,11 @@
           ]
         },
         {
-          "name": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
+          "name": "FAT : Pengukuhan PKP dan Aktivasi Akun PKP",
           "slug": "fat-pengukuhan-pkp-dan-aktivasi-akun-pkp",
           "package": [
             {
-              "title": "FAT Pengukuhan PKP dan Aktivasi Akun PKP",
+              "title": "FAT : Pengukuhan PKP dan Aktivasi Akun PKP",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
               "price": "Start from 1.250.000",
               "fakePrice": "2.000.000",
@@ -4329,11 +4319,11 @@
           ]
         },
         {
-          "name": "FAT Pembuatan NPWP dan Aktivasi EFIN",
+          "name": "FAT : Pembuatan NPWP dan Aktivasi EFIN",
           "slug": "fat-pembuatan-npwp-dan-aktivasi-efin",
           "package": [
             {
-              "title": "FAT Pembuatan NPWP dan Aktivasi EFIN",
+              "title": "FAT : Pembuatan NPWP dan Aktivasi EFIN",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
               "price": "Start from 750.000",
               "fakePrice": "2.000.000",
@@ -4419,11 +4409,11 @@
           ]
         },
         {
-          "name": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
+          "name": "FAT : Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
           "slug": "fat-pembukuan-jurnal-buku-besar-dan-laporan-keuangan",
           "package": [
             {
-              "title": "FAT Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
+              "title": "FAT : Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
               "price": "Start from 1.500.000",
               "fakePrice": "2.500.000",
