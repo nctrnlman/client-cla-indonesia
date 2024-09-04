@@ -161,7 +161,7 @@ function ContactUsSection({ selectedPackage }) {
           <p className="text-lg text-primary mb-4">
             {t("contactUsSubtitle")} <br />
             <br />
-            {t("termsAndConditions")}
+            {/* {t("termsAndConditions")} */}
           </p>
         </motion.div>
 

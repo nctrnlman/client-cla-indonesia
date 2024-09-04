@@ -11,6 +11,7 @@ const ContentCard = ({
   features,
   buttonText,
   isPopular,
+  note,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const whatsappUrl = generateWhatsAppUrl(title);
@@ -44,12 +45,14 @@ const ContentCard = ({
         <div className="mb-8">
           <span className="text-4xl font-bold text-primary">{price}</span>
           {fakePrice && (
-            <span className="text-lg text-gray-500 line-through ml-2">
-              {fakePrice}
-            </span>
+            <p className=" text-red-500 line-through mb-4 mt-2">
+              Rp {fakePrice}
+            </p>
           )}
+          {note && <span> {note}</span>}
         </div>
-        <ul className="mb-6 space-y-2">
+
+        <ul className="mb-2 space-y-2">
           {features.slice(0, 3).map((feature, index) => (
             <li key={index} className="flex items-center">
               <FaCheck className="text-green-500 mr-2" />

@@ -6,7 +6,7 @@
     {
       "title": "Standard (for SMEs only)",
       "description": "This package includes all premium features such as A, B, and C.",
-      "price": "1,500,000",
+      "price": "1,500,000/Month",
       "fakePrice": "2,500,000",
       "features": [
         "Unlimited online consultations",
@@ -21,7 +21,7 @@
     {
       "title": "Premium",
       "description": "This package includes standard features such as X, Y, and Z.",
-      "price": "3,500,000",
+      "price": "3,500,000/Month",
       "fakePrice": "4,000,000",
       "features": [
         "Unlimited online consultations",
@@ -37,7 +37,7 @@
     {
       "title": "Ultimate",
       "description": "This package includes basic features such as 1, 2, and 3.",
-      "price": "5,000,000",
+      "price": "5,000,000/Month",
       "fakePrice": "12,500,000",
       "features": [
         "Unlimited online consultations, including meetings with other parties",

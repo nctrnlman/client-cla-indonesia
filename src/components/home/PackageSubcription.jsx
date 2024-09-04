@@ -85,7 +85,6 @@ function PackageSubscription() {
   }, []);
 
   const handleButtonClick = (packageType) => {
-    console.log(`${packageType} Selected`);
     if (packageType === t("legalityPackageSelected")) {
       // Scroll to the LegalityPackages component
       const legalityPackagesElement =

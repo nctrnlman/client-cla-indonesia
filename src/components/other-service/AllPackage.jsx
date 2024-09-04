@@ -148,6 +148,7 @@ function AllPackage() {
                     }
                     price={pkg.package[0]?.price || t("allPackage.noPrice")}
                     fakePrice={pkg.package[0]?.fakePrice}
+                    note={pkg.package[0]?.note}
                     features={pkg.package[0]?.features || []}
                     buttonText={
                       pkg.package[0]?.buttonText || t("allPackage.learnMore")

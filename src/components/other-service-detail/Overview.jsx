@@ -11,7 +11,10 @@ function Overview({ overview }) {
         const Tag = item.type;
         if (Tag === "ul") {
           return (
-            <Tag key={index} className={` space-y-2 ${item.className}`}>
+            <Tag
+              key={index}
+              className={`list-none space-y-2 ${item.className}`}
+            >
               {item.content.map((subItem, subIndex) => (
                 <subItem.type key={subIndex} className={subItem.className}>
                   {subItem.content}
