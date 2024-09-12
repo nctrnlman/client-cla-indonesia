@@ -66,7 +66,7 @@ function Hero() {
               >
                 {t("hero.title")}
               </motion.h1>
-              <div className="h-10 sm:h-40 md:h-48">
+              <div className="h-auto">
                 <TypeAnimation
                   key={i18n.language}
                   sequence={typeAnimationSequence}

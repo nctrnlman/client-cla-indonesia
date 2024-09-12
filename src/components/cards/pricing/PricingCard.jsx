@@ -3,10 +3,8 @@ import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
 function PricingCard({
   title,
-  description,
   price,
   fakePrice,
-  features,
   buttonText,
 }) {
   const whatsappUrl = generateWhatsAppUrl(title);
@@ -22,7 +20,7 @@ function PricingCard({
             {title}
           </h3>
           <div className="mt-4">
-            <span className="text-3xl font-bold text-primary">Rp {price}</span>
+            <span className="text-3xl font-bold text-primary">{price}</span>
             <p className="text-red-500 line-through mb-4 mt-2">
               Rp {fakePrice}
             </p>

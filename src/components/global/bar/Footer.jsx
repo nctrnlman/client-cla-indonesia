@@ -69,9 +69,6 @@ function Footer() {
                 <p className="text-gray-100 transition-colors duration-300 hover:text-primary">
                   {t("email1")}
                 </p>
-                <p className="text-gray-100 transition-colors duration-300 hover:text-primary">
-                  {t("email2")}
-                </p>
               </div>
             </div>
           </div>

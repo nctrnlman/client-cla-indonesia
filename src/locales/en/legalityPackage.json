@@ -13,10 +13,11 @@
       "title": "Standard PT Establishment (PMDN)",
       "description": "This package includes all the premium features such as A, B, and C.",
       "price": "3,500,000",
-      "fakePrice": "7,500,000",
+      "fakePrice": "5,000,000",
       "features": [
         "Consultation",
         "PT name search",
+        "Deed of Incorporation",
         "PT Establishment Decree",
         "Tax Identification Number for Business Entity"
       ],
@@ -26,10 +27,11 @@
       "title": "Complete PT Establishment (PMDN)",
       "description": "This package includes standard features such as X, Y, and Z.",
       "price": "5,500,000",
-      "fakePrice": "7,500,000",
+      "fakePrice": "9,000,000",
       "features": [
         "Consultation",
         "PT name search",
+        "Deed of Incorporation",
         "PT Establishment Decree",
         "Tax Identification Number for Business Entity",
         "Business Identification Number (NIB)",
@@ -43,7 +45,7 @@
       "title": "PMA PT Establishment",
       "description": "This package includes basic features such as 1, 2, and 3.",
       "price": "7,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "10,000,000",
       "features": [
         "Consultation",
         "Deed of Establishment",
@@ -60,7 +62,7 @@
       "title": "CV Establishment",
       "description": "This package includes basic features such as 1, 2, and 3.",
       "price": "5,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "8,000,000",
       "features": [
         "Consultation",
         "Deed of Establishment",
@@ -77,7 +79,7 @@
       "title": "Firm Establishment",
       "description": "This package includes basic features such as 1, 2, and 3.",
       "price": "5,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "8.000.000",
       "features": [
         "Consultation",
         "Deed of Establishment",
@@ -94,7 +96,7 @@
       "title": "Foundation Establishment",
       "description": "This package includes basic features such as 1, 2, and 3.",
       "price": "7,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "9,000,000",
       "features": [
         "Consultation",
         "Deed of Establishment",

@@ -13,10 +13,11 @@
       "title": "Pendirian PT Standard (PMDN)",
       "description": "Paket ini mencakup semua fitur premium seperti A, B, dan C.",
       "price": "3.500.000",
-      "fakePrice": "7.500.000",
+      "fakePrice": "5.000.000",
       "features": [
         "Konsultasi",
         "Penelusuran nama PT",
+        "Akta Pendirian",
         "Surat Keputusan Pendirian PT",
         "Nomor Pokok Wajib Pajak Badan Usaha"
       ],
@@ -26,10 +27,11 @@
       "title": "Pendirian PT Lengkap (PMDN)",
       "description": "Paket ini mencakup fitur standar seperti X, Y, dan Z.",
       "price": "5.500.000",
-      "fakePrice": "7.500.000",
+      "fakePrice": "9.000.000",
       "features": [
         "Konsultasi",
         "Penelusuran nama PT",
+        "Akta Pendirian",
         "Surat Keputusan Pendirian PT",
         "Nomor Pokok Wajib Pajak Badan Usaha",
         "Nomor Induk Berusaha (NIB)",
@@ -43,7 +45,7 @@
       "title": "Pendirian PT PMA",
       "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
       "price": "7.500.000",
-      "fakePrice": "12.500.000",
+      "fakePrice": "10.000.000",
       "features": [
         "Konsultasi",
         "Akta Pendirian",
@@ -60,7 +62,7 @@
       "title": "Pendirian CV",
       "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
       "price": "5.500.000",
-      "fakePrice": "12.500.000",
+      "fakePrice": "8.000.000",
       "features": [
         "Konsultasi",
         "Akta Pendirian",
@@ -76,7 +78,7 @@
       "title": "Pendirian Firma",
       "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
       "price": "5.500.000",
-      "fakePrice": "12.500.000",
+      "fakePrice": "8.000.000",
       "features": [
         "Konsultasi",
         "Akta Pendirian",
@@ -92,7 +94,7 @@
       "title": "Pendirian Yayasan",
       "description": "Paket ini mencakup fitur dasar seperti 1, 2, dan 3.",
       "price": "7.500.000",
-      "fakePrice": "12.500.000",
+      "fakePrice": "9.000.000",
       "features": [
         "Konsultasi",
         "Akta Pendirian",
