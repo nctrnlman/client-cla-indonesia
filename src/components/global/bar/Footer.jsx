@@ -16,11 +16,11 @@ function Footer() {
             </div>
 
             <div>
-              <p className="font-semibold md:pl-20 text-white">
+              <p className="font-semibold md:pl-15 text-white">
                 {t("quickLinks")}
               </p>
 
-              <div className="flex flex-col items-start md:pl-20 mt-5 space-y-2">
+              <div className="flex flex-col items-start md:pl-15 mt-5 space-y-2">
                 <Link
                   to="/"
                   className="text-gray-100 transition-colors duration-300 hover:underline hover:cursor-pointer hover:text-primary"
@@ -69,41 +69,40 @@ function Footer() {
                 <p className="text-gray-100 transition-colors duration-300 hover:text-primary">
                   {t("email1")}
                 </p>
+                <div className="flex gap-4 pt-4 hover:cursor-pointer">
+                  <img
+                    src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
+                    width="30"
+                    height="30"
+                    alt={t("socialMedia.facebook")}
+                  />
+                  <img
+                    src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg"
+                    width="30"
+                    height="30"
+                    alt={t("socialMedia.twitter")}
+                  />
+                  <img
+                    src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+                    width="30"
+                    height="30"
+                    alt={t("socialMedia.instagram")}
+                  />
+                  <img
+                    src="https://www.svgrepo.com/show/28145/linkedin.svg"
+                    width="30"
+                    height="30"
+                    alt={t("socialMedia.linkedin")}
+                  />
+                </div>
               </div>
             </div>
           </div>
 
-          <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
+          <hr className="my-6 border-gray-200 md:my-8 md:mt-12 dark:border-gray-700 h-2" />
 
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-1 gap-4 hover:cursor-pointer"></div>
-
-            <div className="flex gap-4 hover:cursor-pointer">
-              <img
-                src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
-                width="30"
-                height="30"
-                alt={t("socialMedia.facebook")}
-              />
-              <img
-                src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg"
-                width="30"
-                height="30"
-                alt={t("socialMedia.twitter")}
-              />
-              <img
-                src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
-                width="30"
-                height="30"
-                alt={t("socialMedia.instagram")}
-              />
-              <img
-                src="https://www.svgrepo.com/show/28145/linkedin.svg"
-                width="30"
-                height="30"
-                alt={t("socialMedia.linkedin")}
-              />
-            </div>
           </div>
           <p className="font-sans pt-8 text-start md:text-center md:text-lg md:p-4 text-white">
             {t("copyright")}

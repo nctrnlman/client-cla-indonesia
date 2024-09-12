@@ -1,12 +1,7 @@
 import PropTypes from "prop-types";
 import { generateWhatsAppUrl } from "../../../utils/whatsappUtils";
 
-function PricingCard({
-  title,
-  price,
-  fakePrice,
-  buttonText,
-}) {
+function PricingCard({ title, price, fakePrice, buttonText }) {
   const whatsappUrl = generateWhatsAppUrl(title);
 
   const handleButtonClick = () => {
@@ -19,7 +14,7 @@ function PricingCard({
           <h3 className="card-title justify-start text-2xl font-bold text-primary min-h-[64px]">
             {title}
           </h3>
-          <div className="mt-4">
+          <div className="mt-4 flex flex-col flex-grow">
             <span className="text-3xl font-bold text-primary">{price}</span>
             <p className="text-red-500 line-through mb-4 mt-2">
               Rp {fakePrice}
