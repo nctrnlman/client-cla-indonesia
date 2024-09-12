@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Helmet } from "react-helmet";
-import FAQ from "../components/home/FAQ";
+import FAQ from "../../src/components/legal-training/FAQ";
 import ContactUsSection from "../components/legal-training/SequentialForm";
 import PackageTraining from "../components/legal-training/Package";
 

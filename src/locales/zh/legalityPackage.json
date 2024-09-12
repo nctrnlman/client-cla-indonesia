@@ -13,18 +13,19 @@
       "title": "标准 PT 成立 (PMDN)",
       "description": "此套餐包括所有高级功能，例如 A、B 和 C。",
       "price": "3,500,000",
-      "fakePrice": "7,500,000",
-      "features": ["咨询", "PT 名称搜索", "PT 成立法令", "企业实体税号"],
+      "fakePrice": "5,000,000",
+      "features": ["咨询", "PT 名称搜索","公司契约", "PT 成立法令", "企业实体税号"],
       "buttonText": "立即订购"
     },
     {
       "title": "完整的 PT 成立 (PMDN)",
       "description": "此套餐包括标准功能，例如 X、Y 和 Z。",
       "price": "5,500,000",
-      "fakePrice": "7,500,000",
+      "fakePrice": "9,000,000",
       "features": [
         "咨询",
         "PT 名称搜索",
+        "公司契约",
         "PT 成立法令",
         "企业实体税号",
         "营业执照号码 (NIB)",
@@ -38,7 +39,7 @@
       "title": "PMA PT 成立",
       "description": "此套餐包括基本功能，例如 1、2 和 3。",
       "price": "7,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "10,000,000",
       "features": [
         "咨询",
         "成立契约",
@@ -55,7 +56,7 @@
       "title": "CV 成立",
       "description": "此套餐包括基本功能，例如 1、2 和 3。",
       "price": "5,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "8,000,000",
       "features": [
         "咨询",
         "成立契约",
@@ -72,7 +73,7 @@
       "title": "公司成立",
       "description": "此套餐包括基本功能，例如 1、2 和 3。",
       "price": "5,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "8,000,000",
       "features": [
         "咨询",
         "成立契约",
@@ -89,7 +90,7 @@
       "title": "基金会成立",
       "description": "此套餐包括基本功能，例如 1、2 和 3。",
       "price": "7,500,000",
-      "fakePrice": "12,500,000",
+      "fakePrice": "9,000,000",
       "features": [
         "咨询",
         "成立契约",
