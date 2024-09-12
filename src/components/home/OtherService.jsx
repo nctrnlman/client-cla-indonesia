@@ -8,7 +8,7 @@ function OtherService() {
     {
       title: t("services.finance_title"),
       description: t("services.finance_description"),
-      price: "Starts from 1.500.000",
+      price: "Start from 1.500.000",
       fakePrice: "3.000.000",
       features: [
         t("features.consultation"),
@@ -25,7 +25,7 @@ function OtherService() {
     {
       title: t("services.business_title"),
       description: t("services.business_description"),
-      price: "Starts from 5.500.000",
+      price: "Start from 5.500.000",
       fakePrice: "7.500.000",
       features: [
         t("features.consultation"),
@@ -42,7 +42,7 @@ function OtherService() {
     {
       title: t("services.office_title"),
       description: t("services.office_description"),
-      price: "Starts from 2.000.000",
+      price: "Start from 2.000.000 /bulan",
       fakePrice: "3.000.000",
       features: [
         t("features.consultation"),
