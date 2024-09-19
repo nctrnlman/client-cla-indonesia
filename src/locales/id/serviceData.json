@@ -1559,14 +1559,14 @@
               "type": "p",
               "className": "text-gray-700 text-lg text-justify pt-2",
               "content": "Barang yang wajib didaftarkan termasuk yang berhubungan dengan K3L, harus memiliki tanda daftar Registrasi K3L. Persyaratan keamanan dan metode pengujian produk harus dipenuhi, dengan sampel yang diuji sebaiknya mewakili jenis kategori serat, jenis kain, dan finishing. Perusahaan yang menjual atau mendistribusikan barang di pasar harus melakukan registrasi K3L ini."
-            }            
+            }
           ],
           "documents": [
             {
               "type": "h3",
               "className": "text-xl font-semibold text-gray-800 mt-4 pb-2 text-justify",
               "content": "Hubungi Kami Untuk Mengetahui Syarat dan Dokumen Izin K3L"
-            }                     
+            }
           ]
         },
         {
@@ -2013,7 +2013,7 @@
               "content": "Masa Berlaku STP-AD berlaku selama jangka waktu tertentu yang ditetapkan oleh Kementerian Perdagangan dan harus diperpanjang sesuai dengan ketentuan yang berlaku."
             }
           ],
-         "documents": [
+          "documents": [
             {
               "type": "ul",
               "className": "list-disc list-inside space-y-3 text-justify",
@@ -4024,7 +4024,7 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Formulir Pengukuhan PKP dan Aktsivasi Akun PKP"
+                  "content": "Formulir Pengukuhan PKP dan Aktivasi Akun PKP"
                 },
                 {
                   "type": "li",
