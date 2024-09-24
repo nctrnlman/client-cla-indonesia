@@ -86,7 +86,7 @@ function Hero() {
               {t("hero.description")}
             </motion.p>
             <motion.div
-              className="flex flex-col sm:flex-row justify-start gap-4"
+              className="flex flex-col sm:flex-row justify-start gap-4 pt-8 sm:pt-12 md:pt-64 lg:pt-20"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.5 }}
@@ -94,7 +94,7 @@ function Hero() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#FDB515] text-primary py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#E5A214] w-full sm:w-auto mb-2 sm:mb-0"
+                className="bg-[#FDB515] text-primary py-2 px-4 sm:py-2.5 sm:px-5 md:py-1 md:px-1 lg:py-3 lg:px-6 rounded-full text-xs sm:text-sm md:text-sm lg:text-base uppercase font-semibold transition duration-300 hover:bg-[#E5A214] w-full sm:w-auto mb-2 sm:mb-0 shadow-md hover:shadow-lg"
                 onClick={handleScheduleConsultation}
               >
                 {t("hero.button1")}
@@ -102,7 +102,7 @@ function Hero() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-6 rounded-full uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-primary w-full sm:w-auto"
+                className="bg-transparent border-2 border-[#FDB515] text-[#FDB515] py-2 px-4 sm:py-2.5 sm:px-2 md:py-2 md:px-2 md:mx-4 lg:py-3 lg:px-6 rounded-full text-xs sm:text-sm md:text-sm lg:text-base uppercase font-semibold transition duration-300 hover:bg-[#FDB515] hover:text-primary w-full sm:w-auto shadow-md hover:shadow-lg"
                 onClick={handleLearnMore}
               >
                 {t("hero.button2")}
