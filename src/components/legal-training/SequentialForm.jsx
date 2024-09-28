@@ -45,10 +45,10 @@ function ContactUsSection({ selectedPackage }) {
     setIsLoading(true);
     try {
       await emailjs.send(
-        "service_wx9ykwp",
-        "template_nyyswl6",
+        "service_cgsmom8",
+        "template_cjek4mk",
         formData,
-        "t-2dF4yUyNrBIBT45"
+        "wu1VziGz48NHtVqxP"
       );
       setShowAlert(true);
       setFormData({
