@@ -70,30 +70,54 @@ function Footer() {
                   {t("email1")}
                 </p>
                 <div className="flex gap-4 pt-4 hover:cursor-pointer">
-                  <img
-                    src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
-                    width="30"
-                    height="30"
-                    alt={t("socialMedia.facebook")}
-                  />
-                  <img
-                    src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg"
-                    width="30"
-                    height="30"
-                    alt={t("socialMedia.twitter")}
-                  />
-                  <img
-                    src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
-                    width="30"
-                    height="30"
-                    alt={t("socialMedia.instagram")}
-                  />
-                  <img
-                    src="https://www.svgrepo.com/show/28145/linkedin.svg"
-                    width="30"
-                    height="30"
-                    alt={t("socialMedia.linkedin")}
-                  />
+                  <a
+                    href="https://www.linkedin.com/company/mylawid"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://www.svgrepo.com/show/28145/linkedin.svg"
+                      width="30"
+                      height="30"
+                      alt={t("socialMedia.linkedin")}
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/mylaw.id"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+                      width="30"
+                      height="30"
+                      alt={t("socialMedia.instagram")}
+                    />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/akunfacebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
+                      width="30"
+                      height="30"
+                      alt={t("socialMedia.facebook")}
+                    />
+                  </a>
+                  <a
+                    href="mailto:mylawid2022@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://www.svgrepo.com/show/452057/mail.svg"
+                      width="30"
+                      height="30"
+                      alt="Email"
+                    />
+                  </a>
                 </div>
               </div>
             </div>

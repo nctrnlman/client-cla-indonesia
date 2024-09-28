@@ -2302,6 +2302,170 @@
               "content": "*Persyaratan Dokumen dapat dibantu oleh tim Corporate Legal Associate*"
             }
           ]
+        },
+        {
+          "name": "Persetujuan Bangunan Gedung (PBG)",
+          "slug": "persetujuan-bangunan-gedung",
+          "package": [
+            {
+              "title": "Persetujuan Bangunan Gedung (PBG)",
+              "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
+              "price": "Biaya pembuatan PBG bervariasi tergantung pada skala dan kompleksitas proyek serta area yang terkena dampak",
+              "features": [],
+              "buttonText": "Dapatkan Konsultasi"
+            }
+          ],
+          "overviews": [
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Pengurusan Persetujuan Bangunan Gedung (PBG) Sesuai Peraturan Terbaru."
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "Apakah Anda sedang merencanakan pembangunan, perubahan, atau pemeliharaan gedung? Persetujuan Bangunan Gedung (PBG) adalah izin yang wajib dimiliki untuk memastikan proyek Anda memenuhi standar teknis dan administratif yang ditetapkan oleh pemerintah."
+            },
+            {
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Manfaat PBG"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-2",
+              "content": "PBG diperlukan untuk berbagai keperluan seperti membangun, mengubah, memperluas, atau merawat bangunan gedung. Dengan PBG, Anda memiliki bukti bahwa rencana bangunan Anda telah sesuai dengan regulasi yang berlaku."
+            },
+            {
+              "type": "h3",
+              "className": "text-gray-800 text-xl text-justify mt-2 font-semibold",
+              "content": "Proses Pengurusan PBG"
+            },
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Pendaftaran: Pengajuan PBG dilakukan melalui Sistem Informasi Manajemen Bangunan Gedung (SIMBG) atau sistem yang terintegrasi dengan Online Single Submission (OSS)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penyampaian Informasi: Pemohon menyampaikan data pemilik, bangunan, dan dokumen teknis terkait."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemeriksaan Dokumen: Dokumen diperiksa untuk kelengkapan dan kesesuaiannya."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Konsultasi Perencanaan: Konsultasi dilakukan dengan Tim Profesi Ahli (TPA) atau Tim Penilik Teknis (TPT)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Pemeriksaan Standar Teknis: Pemeriksaan standar teknis dilakukan pada dokumen rencana teknis."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Penerbitan PBG: Setelah semua persyaratan terpenuhi, PBG diterbitkan."
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify mt-4",
+              "content": "Dengan layanan kami, pengurusan PBG menjadi lebih mudah dan cepat. Hubungi kami untuk mendapatkan bantuan profesional dalam pengurusan izin bangunan Anda!"
+            }
+          ],
+          "documents": [
+            {
+              "type": "ul",
+              "className": "list-disc list-inside space-y-3 text-justify",
+              "content": [
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-2",
+                  "content": "Identitas Pemohon Kartu Tanda Penduduk (KTP) atau identitas pemohon/pemilik bangunan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Nomor Pokok Wajib Pajak (NPWP) pemohon/pemilik."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen Kepemilikan Tanah Sertifikat Hak Milik (SHM) atau Sertifikat Hak Guna Bangunan (SHGB)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Surat Izin Penggunaan Lahan (jika diperlukan)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rencana Teknis Bangunan Gambar rencana bangunan (denah, tampak, potongan)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rencana konstruksi dan struktur."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rencana utilitas (listrik, air, saluran pembuangan, dsb)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Analisis dampak lingkungan (AMDAL) atau dokumen lingkungan lainnya (jika diperlukan)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Izin Lingkungan Izin lingkungan atau rekomendasi dari instansi terkait (tergantung lokasi dan jenis bangunan)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Laporan Perhitungan Struktur Perhitungan teknis mengenai kekuatan dan kestabilan struktur bangunan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen Retribusi Bukti pembayaran retribusi atau perkiraan biaya retribusi PBG."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Surat Kuasa Jika pengurusan dilakukan oleh pihak ketiga, sertakan surat kuasa dari pemilik/pemohon."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Dokumen Pendukung Lainnya Izin prinsip dari pemerintah setempat (jika berlaku)."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg",
+                  "content": "Rekomendasi dari Tim Profesi Ahli (TPA) atau Tim Penilik Teknis (TPT) (dalam proses pengurusan PBG). "
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-700 text-lg pt-4",
+                  "content": "Dokumen-dokumen ini dapat bervariasi tergantung peraturan daerah atau instansi terkait yang menangani PBG."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
