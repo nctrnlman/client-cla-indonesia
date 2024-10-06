@@ -71,7 +71,7 @@
                 "Surat Keputusan Pendirian PT",
                 "Nomor Pokok Wajib Pajak Badan Usaha"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             },
             {
               "title": "Pendirian PT Lengkap (PMDN)",
@@ -89,7 +89,7 @@
                 "Sertifikat Standar/Izin",
                 "Aktivitas EFIN Badan Usaha"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -223,10 +223,9 @@
                 "Nomor Pokok Wajib Pajak Badan Usaha",
                 "Nomor Induk Berusaha (NIB)",
                 "KPPR",
-                "Sertifikat Standar/Izin",
-                "Aktivitas EFIN Badan Usaha"
+                "Sertifikat Standar/Izin"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -359,7 +358,7 @@
                 "KPPR",
                 "Aktivasi EFIN Badan Usaha"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -487,7 +486,7 @@
                 "KPPR",
                 "Aktivasi EFIN Badan Usaha"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -601,9 +600,10 @@
                 "Pendaftaran Persekutuan Perdata",
                 "Keputusan Persekutuan Perdata",
                 "Nomor Pokok Wajib Pajak",
-                "Akta Persekutuan Perdata"
+                "Akta Persekutuan Perdata",
+                "Nomor Induk Berusaha (NIB)"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -718,7 +718,7 @@
               "price": "Start from Rp 3.000.000",
               "fakePrice": "5.000.000",
               "features": [],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -828,17 +828,17 @@
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pengurus Yayasan (Pembina, Pengawas, Ketua, Sekretaris & Bendahara)"
+                  "content": "KTP & NPWP pengurus dan anggota Perkumpulan. "
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email Yayasan."
+                  "content": "Nomor telepon dan email Perkumpulan."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian Yayasan."
+                  "content": "Mengisi formulir pendirian Perkumpulan."
                 },
                 {
                   "type": "li",
@@ -874,11 +874,9 @@
                 "Surat Keputusan Pendirian Yayasan",
                 "Nomor Pokok Wajib Pajak Badan Usaha",
                 "Nomor Induk Berusaha (NIB)",
-                "KPPR",
-                "Sertifikat Standar/Izin",
-                "Aktivasi EFIN Badan Usaha"
+                "KPPR"
               ],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1038,7 +1036,7 @@
               "price": "Start from Rp 750.000",
               "fakePrice": "2.000.000",
               "features": [],
-              "buttonText": "Pesan Sekarang"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1370,7 +1368,7 @@
               "price": "Biaya pengurusan izin konstruksi bervariasi tergantung pada skala dan risiko bisnis.",
 
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1538,10 +1536,10 @@
             {
               "title": "Izin Keselamatan, Kesehatan Kerja dan Lingkungan (K3L)",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-              "price": "Biaya pengurusan izin K3L bervariasi tergantung pada skala dan risiko bisnis.",
+              "price": "Biaya pengurusan izin K3L bervariasi tergantung pada jenis alat dan bisnis.",
 
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1579,7 +1577,7 @@
               "price": "Hubungi kami untuk biaya Izin Yayasan.",
 
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1649,7 +1647,7 @@
               "price": "Start from Rp 3.000.000",
               "fakePrice": "5.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1793,10 +1791,10 @@
             {
               "title": "Pengurusan KITAS Investor",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-              "price": "Rp 3.000.000",
+              "price": "Start from Rp 3.000.000",
               "fakePrice": "5.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -1942,7 +1940,7 @@
               "price": "Start from Rp 4.000.000",
               "fakePrice": "5.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2053,16 +2051,16 @@
           ]
         },
         {
-          "name": "Sertifikat Laik Fungsi",
+          "name": "Sertifikat Laik Fungsi (SLF)",
           "slug": "sertifikat-laik-fungsi",
           "package": [
             {
-              "title": "Sertifikat Laik Fungsi",
+              "title": "Sertifikat Laik Fungsi (SLF)",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-              "price": "Biaya pengurusan SLF dapat bervariasi tergantung pada jenis bangunan, lokasi, dan kompleksitas proses pemeriksaan. ",
+              "price": "Biaya pengurusan SLF dapat bervariasi tergantung pada jenis bangunan, lokasi, luas tanah dan bangunan. ",
 
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2168,15 +2166,15 @@
           ]
         },
         {
-          "name": "Analisis Dampak Lalu Lintas",
+          "name": "Analisis Dampak Lalu Lintas (Andalalin)",
           "slug": "analisis-dampak-lalu-lintas",
           "package": [
             {
-              "title": "Analisis Dampak Lalu Lintas",
+              "title": "Analisis Dampak Lalu Lintas (Andalalin)",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
               "price": "Biaya pembuatan ANDALALIN bervariasi tergantung pada skala dan kompleksitas proyek serta area yang terkena dampak",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2298,7 +2296,7 @@
             {
               "type": "p",
               "className": "text-gray-700 text-lg font-semibold pt-2",
-              "content": "*Persyaratan Dokumen dapat dibantu oleh tim Corporate Legal Associate*"
+              "content": "*Persyaratan Dokumen dapat dibantu oleh tim CLA*"
             }
           ]
         },
@@ -2309,9 +2307,9 @@
             {
               "title": "Persetujuan Bangunan Gedung (PBG)",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-              "price": "Biaya pembuatan PBG bervariasi tergantung pada skala dan kompleksitas proyek serta area yang terkena dampak",
+              "price": "Biaya Persetujuan Bangunan Gedung (PBG) dapat bervariasi tergantung pada jenis bangunan, lokasi, luas tanah dan bangunan. ",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2478,10 +2476,10 @@
             {
               "title": "Perjanjian Pisah Harta",
               "description": "Layanan konsultasi untuk manajemen keuangan yang lebih baik dan efisien.",
-              "price": "Rp 2.500.000",
+              "price": "Start from Rp 2.500.000",
               "fakePrice": "5.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2585,7 +2583,7 @@
               "price": "Start from Rp 2.000.000 /kelas",
               "fakePrice": "4.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2709,7 +2707,7 @@
               "price": "Start from Rp 8.500.000",
               "fakePrice": "12.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -2955,7 +2953,7 @@
               "price": "Start from Rp 8.500.000",
               "fakePrice": "12.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi",
+              "buttonText": "Hubungi Kami",
               "note": "*Biaya Jasa Legal Opinion bervariasi tergantung pada skala dan kompleksitas kasus dan isu hukum yang dihadapi."
             }
           ],
@@ -3042,7 +3040,7 @@
               "price": "Start from Rp 5.500.000",
               "fakePrice": "7.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi",
+              "buttonText": "Hubungi Kami",
               "note": "*Biaya Jasa Legal Research bervariasi tergantung pada skala dan kompleksitas pertanyaan Anda atau isu hukum terkini."
             }
           ],
@@ -3125,10 +3123,10 @@
             {
               "title": "Perubahan Anggaran Dasar",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-              "price": "Start from Rp 3.000.000",
+              "price": "Start from Rp 4.000.000",
               "fakePrice": "5.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -3289,7 +3287,7 @@
             {
               "title": "Penutupan Perusahaan",
               "description": "Audit pajak untuk memastikan kepatuhan terhadap peraturan perpajakan.",
-              "price": "Start from Rp 8.00.000",
+              "price": "Start from Rp 8.000.000",
               "fakePrice": "12.500.000",
               "features": [],
               "buttonText": "Hubungi Kami"
@@ -3662,10 +3660,10 @@
             {
               "title": "Riset Pasar dan Pengembangan Bisnis",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
-              "price": "Biaya Riset Pasar dan Pengembangan Bisnis bervariasi tergantung pada fasilitas dan jangka waktu yang diinginkan.",
+              "price": "Biaya Riset Pasar dan Pengembangan Bisnis bervariasi tergantung pada jenis bisnis dan jangka waktu penyelesaian yang diinginkan.",
               "fakePrice": "",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -3946,7 +3944,6 @@
             }
           ]
         },
-
         {
           "name": "FAT : Pelaporan Tahunan SPT Badan",
           "slug": "fat-pelaporan-tahunan-spt-badan",
@@ -3957,7 +3954,7 @@
               "price": "Start from Rp 1.000.000",
               "fakePrice": "3.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -4029,7 +4026,7 @@
               "price": "Start from Rp 1.000.000",
               "fakePrice": "2.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -4093,7 +4090,7 @@
               "price": "Start from Rp 1.250.000",
               "fakePrice": "2.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -4205,16 +4202,16 @@
           ]
         },
         {
-          "name": "FAT : Pembuatan NPWP dan Aktivasi EFIN",
+          "name": "FAT : Pembuatan NPWP dan Aktivasi Electronic Filing Identification Number (EFIN)",
           "slug": "fat-pembuatan-npwp-dan-aktivasi-efin",
           "package": [
             {
-              "title": "FAT : Pembuatan NPWP dan Aktivasi EFIN",
+              "title": "FAT : Pembuatan NPWP dan Aktivasi Electronic Filing Identification Number (EFIN)",
               "description": "Layanan konsultasi investasi untuk membantu Anda membuat keputusan investasi yang bijak.",
               "price": "Start from Rp 1.000.000",
               "fakePrice": "2.000.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [
@@ -4304,7 +4301,7 @@
               "price": "Start from Rp 1.500.000",
               "fakePrice": "2.500.000",
               "features": [],
-              "buttonText": "Dapatkan Konsultasi"
+              "buttonText": "Hubungi Kami"
             }
           ],
           "overviews": [

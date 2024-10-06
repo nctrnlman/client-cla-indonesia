@@ -78,7 +78,7 @@ function Hero() {
               </div>
             </div>
             <motion.p
-              className="text-white text-base sm:text-lg md:text-xl max-w-xl text-shadow-md mb-6"
+              className="text-white pt-6 text-base sm:text-lg md:text-xl max-w-xl text-shadow-md mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
@@ -86,7 +86,7 @@ function Hero() {
               {t("hero.description")}
             </motion.p>
             <motion.div
-              className="flex flex-col sm:flex-row justify-start gap-4 pt-8 sm:pt-12 md:pt-64 lg:pt-20"
+              className="flex flex-col sm:flex-row justify-start gap-4 pt-8 sm:pt-12 md:pt-64 lg:pt-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.5 }}

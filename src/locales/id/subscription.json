@@ -1,7 +1,7 @@
 {
   "product": "PRODUK",
   "subscriptionTitle": "Legal Associate",
-  "subscriptionSubtitle": "untuk berlangganan 3 Bulan ",
+  "subscriptionSubtitle": "untuk berlangganan 12 Bulan ",
   "packages": [
     {
       "title": "Standar (untuk UMK saja)",
@@ -51,7 +51,7 @@
     }
   ],
   "note": {
-    "iconText": "Pembayaran akan diproses setiap bulan selama 3 bulan berturut-turut. Harga tidak termasuk Pajak, Biaya Transportasi, dan biaya lain di luar Layanan yang disebutkan di atas (jika ada)."
+    "iconText": "Pembayaran akan diproses setiap bulan selama 12 bulan berturut-turut. Harga tidak termasuk Pajak, Biaya Transportasi, dan biaya lain di luar Layanan yang disebutkan di atas (jika ada)."
   },
   "mostPopular": "Paling Populer",
   "features": "Layanan",
