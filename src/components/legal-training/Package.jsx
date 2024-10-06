@@ -29,12 +29,15 @@ function PackageTraining({ onPackageSelect }) {
 
   const PriceDisplay = ({ price, fakePrice, unit, features }) => (
     <div className="mt-4 mb-6">
-      <div className="flex items-baseline">
-        <span className="text-3xl font-bold text-primary">Rp {price}</span>
-        <span className="text-xl text-primary line-through ml-2">
-          Rp {fakePrice}
-        </span>
-        <span className="ml-2 text-primary">/ {unit}</span>
+      <div className="flex flex-col items-baseline">
+        <div>
+          <span className="text-3xl font-bold text-primary">
+            Start from Rp {price}
+          </span>
+          <span className="ml-2 text-primary">/ {unit}</span>
+        </div>
+
+        <p className="text-xl text-primary line-through ml-2">Rp {fakePrice}</p>
       </div>
       <ul className="mt-4 space-y-2">
         {features.map((feature, index) => (
@@ -82,16 +85,19 @@ function PackageTraining({ onPackageSelect }) {
                 <>
                   {/* <p className="mb-4">{t("internalPackage.content")}</p> */}
                   <div className="mt-4 mb-6">
-                    <div className="flex items-baseline">
-                      <span className="text-3xl font-bold text-white">
-                        Rp 2.000.000
-                      </span>
-                      <span className="text-xl text-gray-500 line-through ml-2">
-                        Rp 2.500.000
-                      </span>
-                      <span className="ml-2 text-gray-600">
-                        / {t("internalPackage.perCompany")}
-                      </span>
+                    <div className="flex flex-col items-baseline">
+                      <div>
+                        <span className="text-3xl font-bold text-white">
+                          Start from Rp 2.000.000
+                        </span>
+                        <span className="ml-2 text-gray-600">
+                          / {t("internalPackage.perCompany")}
+                        </span>
+                      </div>
+
+                      <p className="text-xl text-gray-500 line-through ml-2">
+                        Rp 5.000.000
+                      </p>
                     </div>
                     <ul className="mt-4 space-y-2">
                       {[

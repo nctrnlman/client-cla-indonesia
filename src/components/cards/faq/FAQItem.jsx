@@ -18,7 +18,7 @@ const FAQItem = ({ question, answer }) => {
         <span className="flex-1 text-gray-800">{question}</span>
         <svg
           className={`flex-shrink-0 w-4 h-4 ml-auto transform ${
-            expanded ? "rotate-90" : "rotate-0"
+            expanded ? "rotate-10" : "rotate-0"
           } transition-transform duration-600 ease-in-out`}
           fill="none"
           viewBox="0 0 24 24"
