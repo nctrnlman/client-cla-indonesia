@@ -732,17 +732,9 @@
               "type": "h3",
               "className": "text-gray-700 text-lg text-justify",
               "content": "Dasar hukum yang mengatur pendirian perkumpulan di Indonesia adalah Kitab Undang-Undang Hukum Perdata (KUHPerdata) Pasal 1653-1665, yang mengatur organisasi perkumpulan, serta diperkuat dengan Permenkumham No. 3 Tahun 2016 tentang Tata Cara Pengajuan Permohonan Pengesahan Badan Hukum dan Persetujuan Perubahan Anggaran Dasar Perkumpulan."
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Dokumen Persyaratan Pendirian Perkumpulan "
-            },
-            {
-              "type": "h3",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Untuk memulai pendirian perkumpulan berbadan hukum, berikut dokumen yang perlu dipersiapkan:"
-            },
+            }
+          ],
+          "documents": [
             {
               "type": "ul",
               "className": "list-disc list-inside space-y-3 text-justify pt-2",
@@ -788,63 +780,9 @@
                   "content": "4. Formulir yang akan diisi oleh Pendiri"
                 }
               ]
-            },
-
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Hasil Pendirian Perkumpulan"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Setelah melalui proses pendirian, dokumen-dokumen berikut akan dikeluarkan sebagai hasil resmi pendirian perkumpulan:"
-            },
-            {
-              "type": "h3",
-              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
-              "content": "1. Akte Pendirian Perkumpulan oleh Notaris:"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "Akta ini menjadi dokumen legal yang berisi rincian lengkap tentang pendirian perkumpulan, yang akan disahkan oleh notaris."
-            },
-            {
-              "type": "h3",
-              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
-              "content": "2. Surat Keputusan (SK) dari Kementerian Hukum dan HAM:"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "SK ini mengesahkan perkumpulan sebagai badan hukum resmi di Indonesia, memberikan hak-hak hukum untuk menjalankan kegiatan organisasi secara sah."
-            },
-            {
-              "type": "h3",
-              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
-              "content": "3. Nomor Induk Berusaha (NIB):"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "NIB yang diterbitkan melalui sistem OSS (Online Single Submission) menjadi identitas perkumpulan yang diakui untuk berbagai perizinan dan kegiatan operasional."
-            },
-            {
-              "type": "h3",
-              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
-              "content": "4. Nomor Pokok Wajib Pajak (NPWP):"
-            },
-            {
-              "type": "p",
-              "className": "text-gray-700 text-lg text-justify",
-              "content": "NPWP diperlukan untuk memenuhi kewajiban perpajakan perkumpulan dalam menjalankan kegiatan-kegiatannya."
-            },
-            {
-              "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Proses Pendirian: Langkah Hukum yang Tepat"
-            },
+            }
+          ],
+          "process": [
             {
               "type": "p",
               "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
@@ -874,44 +812,6 @@
               "type": "p",
               "className": "text-gray-700 text-lg text-justify",
               "content": "Setelah pengesahan, perkumpulan akan mendaftar untuk mendapatkan NIB melalui OSS, yang diperlukan untuk legalitas operasional."
-            }
-          ],
-          "documents": [
-            {
-              "type": "ul",
-              "className": "list-disc list-inside space-y-3 text-justify",
-              "content": [
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "KTP & NPWP pengurus dan anggota Perkumpulan. "
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Nomor telepon dan email Perkumpulan."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Mengisi formulir pendirian Perkumpulan."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Tanda tangan dokumen Notaris."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "KBLI adalah kode bidang usaha di Indonesia."
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Di CLA kamu bisa pilih hingga 20 kode KBLI / bidang usaha."
-                }
-              ]
             }
           ]
         },
