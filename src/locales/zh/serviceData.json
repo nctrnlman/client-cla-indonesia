@@ -726,12 +726,22 @@
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify",
-              "content": "Perkumpulan adalah badan hukum yang terdiri dari kumpulan orang dengan tujuan tertentu di bidang sosial, keagamaan, dan kemanusiaan, tanpa membagikan keuntungan kepada anggotanya. Perkumpulan bukan badan usaha dan bersifat non-komersial, sehingga tidak boleh mencari keuntungan atau memiliki izin usaha. Ciri khas perkumpulan adalah kesamaan minat anggota, seperti perkumpulan penggemar klub sepakbola Manchester City. Penggemar yang ingin meresmikan fans club tersebut dapat mengajukan pengesahan badan hukum kepada Menteri Hukum dan Hak Asasi Manusia."
+              "content": "Pendirian perkumpulan di Indonesia merupakan langkah penting bagi sekelompok individu yang ingin membentuk organisasi berbadan hukum dengan tujuan tertentu, seperti sosial, budaya, pendidikan, atau keagamaan. Perkumpulan yang berbadan hukum memberikan landasan yang lebih kuat dan kredibilitas lebih tinggi dalam menjalankan kegiatan, serta diakui secara resmi oleh pemerintah."
+            },
+            {
+              "type": "h3",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Dasar hukum yang mengatur pendirian perkumpulan di Indonesia adalah Kitab Undang-Undang Hukum Perdata (KUHPerdata) Pasal 1653-1665, yang mengatur organisasi perkumpulan, serta diperkuat dengan Permenkumham No. 3 Tahun 2016 tentang Tata Cara Pengajuan Permohonan Pengesahan Badan Hukum dan Persetujuan Perubahan Anggaran Dasar Perkumpulan."
             },
             {
               "type": "h3",
               "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Menurut Permenkumham 3/2016, Pasal 5, nama Perkumpulan harus memenuhi syarat sebagai berikut:"
+              "content": "Dokumen Persyaratan Pendirian Perkumpulan "
+            },
+            {
+              "type": "h3",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Untuk memulai pendirian perkumpulan berbadan hukum, berikut dokumen yang perlu dipersiapkan:"
             },
             {
               "type": "ul",
@@ -739,43 +749,43 @@
               "content": [
                 {
                   "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Menggunakan huruf latin"
+                  "className": "text-gray-800 text-lg font-extrabold",
+                  "content": "1. Data Pendiri:"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Minimal terdiri dari tiga kata"
+                  "content": "Fotokopi Kartu Tanda Penduduk (KTP) atau paspor para pendiri."
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Terdiri dari rangkaian huruf yang membentuk kata"
+                  "content": "NPWP perkumpulan, untuk tujuan perpajakan."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-800 text-lg font-extrabold",
+                  "content": "2. Surat Pernyataan Pengurus:"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Tidak menggunakan angka dan tanda baca"
+                  "content": "Pernyataan resmi dari para pengurus perkumpulan yang berisi kesediaan untuk menjalankan peran dan tanggung jawab mereka sesuai dengan AD dan hukum yang berlaku."
+                },
+                {
+                  "type": "li",
+                  "className": "text-gray-800 text-lg font-extrabold",
+                  "content": "3. Surat Kuasa (jika dikuasakan):"
                 },
                 {
                   "type": "li",
                   "className": "text-gray-700 text-lg",
-                  "content": "Tidak hanya menggunakan maksud dan tujuan serta kegiatan sebagai nama Perkumpulan"
+                  "content": "Jika proses pendirian dilakukan melalui pihak ketiga seperti notaris, surat kuasa diperlukan sebagai pengesahan."
                 },
                 {
                   "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Tidak bertentangan dengan ketertiban umum dan/atau kesusilaan"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg",
-                  "content": "Tidak mempunyai arti sebagai Yayasan atau memiliki arti yang sama dengan Perkumpulan, badan hukum, persekutuan perdata, atau entitas lain yang bukan merupakan kewenangan Menteri untuk mengesahkan"
-                },
-                {
-                  "type": "li",
-                  "className": "text-gray-700 text-lg  text-justify",
-                  "content": "Saat mendirikan Perkumpulan, pendiri harus menyepakati nama, tempat kedudukan, bidang usaha, permodalan, dan pengurus yang akan dituangkan dalam Akta Notaris."
+                  "className": "text-gray-800 text-lg font-extrabold text-justify",
+                  "content": "4. Formulir yang akan diisi oleh Pendiri"
                 }
               ]
             },
@@ -783,42 +793,87 @@
             {
               "type": "h3",
               "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Notaris"
+              "content": "Hasil Pendirian Perkumpulan"
             },
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify",
-              "content": "Sesuai UU No. 2/2014 tentang Jabatan Notaris, Notaris adalah pejabat umum yang membuat akta autentik. Proses pendirian Perkumpulan dilakukan berdasarkan akta yang dibuat oleh Notaris dan didaftarkan dalam sistem SABH di Kementerian Hukum dan HAM."
+              "content": "Setelah melalui proses pendirian, dokumen-dokumen berikut akan dikeluarkan sebagai hasil resmi pendirian perkumpulan:"
+            },
+            {
+              "type": "h3",
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "1. Akte Pendirian Perkumpulan oleh Notaris:"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "Akta ini menjadi dokumen legal yang berisi rincian lengkap tentang pendirian perkumpulan, yang akan disahkan oleh notaris."
+            },
+            {
+              "type": "h3",
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "2. Surat Keputusan (SK) dari Kementerian Hukum dan HAM:"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "SK ini mengesahkan perkumpulan sebagai badan hukum resmi di Indonesia, memberikan hak-hak hukum untuk menjalankan kegiatan organisasi secara sah."
+            },
+            {
+              "type": "h3",
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "3. Nomor Induk Berusaha (NIB):"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "NIB yang diterbitkan melalui sistem OSS (Online Single Submission) menjadi identitas perkumpulan yang diakui untuk berbagai perizinan dan kegiatan operasional."
+            },
+            {
+              "type": "h3",
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "4. Nomor Pokok Wajib Pajak (NPWP):"
+            },
+            {
+              "type": "p",
+              "className": "text-gray-700 text-lg text-justify",
+              "content": "NPWP diperlukan untuk memenuhi kewajiban perpajakan perkumpulan dalam menjalankan kegiatan-kegiatannya."
             },
             {
               "type": "h3",
               "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "Menteri Hukum & Hak Asasi Manusia"
+              "content": "Proses Pendirian: Langkah Hukum yang Tepat"
+            },
+            {
+              "type": "p",
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "1. Pengajuan Akta ke Notaris:"
             },
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify",
-              "content": "Menteri akan menerbitkan pengesahan badan hukum Perkumpulan sesuai Pasal 11 Permenkumham 3/2016, yang menyatakan bahwa untuk memperoleh Keputusan Menteri mengenai pengesahan badan hukum Perkumpulan, pemohon harus mengajukan permohonan secara elektronik dan mengisi format pendirian pengesahan badan hukum Perkumpulan."
+              "content": "Proses awal dimulai dengan menyerahkan dokumen pendirian kepada notaris yang akan menyusun dan menandatangani akta pendirian perkumpulan."
             },
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "NPWP"
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "2. Pengesahan Kementerian Hukum dan HAM:"
             },
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify",
-              "content": "Sesuai Peraturan Dirjen Pajak No. PER-02/PJ/2018, Nomor Pokok Wajib Pajak (NPWP) adalah nomor yang diberikan kepada Wajib Pajak untuk administrasi perpajakan. Saat proses SK Menteri, sistem SABH otomatis memberikan nomor NPWP terhadap pengesahan Perkumpulan baru. Kartu NPWP bisa dimohonkan ke kantor pajak setempat."
+              "content": "Notaris akan mengajukan akta tersebut secara online ke Kementerian Hukum dan HAM untuk mendapatkan Surat Keputusan pengesahan badan hukum."
             },
             {
               "type": "h3",
-              "className": "text-xl font-semibold text-gray-800 mt-4 text-justify",
-              "content": "NIB dan Izin Usaha"
+              "className": "text-lg font-semibold text-gray-800 mt-4 text-justify",
+              "content": "3. Registrasi NIB melalui OSS:"
             },
             {
               "type": "p",
               "className": "text-gray-700 text-lg text-justify",
-              "content": "Untuk percepatan penanaman modal dan usaha, pemerintah mengeluarkan PP No. 5/2021 tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko. Dalam platform OSS terdapat Nomor Induk Berusaha (NIB) dan izin usaha berupa a. Izin Usaha; dan b. Izin Komersial atau Operasional."
+              "content": "Setelah pengesahan, perkumpulan akan mendaftar untuk mendapatkan NIB melalui OSS, yang diperlukan untuk legalitas operasional."
             }
           ],
           "documents": [
