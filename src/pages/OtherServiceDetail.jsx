@@ -1,10 +1,10 @@
-import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import SEOTemplate from "../utils/SEOTemplate"; // Import the SEO Template
 import Hero from "../components/other-service-detail/Hero";
 import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/home/SequentialForm";
 import FAQ from "../components/other-service-detail/FAQ";
-import { useTranslation } from "react-i18next";
 import Overview from "../components/other-service-detail/Overview";
 import RequirementsDocument from "../components/other-service-detail/RequirementsDocument";
 import Process from "../components/other-service-detail/Process";
@@ -14,6 +14,7 @@ import About from "../components/other-service-detail/About";
 function OtherServiceDetail() {
   const { t } = useTranslation(["serviceData"]);
   const { slug } = useParams();
+  const seoTemplate = SEOTemplate(); // Initialize SEO Template
 
   const translatedServicesData = t("servicesData", { returnObjects: true });
   const serviceItem = translatedServicesData
@@ -41,28 +42,11 @@ function OtherServiceDetail() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content={`https://yourwebsite.com/other-service/${slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://yourwebsite.com/path-to-image.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta
-          name="twitter:image"
-          content="https://yourwebsite.com/path-to-image.jpg"
-        />
-      </Helmet>
+      {seoTemplate.renderSEOTags('otherServiceDetail', {
+        title: title,
+        description: description,
+        url: `https://claindonesia.com/other-services/${slug}`
+      })}
 
       <Hero
         title={serviceItem?.name || ""}
