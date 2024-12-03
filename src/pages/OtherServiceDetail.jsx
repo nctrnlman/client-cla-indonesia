@@ -20,12 +20,15 @@ function OtherServiceDetail() {
   const serviceItem = translatedServicesData
     ?.flatMap((category) => category.items || [])
     ?.find((item) => item.slug === slug);
-
   const title = `${serviceItem?.name || ""} | CLA Indonesia`;
-  const description = `Find detailed information about ${
-    serviceItem?.name || ""
-  } services offered by CLA Indonesia.`;
-
+  const description = serviceItem?.description
+    ? serviceItem?.description
+    : `Find detailed information about ${
+        serviceItem?.name || ""
+      } services offered by CLA Indonesia.`;
+  const keywords =
+    serviceItem?.keyword ||
+    "detail layanan hukum, konsultasi spesifik, jasa hukum";
   const packages =
     serviceItem && serviceItem.package ? serviceItem.package : [];
   const overview =
@@ -42,10 +45,11 @@ function OtherServiceDetail() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      {seoTemplate.renderSEOTags('otherServiceDetail', {
+      {seoTemplate.renderSEOTags("otherServiceDetail", {
         title: title,
         description: description,
-        url: `https://claindonesia.com/other-services/${slug}`
+        keywords: keywords,
+        url: `https://claindonesia.com/other-services/${slug}`,
       })}
 
       <Hero
