@@ -3,24 +3,21 @@ import AllPackage from "../components/other-service/AllPackage";
 import SEOTemplate from "../utils/SEOTemplate";
 
 function OtherService({ setIsLoading }) {
-  const seoTemplate = SEOTemplate(); // Initialize SEO Template
-
+  const seoTemplate = SEOTemplate();
   useEffect(() => {
     setIsLoading(true);
 
-    // Simulate loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 500); // Adjust this time as needed
+    }, 500);
 
-    // Cleanup function
     return () => clearTimeout(timer);
   }, [setIsLoading]);
 
   return (
     <div>
-      {seoTemplate.renderSEOTags('otherServices')}
-      
+      {seoTemplate.renderSEOTags("otherServices")}
+
       <AllPackage />
     </div>
   );

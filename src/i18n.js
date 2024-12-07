@@ -1,8 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-// Import translations from all languages
-
 // English
 import translationEN from "./locales/en/translation.json";
 import navbarEN from "./locales/en/navbar.json";

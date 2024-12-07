@@ -12,18 +12,16 @@ function LegalAssociate({ setIsLoading }) {
   useEffect(() => {
     setIsLoading(true);
 
-    // Simulate loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 500); // Adjust this time as needed
+    }, 500);
 
-    // Cleanup function
     return () => clearTimeout(timer);
   }, [setIsLoading]);
 
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden">
-      {seoTemplate.renderSEOTags('legalAssociate')}
+      {seoTemplate.renderSEOTags("legalAssociate")}
       <Hero />
       <Subscription />
       <About />

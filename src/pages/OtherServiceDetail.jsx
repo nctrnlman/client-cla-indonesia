@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import SEOTemplate from "../utils/SEOTemplate"; // Import the SEO Template
+import SEOTemplate from "../utils/SEOTemplate";
 import Hero from "../components/other-service-detail/Hero";
 import Content from "../components/other-service-detail/Content";
 import SequentialForm from "../components/home/SequentialForm";
@@ -14,7 +14,7 @@ import About from "../components/other-service-detail/About";
 function OtherServiceDetail() {
   const { t } = useTranslation(["serviceData"]);
   const { slug } = useParams();
-  const seoTemplate = SEOTemplate(); // Initialize SEO Template
+  const seoTemplate = SEOTemplate();
 
   const translatedServicesData = t("servicesData", { returnObjects: true });
   const serviceItem = translatedServicesData

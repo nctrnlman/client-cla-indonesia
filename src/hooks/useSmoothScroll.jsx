@@ -35,25 +35,21 @@ const useSmoothScroll = () => {
   }, []);
 
   const handlePageLoad = useCallback(() => {
-    // Delay the scroll to top to ensure content is loaded
     setTimeout(() => {
-      scrollToTop(800); // Adjust duration as needed
-    }, 100); // Adjust delay as needed
+      scrollToTop(800);
+    }, 100);
   }, [scrollToTop]);
 
   useEffect(() => {
-    // Add event listener for page load
     window.addEventListener("load", handlePageLoad);
 
-    // Cleanup
     return () => {
       window.removeEventListener("load", handlePageLoad);
     };
   }, [handlePageLoad]);
 
   useEffect(() => {
-    // Scroll to top on pathname change
-    scrollToTop(800); // Adjust duration as needed
+    scrollToTop(800);
   }, [pathname, scrollToTop]);
 };
 
