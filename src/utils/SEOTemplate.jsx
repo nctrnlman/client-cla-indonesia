@@ -6,31 +6,31 @@ function SEOTemplate() {
     home: {
       title: "CLA Indonesia - Konsultan Hukum Profesional & Advokat Terpercaya",
       description: "Solusi komprehensif konsultasi hukum perusahaan di Indonesia. Layanan advokat profesional untuk manajemen risiko dan pendampingan hukum bisnis dengan tingkat keberhasilan tinggi.",
-      keywords: "konsultan hukum Indonesia, jasa advokat profesional, layanan hukum perusahaan, konsultasi hukum bisnis, legal corporate Indonesia, manajemen risiko hukum",
+      keywords: "konsultan hukum Indonesia, pengacara, layanan hukum perusahaan, konsultasi hukum bisnis, konsultasi hukum online, manajemen risiko hukum, layanan hukum online, konsultan jakarta",
       url: "https://claindonesia.com",
     },
     legalTraining: {
       title: "Pelatihan Hukum Profesional - Edukasi Hukum Bisnis CLA Indonesia",
       description: "Program pelatihan hukum profesional untuk meningkatkan pemahaman dan kepatuhan regulasi bisnis. Solusi edukasi hukum untuk pengembangan kompetensi legal di Indonesia.",
-      keywords: "pelatihan hukum, edukasi hukum bisnis, workshop legal, konsultasi hukum, manajemen risiko hukum, advokat profesional",
+      keywords: "pelatihan hukum, edukasi hukum bisnis, workshop legal, konsultasi hukum , manajemen risiko hukum, belajar hukum online",
       url: "https://claindonesia.com/legal-training",
     },
     legalAssociate: {
       title: "Legal Associate Profesional - Solusi Hukum Komprehensif CLA Indonesia",
       description: "CLA Indonesia menawarkan layanan Legal Associate profesional meliputi pembentukan perusahaan, kepemilikan saham, dan kompleksitas hukum perusahaan di Indonesia.",
-      keywords: "legal associate, layanan hukum perusahaan, konsultasi hukum korporasi, pembentukan perusahaan, due diligence hukum, advokat Jakarta",
+      keywords: "legal associate, layanan hukum perusahaan, konsultasi hukum korporasi, pembentukan perusahaan, due diligence hukum, advokat Jakarta, pengacara jakarta selatan",
       url: "https://claindonesia.com/legal-associate",
     },
     otherServices: {
       title: "Layanan Hukum Komprehensif - Solusi Hukum Bisnis Terdepan",
       description: "Berbagai layanan hukum yang disesuaikan untuk kebutuhan spesifik bisnis Anda. Konsultasi profesional dengan pengalaman luas dalam manajemen risiko hukum.",
-      keywords: "layanan hukum Indonesia, konsultasi bisnis profesional, jasa hukum perusahaan, litigasi profesional, advokat Indonesia, manajemen sengketa bisnis",
+      keywords: "layanan hukum Indonesia, konsultasi bisnis profesional, jasa hukum perusahaan, litigasi profesional, advokat Indonesia, manajemen sengketa bisnis, sengketa perusahaan",
       url: "https://claindonesia.com/other-services",
     },
     otherServiceDetail: {
       title: "Detail Layanan Hukum Spesifik - Solusi Hukum Terpersonalisasi",
       description: "Informasi detail layanan hukum spesifik untuk kebutuhan bisnis Anda. Pendekatan komprehensif dari tim legal profesional dengan keahlian mendalam.",
-      keywords: "detail layanan hukum, konsultasi hukum spesifik, jasa hukum korporasi, legal drafting, negosiasi kontrak bisnis, advokat profesional",
+      keywords: "layanan hukum online, konsultasi hukum spesifik, jasa hukum korporasi, legal drafting, negosiasi kontrak bisnis, advokat profesional, pengacara jakarta",
       url: "https://claindonesia.com/service-detail",
     }
   };
