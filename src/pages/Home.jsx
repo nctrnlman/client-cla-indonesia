@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import SEOTemplate from "../utils/SEOTemplate";
 import Hero from "../components/home/Hero";
 import Subscription from "../components/home/Subscription";
