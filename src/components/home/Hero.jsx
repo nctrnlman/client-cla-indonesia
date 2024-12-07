@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import bg from "../../assets/bg/hero.png";
+import bg from "../../assets/bg/hero.webp";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
