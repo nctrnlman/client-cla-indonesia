@@ -59,6 +59,8 @@
         {
           "name": "Perseroan Terbatas (PT)",
           "slug": "perseroan-terbatas",
+          "description": "Layanan pendirian Perseroan Terbatas (PT) terpercaya untuk mendukung kebutuhan hukum bisnis Anda. Kami menyediakan bantuan hukum profesional yang disesuaikan dengan jenis dan kebutuhan perusahaan Anda, didukung solusi inovatif untuk keberhasilan bisnis Anda.",
+          "keyword": "pendirian PT, pendirian PT PMDN, jasa pendirian perusahaan, konsultasi hukum bisnis, layanan hukum perusahaan, solusi hukum bisnis, pendirian badan usaha, jasa hukum PT lokal, pendirian perusahaan murah, layanan legalitas perusahaan, pembuatan PT cepat dan mudah",
           "package": [
             {
               "title": "Pendirian PT Standar (PMDN)",
@@ -203,6 +205,8 @@
         {
           "name": "PT Perorangan",
           "slug": "pt-perorangan",
+          "description": "Layanan pendirian PT Perorangan yang cepat dan terpercaya untuk wirausaha mandiri. Kami menawarkan solusi legalitas bisnis yang praktis dan hemat biaya, disesuaikan dengan kebutuhan individu Anda dalam mendirikan badan usaha.",
+          "keyword": "pendirian PT Perorangan, jasa PT Perorangan, legalitas usaha perorangan, layanan hukum PT Perorangan, pembuatan PT Perorangan cepat, konsultasi bisnis mandiri, pendirian badan usaha individu, solusi hukum wirausaha, jasa legal PT Perorangan, legalitas bisnis mudah",
           "package": [],
           "overviews": [],
           "documents": []
@@ -344,6 +348,7 @@
         {
           "name": "CV / Commanditaire Venootschap",
           "slug": "cv-commanditaire-venootschap",
+          "keyword": "Pendirian CV, Jasa Pendirian CV, Jasa Pendirian CV Perusahaan Jakarta, Jasa Pembuatan CV",
           "package": [
             {
               "title": "Pendirian CV",
@@ -472,6 +477,7 @@
         {
           "name": "Firma",
           "slug": "firma",
+          "keyword": "Firma, Pendirian Firma, Jasa pendirian firma, dasar hukum firma",
           "package": [
             {
               "title": "Pendirian Firma",
@@ -590,6 +596,7 @@
         {
           "name": "Persekutuan Perdata",
           "slug": "persekutuan-perdata",
+          "keyword": "Persekutuan Perdata, Jasa Pendirian Persekutuan Perdata, Pendirian Persekutuan Perdata, Pendirian Persekutuan di Jakarta",
           "package": [
             {
               "title": "Pembentukan Persekutuan Perdata",
@@ -712,6 +719,7 @@
         {
           "name": "Perkumpulan",
           "slug": "perkumpulan",
+          "keyword": "jasa pendirian perkumpulan, pembuatan perkumpulan, perkumpulan badan hukum",
           "package": [
             {
               "title": "Perkumpulan",
@@ -818,6 +826,7 @@
         {
           "name": "Yayasan",
           "slug": "yayasan",
+          "keyword": "pembuatan yayasan Jakarta, pendirian Yayasan, legalitas Yayasan",
           "package": [
             {
               "title": "Pendirian Yayasan",
@@ -985,6 +994,7 @@
         {
           "name": "Nomor Induk Berusaha (NIB)",
           "slug": "nomor-induk-berusaha-nib",
+          "keyword": "NIB, Nomor Induk Berusaha, Pengurusan NIB, Jasa Pengurusan NIB",
           "package": [
             {
               "title": "Nomor Induk Berusaha (NIB)",
@@ -1187,6 +1197,7 @@
         {
           "name": "Izin Restoran",
           "slug": "izin-restoran",
+          "keyword": "Jasa Pengurusan Izin Restoran, Konsultasi Izin Restoran, Perizinan Restoran",
           "package": [
             {
               "title": "Izin Restoran",
@@ -1317,6 +1328,7 @@
         {
           "name": "Izin Konstruksi",
           "slug": "izin-konstruksi",
+          "keyword": "Izin Kontruksi, Jasa Izin Kontruksi Pasca UU Cipta Kerja, Izin Usaha Jasa Kontruksi",
           "package": [
             {
               "title": "Izin Konstruksi",
@@ -1488,6 +1500,7 @@
         {
           "name": "Izin Keselamatan, Kesehatan Kerja dan Lingkungan (K3L)",
           "slug": "izin-k3l",
+          "keyword": "Izin Kontruksi, Jasa Izin Kontruksi Pasca UU Cipta Kerja, Izin Usaha Jasa Kontruksi",
           "package": [
             {
               "title": "Izin Keselamatan, Kesehatan Kerja dan Lingkungan (K3L)",
@@ -1526,6 +1539,7 @@
         {
           "name": "Izin Yayasan",
           "slug": "izin-yayasan",
+          "keyword": "Izin yayasan, yayasan, Tanda Daftar Yayasan TDY, Jasa Pengurusan Izin Yayasan, Pengurusan Izin Yayasan baru di Jakarta",
           "package": [
             {
               "title": "Izin Yayasan",
@@ -1596,6 +1610,7 @@
         {
           "name": "KITAS Pekerja",
           "slug": "kitas-pekerja",
+          "keyword": "Izin yayasan, yayasan, Tanda Daftar Yayasan TDY, Jasa Pengurusan Izin Yayasan, Pengurusan Izin Yayasan baru di Jakarta",
           "package": [
             {
               "title": "Pengurusan KITAS Pekerja",
@@ -1743,6 +1758,7 @@
         {
           "name": "KITAS Investor",
           "slug": "kitas-investor",
+          "keyword": "KITAS INVESTOR, Jasa pengurusan KITAS Investor Jakarta, Izin Kerja, Pengurusan KITAS Investor",
           "package": [
             {
               "title": "Pengurusan KITAS Investor",
@@ -1889,6 +1905,7 @@
         {
           "name": "Surat Tanda Pendaftaran Agen/Distributor",
           "slug": "surat-tanda-pendaftaran-agen-distributor",
+          "keyword": "surat tanda pendaftaran agen atau distributor, STP, Agen, Distributor, Pembuatan Surat tanda pendaftaran distributor atau agen",
           "package": [
             {
               "title": "Surat Tanda Pendaftaran Agen/Distributor",
@@ -2009,6 +2026,7 @@
         {
           "name": "Sertifikat Laik Fungsi (SLF)",
           "slug": "sertifikat-laik-fungsi",
+          "keyword": "Sertifikat Laik Fungsi, SLF, Jasa Pembuatan Sertifikat Laik Fungsi, Jasa Konsultan SLF Sertifikat Laik Fungsi",
           "package": [
             {
               "title": "Sertifikat Laik Fungsi (SLF)",
@@ -2124,6 +2142,7 @@
         {
           "name": "Analisis Dampak Lalu Lintas (Andalalin)",
           "slug": "analisis-dampak-lalu-lintas",
+          "keyword": "Andalalin, Analisi Dampak Lalu Lintas, Jasa Konsultan Andalalin, Jasa Pengurusan Andalalin",
           "package": [
             {
               "title": "Analisis Dampak Lalu Lintas (Andalalin)",
@@ -2259,6 +2278,7 @@
         {
           "name": "Persetujuan Bangunan Gedung (PBG)",
           "slug": "persetujuan-bangunan-gedung",
+          "keyword": "PBG, Persetujuan Bangunan Gedung, Peraturan persetujuan bangunan gedung, Bangunan Gedung",
           "package": [
             {
               "title": "Persetujuan Bangunan Gedung (PBG)",
@@ -2428,6 +2448,7 @@
         {
           "name": "Perjanjian Pisah Harta",
           "slug": "perjanjian-pisah-harta",
+          "keyword": "Perjanjian pisah harta, akta perjanjian pisah harta, pra nikah, jasa pembuatan akta perjanjian pisah harta",
           "package": [
             {
               "title": "Perjanjian Pisah Harta",
@@ -2532,6 +2553,7 @@
         {
           "name": "Pendaftaran Merek",
           "slug": "pendaftaran-merek",
+          "keyword": "Hukum Kekayaan Intelektual, pembuatan haki, pentingnya haki",
           "package": [
             {
               "title": "Pendaftaran Merek",
@@ -2902,6 +2924,7 @@
         {
           "name": "Legal Opinion",
           "slug": "legal-opinion",
+          "keyword": "Legal Opinion, Jasa Legal Opinion, Jada Pendapat Hukum, Jasa Pembuatan Legal Opinion, Pembuatan Opini Hukum",
           "package": [
             {
               "title": "Legal Opinion",
@@ -2989,6 +3012,7 @@
         {
           "name": "Legal Research",
           "slug": "legal-research",
+          "keyword": "Legal Research, Jasa Konsultan Spesifik Legal Research, Jasa Penelitian Hukum",
           "package": [
             {
               "title": "Legal Research",
@@ -3075,6 +3099,7 @@
         {
           "name": "Perubahan Anggaran Dasar",
           "slug": "perubahan-anggaran-dasar",
+          "keyword": "jasa perubahan anggaran dasar, jasa perubahan anggaran dasar legal dan resmi, jasa pembuatan dan perubahan dokumen Perusahaan",
           "package": [
             {
               "title": "Perubahan Anggaran Dasar",
@@ -3239,6 +3264,7 @@
         {
           "name": "Penutupan Perusahaan",
           "slug": "penutupan-perusahaan",
+          "keyword": "jasa penutupan perusahaan, pembubaran PT, cara pembubaran Perusahaan",
           "package": [
             {
               "title": "Penutupan Perusahaan",
