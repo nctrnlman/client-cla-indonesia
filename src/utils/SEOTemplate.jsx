@@ -30,9 +30,9 @@ function SEOTemplate() {
     otherServices: {
       title: "Layanan Hukum Komprehensif - Solusi Hukum Bisnis Terdepan",
       description:
-        "Berbagai layanan hukum yang disesuaikan untuk kebutuhan spesifik bisnis Anda. Konsultasi profesional dengan pengalaman luas dalam manajemen risiko hukum.",
+        "Temukan solusi hukum dan bisnis terintegrasi di satu tempat. Kami menawarkan berbagai layanan, mulai dari pendirian badan usaha, pengurusan izin, konsultasi hukum, hingga manajemen pajak dan pembukuan. Dengan tim ahli yang berpengalaman, kami siap mendukung kebutuhan legalitas bisnis Anda di Indonesia. Layanan meliputi pembuatan PT, CV, firma, pengurusan NIB, izin usaha, sertifikasi, perjanjian hukum, hingga riset pasar dan layanan virtual office. Solusi praktis dan profesional untuk kesuksesan bisnis Anda.",
       keywords:
-        "layanan hukum Indonesia, konsultasi bisnis profesional, jasa hukum perusahaan, litigasi profesional, advokat Indonesia, manajemen sengketa bisnis, sengketa perusahaan",
+        "layanan hukum dan bisnis, jasa hukum Indonesia, pendirian badan usaha, pembuatan PT, pengurusan izin usaha, legalitas perusahaan, jasa pengurusan NIB, izin restoran, izin konstruksi, jasa pembuatan laporan keuangan, jasa legal opinion, jasa riset pasar, jasa perubahan anggaran dasar, jasa likuidasi perusahaan, pengurusan SPT, konsultan pajak, virtual office Jakarta, jasa KITAS, jasa pendaftaran merek, hukum kekayaan intelektual, jasa pembubaran perusahaan, jasa pendirian yayasan, pembuatan perjanjian hukum, konsultasi hukum perusahaan, layanan hukum lengkap.",
       url: "https://claindonesia.com/other-services",
     },
     otherServiceDetail: {

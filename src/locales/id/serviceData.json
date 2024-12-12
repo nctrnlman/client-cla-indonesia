@@ -213,6 +213,7 @@
         {
           "name": "PT PMA",
           "slug": "pt-pma",
+          "keyword": "Penanaman Modal Asing, PMA,Jasa Pendirian PMA",
           "package": [
             {
               "title": "Pendirian PT PMA",
@@ -476,7 +477,7 @@
         {
           "name": "Firma",
           "slug": "firma",
-          "keyword":"Firma, Pendirian Firma, Jasa pendirian firma, dasar hukum firma",
+          "keyword": "Firma, Pendirian Firma, Jasa pendirian firma, dasar hukum firma",
           "package": [
             {
               "title": "Pendirian Firma",
@@ -595,7 +596,7 @@
         {
           "name": "Persekutuan Perdata",
           "slug": "persekutuan-perdata",
-          "keyword":"Persekutuan Perdata, Jasa Pendirian Persekutuan Perdata, Pendirian Persekutuan Perdata, Pendirian Persekutuan di Jakarta",
+          "keyword": "Persekutuan Perdata, Jasa Pendirian Persekutuan Perdata, Pendirian Persekutuan Perdata, Pendirian Persekutuan di Jakarta",
           "package": [
             {
               "title": "Pembentukan Persekutuan Perdata",
@@ -718,7 +719,7 @@
         {
           "name": "Perkumpulan",
           "slug": "perkumpulan",
-          "keyword":"jasa pendirian perkumpulan, pembuatan perkumpulan, perkumpulan badan hukum",
+          "keyword": "jasa pendirian perkumpulan, pembuatan perkumpulan, perkumpulan badan hukum",
           "package": [
             {
               "title": "Perkumpulan",
@@ -825,7 +826,7 @@
         {
           "name": "Yayasan",
           "slug": "yayasan",
-          "keyword":"pembuatan yayasan Jakarta, pendirian Yayasan, legalitas Yayasan",
+          "keyword": "pembuatan yayasan Jakarta, pendirian Yayasan, legalitas Yayasan",
           "package": [
             {
               "title": "Pendirian Yayasan",
@@ -993,7 +994,7 @@
         {
           "name": "Nomor Induk Berusaha (NIB)",
           "slug": "nomor-induk-berusaha-nib",
-          "keyword":"NIB, Nomor Induk Berusaha, Pengurusan NIB, Jasa Pengurusan NIB",
+          "keyword": "NIB, Nomor Induk Berusaha, Pengurusan NIB, Jasa Pengurusan NIB",
           "package": [
             {
               "title": "Nomor Induk Berusaha (NIB)",
@@ -1196,7 +1197,7 @@
         {
           "name": "Izin Restoran",
           "slug": "izin-restoran",
-          "keyword":"Jasa Pengurusan Izin Restoran, Konsultasi Izin Restoran, Perizinan Restoran",
+          "keyword": "Jasa Pengurusan Izin Restoran, Konsultasi Izin Restoran, Perizinan Restoran",
           "package": [
             {
               "title": "Izin Restoran",
@@ -1327,7 +1328,7 @@
         {
           "name": "Izin Konstruksi",
           "slug": "izin-konstruksi",
-          "keyword":"Izin Kontruksi, Jasa Izin Kontruksi Pasca UU Cipta Kerja, Izin Usaha Jasa Kontruksi",
+          "keyword": "Izin Kontruksi, Jasa Izin Kontruksi Pasca UU Cipta Kerja, Izin Usaha Jasa Kontruksi",
           "package": [
             {
               "title": "Izin Konstruksi",
@@ -1499,7 +1500,7 @@
         {
           "name": "Izin Keselamatan, Kesehatan Kerja dan Lingkungan (K3L)",
           "slug": "izin-k3l",
-          "keyword":"Izin Kontruksi, Jasa Izin Kontruksi Pasca UU Cipta Kerja, Izin Usaha Jasa Kontruksi",
+          "keyword": "Izin Kontruksi, Jasa Izin Kontruksi Pasca UU Cipta Kerja, Izin Usaha Jasa Kontruksi",
           "package": [
             {
               "title": "Izin Keselamatan, Kesehatan Kerja dan Lingkungan (K3L)",
@@ -1538,7 +1539,7 @@
         {
           "name": "Izin Yayasan",
           "slug": "izin-yayasan",
-          "keyword":"Izin yayasan, yayasan, Tanda Daftar Yayasan TDY, Jasa Pengurusan Izin Yayasan, Pengurusan Izin Yayasan baru di Jakarta",
+          "keyword": "Izin yayasan, yayasan, Tanda Daftar Yayasan TDY, Jasa Pengurusan Izin Yayasan, Pengurusan Izin Yayasan baru di Jakarta",
           "package": [
             {
               "title": "Izin Yayasan",
@@ -1609,7 +1610,7 @@
         {
           "name": "KITAS Pekerja",
           "slug": "kitas-pekerja",
-          "keyword":"Izin yayasan, yayasan, Tanda Daftar Yayasan TDY, Jasa Pengurusan Izin Yayasan, Pengurusan Izin Yayasan baru di Jakarta",
+          "keyword": "Izin yayasan, yayasan, Tanda Daftar Yayasan TDY, Jasa Pengurusan Izin Yayasan, Pengurusan Izin Yayasan baru di Jakarta",
           "package": [
             {
               "title": "Pengurusan KITAS Pekerja",
@@ -3421,6 +3422,7 @@
         {
           "name": "Virtual Office",
           "slug": "lainnya-virtual-office",
+          "keyword": "virtual office, virtual office jakarta, jasa virtual office",
           "package": [
             {
               "title": "Virtual Office",
@@ -3637,6 +3639,7 @@
         {
           "name": "Riset Pasar dan Pengembangan Bisnis",
           "slug": "riset-pasar-dan-pengembangan-bisnis",
+          "keyword": "jasa riset pasar dan pengembangan bisnis, Jasa riset pasar, jasa pengembangan bisnis, jasa survey",
           "package": [
             {
               "title": "Riset Pasar dan Pengembangan Bisnis",
@@ -3928,6 +3931,7 @@
         {
           "name": "FAT : Pelaporan Tahunan SPT Badan",
           "slug": "fat-pelaporan-tahunan-spt-badan",
+          "keyword": "Jasa SPT, jasa pelaporan SPT, Jasa Konsultan Pajak",
           "package": [
             {
               "title": "FAT : Pelaporan Tahunan SPT Badan",
@@ -4064,6 +4068,7 @@
         {
           "name": "FAT : Pengukuhan PKP dan Aktivasi Akun PKP",
           "slug": "fat-pengukuhan-pkp-dan-aktivasi-akun-pkp",
+          "keyword": "Pengukuhan PKP, Aktivasi akun PKP, jasa pengukuhan PKP, Jasa aktivasi akun PKP",
           "package": [
             {
               "title": "FAT : Pengukuhan PKP dan Aktivasi Akun PKP",
@@ -4185,6 +4190,7 @@
         {
           "name": "FAT : Pembuatan NPWP dan Aktivasi Electronic Filing Identification Number (EFIN)",
           "slug": "fat-pembuatan-npwp-dan-aktivasi-efin",
+          "keyword": "Jasa pajak EFIN, Jasa pajak EFIN & NPWP, jasa pajak NPWP",
           "package": [
             {
               "title": "FAT : Pembuatan NPWP dan Aktivasi Electronic Filing Identification Number (EFIN)",
@@ -4275,6 +4281,7 @@
         {
           "name": "FAT : Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
           "slug": "fat-pembukuan-jurnal-buku-besar-dan-laporan-keuangan",
+          "keyword": "Jasa Pembuatan Laporan Keuangan, jasa konsultasi laporan keuangan, Jasa pembukuan keuangan online,jasa pembukuan, jurnal, buku besar dan laporan keuangan",
           "package": [
             {
               "title": "FAT : Pembukuan, Jurnal, Buku Besar dan Laporan Keuangan",
